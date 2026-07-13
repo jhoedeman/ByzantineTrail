@@ -19,6 +19,12 @@ final class CatalogStore {
         Array(Set(sites.map(\.country))).sorted()
     }
 
+    /// Resolver for the current catalog's photos, or nil if unavailable.
+    var photoResolver: PhotoResolver? {
+        guard let base = catalog?.photoBaseURL, let url = URL(string: base) else { return nil }
+        return PhotoResolver(photoBaseURL: url)
+    }
+
     /// Test seam: inject a decoded catalog without hitting the bundle.
     func setCatalogForTesting(_ catalog: Catalog) {
         self.catalog = catalog
