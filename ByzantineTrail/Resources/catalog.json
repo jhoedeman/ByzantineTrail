@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "catalogVersion": 1,
+  "generatedAt": "2026-07-12T00:00:00Z",
+  "photoBaseURL": "https://example.invalid/byzantinetrail/",
+  "cities": [
+    { "id": "istanbul", "name": "Istanbul" },
+    { "id": "ravenna", "name": "Ravenna" },
+    { "id": "thessaloniki", "name": "Thessaloniki" }
+  ],
+  "sites": [
+    { "id": "hagia-sophia", "name": "Hagia Sophia", "alternateNames": ["Ayasofya"], "type": "church", "country": "TR", "cityId": "istanbul", "coordinate": {"lat": 41.0086, "lon": 28.9802}, "importance": "major", "addedInVersion": 1, "period": {"century": 6, "era": "justinianic"}, "summary": "The great domed church of Holy Wisdom.", "semanticTags": ["unesco"], "tags": ["mosaics"] },
+    { "id": "chora-church", "name": "Chora Church", "alternateNames": ["Kariye"], "type": "church", "country": "TR", "cityId": "istanbul", "coordinate": {"lat": 41.0311, "lon": 28.9391}, "importance": "major", "addedInVersion": 1, "period": {"century": 11, "era": "komnenian"}, "summary": "Renowned late-Byzantine mosaics and frescoes.", "semanticTags": [], "tags": ["mosaics", "frescoes"] },
+    { "id": "basilica-cistern", "name": "Basilica Cistern", "type": "cistern", "country": "TR", "cityId": "istanbul", "coordinate": {"lat": 41.0084, "lon": 28.9779}, "importance": "notable", "addedInVersion": 1, "period": {"century": 6, "era": "justinianic"}, "summary": "Subterranean cistern with forest of columns.", "tags": ["engineering"] },
+    { "id": "theodosian-walls", "name": "Walls of Constantinople", "type": "cityWalls", "country": "TR", "cityId": "istanbul", "coordinate": {"lat": 41.0139, "lon": 28.9219}, "importance": "notable", "addedInVersion": 1, "period": {"century": 5, "era": "theodosian"}, "summary": "The land walls that guarded the capital.", "tags": ["fortification"] },
+    { "id": "san-vitale", "name": "Basilica of San Vitale", "type": "church", "country": "IT", "cityId": "ravenna", "coordinate": {"lat": 44.4209, "lon": 12.1963}, "importance": "major", "addedInVersion": 1, "period": {"century": 6, "era": "justinianic"}, "summary": "Octagonal church with Justinian mosaics.", "semanticTags": ["unesco"], "tags": ["mosaics"] },
+    { "id": "galla-placidia", "name": "Mausoleum of Galla Placidia", "type": "monastery", "country": "IT", "cityId": "ravenna", "coordinate": {"lat": 44.4211, "lon": 12.1971}, "importance": "notable", "addedInVersion": 1, "period": {"century": 5, "era": "theodosian"}, "summary": "Starry-vaulted mausoleum mosaics.", "semanticTags": ["unesco"], "tags": ["mosaics"] },
+    { "id": "sant-apollinare", "name": "Sant'Apollinare in Classe", "type": "church", "country": "IT", "cityId": "ravenna", "coordinate": {"lat": 44.3797, "lon": 12.2333}, "importance": "notable", "addedInVersion": 1, "period": {"century": 6, "era": "justinianic"}, "summary": "Basilica with a luminous apse mosaic.", "semanticTags": ["unesco"], "tags": ["mosaics"] },
+    { "id": "hagios-demetrios", "name": "Church of Hagios Demetrios", "type": "church", "country": "GR", "cityId": "thessaloniki", "coordinate": {"lat": 40.6389, "lon": 22.9475}, "importance": "notable", "addedInVersion": 1, "period": {"century": 7, "era": "other"}, "summary": "Great basilica of the city's patron saint.", "semanticTags": ["unesco"], "tags": [] },
+    { "id": "rotunda-thessaloniki", "name": "Rotunda of Galerius", "type": "museum", "country": "GR", "cityId": "thessaloniki", "coordinate": {"lat": 40.6331, "lon": 22.9528}, "importance": "notable", "addedInVersion": 1, "period": {"century": 4, "era": "constantinian"}, "summary": "Roman rotunda with early Christian mosaics.", "semanticTags": ["unesco"], "tags": ["mosaics"] },
+    { "id": "mystras", "name": "Mystras", "type": "archaeologicalSite", "country": "GR", "coordinate": {"lat": 37.0736, "lon": 22.3672}, "importance": "major", "addedInVersion": 1, "period": {"century": 13, "era": "palaiologan"}, "summary": "Fortified late-Byzantine city in the Peloponnese.", "semanticTags": ["unesco"], "tags": ["fortification"] }
+  ]
+}
