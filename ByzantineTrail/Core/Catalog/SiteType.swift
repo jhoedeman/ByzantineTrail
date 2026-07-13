@@ -8,7 +8,7 @@ enum SiteType: String, Codable, CaseIterable {
     }
 }
 
-enum Importance: String, Codable {
+enum Importance: String, Codable, CaseIterable {
     case major, notable, minor
 
     init(from decoder: Decoder) throws {
