@@ -17,9 +17,13 @@ struct SitesListView: View {
 
         NavigationStack {
             List(results) { site in
-                SiteRowView(site: site,
-                            cityName: site.cityId.flatMap { cityNames[$0] },
-                            theme: theme)
+                NavigationLink {
+                    SiteDetailView(site: site)
+                } label: {
+                    SiteRowView(site: site,
+                                cityName: site.cityId.flatMap { cityNames[$0] },
+                                theme: theme)
+                }
             }
             .listStyle(.plain)
             .overlay {
