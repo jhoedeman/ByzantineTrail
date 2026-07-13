@@ -10,3 +10,16 @@ protocol EntitlementManager: Sendable {
 struct FreeEntitlementManager: EntitlementManager {
     func isUnlocked(_ gate: FeatureGate) -> Bool { true }
 }
+
+import SwiftUI
+
+private struct EntitlementManagerKey: EnvironmentKey {
+    static let defaultValue: any EntitlementManager = FreeEntitlementManager()
+}
+
+extension EnvironmentValues {
+    var entitlements: any EntitlementManager {
+        get { self[EntitlementManagerKey.self] }
+        set { self[EntitlementManagerKey.self] = newValue }
+    }
+}
