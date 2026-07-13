@@ -1,6 +1,6 @@
 name: ByzantineTrail
 options:
-  bundleIdPrefix: com.jhoedeman
+  bundleIdPrefix: com.byzantinetrail
   deploymentTarget:
     iOS: "17.0"
 targets:
@@ -20,17 +20,12 @@ targets:
           - UIInterfaceOrientationLandscapeRight
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.jhoedeman.byzantinetrail
+        PRODUCT_BUNDLE_IDENTIFIER: com.byzantinetrail.app
         DEVELOPMENT_ASSETS: ByzantineTrail/Preview Content
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         TARGETED_DEVICE_FAMILY: "1,2"
-    entitlements:
-      path: ByzantineTrail/ByzantineTrail.entitlements
-      properties:
-        com.apple.developer.icloud-container-identifiers:
-          - iCloud.com.jhoedeman.byzantinetrail
-        com.apple.developer.icloud-services:
-          - CloudKit
+    # CloudKit entitlement deferred to M4 (no CloudKit code in M0);
+    # re-add `entitlements:` with container iCloud.com.byzantinetrail.app then.
   ByzantineTrailTests:
     type: bundle.unit-test
     platform: iOS
