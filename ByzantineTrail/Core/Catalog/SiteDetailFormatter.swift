@@ -14,10 +14,22 @@ enum SiteDetailFormatter {
 
     /// MKMapItem for "Open in Maps" / directions.
     static func mapItem(latitude: Double, longitude: Double, name: String) -> MKMapItem {
-        let coord = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
-        let item = MKMapItem(placemark: MKPlacemark(coordinate: coord))
+        let item: MKMapItem
+        if #available(iOS 26.0, *) {
+            item = MKMapItem(location: CLLocation(latitude: latitude, longitude: longitude), address: nil)
+        } else {
+            item = legacyMapItem(latitude: latitude, longitude: longitude)
+        }
         item.name = name
         return item
+    }
+
+    /// Quarantines the pre-iOS-26 placemark initializer. Marking the helper
+    /// `@available(deprecated:)` suppresses the deprecation warning for the
+    /// intentional legacy call while keeping iOS 17 support.
+    @available(iOS, introduced: 17.0, deprecated: 26.0)
+    private static func legacyMapItem(latitude: Double, longitude: Double) -> MKMapItem {
+        MKMapItem(placemark: MKPlacemark(coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude)))
     }
 
     /// Share message: "Name — summary" (or just the name when no summary).

@@ -15,8 +15,22 @@ struct SiteDetailFormatterTests {
     @Test func mapItemCarriesNameAndCoordinate() {
         let item = SiteDetailFormatter.mapItem(latitude: 1, longitude: 2, name: "X")
         #expect(item.name == "X")
-        #expect(abs(item.placemark.coordinate.latitude - 1) < 0.0001)
-        #expect(abs(item.placemark.coordinate.longitude - 2) < 0.0001)
+        let coord = Self.coordinate(of: item)
+        #expect(abs(coord.latitude - 1) < 0.0001)
+        #expect(abs(coord.longitude - 2) < 0.0001)
+    }
+
+    static func coordinate(of item: MKMapItem) -> CLLocationCoordinate2D {
+        if #available(iOS 26.0, *) {
+            return item.location.coordinate
+        } else {
+            return Self.legacyCoordinate(of: item)
+        }
+    }
+
+    @available(iOS, introduced: 17.0, deprecated: 26.0)
+    static func legacyCoordinate(of item: MKMapItem) -> CLLocationCoordinate2D {
+        item.placemark.coordinate
     }
 
     @Test func shareMessageIncludesSummaryWhenPresent() {
