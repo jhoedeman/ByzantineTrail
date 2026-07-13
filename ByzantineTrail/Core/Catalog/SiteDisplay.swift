@@ -67,14 +67,18 @@ extension Importance {
 }
 
 enum CountryName {
+    /// Valid ISO 3166-1 alpha-2 codes, cached once. Non-deprecated replacement
+    /// for `Locale.isoRegionCodes`; a Set also avoids the per-call O(n) scan.
+    private static let isoRegionCodes: Set<String> = Set(Locale.Region.isoRegions.map(\.identifier))
+
     /// ISO 3166-1 alpha-2 → localized region name; falls back to the code.
     ///
     /// `Locale.current.localizedString(forRegionCode:)` alone is not sufficient: on some
     /// OS versions it returns a generic "Unknown Region" string (rather than `nil`) for
     /// codes that are well-formed but not assigned, so unrecognized codes must be filtered
-    /// out via `Locale.isoRegionCodes` before localizing.
+    /// out via the cached ISO region set before localizing.
     static func localized(_ code: String) -> String {
-        guard Locale.isoRegionCodes.contains(code) else { return code }
+        guard isoRegionCodes.contains(code) else { return code }
         return Locale.current.localizedString(forRegionCode: code) ?? code
     }
 }
