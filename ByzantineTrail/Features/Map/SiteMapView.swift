@@ -69,9 +69,12 @@ struct SiteMapView: UIViewRepresentable {
         /// Animate the camera to fit `annotations` once per new `fitToken`.
         func fitOnce(_ map: MKMapView, to annotations: [SiteAnnotation], lastToken: Int) {
             guard appliedFitToken != lastToken else { return }
-            appliedFitToken = lastToken
             let coords = annotations.map(\.coordinate)
+            // Only consume the token once we actually have something to fit — an
+            // empty first pass (e.g. catalog still loading) must not suppress the
+            // fit that should happen when sites arrive on the same token.
             guard let region = MapRegionMath.boundingRegion(for: coords) else { return }
+            appliedFitToken = lastToken
             map.setRegion(map.regionThatFits(region), animated: true)
         }
 
