@@ -126,15 +126,19 @@ final class SiteMarkerView: MKMarkerAnnotationView {
         glyphTintColor = UIColor(Color(hex: Palette.stone950))
     }
 
-    // Enlarge + gold stroke on selection (§5.3 selection highlight).
+    // Enlarge + gold glow on selection (§5.3 "selected pin enlarged w/ Gold-300
+    // stroke + shadow"). A layer.border would draw a rectangle around the view's
+    // bounds, not the balloon; a shadow follows the balloon's actual shape.
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         let scale: CGFloat = selected ? 1.35 : 1.0
         UIView.animate(withDuration: animated ? 0.15 : 0) {
             self.transform = CGAffineTransform(scaleX: scale, y: scale)
         }
-        layer.borderColor = UIColor(Color(hex: Palette.gold300)).cgColor
-        layer.borderWidth = selected ? 2 : 0
+        layer.shadowColor = UIColor(Color(hex: Palette.gold300)).cgColor
+        layer.shadowRadius = selected ? 6 : 0
+        layer.shadowOpacity = selected ? 0.9 : 0
+        layer.shadowOffset = .zero
     }
 }
 
