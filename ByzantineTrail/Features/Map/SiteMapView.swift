@@ -21,9 +21,12 @@ struct SiteMapView: UIViewRepresentable {
                      forAnnotationViewWithReuseIdentifier: SiteMarkerView.reuseID)
         map.register(SiteClusterView.self,
                      forAnnotationViewWithReuseIdentifier: SiteClusterView.reuseID)
-        map.addAnnotations(annotations)
         context.coordinator.theme = theme
-        context.coordinator.fitOnce(map, to: annotations, lastToken: fitToken)
+        map.addAnnotations(annotations)
+        // Initial camera fit is deferred to updateUIView: makeUIView runs before
+        // SwiftUI lays the map out (frame is .zero here), so regionThatFits cannot
+        // aspect-correct the span yet — and burning the fitToken now would suppress
+        // the post-layout fit. updateUIView runs after layout with a valid frame.
         return map
     }
 
@@ -40,6 +43,15 @@ struct SiteMapView: UIViewRepresentable {
             let toAdd = annotations.filter { !currentIDs.contains($0.site.id) }
             map.removeAnnotations(toRemove)
             map.addAnnotations(toAdd)
+        }
+
+        // Re-apply the current theme to on-screen pins so a light/dark switch
+        // (Profile appearance picker) repaints existing markers, not just newly
+        // dequeued ones. Cluster badges are theme-independent by design.
+        for annotation in map.annotations {
+            if let markerView = map.view(for: annotation) as? SiteMarkerView {
+                markerView.apply(theme: theme)
+            }
         }
 
         context.coordinator.fitOnce(map, to: annotations, lastToken: fitToken)
@@ -97,7 +109,9 @@ final class SiteMarkerView: MKMarkerAnnotationView {
         canShowCallout = true
         rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
         glyphImage = UIImage(systemName: "building.columns.fill")
-        displayPriority = .required
+        // .defaultHigh (not .required): .required annotations are always shown and
+        // are NOT clustered, which would defeat the clusteringIdentifier above.
+        displayPriority = .defaultHigh
     }
 
     @available(*, unavailable)
