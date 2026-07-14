@@ -124,7 +124,7 @@ final class SiteMarkerView: MKMarkerAnnotationView {
         displayPriority = .defaultHigh
         let cfg = UIImage.SymbolConfiguration(pointSize: 13, weight: .bold)
         visitedBadge.image = UIImage(systemName: "checkmark.circle.fill", withConfiguration: cfg)
-        visitedBadge.backgroundColor = .white
+        visitedBadge.backgroundColor = UIColor(Color(hex: Palette.stone0))
         visitedBadge.layer.cornerRadius = 8
         visitedBadge.layer.masksToBounds = true
         visitedBadge.isHidden = true
