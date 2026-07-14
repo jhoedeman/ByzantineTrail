@@ -209,12 +209,47 @@ The `catalog.json` schema, loading/remote-refresh flow, and authoring workflow a
 
 **Decoding rule:** unknown enum values and unknown JSON keys never crash decoding (custom `init(from:)` with fallbacks). Adding new *optional* keys later is non-breaking; renaming/retyping a *published* key requires dual-read migration — so `period`'s shape may be refined freely until it is populated across shipped catalogs. Log and continue.
 
-### 3.2 Loading & remote refresh (from v1.0 §3.2)
+### 3.2 Loading & remote refresh (concrete design — decided 2026-07-13, milestone **M1-remote**)
 
-1. On launch, load newest valid: cached remote copy in Application Support if present/valid, else bundled `catalog.json`.
-2. Background `GET https://<static-host>/catalog-manifest.json` → `{ "catalogVersion": N, "url": "...", "sha256": "..." }`. If `N` > current: download, verify hash, validate schema, atomically swap, publish to UI.
-3. Static host: GitHub Pages from a public content repo for v1 (free, versioned). Full-size photos same host.
-4. Bundled thumbnails ship in a `thumbs/` folder resource (not asset catalog) so filenames work for remotely-added sites; the app resolves `thumb` against the bundle first and falls back to `photoBaseURL` (C). `full` resolves against `photoBaseURL`.
+Remote refresh was deferred out of the M1 (browse) milestone and is built as its
+own milestone, **M1-remote**. The flow below is the buildable design.
+
+1. **On launch — load newest valid (instant, offline-safe):** `CatalogStore.loadNewestValid()`
+   prefers the cached copy in Application Support if it decodes *and* its `catalogVersion ≥`
+   the bundled catalog's; otherwise it falls back to the bundled `catalog.json`. This never
+   touches the network, so cold launch and offline launch are identical.
+2. **Background refresh — `CatalogRefresher.refresh()`,** fired after `loadNewestValid()`:
+   1. `GET {catalogBaseURL}/catalog-manifest.json` → decode `CatalogManifest { catalogVersion, url, sha256 }`.
+   2. **Version gate:** if `manifest.catalogVersion ≤` the current catalog's, stop (no download).
+   3. Download `manifest.url`, resolved against `catalogBaseURL` (absolute URLs also accepted).
+   4. **Verify** `SHA256(bytes) == manifest.sha256` (CryptoKit). Mismatch → abort, keep current.
+   5. **Validate:** `CatalogStore.decode(bytes)` must succeed *and* the decoded `catalogVersion`
+      must equal `manifest.catalogVersion`. Failure → abort, keep current.
+   6. **Atomic swap:** write bytes to a temp file in Application Support, then replace/move
+      into the canonical cached-catalog slot — never leaves a half-written file.
+   7. Publish the decoded catalog to `CatalogStore` on the main actor; `@Observable` updates the
+      list and map live.
+   Any network/verify/decode failure (including offline) is a **silent no-op** — the current
+   catalog stays. No blocking alerts.
+3. **Static host — GitHub Pages from a *separate public content repo*** (free, versioned). The
+   base URL is a single swappable constant `RemoteConfig.catalogBaseURL` so the host can be
+   fronted by a custom domain later with no app release. The content repo serves
+   `catalog-manifest.json`, the versioned `catalog.json`, and (later) full-size photos. It is
+   **not** the app repo, and it carries no owner identity (the §3.3 validator denylist still applies).
+4. **Trust model:** HTTPS + sha256 defends against a corrupted/truncated download and stale CDN
+   caching. It does **not** defend against a compromised host serving a valid manifest+catalog
+   pair — accepted, because the catalog is read-only public reference data with no user secrets.
+   No catalog code-signing in M1-remote.
+5. **On-device validation is deliberately light:** decode-success + `catalogVersion` match only.
+   The full `Tools/validate_catalog.swift` (§3.3) remains the authoritative pre-publish gate,
+   owner-side.
+6. Bundled thumbnails ship in a `thumbs/` folder resource (not asset catalog) so filenames work
+   for remotely-added sites; the app resolves `thumb` against the bundle first and falls back to
+   `photoBaseURL` (C). `full` resolves against `photoBaseURL`.
+
+**Out of scope for M1-remote** (deferred, by design): `ImageCache` + remote full-size photos
+(catalog is photo-less); the "Recently added" filter + `lastSeenCatalogVersion` persistence
+(§3.1-E / §5.1 — bundled with a future filter pass; `addedInVersion` data already ships).
 
 ### 3.3 Authoring workflow (from v1.0 §3.3)
 
@@ -284,9 +319,10 @@ Root `TabView`: **Sites** · **Map** · **Profile**. iPad: same TabView for v1; 
 ## 8. Milestones (revised for §0.3)
 
 1. **M0 — Scaffold:** Xcode project, three tabs, theme system, **entitlement seam (§0.3)**, sample 10-site catalog, protocol stubs + mocks.
-2. **M1 — Catalog + List:** full schema, `CatalogStore`, list w/ search/sort/filter, remote refresh.
-3. **M2 — Detail:** full detail view, photo carousel + cache, share, Open in Maps.
-4. **M3 — Map:** annotations, clustering, popover → sheet detail, filter + auto-re-zoom.
+2. **M1 — Catalog + List:** full schema, `CatalogStore`, list w/ search/sort/filter. *(Shipped. Remote refresh split out to M1-remote.)*
+3. **M2 — Detail:** full detail view, photo carousel + cache, share, Open in Maps. *(Shipped.)*
+4. **M3 — Map:** annotations, clustering, popover → sheet detail, filter + auto-re-zoom. *(Shipped.)*
+   - **M1-remote — Catalog remote refresh (§3.2):** `RemoteConfig.catalogBaseURL` swappable constant, `CatalogRefresher` (manifest → version-gate → download → sha256 → validate → atomic swap → publish), `CatalogStore.loadNewestValid()`, app-launch wiring. Host = GitHub Pages from a separate public content repo. ImageCache + "Recently added" filter deferred.
 5. **M4 — Local user state:** SwiftData favorites/want/visited/my-rating, Profile activity + progress stats (local only, no sync yet).
 6. **M5 — Sync + ratings:** `RemoteSyncProvider` + `CloudKitSyncProvider` (§0.1); public ratings + rebuildable summaries + recompute (§0.2); account-status handling; offline queues.
 7. **M6 — Suggestions + Profile polish:** suggestion flow + Dashboard role docs, About, privacy manifest.
@@ -297,7 +333,7 @@ Root `TabView`: **Sites** · **Map** · **Profile**. iPad: same TabView for v1; 
 ## 9. Prerequisites the owner must provide (from v1.0 §9)
 
 - Apple Developer Program membership; app ID + CloudKit container (`docs/CLOUDKIT_SETUP.md`, incl. suggestion create-only role — Dashboard-only).
-- Static host decision (default: public GitHub repo + Pages) + photo files.
+- Static host — **decided (2026-07-13):** GitHub Pages from a *separate public content repo* (not the app repo). Owner creates the repo, enables Pages, and uploads `catalog-manifest.json` + versioned `catalog.json`. Base URL is the swappable `RemoteConfig.catalogBaseURL` constant (custom domain can front it later). Photo files later (ImageCache deferred).
 - Catalog content authored per §3.1 (Claude-assisted), validated by §3.3 tool, + curated city list.
 - Importance tier + site type per site.
 - App icon + name availability check ("Byzantine Trail"), privacy policy URL.
