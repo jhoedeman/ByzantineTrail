@@ -71,4 +71,17 @@ struct SiteQueryTests {
         #expect(store.cityNamesByID["istanbul"] == "Istanbul")
         #expect(store.cities.count == 2)
     }
+
+    @Test func applyFiltersByUserState() {
+        var q = SiteQuery(); q.filter.favoritesOnly = true
+        let snap = UserStateSnapshot(favorites: ["san-vitale"], want: [], visited: [])
+        let out = q.apply(to: catalog.sites, cityNames: cityNames, userState: snap)
+        #expect(out.map(\.id) == ["san-vitale"])
+    }
+
+    @Test func applyWithoutUserStateIgnoresStateFilter() {
+        let q = SiteQuery()
+        let out = q.apply(to: catalog.sites, cityNames: cityNames)
+        #expect(out.count == catalog.sites.count)
+    }
 }

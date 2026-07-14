@@ -47,4 +47,32 @@ struct SiteFilterTests {
         f.clear()
         #expect(f.isEmpty)
     }
+
+    @Test func favoritesOnlyMatchesOnlyFavorites() {
+        var f = SiteFilter(); f.favoritesOnly = true
+        #expect(f.activeCount == 1)
+        #expect(!f.isEmpty)
+        #expect(f.matches(site("a"), flags: SiteUserFlags(isFavorite: true)))
+        #expect(!f.matches(site("b"), flags: SiteUserFlags(isFavorite: false)))
+    }
+
+    @Test func stateFlagsAreANDedWithCatalogDimensions() {
+        var f = SiteFilter(); f.visitedOnly = true; f.importances = [.major]
+        #expect(f.activeCount == 2)
+        #expect(f.matches(site("a", importance: .major), flags: SiteUserFlags(visited: true)))
+        #expect(!f.matches(site("b", importance: .major), flags: SiteUserFlags(visited: false)))
+        #expect(!f.matches(site("c", importance: .minor), flags: SiteUserFlags(visited: true)))
+    }
+
+    @Test func defaultFlagsRejectWhenStateFilterActive() {
+        var f = SiteFilter(); f.wantOnly = true
+        #expect(!f.matches(site("a")))   // default flags = not wanted
+    }
+
+    @Test func clearResetsStateFlags() {
+        var f = SiteFilter(); f.favoritesOnly = true; f.visitedOnly = true
+        f.clear()
+        #expect(f.isEmpty)
+        #expect(f.activeCount == 0)
+    }
 }

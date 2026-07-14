@@ -22,9 +22,10 @@ struct SiteQuery {
     var sortField: SortField = .name
     var ascending: Bool = true
 
-    func apply(to sites: [Site], cityNames: [String: String]) -> [Site] {
+    func apply(to sites: [Site], cityNames: [String: String],
+               userState: UserStateSnapshot = .empty) -> [Site] {
         let searched = sites.filter { matchesSearch($0, cityNames: cityNames) }
-        let filtered = searched.filter { filter.matches($0) }
+        let filtered = searched.filter { filter.matches($0, flags: userState.flags(for: $0.id)) }
         return sorted(filtered, cityNames: cityNames)
     }
 
