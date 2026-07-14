@@ -1,0 +1,32 @@
+name: Validate catalog
+
+# Runs the pre-publish catalog validator (Tools/validate_catalog.swift, spec §3.3):
+# its own fixture tests plus a validation of the bundled catalog.json. Uses a macOS
+# runner because the validator relies on Foundation's Locale.Region.isoRegions and
+# NSRegularExpression, which are only reliably available in Apple's Foundation.
+on:
+  push:
+    paths:
+      - "Tools/**"
+      - "ByzantineTrail/Resources/catalog.json"
+      - ".github/workflows/validate-catalog.yml"
+  pull_request:
+    paths:
+      - "Tools/**"
+      - "ByzantineTrail/Resources/catalog.json"
+      - ".github/workflows/validate-catalog.yml"
+
+jobs:
+  validate:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Swift version
+        run: swift --version
+
+      - name: Validator self-tests
+        run: bash Tools/run_validator_tests.sh
+
+      - name: Validate bundled catalog
+        run: swift Tools/validate_catalog.swift ByzantineTrail/Resources/catalog.json ByzantineTrail/Resources
