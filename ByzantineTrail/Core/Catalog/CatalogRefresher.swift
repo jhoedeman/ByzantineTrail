@@ -34,6 +34,13 @@ struct CatalogRefresher: Sendable {
             // `appendingPathComponent` (matters for callers that key requests by URL).
             let catalogURL = URL(string: manifest.url, relativeTo: baseURL)?.absoluteURL
                 ?? baseURL.appendingPathComponent(manifest.url)
+
+            // Transport guard: only ever fetch over HTTPS. A relative `manifest.url`
+            // resolves to the https base host; this rejects an absolute `manifest.url`
+            // that tries to downgrade to http:// or point at a file://-style scheme,
+            // before any bytes are fetched. (Defense-in-depth atop sha256 + version match.)
+            guard catalogURL.scheme?.lowercased() == "https" else { return nil }
+
             let data = try await fetch(catalogURL)
 
             // Integrity: bytes must match the advertised digest.

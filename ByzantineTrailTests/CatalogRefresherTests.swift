@@ -95,6 +95,28 @@ struct CatalogRefresherTests {
         #expect(cache.load() == nil)
     }
 
+    @Test func nonHTTPSCatalogURLRejectedBeforeDownload() async throws {
+        // An absolute, attacker-supplied http:// catalog URL must be refused by the
+        // scheme guard BEFORE any bytes are fetched — even if those bytes would
+        // otherwise hash-match and decode. Defends the fetch against a manifest
+        // that points off-host or downgrades the transport.
+        let catalog = catalogJSON(version: 2)
+        let sha = CatalogHash.sha256Hex(catalog)
+        let httpURL = URL(string: "http://host.example/cat/catalog.json")!
+        let cache = tempCache()
+        let rec = Recorder()
+        let responses = [
+            manifestURL: manifestJSON(version: 2, url: httpURL.absoluteString, sha256: sha),
+            httpURL: catalog,   // bytes ARE available + valid, yet must not be used
+        ]
+        let refresher = CatalogRefresher(baseURL: base, cache: cache, fetch: fetcher(responses, recorder: rec))
+
+        let result = await refresher.refresh(currentVersion: 1)
+        #expect(result == nil)
+        #expect(!rec.fetched.contains(httpURL))   // guarded before the download
+        #expect(cache.load() == nil)
+    }
+
     @Test func offlineFetchThrowsIsSilentNoOp() async throws {
         let cache = tempCache()
         let rec = Recorder()
