@@ -8,6 +8,10 @@ import Observation
 @MainActor
 @Observable
 final class UserStateStore {
+    // Retain the container: its `mainContext` alone does NOT keep an in-memory
+    // ModelContainer alive — a dropped container deallocates on a background
+    // thread (SQLite teardown) and crashes SwiftData while the context is in use.
+    private let container: ModelContainer
     private let context: ModelContext
 
     // In-memory projections rebuilt from SwiftData; drive @Observable UI updates.
@@ -15,8 +19,9 @@ final class UserStateStore {
     private(set) var wantIDs: Set<String> = []
     private(set) var visitedIDs: Set<String> = []
 
-    init(context: ModelContext) {
-        self.context = context
+    init(container: ModelContainer) {
+        self.container = container
+        self.context = container.mainContext
         reload()
     }
 

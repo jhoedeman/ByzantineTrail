@@ -6,7 +6,7 @@ import SwiftData
 struct UserStateStoreTests {
     private func make() throws -> (UserStateStore, ModelContainer) {
         let container = try UserStateStore.makeContainer(inMemory: true)
-        return (UserStateStore(context: container.mainContext), container)
+        return (UserStateStore(container: container), container)
     }
 
     @Test func toggleFavoriteAddsAndRemoves() throws {
@@ -46,9 +46,9 @@ struct UserStateStoreTests {
 
     @Test func stateSurvivesReloadOnSameContainer() throws {
         let container = try UserStateStore.makeContainer(inMemory: true)
-        let store1 = UserStateStore(context: container.mainContext)
+        let store1 = UserStateStore(container: container)
         store1.toggleVisited("a")
-        let store2 = UserStateStore(context: container.mainContext)
+        let store2 = UserStateStore(container: container)
         #expect(store2.visitedIDs == ["a"])
     }
 
