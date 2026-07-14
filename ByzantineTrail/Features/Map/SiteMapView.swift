@@ -120,6 +120,16 @@ final class SiteMarkerView: MKMarkerAnnotationView {
     @available(*, unavailable)
     required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
 
+    // Clear selection visuals before this view is recycled — otherwise a pin
+    // dequeued for an unselected annotation could inherit a prior selection's
+    // enlarge + glow (e.g. the selected pin gets filtered out and its view is reused).
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        transform = .identity
+        layer.shadowRadius = 0
+        layer.shadowOpacity = 0
+    }
+
     func apply(theme: Theme?) {
         guard let theme, let site = (annotation as? SiteAnnotation)?.site else { return }
         markerTintColor = UIColor(site.importance.tierColor(theme))
