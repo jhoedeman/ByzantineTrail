@@ -59,4 +59,30 @@ struct UserStateStoreTests {
         #expect(store.visitedCount == 1)
         #expect(store.wantCount == 0)
     }
+
+    @Test func setRatingStoresAndClears() throws {
+        let (store, _) = try make()
+        store.setRating(8, for: "s")
+        #expect(store.myRating(for: "s") == 8)
+        #expect(store.myRatings == ["s": 8])
+        store.setRating(nil, for: "s")
+        #expect(store.myRating(for: "s") == nil)
+        #expect(store.myRatings.isEmpty)
+    }
+
+    @Test func clearingRatingOnBareRowPrunesIt() throws {
+        let (store, container) = try make()
+        store.setRating(7, for: "s")   // creates a row with only a rating
+        store.setRating(nil, for: "s") // row now empty → pruned
+        let rows = try container.mainContext.fetch(FetchDescriptor<UserSiteState>())
+        #expect(rows.isEmpty)
+    }
+
+    @Test func ratingCoexistsWithFlags() throws {
+        let (store, _) = try make()
+        store.toggleFavorite("s")
+        store.setRating(9, for: "s")
+        #expect(store.favoriteIDs == ["s"])
+        #expect(store.myRating(for: "s") == 9)
+    }
 }
