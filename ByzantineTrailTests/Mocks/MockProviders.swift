@@ -9,19 +9,6 @@ actor MockRemoteSyncProvider: RemoteSyncProvider {
     }
 }
 
-actor MockRatingsService: RatingsServicing {
-    private var summaries: [String: RatingSummary] = [:]
-    func summary(for siteId: String) async throws -> RatingSummary? { summaries[siteId] }
-    func submit(rating: Int, for siteId: String) async throws {
-        let existing = summaries[siteId]
-        summaries[siteId] = RatingSummary(
-            siteId: siteId,
-            count: (existing?.count ?? 0) + 1,
-            total: (existing?.total ?? 0) + rating
-        )
-    }
-}
-
 actor MockSuggestionService: SuggestionSubmitting {
     private(set) var submitted: [SiteSuggestion] = []
     func submit(_ suggestion: SiteSuggestion) async throws { submitted.append(suggestion) }

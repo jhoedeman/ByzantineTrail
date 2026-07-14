@@ -30,14 +30,6 @@ struct SeamTests {
         #expect(result.changes == [change])
     }
 
-    @Test func mockRatingsRecordsSubmission() async throws {
-        let svc = MockRatingsService()
-        try await svc.submit(rating: 7, for: "chora-church")
-        let summary = try await svc.summary(for: "chora-church")
-        #expect(summary?.total == 7)
-        #expect(summary?.count == 1)
-    }
-
     @Test func mockSuggestionRecords() async throws {
         let svc = MockSuggestionService()
         try await svc.submit(SiteSuggestion(name: "New Site", location: nil,
