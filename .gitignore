@@ -7,3 +7,6 @@ xcuserdata/
 .swiftpm/
 .build/
 .superpowers/
+
+# Owner-local catalog validator denylist (never commit real one)
+Tools/owner_denylist.txt

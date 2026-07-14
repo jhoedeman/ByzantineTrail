@@ -1,0 +1,4 @@
+{ "schemaVersion":2,"catalogVersion":5,"photoBaseURL":"https://x/","cities":[],
+  "sites":[
+    {"id":"a","name":"A","type":"church","country":"TR","coordinate":{"lat":41,"lon":29},"importance":"major"},
+    {"id":"a","name":"B","type":"church","country":"GR","coordinate":{"lat":40,"lon":22},"importance":"minor"}]}

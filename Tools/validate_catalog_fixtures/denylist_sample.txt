@@ -1,0 +1,2 @@
+# owner denylist sample used only by the test runner
+oldhandle99

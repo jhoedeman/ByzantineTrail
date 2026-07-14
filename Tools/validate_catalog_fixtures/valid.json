@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "catalogVersion": 5,
+  "photoBaseURL": "https://example.invalid/bt/",
+  "cities": [{"id":"istanbul","name":"Istanbul"}],
+  "sites": [
+    {"id":"a","name":"Hagia Sophia","type":"church","country":"TR","cityId":"istanbul","coordinate":{"lat":41.0,"lon":29.0},"importance":"major","addedInVersion":1,"period":{"century":6,"era":"justinianic"},"semanticTags":["unesco"],"tags":["mosaics"],"photos":[{"id":"a-01","thumb":"thumbs/a-01.jpg","full":"photos/a-01.jpg","credit":"Photo by Jane Doe, CC BY 4.0"}]},
+    {"id":"b","name":"Cistern","type":"cistern","country":"IT","coordinate":{"lat":44.0,"lon":12.0},"importance":"minor","addedInVersion":5}
+  ]
+}

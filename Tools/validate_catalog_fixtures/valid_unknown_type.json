@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 2, "catalogVersion": 5, "photoBaseURL": "https://example.invalid/bt/",
+  "cities": [{"id":"istanbul","name":"Istanbul"}],
+  "sites": [{"id":"a","name":"Future","type":"hippodrome","country":"TR","cityId":"istanbul","coordinate":{"lat":41.0,"lon":29.0},"importance":"notable"}]
+}

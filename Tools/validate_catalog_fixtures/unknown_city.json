@@ -1,0 +1,2 @@
+{ "schemaVersion":2,"catalogVersion":5,"photoBaseURL":"https://x/","cities":[{"id":"istanbul","name":"Istanbul"}],
+  "sites":[{"id":"a","name":"A","type":"church","country":"TR","cityId":"atlantis","coordinate":{"lat":41,"lon":29},"importance":"major"}]}

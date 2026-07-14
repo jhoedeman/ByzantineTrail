@@ -1,0 +1,6 @@
+# Optional owner denylist for validate_catalog.swift.
+# Copy this to `Tools/owner_denylist.txt` (git-ignored) and add one case-insensitive
+# substring per line that must never appear in a published catalog — e.g. an old
+# username/handle. Blank lines and lines starting with '#' are ignored.
+# Your personal EMAIL is already blocked automatically by the built-in email scan;
+# you do not need to list it here. Names are allowed unless you add them here.

@@ -1,8 +1,12 @@
 # Catalog hosting (M1-remote)
 
 The app refreshes its catalog from a **separate public GitHub repo** served over
-GitHub Pages. This repo is NOT the app repo, and it must carry no owner identity
-(photo `credit` fields stay neutral — the owner-name denylist in the pre-publish catalog validator (spec §3.3; see note below) enforces this).
+GitHub Pages. This repo is NOT the app repo. Keep it free of anything that could
+be abused: the pre-publish validator (`Tools/validate_catalog.swift`, spec §3.3)
+scans every string for **email addresses** and fails if it finds one, so your
+personal email can never be published. Photo credits may name a person — a name in
+a credit is fine; only emails (and any substrings you add to an optional
+`Tools/owner_denylist.txt`) are blocked.
 
 ## One-time setup
 
@@ -15,8 +19,19 @@ GitHub Pages. This repo is NOT the app repo, and it must carry no owner identity
 
 ## Publishing a catalog update
 
-1. Author/validate the new `catalog.json` with `Tools/validate_catalog.swift` (the pre-publish validator specified in spec §3.3 — note: this tool is not built yet as of the M1-remote milestone; until it exists, hand-check the catalog against the spec's rules before publishing).
-   Bump its `catalogVersion` (monotonically increasing).
+1. Author the new `catalog.json` and bump its `catalogVersion` (monotonically
+   increasing). Validate it before publishing:
+   ```bash
+   # from the app repo root; the second arg (optional) enables thumb-file checks
+   swift Tools/validate_catalog.swift path/to/catalog.json [ByzantineTrail/Resources]
+   ```
+   Exit 0 means valid; any problem prints a `✗` line and exits non-zero. The
+   validator checks schema shape, unique site/photo ids, `cityId` resolution,
+   coordinate ranges, ISO-3166 country codes, controlled `semanticTags`/`period.era`,
+   valid `importance`, `addedInVersion ≤ catalogVersion`, and no email leaks.
+   (To also block a specific handle/username, copy `Tools/owner_denylist.example.txt`
+   to the git-ignored `Tools/owner_denylist.txt` and list it there. Run the tool's
+   own tests with `bash Tools/run_validator_tests.sh`.)
 2. Compute its SHA-256:
    ```bash
    shasum -a 256 catalog.json
