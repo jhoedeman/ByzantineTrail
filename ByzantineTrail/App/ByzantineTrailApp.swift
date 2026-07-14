@@ -1,10 +1,22 @@
 import SwiftUI
+import SwiftData
 
 @main
 struct ByzantineTrailApp: App {
     @State private var catalogStore = CatalogStore()
     @State private var themeManager = ThemeManager()
     @State private var filterModel = SiteFilterModel()
+    @State private var userState: UserStateStore
+
+    init() {
+        // Local SwiftData store for per-site user state (no CloudKit in M4).
+        // Fall back to an in-memory store if the on-disk store can't open, so
+        // the app still launches (favorites just won't persist that session).
+        let container = (try? UserStateStore.makeContainer())
+            ?? (try! UserStateStore.makeContainer(inMemory: true))
+        // The store retains this container (see Task 2) — safe to let the local go.
+        _userState = State(initialValue: UserStateStore(container: container))
+    }
 
     var body: some Scene {
         WindowGroup {
@@ -12,6 +24,7 @@ struct ByzantineTrailApp: App {
                 .environment(catalogStore)
                 .environment(themeManager)
                 .environment(filterModel)
+                .environment(userState)
                 .environment(\.entitlements, FreeEntitlementManager())
                 .task {
                     // 1. Load the newest valid catalog synchronously (offline-safe):
