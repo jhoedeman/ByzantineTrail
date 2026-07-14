@@ -3,6 +3,7 @@ import SwiftUI
 struct SitesListView: View {
     @Environment(CatalogStore.self) private var catalogStore
     @Environment(ThemeManager.self) private var themeManager
+    @Environment(SiteFilterModel.self) private var filterModel
     @Environment(\.colorScheme) private var colorScheme
 
     @State private var query = SiteQuery()
@@ -11,9 +12,15 @@ struct SitesListView: View {
     @AppStorage("sites.sortAscending") private var storedAscending = true
 
     var body: some View {
+        @Bindable var filterModel = filterModel
         let theme = themeManager.theme(for: colorScheme)
         let cityNames = catalogStore.cityNamesByID
-        let results = query.apply(to: catalogStore.sites, cityNames: cityNames)
+        let activeQuery: SiteQuery = {
+            var q = query
+            q.filter = filterModel.filter
+            return q
+        }()
+        let results = activeQuery.apply(to: catalogStore.sites, cityNames: cityNames)
 
         NavigationStack {
             List(results) { site in
@@ -42,7 +49,7 @@ struct SitesListView: View {
                 }
             }
             .sheet(isPresented: $showingFilter) {
-                FilterSheetView(filter: $query.filter,
+                FilterSheetView(filter: $filterModel.filter,
                                 allCountryCodes: catalogStore.countryCodes,
                                 cities: catalogStore.cities,
                                 theme: theme)
@@ -60,8 +67,8 @@ struct SitesListView: View {
         Button { showingFilter = true } label: {
             Label("Filter", systemImage: "line.3.horizontal.decrease.circle")
                 .overlay(alignment: .topTrailing) {
-                    if query.filter.activeCount > 0 {
-                        Text("\(query.filter.activeCount)")
+                    if filterModel.filter.activeCount > 0 {
+                        Text("\(filterModel.filter.activeCount)")
                             .font(.caption2.bold())
                             .foregroundStyle(theme.interactiveCtaText)
                             .frame(minWidth: 16, minHeight: 16)
@@ -70,8 +77,8 @@ struct SitesListView: View {
                     }
                 }
         }
-        .accessibilityLabel(query.filter.activeCount > 0
-            ? "Filter, \(query.filter.activeCount) active"
+        .accessibilityLabel(filterModel.filter.activeCount > 0
+            ? "Filter, \(filterModel.filter.activeCount) active"
             : "Filter")
     }
 }
