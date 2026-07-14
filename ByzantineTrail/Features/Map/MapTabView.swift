@@ -18,7 +18,7 @@ struct MapTabView: View {
         let filtered = catalogStore.sites.filter {
             filterModel.filter.matches($0, flags: snapshot.flags(for: $0.id))
         }
-        let annotations = SiteAnnotation.annotations(from: filtered)
+        let annotations = SiteAnnotation.annotations(from: filtered, visited: snapshot.visited)
 
         NavigationStack {
             SiteMapView(annotations: annotations,

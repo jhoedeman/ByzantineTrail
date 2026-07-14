@@ -31,4 +31,14 @@ struct SiteAnnotationTests {
         #expect(anns.count == 2)
         #expect(Set(anns.map(\.site.id)) == ["a", "b"])
     }
+
+    @Test func annotationsCarryVisitedFlag() {
+        let sites = [
+            makeSite(id: "a", name: "A", lat: 41, lon: 28),
+            makeSite(id: "b", name: "B", lat: 44, lon: 12),
+        ]
+        let anns = SiteAnnotation.annotations(from: sites, visited: ["a"])
+        #expect(anns.first { $0.site.id == "a" }?.visited == true)
+        #expect(anns.first { $0.site.id == "b" }?.visited == false)
+    }
 }
