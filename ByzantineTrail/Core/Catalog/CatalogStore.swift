@@ -31,11 +31,37 @@ final class CatalogStore {
     }
 
     func loadBundled(bundle: Bundle = .main) throws {
+        catalog = try Self.bundledCatalog(bundle: bundle)
+    }
+
+    /// Decode the catalog shipped in the app bundle.
+    nonisolated static func bundledCatalog(bundle: Bundle = .main) throws -> Catalog {
         guard let url = bundle.url(forResource: "catalog", withExtension: "json") else {
             throw CatalogError.bundleResourceMissing
         }
-        let data = try Data(contentsOf: url)
-        catalog = try Self.decode(data)
+        return try decode(Data(contentsOf: url))
+    }
+
+    /// Pure selection (spec §3.2 step 1): use the cached catalog iff it decodes
+    /// AND is at least as new as the bundled one; otherwise the bundled one.
+    nonisolated static func newestValid(cachedData: Data?, bundled: Catalog) -> Catalog {
+        if let data = cachedData,
+           let cached = try? decode(data),
+           cached.catalogVersion >= bundled.catalogVersion {
+            return cached
+        }
+        return bundled
+    }
+
+    /// Load the newest valid catalog at launch (offline-safe, no network).
+    func loadNewestValid(cache: CatalogCache, bundle: Bundle = .main) throws {
+        catalog = Self.newestValid(cachedData: cache.load(),
+                                   bundled: try Self.bundledCatalog(bundle: bundle))
+    }
+
+    /// Publish a freshly refreshed catalog (called after CatalogRefresher succeeds).
+    func apply(_ catalog: Catalog) {
+        self.catalog = catalog
     }
 
     // nonisolated so tests (and any background caller) can decode without
