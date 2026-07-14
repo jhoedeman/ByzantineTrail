@@ -4,6 +4,7 @@ struct SitesListView: View {
     @Environment(CatalogStore.self) private var catalogStore
     @Environment(ThemeManager.self) private var themeManager
     @Environment(SiteFilterModel.self) private var filterModel
+    @Environment(UserStateStore.self) private var userState
     @Environment(\.colorScheme) private var colorScheme
 
     @State private var query = SiteQuery()
@@ -20,7 +21,8 @@ struct SitesListView: View {
             q.filter = filterModel.filter
             return q
         }()
-        let results = activeQuery.apply(to: catalogStore.sites, cityNames: cityNames)
+        let results = activeQuery.apply(to: catalogStore.sites, cityNames: cityNames,
+                                        userState: userState.snapshot())
 
         NavigationStack {
             List(results) { site in
@@ -29,7 +31,8 @@ struct SitesListView: View {
                 } label: {
                     SiteRowView(site: site,
                                 cityName: site.cityId.flatMap { cityNames[$0] },
-                                theme: theme)
+                                theme: theme,
+                                flags: userState.flags(for: site.id))
                 }
             }
             .listStyle(.plain)

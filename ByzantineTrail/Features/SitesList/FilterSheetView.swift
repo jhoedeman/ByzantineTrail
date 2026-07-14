@@ -30,6 +30,11 @@ struct FilterSheetView: View {
                         Toggle(city.name, isOn: membership(city.id, in: \.cityIds))
                     }
                 }
+                Section("My Sites") {
+                    Toggle("Favorites", isOn: $filter.favoritesOnly)
+                    Toggle("Want to Visit", isOn: $filter.wantOnly)
+                    Toggle("Visited", isOn: $filter.visitedOnly)
+                }
             }
             .navigationTitle("Filter")
             .navigationBarTitleDisplayMode(.inline)
