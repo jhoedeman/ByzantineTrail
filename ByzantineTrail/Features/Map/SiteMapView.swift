@@ -45,10 +45,16 @@ struct SiteMapView: UIViewRepresentable {
             map.addAnnotations(toAdd)
         }
 
-        // Re-apply the current theme to on-screen pins so a light/dark switch
-        // (Profile appearance picker) repaints existing markers, not just newly
-        // dequeued ones. Cluster badges are theme-independent by design.
+        // Sync each on-screen annotation's `visited` from the fresh data (its
+        // object persists across filter updates), then repaint markers so a
+        // theme switch or a visited toggle both take effect.
+        let freshByID = Dictionary(annotations.map { ($0.site.id, $0.visited) },
+                                   uniquingKeysWith: { a, _ in a })
         for annotation in map.annotations {
+            if let existing = annotation as? SiteAnnotation,
+               let freshVisited = freshByID[existing.site.id] {
+                existing.visited = freshVisited
+            }
             if let markerView = map.view(for: annotation) as? SiteMarkerView {
                 markerView.apply(theme: theme)
             }
@@ -105,6 +111,7 @@ struct SiteMapView: UIViewRepresentable {
 /// Tier-colored balloon pin. Native clustering via `clusteringIdentifier`.
 final class SiteMarkerView: MKMarkerAnnotationView {
     static let reuseID = "SiteMarker"
+    private let visitedBadge = UIImageView()
 
     override init(annotation: MKAnnotation?, reuseIdentifier: String?) {
         super.init(annotation: annotation, reuseIdentifier: reuseIdentifier)
@@ -115,6 +122,13 @@ final class SiteMarkerView: MKMarkerAnnotationView {
         // .defaultHigh (not .required): .required annotations are always shown and
         // are NOT clustered, which would defeat the clusteringIdentifier above.
         displayPriority = .defaultHigh
+        let cfg = UIImage.SymbolConfiguration(pointSize: 13, weight: .bold)
+        visitedBadge.image = UIImage(systemName: "checkmark.circle.fill", withConfiguration: cfg)
+        visitedBadge.backgroundColor = UIColor(Color(hex: Palette.stone0))
+        visitedBadge.layer.cornerRadius = 8
+        visitedBadge.layer.masksToBounds = true
+        visitedBadge.isHidden = true
+        addSubview(visitedBadge)
     }
 
     @available(*, unavailable)
@@ -128,12 +142,18 @@ final class SiteMarkerView: MKMarkerAnnotationView {
         transform = .identity
         layer.shadowRadius = 0
         layer.shadowOpacity = 0
+        visitedBadge.isHidden = true
     }
 
     func apply(theme: Theme?) {
-        guard let theme, let site = (annotation as? SiteAnnotation)?.site else { return }
-        markerTintColor = UIColor(site.importance.tierColor(theme))
+        guard let theme, let annotation = annotation as? SiteAnnotation else { return }
+        markerTintColor = UIColor(annotation.site.importance.tierColor(theme))
         glyphTintColor = UIColor(Color(hex: Palette.stone950))
+        visitedBadge.tintColor = UIColor(theme.visitedCheck)
+        visitedBadge.isHidden = !annotation.visited
+        visitedBadge.sizeToFit()
+        visitedBadge.bounds.size = CGSize(width: 16, height: 16)
+        visitedBadge.center = CGPoint(x: bounds.maxX, y: bounds.minY + 2)
     }
 
     // Enlarge + gold glow on selection (§5.3 "selected pin enlarged w/ Gold-300

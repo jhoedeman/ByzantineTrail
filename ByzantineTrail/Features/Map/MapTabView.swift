@@ -4,6 +4,7 @@ struct MapTabView: View {
     @Environment(CatalogStore.self) private var catalogStore
     @Environment(ThemeManager.self) private var themeManager
     @Environment(SiteFilterModel.self) private var filterModel
+    @Environment(UserStateStore.self) private var userState
     @Environment(\.colorScheme) private var colorScheme
 
     @State private var showingFilter = false
@@ -13,8 +14,11 @@ struct MapTabView: View {
     var body: some View {
         @Bindable var filterModel = filterModel
         let theme = themeManager.theme(for: colorScheme)
-        let filtered = catalogStore.sites.filter { filterModel.filter.matches($0) }
-        let annotations = SiteAnnotation.annotations(from: filtered)
+        let snapshot = userState.snapshot()
+        let filtered = catalogStore.sites.filter {
+            filterModel.filter.matches($0, flags: snapshot.flags(for: $0.id))
+        }
+        let annotations = SiteAnnotation.annotations(from: filtered, visited: snapshot.visited)
 
         NavigationStack {
             SiteMapView(annotations: annotations,

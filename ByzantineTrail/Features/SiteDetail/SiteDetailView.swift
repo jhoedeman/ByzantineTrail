@@ -5,6 +5,7 @@ struct SiteDetailView: View {
     @Environment(CatalogStore.self) private var catalogStore
     @Environment(ThemeManager.self) private var themeManager
     @Environment(\.colorScheme) private var colorScheme
+    @Environment(UserStateStore.self) private var userState
 
     var body: some View {
         let theme = themeManager.theme(for: colorScheme)
@@ -14,7 +15,7 @@ struct SiteDetailView: View {
 
                 VStack(alignment: .leading, spacing: 14) {
                     header(theme)
-                    shareRow(theme)
+                    actionRow(theme)
                     Divider()
                     descriptionSection(theme)
                     infoSection("Hours", text: site.hours, theme: theme)
@@ -61,17 +62,58 @@ struct SiteDetailView: View {
         }
     }
 
-    // Favorite / Want-to-visit / Visited arrive in M4; ratings in M5. M2 = Share only.
-    private func shareRow(_ theme: Theme) -> some View {
+    private func actionRow(_ theme: Theme) -> some View {
+        let flags = userState.flags(for: site.id)
+        return HStack(alignment: .top, spacing: 20) {
+            actionButton(title: "Favorite",
+                         symbol: flags.isFavorite ? "heart.fill" : "heart",
+                         on: flags.isFavorite, tint: theme.accentPrimary, theme: theme,
+                         id: "detail.favorite") { userState.toggleFavorite(site.id) }
+
+            actionButton(title: "Want to visit",
+                         symbol: flags.wantsToVisit ? "bookmark.fill" : "bookmark",
+                         on: flags.wantsToVisit, tint: theme.accentPrimary, theme: theme,
+                         id: "detail.want") { userState.toggleWant(site.id) }
+
+            actionButton(title: "Visited",
+                         symbol: flags.visited ? "checkmark.circle.fill" : "checkmark.circle",
+                         on: flags.visited, tint: theme.visitedCheck, theme: theme,
+                         id: "detail.visited") { withAnimation { userState.toggleVisited(site.id) } }
+
+            Spacer(minLength: 0)
+            shareButton(theme)
+        }
+    }
+
+    private func actionButton(title: String, symbol: String, on: Bool, tint: Color,
+                              theme: Theme, id: String,
+                              action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            VStack(spacing: 4) {
+                Image(systemName: symbol).font(.title3)
+                Text(title).font(.caption2)
+            }
+            .foregroundStyle(on ? tint : theme.textSecondary)
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(title)
+        .accessibilityValue(on ? "on" : "off")
+        .accessibilityIdentifier(id)
+    }
+
+    private func shareButton(_ theme: Theme) -> some View {
         ShareLink(
             item: SiteDetailFormatter.mapsURL(latitude: site.coordinate.lat,
                                               longitude: site.coordinate.lon, name: site.name),
             subject: Text(site.name),
             message: Text(SiteDetailFormatter.shareMessage(name: site.name, summary: site.summary))
         ) {
-            Label("Share", systemImage: "square.and.arrow.up")
+            VStack(spacing: 4) {
+                Image(systemName: "square.and.arrow.up").font(.title3)
+                Text("Share").font(.caption2)
+            }
+            .foregroundStyle(theme.accentPrimary)
         }
-        .tint(theme.accentPrimary)
     }
 
     @ViewBuilder

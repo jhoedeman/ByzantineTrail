@@ -128,7 +128,7 @@ EOF
 - Produces:
   - `@Model final class UserSiteState` with `@Attribute(.unique) var siteId`, `isFavorite/wantsToVisit/visited: Bool`, `myRating: Int?`, `updatedAt: Date`, `var isEmpty: Bool`.
   - `@MainActor @Observable final class UserStateStore`:
-    - `init(context: ModelContext)`
+    - `init(container: ModelContainer)` — **the store retains the container** (its `mainContext` alone does not keep an in-memory container alive; a discarded container deallocates asynchronously and crashes SwiftData mid-use).
     - `static func makeContainer(inMemory: Bool = false) throws -> ModelContainer`
     - `private(set) var favoriteIDs/wantIDs/visitedIDs: Set<String>`
     - `func flags(for: String) -> SiteUserFlags`, `func snapshot() -> UserStateSnapshot`, `func reload()`
@@ -147,7 +147,7 @@ import SwiftData
 struct UserStateStoreTests {
     private func make() throws -> (UserStateStore, ModelContainer) {
         let container = try UserStateStore.makeContainer(inMemory: true)
-        return (UserStateStore(context: container.mainContext), container)
+        return (UserStateStore(container: container), container)
     }
 
     @Test func toggleFavoriteAddsAndRemoves() throws {
@@ -187,9 +187,9 @@ struct UserStateStoreTests {
 
     @Test func stateSurvivesReloadOnSameContainer() throws {
         let container = try UserStateStore.makeContainer(inMemory: true)
-        let store1 = UserStateStore(context: container.mainContext)
+        let store1 = UserStateStore(container: container)
         store1.toggleVisited("a")
-        let store2 = UserStateStore(context: container.mainContext)
+        let store2 = UserStateStore(container: container)
         #expect(store2.visitedIDs == ["a"])
     }
 
@@ -254,6 +254,10 @@ import Observation
 @MainActor
 @Observable
 final class UserStateStore {
+    // Retain the container: its `mainContext` alone does NOT keep an in-memory
+    // ModelContainer alive — a dropped container deallocates on a background
+    // thread (SQLite teardown) and crashes SwiftData while the context is in use.
+    private let container: ModelContainer
     private let context: ModelContext
 
     // In-memory projections rebuilt from SwiftData; drive @Observable UI updates.
@@ -261,8 +265,9 @@ final class UserStateStore {
     private(set) var wantIDs: Set<String> = []
     private(set) var visitedIDs: Set<String> = []
 
-    init(context: ModelContext) {
-        self.context = context
+    init(container: ModelContainer) {
+        self.container = container
+        self.context = container.mainContext
         reload()
     }
 
@@ -670,7 +675,8 @@ struct ByzantineTrailApp: App {
         // the app still launches (favorites just won't persist that session).
         let container = (try? UserStateStore.makeContainer())
             ?? (try! UserStateStore.makeContainer(inMemory: true))
-        _userState = State(initialValue: UserStateStore(context: container.mainContext))
+        // The store retains this container (see Task 2) — safe to let the local go.
+        _userState = State(initialValue: UserStateStore(container: container))
     }
 ```
 
