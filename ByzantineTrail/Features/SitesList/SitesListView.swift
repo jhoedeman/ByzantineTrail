@@ -5,6 +5,7 @@ struct SitesListView: View {
     @Environment(ThemeManager.self) private var themeManager
     @Environment(SiteFilterModel.self) private var filterModel
     @Environment(UserStateStore.self) private var userState
+    @Environment(RatingsStore.self) private var ratingsStore
     @Environment(\.colorScheme) private var colorScheme
 
     @State private var query = SiteQuery()
@@ -21,8 +22,11 @@ struct SitesListView: View {
             q.filter = filterModel.filter
             return q
         }()
+        let ratingsSnapshot = RatingsSnapshot(summaries: ratingsStore.summaries,
+                                              myRatings: userState.myRatings)
         let results = activeQuery.apply(to: catalogStore.sites, cityNames: cityNames,
-                                        userState: userState.snapshot())
+                                        userState: userState.snapshot(),
+                                        ratings: ratingsSnapshot)
 
         NavigationStack {
             List(results) { site in
@@ -32,7 +36,9 @@ struct SitesListView: View {
                     SiteRowView(site: site,
                                 cityName: site.cityId.flatMap { cityNames[$0] },
                                 theme: theme,
-                                flags: userState.flags(for: site.id))
+                                flags: userState.flags(for: site.id),
+                                average: ratingsSnapshot.average(for: site.id),
+                                myRating: ratingsSnapshot.mine(for: site.id))
                 }
             }
             .listStyle(.plain)
@@ -64,6 +70,7 @@ struct SitesListView: View {
         }
         .onChange(of: query.sortField) { _, new in storedSortField = new.rawValue }
         .onChange(of: query.ascending) { _, new in storedAscending = new }
+        .task { await ratingsStore.loadAll() }
     }
 
     private func filterButton(_ theme: Theme) -> some View {
