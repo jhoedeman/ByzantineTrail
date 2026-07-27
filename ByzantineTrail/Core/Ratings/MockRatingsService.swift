@@ -36,3 +36,14 @@ actor MockRatingsService: RatingsServicing {
         return combined(siteId)
     }
 }
+
+/// Deterministic seed of "other users'" ratings so the mock-backed app shows
+/// realistic averages before CloudKit is activated. Keyed by the bundled sites.
+enum MockRatingsSeed {
+    static let demo: [String: RatingSummary] = [
+        "hagia-sophia": RatingSummary(siteId: "hagia-sophia", count: 128, total: 1180),
+        "basilica-cistern": RatingSummary(siteId: "basilica-cistern", count: 74, total: 651),
+        "san-vitale": RatingSummary(siteId: "san-vitale", count: 53, total: 489),
+        "mystras": RatingSummary(siteId: "mystras", count: 27, total: 232),
+    ]
+}

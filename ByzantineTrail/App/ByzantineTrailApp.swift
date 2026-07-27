@@ -7,6 +7,9 @@ struct ByzantineTrailApp: App {
     @State private var themeManager = ThemeManager()
     @State private var filterModel = SiteFilterModel()
     @State private var userState: UserStateStore
+    @State private var ratingsStore: RatingsStore
+    @State private var accountStore: AccountStore
+    @State private var network = NetworkMonitor()
 
     init() {
         // Local SwiftData store for per-site user state (no CloudKit in M4).
@@ -15,7 +18,14 @@ struct ByzantineTrailApp: App {
         let container = (try? UserStateStore.makeContainer())
             ?? (try! UserStateStore.makeContainer(inMemory: true))
         // The store retains this container (see Task 2) — safe to let the local go.
-        _userState = State(initialValue: UserStateStore(container: container))
+        let store = UserStateStore(container: container)
+        _userState = State(initialValue: store)
+
+        // Pre-CloudKit wiring (owner flips to CloudKit in Task 14 / CLOUDKIT_SETUP.md).
+        let ratingsService = MockRatingsService(seed: MockRatingsSeed.demo)
+        _ratingsStore = State(initialValue: RatingsStore(service: ratingsService, userState: store))
+        _accountStore = State(initialValue: AccountStore(
+            provider: MockAccountStatusProvider(status: .available)))
     }
 
     var body: some Scene {
@@ -25,8 +35,12 @@ struct ByzantineTrailApp: App {
                 .environment(themeManager)
                 .environment(filterModel)
                 .environment(userState)
+                .environment(ratingsStore)
+                .environment(accountStore)
+                .environment(network)
                 .environment(\.entitlements, FreeEntitlementManager())
                 .task {
+                    await accountStore.refresh()
                     // 1. Load the newest valid catalog synchronously (offline-safe):
                     //    cached copy if newer, else the bundled one.
                     let cache = try? CatalogCache.makeDefault()
