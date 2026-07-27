@@ -23,6 +23,8 @@ struct SiteRowView: View {
     let cityName: String?
     let theme: Theme
     var flags: SiteUserFlags = SiteUserFlags()
+    var average: Double? = nil
+    var myRating: Int? = nil
 
     var body: some View {
         HStack(spacing: 12) {
@@ -40,6 +42,22 @@ struct SiteRowView: View {
                         .foregroundStyle(theme.textSecondary)
                     importanceBadge
                 }
+                if average != nil || myRating != nil {
+                    HStack(spacing: 6) {
+                        if let average {
+                            Text("\(average, specifier: "%.1f") ★")
+                                .font(.caption)
+                                .foregroundStyle(theme.ratingDisplay)
+                        }
+                        if let myRating {
+                            Text("me \(myRating)")
+                                .font(.caption2.weight(.semibold))
+                                .padding(.horizontal, 5).padding(.vertical, 1)
+                                .background(theme.ratingDisplay.opacity(0.18), in: Capsule())
+                                .foregroundStyle(theme.textPrimary)
+                        }
+                    }
+                }
             }
             Spacer(minLength: 0)
             if !flags.rowGlyphs.isEmpty {
@@ -56,7 +74,7 @@ struct SiteRowView: View {
         }
         .padding(.vertical, 4)
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("\(site.name), \(site.type.displayLabel), \(site.importance.displayLabel) tier, \(subtitle)\(stateA11y)")
+        .accessibilityLabel("\(site.name), \(site.type.displayLabel), \(site.importance.displayLabel) tier, \(subtitle)\(stateA11y)\(ratingA11y)")
     }
 
     private var subtitle: String {
@@ -70,6 +88,13 @@ struct SiteRowView: View {
         if flags.isFavorite { parts.append("favorite") }
         if flags.wantsToVisit { parts.append("want to visit") }
         if flags.visited { parts.append("visited") }
+        return parts.isEmpty ? "" : ", " + parts.joined(separator: ", ")
+    }
+
+    private var ratingA11y: String {
+        var parts: [String] = []
+        if let average { parts.append("average \(String(format: "%.1f", average))") }
+        if let myRating { parts.append("your rating \(myRating)") }
         return parts.isEmpty ? "" : ", " + parts.joined(separator: ", ")
     }
 

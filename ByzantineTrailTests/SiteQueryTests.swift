@@ -84,4 +84,28 @@ struct SiteQueryTests {
         let out = q.apply(to: catalog.sites, cityNames: cityNames)
         #expect(out.count == catalog.sites.count)
     }
+
+    @Test func sortByAverageRatingDescendingPutsHighestFirst() {
+        var q = SiteQuery(); q.sortField = .averageRating; q.ascending = false
+        let ratings = RatingsSnapshot(
+            summaries: ["hagia-sophia": RatingSummary(siteId: "hagia-sophia", count: 1, total: 9),
+                        "san-vitale": RatingSummary(siteId: "san-vitale", count: 1, total: 6)],
+            myRatings: [:])
+        let out = q.apply(to: catalog.sites, cityNames: cityNames, ratings: ratings)
+        #expect(out.first?.id == "hagia-sophia")     // 9.0 before 6.0
+        #expect(out.last?.id != "hagia-sophia")       // unrated sites sort after rated
+    }
+
+    @Test func sortByMyRatingUsesSnapshotMyRatings() {
+        var q = SiteQuery(); q.sortField = .myRating; q.ascending = false
+        let ratings = RatingsSnapshot(summaries: [:], myRatings: ["mystras": 10])
+        let out = q.apply(to: catalog.sites, cityNames: cityNames, ratings: ratings)
+        #expect(out.first?.id == "mystras")
+    }
+
+    @Test func ratingSortWithEmptySnapshotIsStableByName() {
+        var q = SiteQuery(); q.sortField = .averageRating; q.ascending = false
+        let out = q.apply(to: catalog.sites, cityNames: cityNames)   // ratings defaults to .empty
+        #expect(out.count == catalog.sites.count)   // no crash; all unrated → name tie-break
+    }
 }

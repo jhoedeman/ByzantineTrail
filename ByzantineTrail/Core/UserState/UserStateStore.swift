@@ -18,6 +18,7 @@ final class UserStateStore {
     private(set) var favoriteIDs: Set<String> = []
     private(set) var wantIDs: Set<String> = []
     private(set) var visitedIDs: Set<String> = []
+    private(set) var myRatings: [String: Int] = [:]
 
     init(container: ModelContainer) {
         self.container = container
@@ -39,6 +40,8 @@ final class UserStateStore {
                       visited: visitedIDs.contains(siteId))
     }
 
+    func myRating(for siteId: String) -> Int? { myRatings[siteId] }
+
     func snapshot() -> UserStateSnapshot {
         UserStateSnapshot(favorites: favoriteIDs, want: wantIDs, visited: visitedIDs)
     }
@@ -59,6 +62,12 @@ final class UserStateStore {
             row.visited.toggle()
             if row.visited { row.wantsToVisit = false }
         }
+    }
+
+    /// The user's own rating for a site (the public Rating is the shared source
+    /// of truth; this is the local cache — instant, offline, synced in M5b).
+    func setRating(_ value: Int?, for siteId: String) {
+        apply(siteId) { $0.myRating = value }
     }
 
     // MARK: The single write path
@@ -90,5 +99,7 @@ final class UserStateStore {
         favoriteIDs = Set(rows.filter(\.isFavorite).map(\.siteId))
         wantIDs = Set(rows.filter(\.wantsToVisit).map(\.siteId))
         visitedIDs = Set(rows.filter(\.visited).map(\.siteId))
+        myRatings = Dictionary(uniqueKeysWithValues:
+            rows.compactMap { row in row.myRating.map { (row.siteId, $0) } })
     }
 }

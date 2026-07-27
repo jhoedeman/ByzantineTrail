@@ -1,7 +1,7 @@
 import Foundation
 
 enum SortField: String, CaseIterable, Identifiable {
-    case name, importance, country, city
+    case name, importance, country, city, averageRating, myRating
     var id: String { rawValue }
     var displayLabel: String {
         switch self {
@@ -9,6 +9,8 @@ enum SortField: String, CaseIterable, Identifiable {
         case .importance: "Importance"
         case .country: "Country"
         case .city: "City"
+        case .averageRating: "Rating"
+        case .myRating: "My rating"
         }
     }
 }
@@ -23,10 +25,11 @@ struct SiteQuery {
     var ascending: Bool = true
 
     func apply(to sites: [Site], cityNames: [String: String],
-               userState: UserStateSnapshot = .empty) -> [Site] {
+               userState: UserStateSnapshot = .empty,
+               ratings: RatingsSnapshot = .empty) -> [Site] {
         let searched = sites.filter { matchesSearch($0, cityNames: cityNames) }
         let filtered = searched.filter { filter.matches($0, flags: userState.flags(for: $0.id)) }
-        return sorted(filtered, cityNames: cityNames)
+        return sorted(filtered, cityNames: cityNames, ratings: ratings)
     }
 
     private func matchesSearch(_ site: Site, cityNames: [String: String]) -> Bool {
@@ -39,7 +42,8 @@ struct SiteQuery {
         return fields.contains { Self.fold($0).contains(q) }
     }
 
-    private func sorted(_ sites: [Site], cityNames: [String: String]) -> [Site] {
+    private func sorted(_ sites: [Site], cityNames: [String: String],
+                        ratings: RatingsSnapshot) -> [Site] {
         let asc = sites.sorted { a, b in
             switch sortField {
             case .name:
@@ -58,6 +62,14 @@ struct SiteQuery {
                 let cb = b.cityId.flatMap { cityNames[$0] } ?? ""
                 return ca != cb
                     ? ca.localizedCaseInsensitiveCompare(cb) == .orderedAscending
+                    : a.name.localizedCaseInsensitiveCompare(b.name) == .orderedAscending
+            case .averageRating:
+                let ra = ratings.average(for: a.id) ?? -1, rb = ratings.average(for: b.id) ?? -1
+                return ra != rb ? ra < rb
+                    : a.name.localizedCaseInsensitiveCompare(b.name) == .orderedAscending
+            case .myRating:
+                let ra = ratings.mine(for: a.id) ?? -1, rb = ratings.mine(for: b.id) ?? -1
+                return ra != rb ? ra < rb
                     : a.name.localizedCaseInsensitiveCompare(b.name) == .orderedAscending
             }
         }

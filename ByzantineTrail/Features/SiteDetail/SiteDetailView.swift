@@ -16,6 +16,7 @@ struct SiteDetailView: View {
                 VStack(alignment: .leading, spacing: 14) {
                     header(theme)
                     actionRow(theme)
+                    RatingSection(site: site, theme: theme)
                     Divider()
                     descriptionSection(theme)
                     infoSection("Hours", text: site.hours, theme: theme)
