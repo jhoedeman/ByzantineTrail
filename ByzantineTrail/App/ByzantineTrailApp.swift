@@ -21,11 +21,15 @@ struct ByzantineTrailApp: App {
         let store = UserStateStore(container: container)
         _userState = State(initialValue: store)
 
-        // Pre-CloudKit wiring (owner flips to CloudKit in Task 14 / CLOUDKIT_SETUP.md).
-        let ratingsService = MockRatingsService(seed: MockRatingsSeed.demo)
+        // Live CloudKit ratings (public database). To run offline / without an
+        // iCloud account during development, swap these back to
+        //   MockRatingsService(seed: MockRatingsSeed.demo)
+        //   MockAccountStatusProvider(status: .available)
+        // (see docs/CLOUDKIT_SETUP.md).
+        let ratingsService = CloudKitRatingsService()
         _ratingsStore = State(initialValue: RatingsStore(service: ratingsService, userState: store))
         _accountStore = State(initialValue: AccountStore(
-            provider: MockAccountStatusProvider(status: .available)))
+            provider: CloudKitAccountStatusProvider()))
     }
 
     var body: some Scene {
