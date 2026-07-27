@@ -24,6 +24,8 @@ targets:
         DEVELOPMENT_ASSETS: ByzantineTrail/Preview Content
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         TARGETED_DEVICE_FAMILY: "1,2"
+        DEVELOPMENT_TEAM: XY62X6K9VH
+        CODE_SIGN_STYLE: Automatic
     # CloudKit public database for M5a ratings. XcodeGen owns the entitlements
     # file (regenerated from these properties), so the container id can't drift.
     # Activation still needs a signing Team (see docs/CLOUDKIT_SETUP.md).
