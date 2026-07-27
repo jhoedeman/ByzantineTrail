@@ -5,15 +5,29 @@ setup, the app runs against an in-memory mock service (averages are demo data).
 These steps require your Apple Developer account and are done in Xcode + the
 CloudKit Dashboard — not by an automated agent.
 
-## 1. Enable the capability (Xcode)
-1. Open the project, select the **ByzantineTrail** target → Signing & Capabilities.
-2. Set your **Team** (Developer account).
-3. **+ Capability → iCloud**; check **CloudKit**; add the container
-   `iCloud.com.byzantinetrail.app`.
-4. This writes `ByzantineTrail/ByzantineTrail.entitlements`. Add it to the target
-   in `project.yml` under the app target's `settings.base`:
-   `CODE_SIGN_ENTITLEMENTS: ByzantineTrail/ByzantineTrail.entitlements`, then
+## 1. Enable the capability
+The **entitlement is already wired** — `project.yml` has an `entitlements:` block
+that XcodeGen uses to generate `ByzantineTrail/ByzantineTrail.entitlements`
+(container `iCloud.com.byzantinetrail.app`, service `CloudKit`). You do **not**
+re-add the capability by hand in Xcode; XcodeGen owns that file. What's left:
+
+1. Set your **signing Team**. With XcodeGen, a Team set in Xcode's UI is wiped on
+   the next `xcodegen generate`, so put it in `project.yml` under the app target's
+   `settings.base` as `DEVELOPMENT_TEAM: <YOUR_TEAM_ID>` — **or**, to keep your
+   Team ID out of this public repo, in a gitignored local xcconfig. Then
    regenerate: `~/bin/xcodegen_dist/bin/xcodegen generate`.
+2. On developer.apple.com, ensure the App ID has **iCloud** enabled and the
+   **container `iCloud.com.byzantinetrail.app`** exists (Xcode's automatic signing
+   will offer to create it once a Team is set).
+
+> **Note — the local SwiftData store stays off CloudKit.**
+> `UserStateStore.makeContainer` sets `ModelConfiguration(cloudKitDatabase: .none)`
+> on purpose: the entitlement powers only the **public-DB ratings** (via
+> `CKContainer` in `CloudKitRatingsService`), not SwiftData sync. Without `.none`,
+> SwiftData's `.automatic` default would try to CloudKit-mirror `UserSiteState` and
+> crash at launch (CloudKit requires every attribute optional/defaulted). When you
+> build **M5b** (private user-state sync), that's where you flip this back and make
+> `UserSiteState` CloudKit-compatible.
 
 ## 2. Define the schema (CloudKit Dashboard → Development)
 Record types (auto-create on first write, or add explicitly):
