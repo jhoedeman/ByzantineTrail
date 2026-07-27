@@ -27,8 +27,16 @@ final class UserStateStore {
     }
 
     /// Build the production (on-disk) or an in-memory (test) container.
+    ///
+    /// `cloudKitDatabase: .none` keeps this LOCAL store off CloudKit even once the
+    /// iCloud entitlement is present (M5a public ratings use the CloudKit *public*
+    /// DB directly via CKContainer, not SwiftData). Without this, SwiftData's
+    /// `.automatic` default would try to mirror `UserSiteState` to a private
+    /// CloudKit DB and fail (CloudKit requires every attribute optional/defaulted).
+    /// Private user-state sync is deferred to M5b.
     static func makeContainer(inMemory: Bool = false) throws -> ModelContainer {
-        let config = ModelConfiguration(isStoredInMemoryOnly: inMemory)
+        let config = ModelConfiguration(isStoredInMemoryOnly: inMemory,
+                                        cloudKitDatabase: .none)
         return try ModelContainer(for: UserSiteState.self, configurations: config)
     }
 
