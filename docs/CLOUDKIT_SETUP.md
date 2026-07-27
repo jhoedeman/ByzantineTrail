@@ -46,7 +46,12 @@ _accountStore = State(initialValue: AccountStore(provider: CloudKitAccountStatus
 ```
 
 ## 4. Integration test (simulator or device signed into iCloud)
-1. In the simulator: Settings → sign into an **iCloud sandbox** account.
+1. In the simulator: Settings → **"Sign in to your iPhone"** with any real iCloud
+   account (your own is fine — there is **no** separate "CloudKit sandbox"
+   account; that's a StoreKit concept). Debug builds automatically use the
+   CloudKit **Development** environment, isolated from Production; the record's
+   `userRecordID` is an opaque per-container id, not your email. You can wipe dev
+   data anytime via the Console → **Reset Development Environment**.
 2. Run the app; open a site; rate it → the average/count update; change it → the
    average adjusts; remove → the count drops; relaunch → the value persists.
 3. Sign out of iCloud → the rating control disables with "Sign in to iCloud to rate."
