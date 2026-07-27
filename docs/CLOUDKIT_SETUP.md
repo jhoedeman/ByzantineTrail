@@ -41,5 +41,14 @@ _accountStore = State(initialValue: AccountStore(provider: CloudKitAccountStatus
 ## Notes
 - The in-app recompute reconcile (on detail open / on retry exhaustion) is the
   self-healer. A standalone "rebuild all summaries" owner script is deferred.
-- **CloudKit robustness:** The service is hardened for pagination (`allSummaries`/`reconcile` follow query cursors across all pages), failed deletes (propagated in `removeRating`), and transient errors (distinguishes `CKError.unknownItem` — no prior rating — from fetch errors in `submit`). Exercise these in integration testing: rate a site across a page boundary, and verify persistence after rate/edit/remove/relaunch.
+- **CloudKit robustness:** The service is hardened for three cases:
+  - **Pagination** — `allSummaries`/`reconcile` follow query cursors across
+    all pages (no undercount overwrite on large result sets).
+  - **Failed deletes** — propagated in `removeRating` (not silently swallowed).
+  - **Transient errors** — `submit` distinguishes `CKError.unknownItem`
+    (no prior rating) from a transient fetch error, so an edit isn't
+    double-counted.
+
+  Exercise these in integration testing: rate a site across a page boundary,
+  and verify persistence after rate/edit/remove/relaunch.
 - Promotion to the Production CloudKit environment is a later step.
