@@ -25,6 +25,14 @@ final class CloudKitRatingsService: RatingsServicing {
                       total: (record?["total"] as? Int) ?? 0)
     }
 
+    /// The caller's existing rating value, or nil if they have none. A real
+    /// fetch error propagates (so a transient failure isn't mistaken for
+    /// "no prior rating", which would double-count on the next submit).
+    private func existingRatingValue(_ id: CKRecord.ID) async throws -> Int? {
+        do { return (try await db.record(for: id))["value"] as? Int }
+        catch let error as CKError where error.code == .unknownItem { return nil }
+    }
+
     // MARK: RatingsServicing
 
     func load(for siteId: String) async throws -> SiteRatingState {
@@ -40,10 +48,9 @@ final class CloudKitRatingsService: RatingsServicing {
 
     func allSummaries() async throws -> [String: RatingSummary] {
         let query = CKQuery(recordType: "RatingSummary", predicate: NSPredicate(value: true))
-        let (results, _) = try await db.records(matching: query)
         var out: [String: RatingSummary] = [:]
-        for (_, result) in results {
-            if let rec = try? result.get(), let siteId = rec["siteId"] as? String {
+        for rec in try await allRecords(matching: query) {
+            if let siteId = rec["siteId"] as? String {
                 out[siteId] = summary(from: rec, siteId: siteId)
             }
         }
@@ -53,7 +60,7 @@ final class CloudKitRatingsService: RatingsServicing {
     func submit(rating: Int, for siteId: String) async throws -> RatingSummary {
         let userID = try await container.userRecordID()
         let ratingID = ratingRecordID(siteId, userID)
-        let old = (try? await db.record(for: ratingID))?["value"] as? Int
+        let old = try await existingRatingValue(ratingID)
         let ratingRec = CKRecord(recordType: "Rating", recordID: ratingID)
         ratingRec["siteId"] = siteId as CKRecordValue
         ratingRec["value"] = rating as CKRecordValue
@@ -64,8 +71,8 @@ final class CloudKitRatingsService: RatingsServicing {
     func removeRating(for siteId: String) async throws -> RatingSummary {
         let userID = try await container.userRecordID()
         let ratingID = ratingRecordID(siteId, userID)
-        let old = (try? await db.record(for: ratingID))?["value"] as? Int
-        if old != nil { _ = try? await db.deleteRecord(withID: ratingID) }
+        let old = try await existingRatingValue(ratingID)
+        if old != nil { _ = try await db.deleteRecord(withID: ratingID) }
         return try await updateSummary(siteId: siteId, old: old, new: nil)
     }
 
@@ -87,13 +94,27 @@ final class CloudKitRatingsService: RatingsServicing {
         return try await reconcile(siteId: siteId, cached: summary(from: nil, siteId: siteId), force: true)
     }
 
+    /// All records matching a query, following the cursor across every page.
+    /// A single malformed record is skipped; a query-level error propagates.
+    private func allRecords(matching query: CKQuery) async throws -> [CKRecord] {
+        var out: [CKRecord] = []
+        var response = try await db.records(matching: query)
+        while true {
+            for (_, result) in response.matchResults {
+                if let rec = try? result.get() { out.append(rec) }
+            }
+            guard let cursor = response.queryCursor else { break }
+            response = try await db.records(continuingMatchFrom: cursor)
+        }
+        return out
+    }
+
     /// Recompute the summary from the actual Rating records and overwrite the cache
     /// when it has drifted (self-heal, spec §0.2). Returns the trustworthy summary.
     private func reconcile(siteId: String, cached: RatingSummary, force: Bool = false) async throws -> RatingSummary {
         let query = CKQuery(recordType: "Rating",
                             predicate: NSPredicate(format: "siteId == %@", siteId))
-        let (results, _) = try await db.records(matching: query)
-        let values = results.compactMap { try? $0.1.get()["value"] as? Int }.compactMap { $0 }
+        let values = try await allRecords(matching: query).compactMap { $0["value"] as? Int }
         let recomputed = RatingMath.recompute(siteId: siteId, values: values)
         if force || RatingMath.needsReconcile(cached: cached, recomputed: recomputed) {
             let rec = (try? await db.record(for: summaryRecordID(siteId)))
