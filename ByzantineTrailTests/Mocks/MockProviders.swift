@@ -13,3 +13,38 @@ actor MockSuggestionService: SuggestionSubmitting {
     private(set) var submitted: [SiteSuggestion] = []
     func submit(_ suggestion: SiteSuggestion) async throws { submitted.append(suggestion) }
 }
+
+/// Controllable RemoteSyncProvider for coordinator tests: seed the pull result,
+/// capture pushes, and force failures.
+actor StubSyncProvider: RemoteSyncProvider {
+    private let pullChanges: [UserSiteChange]
+    private let pullToken: SyncToken
+    private let failPush: Bool
+    private let failPull: Bool
+    private var pushedBatches: [[UserSiteChange]] = []
+    private var pullTokens: [SyncToken?] = []
+
+    init(pullChanges: [UserSiteChange] = [], pullToken: SyncToken = SyncToken(raw: "t1"),
+         failPush: Bool = false, failPull: Bool = false) {
+        self.pullChanges = pullChanges
+        self.pullToken = pullToken
+        self.failPush = failPush
+        self.failPull = failPull
+    }
+
+    struct StubError: Error {}
+
+    func push(_ changes: [UserSiteChange]) async throws {
+        if failPush { throw StubError() }
+        pushedBatches.append(changes)
+    }
+
+    func pull(since token: SyncToken?) async throws -> (changes: [UserSiteChange], token: SyncToken) {
+        pullTokens.append(token)
+        if failPull { throw StubError() }
+        return (pullChanges, pullToken)
+    }
+
+    func pushed() -> [[UserSiteChange]] { pushedBatches }
+    func pullCalls() -> [SyncToken?] { pullTokens }
+}
