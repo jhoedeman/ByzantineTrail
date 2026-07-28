@@ -72,15 +72,17 @@ final class UserStateStore {
         }
     }
 
-    /// The user's own rating for a site (the public Rating is the shared source
-    /// of truth; this is the local cache — instant, offline, synced in M5b).
+    /// The user's own rating for a site. Not synced by M5b (the public Rating is
+    /// the cross-device source of truth), so it does not mark the row pending or
+    /// bump `updatedAt` (which keys flag last-writer-wins).
     func setRating(_ value: Int?, for siteId: String) {
-        apply(siteId) { $0.myRating = value }
+        apply(siteId, markPending: false) { $0.myRating = value }
     }
 
     // MARK: The single write path
 
-    private func apply(_ siteId: String, _ mutate: (UserSiteState) -> Void) {
+    private func apply(_ siteId: String, markPending: Bool = true,
+                       _ mutate: (UserSiteState) -> Void) {
         let row: UserSiteState
         if let found = existing(siteId) {
             row = found
@@ -89,8 +91,11 @@ final class UserStateStore {
             context.insert(row)
         }
         mutate(row)
-        row.updatedAt = .now
-        if row.isEmpty { context.delete(row) }
+        if markPending {
+            row.updatedAt = .now
+            row.pendingSync = true
+        }
+        if row.isEmpty && !row.pendingSync { context.delete(row) }
         try? context.save()
         reload()
     }
@@ -109,5 +114,56 @@ final class UserStateStore {
         visitedIDs = Set(rows.filter(\.visited).map(\.siteId))
         myRatings = Dictionary(uniqueKeysWithValues:
             rows.compactMap { row in row.myRating.map { (row.siteId, $0) } })
+    }
+
+    // MARK: Sync (M5b)
+
+    /// Rows changed locally and not yet pushed, as wire changes. `myRating` is
+    /// never synced by M5b, so it is always nil here.
+    func pendingChanges() -> [UserSiteChange] {
+        let rows = (try? context.fetch(FetchDescriptor<UserSiteState>())) ?? []
+        return rows.filter(\.pendingSync).map {
+            UserSiteChange(siteId: $0.siteId, isFavorite: $0.isFavorite,
+                           wantsToVisit: $0.wantsToVisit, visited: $0.visited,
+                           myRating: nil, updatedAt: $0.updatedAt)
+        }
+    }
+
+    /// Clear the pending flag on pushed rows; prune any that are now empty.
+    func clearPending(_ siteIds: [String]) {
+        let set = Set(siteIds)
+        let rows = (try? context.fetch(FetchDescriptor<UserSiteState>())) ?? []
+        for row in rows where set.contains(row.siteId) { row.pendingSync = false }
+        for row in rows where row.isEmpty && !row.pendingSync { context.delete(row) }
+        try? context.save()
+        reload()
+    }
+
+    /// Apply a batch of remote changes via last-writer-wins, then persist once.
+    func mergeRemote(_ changes: [UserSiteChange]) {
+        for change in changes { mergeOne(change) }
+        for row in (try? context.fetch(FetchDescriptor<UserSiteState>())) ?? []
+        where row.isEmpty && !row.pendingSync { context.delete(row) }
+        try? context.save()
+        reload()
+    }
+
+    func mergeRemote(_ change: UserSiteChange) { mergeRemote([change]) }
+
+    /// LWW-apply a single remote change in-place (no save/reload — caller batches).
+    private func mergeOne(_ change: UserSiteChange) {
+        let local = existing(change.siteId)
+        guard SyncMerge.resolve(localUpdatedAt: local?.updatedAt, remote: change) == .apply
+        else { return }
+        let row: UserSiteState
+        if let local { row = local } else {
+            row = UserSiteState(siteId: change.siteId)
+            context.insert(row)
+        }
+        row.isFavorite = change.isFavorite
+        row.wantsToVisit = change.wantsToVisit
+        row.visited = change.visited
+        row.updatedAt = change.updatedAt
+        row.pendingSync = false   // remote won; drop any superseded local pending
     }
 }

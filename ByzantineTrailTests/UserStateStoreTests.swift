@@ -27,11 +27,14 @@ struct UserStateStoreTests {
         #expect(store.wantIDs.isEmpty)   // want cleared by visiting
     }
 
-    @Test func emptyRowIsPruned() throws {
+    @Test func emptyRowIsPrunedOnceSynced() throws {
         let (store, container) = try make()
-        store.toggleFavorite("a")   // creates the row
-        store.toggleFavorite("a")   // back to empty → pruned
-        let rows = try container.mainContext.fetch(FetchDescriptor<UserSiteState>())
+        store.toggleFavorite("a")   // creates the row (pending)
+        store.toggleFavorite("a")   // back to all-false, but still pending → retained (M5b)
+        var rows = try container.mainContext.fetch(FetchDescriptor<UserSiteState>())
+        #expect(rows.count == 1)    // cleared state must survive to sync the clear
+        store.clearPending(["a"])   // clear pushed → now truly empty → pruned
+        rows = try container.mainContext.fetch(FetchDescriptor<UserSiteState>())
         #expect(rows.isEmpty)
     }
 
