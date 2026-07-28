@@ -97,3 +97,28 @@ is needed. `MockRemoteSyncProvider` / `StubSyncProvider` are test-only.
 - "Delete" is represented as an all-false record (no tombstones); the record is
   never deleted from CloudKit.
 - Do not deploy the schema Development → Production until app release.
+
+## M5c — site suggestions (public database, create-only)
+
+Users can propose a site from **Profile → Contribute → Suggest a site**. The
+form writes to the **public** CloudKit database via `CloudKitSuggestionService`.
+
+### Schema (Development, Public DB)
+- Record type **`SiteSuggestion`** — fields `name` (String), `location`
+  (String), `whyInclude` (String), `linksText` (String), `submittedAt` (Date).
+  Auto-created on the first submit.
+- **No submitter identity** is stored (random UUID recordName; no `userRecordID`).
+
+### Security role (Dashboard-only)
+- Set the `_icloud` (authenticated users) role on `SiteSuggestion` to
+  **create-only** — create allowed, **no read, no write**. Authenticated users
+  can submit but cannot read anyone's suggestions (including their own). The
+  **owner reads submissions in the CloudKit Dashboard**.
+- No indexes are required — the app never queries this type.
+
+### Notes
+- The client rate limit (10 submissions / rolling 24 h, in `SuggestionRateLimiter`)
+  is a soft UX guardrail only — **not** a security control.
+- Offline / signed-out, the form's Submit is disabled with an explainer
+  (`SuggestionGate`); submissions are **not** queued for later replay.
+- Do not deploy the schema Development → Production until app release.
