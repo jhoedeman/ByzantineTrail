@@ -14,6 +14,19 @@ actor MockSuggestionService: SuggestionSubmitting {
     func submit(_ suggestion: SiteSuggestion) async throws { submitted.append(suggestion) }
 }
 
+/// Controllable SuggestionSubmitting for store tests: captures submissions and
+/// can force a failure. (The plain `MockSuggestionService` above always succeeds.)
+actor StubSuggestionService: SuggestionSubmitting {
+    private let failSubmit: Bool
+    private(set) var submitted: [SiteSuggestion] = []
+    struct StubError: Error {}
+    init(failSubmit: Bool = false) { self.failSubmit = failSubmit }
+    func submit(_ suggestion: SiteSuggestion) async throws {
+        if failSubmit { throw StubError() }
+        submitted.append(suggestion)
+    }
+}
+
 /// Controllable RemoteSyncProvider for coordinator tests: seed the pull result,
 /// capture pushes, and force failures.
 actor StubSyncProvider: RemoteSyncProvider {
