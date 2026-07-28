@@ -29,6 +29,14 @@ struct ProfileView: View {
                                                           sites: catalogStore.sites),
                         theme: theme)
                 }
+
+                Section("Contribute") {
+                    NavigationLink {
+                        SuggestSiteForm(theme: theme)
+                    } label: {
+                        Label("Suggest a site", systemImage: "plus.circle")
+                    }
+                }
             }
             .navigationTitle("Profile")
             .background(theme.bgApp)
