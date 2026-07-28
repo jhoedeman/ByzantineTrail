@@ -11,6 +11,7 @@ struct ByzantineTrailApp: App {
     @State private var accountStore: AccountStore
     @State private var network = NetworkMonitor()
     @State private var syncCoordinator: SyncCoordinator
+    @State private var suggestionStore: SuggestionStore
     @Environment(\.scenePhase) private var scenePhase
 
     init() {
@@ -41,6 +42,12 @@ struct ByzantineTrailApp: App {
             provider: CloudKitSyncProvider(),
             userState: store,
             tokenStore: UserDefaultsSyncTokenStore()))
+
+        // Site suggestions (M5c): live public-DB create-only writes. Gates (not
+        // queues) when offline / signed out, so no mock fallback is needed.
+        _suggestionStore = State(initialValue: SuggestionStore(
+            service: CloudKitSuggestionService(),
+            throttle: UserDefaultsSuggestionThrottleStore()))
     }
 
     var body: some Scene {
@@ -52,6 +59,7 @@ struct ByzantineTrailApp: App {
                 .environment(userState)
                 .environment(ratingsStore)
                 .environment(accountStore)
+                .environment(suggestionStore)
                 .environment(network)
                 .environment(\.entitlements, FreeEntitlementManager())
                 .task {
