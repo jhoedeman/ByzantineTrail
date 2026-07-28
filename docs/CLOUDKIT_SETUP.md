@@ -71,3 +71,29 @@ _accountStore = State(initialValue: AccountStore(provider: CloudKitAccountStatus
   Exercise these in integration testing: rate a site across a page boundary,
   and verify persistence after rate/edit/remove/relaunch.
 - Promotion to the Production CloudKit environment is a later step.
+
+## M5b — private user-state sync (private database)
+
+Favorites / want-to-visit / visited sync across a user's own devices via the
+**private** CloudKit database (separate from the public ratings DB).
+
+### Schema (Development, Private DB)
+- Record type **`UserSiteState`** — `recordName` = the site id. Fields:
+  `isFavorite` (Int 0/1), `wantsToVisit` (Int 0/1), `visited` (Int 0/1),
+  `updatedAt` (Date). **No `myRating`** — that stays on the public ratings path.
+  Auto-created on the first sync write.
+- **Indexes:** Queryable on **`updatedAt`** (the pull query is `updatedAt > since`)
+  and Queryable on **`recordName`** (first-sync fetch-all).
+- **No security roles** — the private database is inherently per-user.
+
+### Wiring
+`ByzantineTrailApp.init()` constructs `SyncCoordinator(provider:
+CloudKitSyncProvider(), …)`, which syncs on launch and on foreground. To run
+offline / without iCloud during development, sync simply no-ops; no code change
+is needed. `MockRemoteSyncProvider` / `StubSyncProvider` are test-only.
+
+### Notes
+- Conflict resolution is per-record last-writer-wins on `updatedAt`.
+- "Delete" is represented as an all-false record (no tombstones); the record is
+  never deleted from CloudKit.
+- Do not deploy the schema Development → Production until app release.
