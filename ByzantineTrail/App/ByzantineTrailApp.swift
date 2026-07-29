@@ -62,6 +62,7 @@ struct ByzantineTrailApp: App {
                 .environment(suggestionStore)
                 .environment(network)
                 .environment(\.entitlements, FreeEntitlementManager())
+                .preferredColorScheme(themeManager.preference.colorScheme)
                 .task {
                     await accountStore.refresh()
                     // 1. Load the newest valid catalog synchronously (offline-safe):

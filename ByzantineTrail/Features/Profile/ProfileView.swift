@@ -40,6 +40,15 @@ struct ProfileView: View {
             }
             .navigationTitle("Profile")
             .background(theme.bgApp)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink { SettingsView() } label: {
+                        Image(systemName: "gearshape")
+                    }
+                    .accessibilityLabel("Settings")
+                    .accessibilityIdentifier("profile.settings")
+                }
+            }
         }
     }
 

@@ -32,4 +32,10 @@ struct ThemeTests {
         #expect(ThemePreference.light.colorScheme == .light)
         #expect(ThemePreference.dark.colorScheme == .dark)
     }
+
+    @Test func displayNamesAreCapitalized() {
+        #expect(ThemePreference.system.displayName == "System")
+        #expect(ThemePreference.light.displayName == "Light")
+        #expect(ThemePreference.dark.displayName == "Dark")
+    }
 }
