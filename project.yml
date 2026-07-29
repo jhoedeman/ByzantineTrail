@@ -9,6 +9,8 @@ targets:
     platform: iOS
     sources:
       - path: ByzantineTrail
+      - path: AppIcon.icon
+        buildPhase: resources
     info:
       path: ByzantineTrail/Info.plist
       properties:
