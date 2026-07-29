@@ -75,4 +75,11 @@ enum ThemePreference: String, CaseIterable {
         case .dark: return .dark
         }
     }
+    var displayName: String {
+        switch self {
+        case .system: return "System"
+        case .light: return "Light"
+        case .dark: return "Dark"
+        }
+    }
 }
