@@ -5,25 +5,33 @@ struct AccountStatusPresentation: Equatable {
     let title: String
     let explainer: String?
     let symbolName: String
+    /// Whether to offer the "Open Settings" deep link. Hidden once the user is
+    /// signed in (`.available`) — there's nothing to fix there. Shown for
+    /// noAccount/restricted, and while the status is still unknown.
+    let showsOpenSettings: Bool
 
     static func make(for status: AccountStatus) -> AccountStatusPresentation {
         switch status {
         case .available:
             return .init(title: "Signed in to iCloud",
                          explainer: nil,
-                         symbolName: "checkmark.icloud")
+                         symbolName: "checkmark.icloud",
+                         showsOpenSettings: false)
         case .noAccount:
             return .init(title: "Not signed in to iCloud",
                          explainer: "Sign in to iCloud to rate sites and sync across your devices.",
-                         symbolName: "xmark.icloud")
+                         symbolName: "xmark.icloud",
+                         showsOpenSettings: true)
         case .restricted:
             return .init(title: "iCloud restricted",
                          explainer: "iCloud access is restricted on this device (e.g. by Screen Time or a profile).",
-                         symbolName: "exclamationmark.icloud")
+                         symbolName: "exclamationmark.icloud",
+                         showsOpenSettings: true)
         case .unknown:
             return .init(title: "Checking iCloud status…",
                          explainer: nil,
-                         symbolName: "icloud")
+                         symbolName: "icloud",
+                         showsOpenSettings: true)
         }
     }
 }
