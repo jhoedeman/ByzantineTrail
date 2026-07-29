@@ -36,8 +36,10 @@ struct SettingsView: View {
                 }
                 .accessibilityIdentifier("settings.account.status")
 
-                Button("Open Settings") { openAppSettings() }
-                    .accessibilityIdentifier("settings.account.openSettings")
+                if presentation.showsOpenSettings {
+                    Button("Open Settings") { openAppSettings() }
+                        .accessibilityIdentifier("settings.account.openSettings")
+                }
             }
 
             Section {

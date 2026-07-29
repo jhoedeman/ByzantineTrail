@@ -29,4 +29,11 @@ struct AccountStatusPresentationTests {
         #expect(p.explainer == nil)
         #expect(p.symbolName == "icloud")
     }
+
+    @Test func openSettingsHiddenOnlyWhenSignedIn() {
+        #expect(AccountStatusPresentation.make(for: .available).showsOpenSettings == false)
+        #expect(AccountStatusPresentation.make(for: .noAccount).showsOpenSettings == true)
+        #expect(AccountStatusPresentation.make(for: .restricted).showsOpenSettings == true)
+        #expect(AccountStatusPresentation.make(for: .unknown).showsOpenSettings == true)
+    }
 }
