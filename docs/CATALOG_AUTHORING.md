@@ -2,7 +2,7 @@
 
 How raw Byzantine-site data + photos become the shipped `catalog.json` and its
 images. Pairs with `docs/CATALOG_HOSTING.md` (which covers the GitHub Pages host)
-and `tools/validate_catalog.swift` (the pre-publish gate).
+and `Tools/validate_catalog.swift` (the pre-publish gate).
 
 ## 1. Intake — data in any form → one spreadsheet
 
@@ -49,7 +49,7 @@ Provide full-resolution originals named `<photo-id>.<ext>`, where
 Run the pipeline:
 
 ```bash
-tools/build_photos.sh <originals-dir> <out-dir>
+Tools/build_photos.sh <originals-dir> <out-dir>
 ```
 
 It writes optimized `<out-dir>/full/<id>.jpg` (≤2560px, q80) and
@@ -82,13 +82,13 @@ own as you prefer (e.g. "Photo: John Hoedeman").
 
 1. Author/normalize data → `catalog.json`; set `photoBaseURL` to the Pages base
    URL; bump `catalogVersion` (monotonic).
-2. `tools/build_photos.sh <originals> <out>` → `full/` + `thumbs/`, report clean.
+2. `Tools/build_photos.sh <originals> <out>` → `full/` + `thumbs/`, report clean.
 3. Validate (with thumb-existence check against the bundled thumbs root):
    ```bash
-   swift tools/validate_catalog.swift catalog.json ByzantineTrail/Resources
+   swift Tools/validate_catalog.swift catalog.json ByzantineTrail/Resources
    ```
    Exit 0 required. (Also blocks emails; add a git-ignored
-   `tools/owner_denylist.txt` to block extra substrings.)
+   `Tools/owner_denylist.txt` to block extra substrings.)
 4. `shasum -a 256 catalog.json`; write `catalog-manifest.json` with the matching
    `catalogVersion`, `"url": "catalog.json"`, and that digest.
 5. Copy `catalog.json`, `catalog-manifest.json`, `thumbs/*`, `full/*` into the
