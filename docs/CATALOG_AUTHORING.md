@@ -14,7 +14,7 @@ site**, for you to eyeball before any JSON is generated. Columns:
 | --- | --- |
 | `name` | required |
 | `type` | one of the controlled types below (Claude maps free text) |
-| `country` | ISO 3166-1 alpha-2 (TR, GR, IT, …) |
+| `country` | full name (Greece, Italy, …) or ISO 3166-1 alpha-2 — Claude maps to the alpha-2 the app stores. Disputed/unrecognized territories with no ISO code are stored as a literal label (e.g. `Crimea (disputed)`) and must be listed in the validator's `allowedNonISOCountries`. Display can be overridden per code in `CountryName.displayOverrides` (e.g. `TR` → "Turkey") |
 | `cityName` | optional; Claude derives `cityId` + the `cities[]` list |
 | `lat`, `lon` | decimal degrees |
 | `importance` | major \| notable \| minor |
@@ -25,19 +25,45 @@ site**, for you to eyeball before any JSON is generated. Columns:
 | `alternateNames` | `;`-separated (optional) |
 | `semanticTags` | `;`-separated, from the controlled set (optional) |
 | `tags` | `;`-separated free text (optional) |
-| `links` | `title|url` pairs, `;`-separated (optional) |
+| `links` | `title|url` pairs, `;`-separated — or bare URLs, which Claude auto-titles (Wikipedia → "Wikipedia", else "Official website") (optional) |
 
 Claude derives automatically: `id` (slug of `name`), `cities[]` (deduped),
 `addedInVersion` (= the version being published), `generatedAt` (ISO 8601).
+
+### 1a. Artifacts — a second worksheet (one site → many artifacts)
+
+Things housed *at* a site (mosaics, fragments, spolia, an object in a museum)
+are modeled as content **within** the site — one map pin, artifacts browsable
+inside it — not as separate sites (separate sites at one coordinate collide on
+the map). Capture them on a **second worksheet named `Artifacts`, one row per
+artifact**, keyed back to the site by name:
+
+| column | notes |
+| --- | --- |
+| `site` | **link key** — must match a site `Name` exactly (case-insensitive, trimmed); unmatched values are flagged as orphans |
+| `name` | required |
+| `summary` | one-line teaser (same role as a site's `summary`) |
+| `description` | long-form (optional) |
+| `century` | optional; use when the artifact dates differently from the building |
+| `photo` | optional; id `<site-id>-a-NN`, processed via `build_photos.sh` later |
+| `links` | optional; `title|url` pairs, `;`-separated |
+
+**Not rendered yet.** Nesting artifacts is a planned schema addition
+(`Site.artifacts[]` + detail-view UI). Until it ships, the re-scan reads the
+sites sheet and **ignores the `Artifacts` sheet** — so capturing artifact data
+early is safe and lossless, it just waits for the feature.
 
 ## 2. Controlled vocabularies (must match the validator)
 
 - **type** (unknown values render as `other` in older apps; keep to this set):
   `church, monastery, fortress, palace, cityWalls, cistern, aqueduct,
-  mosaicSite, archaeologicalSite, museum, tower, bridge, other`
+  mosaicSite, archaeologicalSite, museum, tower, bridge, column,
+  triumphalArch, mausoleum, baptistery, icon, other`
 - **importance** (validator rejects anything else): `major, notable, minor`
 - **period.era**: `constantinian, theodosian, justinianic, macedonian,
-  komnenian, palaiologan, other`
+  komnenian, palaiologan, postByzantine, other` — `postByzantine` = the
+  continuation of Byzantine tradition after the fall of Constantinople (1453);
+  key it off the painting/phase date, not the building's founding.
 - **semanticTags** (⊆): `unesco`
 - **country**: ISO 3166-1 alpha-2
 

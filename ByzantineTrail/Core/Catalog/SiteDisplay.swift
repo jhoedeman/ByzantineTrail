@@ -15,6 +15,11 @@ extension SiteType {
         case .museum: "Museum"
         case .tower: "Tower"
         case .bridge: "Bridge"
+        case .column: "Column"
+        case .triumphalArch: "Triumphal Arch"
+        case .mausoleum: "Mausoleum"
+        case .baptistery: "Baptistery"
+        case .icon: "Icon"
         case .other: "Site"
         }
     }
@@ -34,6 +39,11 @@ extension SiteType {
         case .museum: "building.columns"
         case .tower: "building"
         case .bridge: "road.lanes"
+        case .column: "building.columns"
+        case .triumphalArch: "building.2.crop.circle"
+        case .mausoleum: "house.lodge"
+        case .baptistery: "drop.circle"
+        case .icon: "photo.artframe"
         case .other: "mappin"
         }
     }
@@ -71,13 +81,21 @@ enum CountryName {
     /// for `Locale.isoRegionCodes`; a Set also avoids the per-call O(n) scan.
     private static let isoRegionCodes: Set<String> = Set(Locale.Region.isoRegions.map(\.identifier))
 
+    /// Editorial display overrides for specific ISO codes, applied ahead of the system
+    /// localization. `TR` localizes to "Türkiye" on recent OS versions; we render "Turkey".
+    private static let displayOverrides: [String: String] = ["TR": "Turkey"]
+
     /// ISO 3166-1 alpha-2 → localized region name; falls back to the code.
+    ///
+    /// Non-ISO inputs (e.g. a disputed-territory label like "Crimea (disputed)") pass
+    /// through verbatim, so this doubles as the label function for any country grouping key.
     ///
     /// `Locale.current.localizedString(forRegionCode:)` alone is not sufficient: on some
     /// OS versions it returns a generic "Unknown Region" string (rather than `nil`) for
     /// codes that are well-formed but not assigned, so unrecognized codes must be filtered
     /// out via the cached ISO region set before localizing.
     static func localized(_ code: String) -> String {
+        if let override = displayOverrides[code] { return override }
         guard isoRegionCodes.contains(code) else { return code }
         return Locale.current.localizedString(forRegionCode: code) ?? code
     }

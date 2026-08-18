@@ -1,6 +1,7 @@
 enum SiteType: String, Codable, CaseIterable {
     case church, monastery, fortress, palace, cityWalls, cistern, aqueduct
-    case mosaicSite, archaeologicalSite, museum, tower, bridge, other
+    case mosaicSite, archaeologicalSite, museum, tower, bridge
+    case column, triumphalArch, mausoleum, baptistery, icon, other
 
     init(from decoder: Decoder) throws {
         let raw = try decoder.singleValueContainer().decode(String.self)
