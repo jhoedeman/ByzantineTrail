@@ -49,7 +49,10 @@ struct PhotoCarousel: View {
             AsyncImage(url: url) { phase in
                 switch phase {
                 case .success(let image):
-                    image.resizable().scaledToFill()
+                    // Fit (letterbox) so portrait photos show whole rather than
+                    // being center-cropped to a horizontal slice; matting is the
+                    // card color. Full detail is available on tap (ZoomableImageView).
+                    image.resizable().scaledToFit()
                 case .failure:
                     placeholder
                 default:
@@ -58,6 +61,7 @@ struct PhotoCarousel: View {
             }
             .frame(maxWidth: .infinity)
             .frame(height: height)
+            .background(theme.bgCardAlt)
             .clipped()
             .contentShape(Rectangle())
             .onTapGesture { if let url { zoom = ZoomItem(url: url) } }
