@@ -12,7 +12,7 @@ enum SiteDetailFormatter {
         return comps.url!
     }
 
-    /// MKMapItem for "Open in Maps" / directions.
+    /// MKMapItem for "Open in Maps" (opens as a pin, not directions).
     static func mapItem(latitude: Double, longitude: Double, name: String) -> MKMapItem {
         let item: MKMapItem
         if #available(iOS 26.0, *) {
