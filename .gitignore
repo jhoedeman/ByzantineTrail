@@ -10,3 +10,7 @@ xcuserdata/
 
 # Owner-local catalog validator denylist (never commit real one)
 Tools/owner_denylist.txt
+
+# Raw authoring source (kept locally, never published)
+Raw Data/
+~$*

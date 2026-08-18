@@ -29,9 +29,15 @@ import Foundation
 let allowedSemanticTags: Set<String> = ["unesco"]
 let allowedEras: Set<String> = [
     "constantinian", "theodosian", "justinianic", "macedonian",
-    "komnenian", "palaiologan", "other",
+    "komnenian", "palaiologan", "postByzantine", "other",
 ]
 let allowedImportance: Set<String> = ["major", "notable", "minor"]
+
+// Disputed/unrecognized territories have no ISO 3166-1 alpha-2 code. They are
+// stored as an explicit display label (not a code) and grouped under it; the app's
+// CountryName.localized passes non-ISO strings through verbatim. Keep this list tiny
+// and deliberate — every entry is a conscious editorial choice about a contested place.
+let allowedNonISOCountries: Set<String> = ["Crimea (disputed)"]
 
 // MARK: - Parsing models (permissive shape; semantic checks run after decode)
 
@@ -150,7 +156,8 @@ for site in catalog.sites {
 // (5) country is a valid ISO 3166-1 alpha-2 code
 let isoCountries = Set(Locale.Region.isoRegions.map(\.identifier))
 for site in catalog.sites {
-    if !isoCountries.contains(site.country.uppercased()) {
+    if !isoCountries.contains(site.country.uppercased())
+        && !allowedNonISOCountries.contains(site.country) {
         fail("site \(site.id): country '\(site.country)' is not a valid ISO 3166-1 alpha-2 code")
     }
 }
