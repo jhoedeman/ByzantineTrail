@@ -37,9 +37,12 @@ struct SiteLocationSection: View {
             .allowsHitTesting(false)
 
             Button {
+                // Open the site as a pin at its coordinates — no directions.
+                // A reference/catalog app shouldn't route from the user's
+                // location; they can start directions themselves in Maps.
                 SiteDetailFormatter
                     .mapItem(latitude: site.coordinate.lat, longitude: site.coordinate.lon, name: site.name)
-                    .openInMaps(launchOptions: [MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving])
+                    .openInMaps()
             } label: {
                 Label("Open in Maps", systemImage: "map.fill")
                     .frame(maxWidth: .infinity)
