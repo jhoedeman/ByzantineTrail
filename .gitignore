@@ -14,3 +14,6 @@ Tools/owner_denylist.txt
 # Raw authoring source (kept locally, never published)
 Raw Data/
 ~$*
+
+# Photo build output (full-size images staged for the content repo; thumbs are copied into Resources)
+Tools/photo-build/

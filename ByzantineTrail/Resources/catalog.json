@@ -1148,7 +1148,27 @@
     "era": "constantinian"
    },
    "summary": "Rome's largest triumphal arch, raised for Constantine's victory at the Milvian Bridge.",
-   "description": "A triumphal arch in Rome dedicated to the emperor Constantine, to commemorate his victory over Maxentius at the Battle of the Milvian Bridge"
+   "description": "A triumphal arch in Rome dedicated to the emperor Constantine, to commemorate his victory over Maxentius at the Battle of the Milvian Bridge",
+   "photos": [
+    {
+     "id": "arch-of-constantine-1",
+     "thumb": "thumbs/arch-of-constantine-1.jpg",
+     "full": "full/arch-of-constantine-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "arch-of-constantine-2",
+     "thumb": "thumbs/arch-of-constantine-2.jpg",
+     "full": "full/arch-of-constantine-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "arch-of-constantine-3",
+     "thumb": "thumbs/arch-of-constantine-3.jpg",
+     "full": "full/arch-of-constantine-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "basilica-of-maxentius-and-constantine",
@@ -1173,7 +1193,27 @@
     "era": "constantinian"
    },
    "summary": "Colossal vaulted basilica in the Forum, begun by Maxentius, finished by Constantine.",
-   "description": "A civic basilica in the Roman Forum, begun under Maxentius and completed under Constantine, this is absolutely enormous and worth standing in just to get a sense of scale."
+   "description": "A civic basilica in the Roman Forum, begun under Maxentius and completed under Constantine, this is absolutely enormous and worth standing in just to get a sense of scale.",
+   "photos": [
+    {
+     "id": "basilica-of-maxentius-and-constantine-1",
+     "thumb": "thumbs/basilica-of-maxentius-and-constantine-1.jpg",
+     "full": "full/basilica-of-maxentius-and-constantine-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-maxentius-and-constantine-2",
+     "thumb": "thumbs/basilica-of-maxentius-and-constantine-2.jpg",
+     "full": "full/basilica-of-maxentius-and-constantine-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-maxentius-and-constantine-3",
+     "thumb": "thumbs/basilica-of-maxentius-and-constantine-3.jpg",
+     "full": "full/basilica-of-maxentius-and-constantine-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "column-of-phocas",
@@ -1192,7 +1232,21 @@
     "century": 7
    },
    "summary": "The last monument ever raised in the Roman Forum, honoring a Byzantine emperor.",
-   "description": "A monumental column in the Roman Forum, built after the reconquest of Rome from the Ostrogoths, and dedicated to Emperor Phocas in 608"
+   "description": "A monumental column in the Roman Forum, built after the reconquest of Rome from the Ostrogoths, and dedicated to Emperor Phocas in 608",
+   "photos": [
+    {
+     "id": "column-of-phocas-1",
+     "thumb": "thumbs/column-of-phocas-1.jpg",
+     "full": "full/column-of-phocas-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "column-of-phocas-2",
+     "thumb": "thumbs/column-of-phocas-2.jpg",
+     "full": "full/column-of-phocas-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "colossus-of-constantine",
@@ -1218,6 +1272,20 @@
     {
      "title": "Official website",
      "url": "https://www.museicapitolini.org/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "colossus-of-constantine-1",
+     "thumb": "thumbs/colossus-of-constantine-1.jpg",
+     "full": "full/colossus-of-constantine-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "colossus-of-constantine-2",
+     "thumb": "thumbs/colossus-of-constantine-2.jpg",
+     "full": "full/colossus-of-constantine-2.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -1245,7 +1313,33 @@
    },
    "summary": "Constantine's daughter's tomb, ringed by dazzling 4th-century mosaics.",
    "description": "A mausoleum built for Emperor Constantine's daughter, containing notable mosaics, dome painting, and sarcophagi",
-   "hours": "daily 9:00–18:00"
+   "hours": "daily 9:00–18:00",
+   "photos": [
+    {
+     "id": "mausoleum-of-constantina-1",
+     "thumb": "thumbs/mausoleum-of-constantina-1.jpg",
+     "full": "full/mausoleum-of-constantina-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "mausoleum-of-constantina-2",
+     "thumb": "thumbs/mausoleum-of-constantina-2.jpg",
+     "full": "full/mausoleum-of-constantina-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "mausoleum-of-constantina-3",
+     "thumb": "thumbs/mausoleum-of-constantina-3.jpg",
+     "full": "full/mausoleum-of-constantina-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "mausoleum-of-constantina-4",
+     "thumb": "thumbs/mausoleum-of-constantina-4.jpg",
+     "full": "full/mausoleum-of-constantina-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "san-cesareo-in-palatio",
@@ -1267,7 +1361,15 @@
     "century": 8
    },
    "summary": "Small ancient church over Roman ruins, cloaked in Baroque decoration.",
-   "description": "A church dedicated to St. Caesarius of Terracina, whose relics were said to have been moved here. Archaeological evidence suggests the first church was built in the 8th century. Decoration is mostly post-renovation 17th century."
+   "description": "A church dedicated to St. Caesarius of Terracina, whose relics were said to have been moved here. Archaeological evidence suggests the first church was built in the 8th century. Decoration is mostly post-renovation 17th century.",
+   "photos": [
+    {
+     "id": "san-cesareo-in-palatio-1",
+     "thumb": "thumbs/san-cesareo-in-palatio-1.jpg",
+     "full": "full/san-cesareo-in-palatio-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "basilica-of-san-clemente",
@@ -1296,6 +1398,26 @@
      "title": "Official website",
      "url": "http://www.basilicasanclemente.com/ita/"
     }
+   ],
+   "photos": [
+    {
+     "id": "basilica-of-san-clemente-1",
+     "thumb": "thumbs/basilica-of-san-clemente-1.jpg",
+     "full": "full/basilica-of-san-clemente-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-san-clemente-2",
+     "thumb": "thumbs/basilica-of-san-clemente-2.jpg",
+     "full": "full/basilica-of-san-clemente-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-san-clemente-3",
+     "thumb": "thumbs/basilica-of-san-clemente-3.jpg",
+     "full": "full/basilica-of-san-clemente-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -1320,7 +1442,33 @@
    },
    "summary": "Serene 5th-century church by the Latin Gate honoring St John the Evangelist.",
    "description": "A church constructed in the late 5th century and restored in the 8th, commemorating the attempted martyrdom of St. John the Evangelist at the Latin Gate",
-   "hours": "6:30–18:00"
+   "hours": "6:30–18:00",
+   "photos": [
+    {
+     "id": "san-giovanni-a-porta-latina-1",
+     "thumb": "thumbs/san-giovanni-a-porta-latina-1.jpg",
+     "full": "full/san-giovanni-a-porta-latina-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "san-giovanni-a-porta-latina-2",
+     "thumb": "thumbs/san-giovanni-a-porta-latina-2.jpg",
+     "full": "full/san-giovanni-a-porta-latina-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "san-giovanni-a-porta-latina-3",
+     "thumb": "thumbs/san-giovanni-a-porta-latina-3.jpg",
+     "full": "full/san-giovanni-a-porta-latina-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "san-giovanni-a-porta-latina-4",
+     "thumb": "thumbs/san-giovanni-a-porta-latina-4.jpg",
+     "full": "full/san-giovanni-a-porta-latina-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "lateran-baptistery",
@@ -1350,6 +1498,26 @@
     {
      "title": "Official website",
      "url": "https://www.battisterolaterano.it/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "lateran-baptistery-1",
+     "thumb": "thumbs/lateran-baptistery-1.jpg",
+     "full": "full/lateran-baptistery-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "lateran-baptistery-2",
+     "thumb": "thumbs/lateran-baptistery-2.jpg",
+     "full": "full/lateran-baptistery-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "lateran-baptistery-3",
+     "thumb": "thumbs/lateran-baptistery-3.jpg",
+     "full": "full/lateran-baptistery-3.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -1383,6 +1551,26 @@
      "title": "Official website",
      "url": "https://www.basilicasangiovanni.va/it.html"
     }
+   ],
+   "photos": [
+    {
+     "id": "archbasilica-of-saint-john-lateran-1",
+     "thumb": "thumbs/archbasilica-of-saint-john-lateran-1.jpg",
+     "full": "full/archbasilica-of-saint-john-lateran-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "archbasilica-of-saint-john-lateran-2",
+     "thumb": "thumbs/archbasilica-of-saint-john-lateran-2.jpg",
+     "full": "full/archbasilica-of-saint-john-lateran-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "archbasilica-of-saint-john-lateran-3",
+     "thumb": "thumbs/archbasilica-of-saint-john-lateran-3.jpg",
+     "full": "full/archbasilica-of-saint-john-lateran-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -1411,6 +1599,20 @@
     {
      "title": "Official website",
      "url": "http://www.sanmarcoevangelista.it/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "san-marco-evangelista-1",
+     "thumb": "thumbs/san-marco-evangelista-1.jpg",
+     "full": "full/san-marco-evangelista-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "san-marco-evangelista-2",
+     "thumb": "thumbs/san-marco-evangelista-2.jpg",
+     "full": "full/san-marco-evangelista-2.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -1443,6 +1645,14 @@
      "title": "Official website",
      "url": "https://www.parrocchiasanmartinoaimonti.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "san-martino-ai-monti-1",
+     "thumb": "thumbs/san-martino-ai-monti-1.jpg",
+     "full": "full/san-martino-ai-monti-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -1462,7 +1672,27 @@
     "century": 7
    },
    "summary": "Hilltop monastic church founded by monks fleeing the conquest of Palestine.",
-   "description": "A church with roots in the 7th century, founded by monks of St. Sabas who were forced to flee the Islamic invasion of Palestine. Extensively renovated in the 13th century with frescoes and cosmatesque flooring. Note the ancient spolia columns."
+   "description": "A church with roots in the 7th century, founded by monks of St. Sabas who were forced to flee the Islamic invasion of Palestine. Extensively renovated in the 13th century with frescoes and cosmatesque flooring. Note the ancient spolia columns.",
+   "photos": [
+    {
+     "id": "san-saba-1",
+     "thumb": "thumbs/san-saba-1.jpg",
+     "full": "full/san-saba-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "san-saba-2",
+     "thumb": "thumbs/san-saba-2.jpg",
+     "full": "full/san-saba-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "san-saba-3",
+     "thumb": "thumbs/san-saba-3.jpg",
+     "full": "full/san-saba-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "san-silvestro-in-capite",
@@ -1491,6 +1721,14 @@
      "title": "Official website",
      "url": "https://www.sansilvestroincapite.org/"
     }
+   ],
+   "photos": [
+    {
+     "id": "san-silvestro-in-capite-1",
+     "thumb": "thumbs/san-silvestro-in-capite-1.jpg",
+     "full": "full/san-silvestro-in-capite-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -1516,7 +1754,27 @@
    },
    "summary": "Rare Arian Gothic church that still keeps a Byzantine-rite feast.",
    "description": "A church built for the Arian Goths in the 5th century, rededicated in the 6th, restored in the 9th, and partiall rebuilt in the 17th. Little remains of the original Byzantine-era church, although the feast of the Greek martyrs on December 2nd is celebrated with a mass of the Byzantine Catholic rite.",
-   "hours": "7:00–13:00 & 16:00–19:00 daily except Tue (7:00–13:00 only) & Sun (9:00–12:00)"
+   "hours": "7:00–13:00 & 16:00–19:00 daily except Tue (7:00–13:00 only) & Sun (9:00–12:00)",
+   "photos": [
+    {
+     "id": "basilica-of-saint-agatha-of-the-goths-1",
+     "thumb": "thumbs/basilica-of-saint-agatha-of-the-goths-1.jpg",
+     "full": "full/basilica-of-saint-agatha-of-the-goths-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-saint-agatha-of-the-goths-2",
+     "thumb": "thumbs/basilica-of-saint-agatha-of-the-goths-2.jpg",
+     "full": "full/basilica-of-saint-agatha-of-the-goths-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-saint-agatha-of-the-goths-3",
+     "thumb": "thumbs/basilica-of-saint-agatha-of-the-goths-3.jpg",
+     "full": "full/basilica-of-saint-agatha-of-the-goths-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "san-gregorio-magno-al-celio",
@@ -1571,7 +1829,21 @@
    },
    "summary": "Ancient church below the Palatine, much restored over the centuries.",
    "description": "A church begun in the 4th century and restored several times. While beautiful inside, little of the earlier Byzantine era remains.",
-   "hours": "8:00–18:00"
+   "hours": "8:00–18:00",
+   "photos": [
+    {
+     "id": "santanastasia-al-palatino-1",
+     "thumb": "thumbs/santanastasia-al-palatino-1.jpg",
+     "full": "full/santanastasia-al-palatino-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santanastasia-al-palatino-2",
+     "thumb": "thumbs/santanastasia-al-palatino-2.jpg",
+     "full": "full/santanastasia-al-palatino-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "santa-cecilia-in-trastevere",
@@ -1596,6 +1868,32 @@
     {
      "title": "Official website",
      "url": "https://www.benedettinesantacecilia.it"
+    }
+   ],
+   "photos": [
+    {
+     "id": "santa-cecilia-in-trastevere-1",
+     "thumb": "thumbs/santa-cecilia-in-trastevere-1.jpg",
+     "full": "full/santa-cecilia-in-trastevere-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-cecilia-in-trastevere-2",
+     "thumb": "thumbs/santa-cecilia-in-trastevere-2.jpg",
+     "full": "full/santa-cecilia-in-trastevere-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-cecilia-in-trastevere-3",
+     "thumb": "thumbs/santa-cecilia-in-trastevere-3.jpg",
+     "full": "full/santa-cecilia-in-trastevere-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-cecilia-in-trastevere-4",
+     "thumb": "thumbs/santa-cecilia-in-trastevere-4.jpg",
+     "full": "full/santa-cecilia-in-trastevere-4.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -1627,6 +1925,26 @@
      "title": "Official website",
      "url": "http://www.santacroceroma.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "santa-croce-in-gerusalemme-1",
+     "thumb": "thumbs/santa-croce-in-gerusalemme-1.jpg",
+     "full": "full/santa-croce-in-gerusalemme-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-croce-in-gerusalemme-2",
+     "thumb": "thumbs/santa-croce-in-gerusalemme-2.jpg",
+     "full": "full/santa-croce-in-gerusalemme-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-croce-in-gerusalemme-3",
+     "thumb": "thumbs/santa-croce-in-gerusalemme-3.jpg",
+     "full": "full/santa-croce-in-gerusalemme-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -1650,7 +1968,15 @@
     "century": 7
    },
    "summary": "Ancient church built above the ruins of the Portico of Livia, restored by Maderno and Borromini",
-   "description": "A church begun either in the 6th or 7th century, during the Byzantine era dedicated to St. Lucy, a martyr of the early church. Little is left of the original interior."
+   "description": "A church begun either in the 6th or 7th century, during the Byzantine era dedicated to St. Lucy, a martyr of the early church. Little is left of the original interior.",
+   "photos": [
+    {
+     "id": "santa-lucia-in-selci-1",
+     "thumb": "thumbs/santa-lucia-in-selci-1.jpg",
+     "full": "full/santa-lucia-in-selci-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "santa-maria-in-ara-coeli",
@@ -1674,7 +2000,27 @@
    },
    "summary": "A church with Byzantine roots and containing relics from St. Helena and a famous Byzantine icon.",
    "description": "This basilica is located on the peak of the Capitoline Hill, on the former site of the temple to Juno, built on the site of a previous Byzantine abbey to house relics brought from Jersualem by St. Helena, mother of Constantine. Among much notable art and history, the church also contains the Madonna Aracoeli, a 10th century Byzantine icon",
-   "hours": "7:30–19:00"
+   "hours": "7:30–19:00",
+   "photos": [
+    {
+     "id": "santa-maria-in-ara-coeli-1",
+     "thumb": "thumbs/santa-maria-in-ara-coeli-1.jpg",
+     "full": "full/santa-maria-in-ara-coeli-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-in-ara-coeli-2",
+     "thumb": "thumbs/santa-maria-in-ara-coeli-2.jpg",
+     "full": "full/santa-maria-in-ara-coeli-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-in-ara-coeli-3",
+     "thumb": "thumbs/santa-maria-in-ara-coeli-3.jpg",
+     "full": "full/santa-maria-in-ara-coeli-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "santa-maria-della-concezione-in-campo-marzio",
@@ -1697,7 +2043,15 @@
     "century": 8
    },
    "summary": "A church with roots in the Byzantine iconoclastic controversy, housing relics of St. Gregory of Nazianus",
-   "description": "A church whose origins reach to iconoclastic controversy, when  Basilian nuns fled Constantinope in the 8th century, bringing with them relics of St. Gregory of Nazianus - now mostly returned to Constantinople - and now serves as the seat of Syrian Catholic Patriarchate of Antioch. Contains a 12th century icon of Madonna Advocata (Hagiosoritissa)"
+   "description": "A church whose origins reach to iconoclastic controversy, when  Basilian nuns fled Constantinope in the 8th century, bringing with them relics of St. Gregory of Nazianus - now mostly returned to Constantinople - and now serves as the seat of Syrian Catholic Patriarchate of Antioch. Contains a 12th century icon of Madonna Advocata (Hagiosoritissa)",
+   "photos": [
+    {
+     "id": "santa-maria-della-concezione-in-campo-marzio-1",
+     "thumb": "thumbs/santa-maria-della-concezione-in-campo-marzio-1.jpg",
+     "full": "full/santa-maria-della-concezione-in-campo-marzio-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "santa-maria-in-cosmedin",
@@ -1720,7 +2074,33 @@
    },
    "summary": "A church founded for Rome's Byzantine Greek community, now the patriarchal procurate in Rome for the Melkite Greek Catholic Church.",
    "description": "A church founded by monks from the Kosmidion monastery in Constantinople who fled to Rome when their monastery was destroyed by the Persian-Avar siege of 626 and built in a Greek quarter of medieval Rome. Bypass the line of tourists waiting to take pictures with a manhole cover and go right into the church to see the 8th century mosaic and the Theotokos icon.",
-   "hours": "9:30–18:00"
+   "hours": "9:30–18:00",
+   "photos": [
+    {
+     "id": "santa-maria-in-cosmedin-1",
+     "thumb": "thumbs/santa-maria-in-cosmedin-1.jpg",
+     "full": "full/santa-maria-in-cosmedin-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-in-cosmedin-2",
+     "thumb": "thumbs/santa-maria-in-cosmedin-2.jpg",
+     "full": "full/santa-maria-in-cosmedin-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-in-cosmedin-3",
+     "thumb": "thumbs/santa-maria-in-cosmedin-3.jpg",
+     "full": "full/santa-maria-in-cosmedin-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-in-cosmedin-4",
+     "thumb": "thumbs/santa-maria-in-cosmedin-4.jpg",
+     "full": "full/santa-maria-in-cosmedin-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "santa-maria-in-domnica",
@@ -1750,6 +2130,14 @@
      "title": "Official website",
      "url": "http://www.santamariaindomnica.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "santa-maria-in-domnica-1",
+     "thumb": "thumbs/santa-maria-in-domnica-1.jpg",
+     "full": "full/santa-maria-in-domnica-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -1770,7 +2158,15 @@
     "era": "constantinian"
    },
    "summary": "A church legendarily founded by exiles from Constantinople who carried an icon of the Virgin painted by St. Luke with them, now deconsecrated",
-   "description": "A deconsecrated former convent church which housed an icon of the Virgin Hagiosoritissa said to be painted by St. Luke and brought from Constantinople. The icon was carried across Rome by St. Dominic in 1221 when the convent was closed, and now resides in Santa Maria del Rosario on Monte Mario"
+   "description": "A deconsecrated former convent church which housed an icon of the Virgin Hagiosoritissa said to be painted by St. Luke and brought from Constantinople. The icon was carried across Rome by St. Dominic in 1221 when the convent was closed, and now resides in Santa Maria del Rosario on Monte Mario",
+   "photos": [
+    {
+     "id": "santa-maria-in-tempulo-1",
+     "thumb": "thumbs/santa-maria-in-tempulo-1.jpg",
+     "full": "full/santa-maria-in-tempulo-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "maria-advocata-santa-maria-del-rosario-on-monte-mario",
@@ -1818,7 +2214,39 @@
    },
    "summary": "Stunning mosaics and an 8th century Marian icon adorn this Trastevere gem",
    "description": "A visually stunning basilica church with excellent 12th century mosaics and a (probably) 8th century icon of Madonna della Clemenza, one of the oldest medieval Marian icons",
-   "hours": "7:30–20:30"
+   "hours": "7:30–20:30",
+   "photos": [
+    {
+     "id": "santa-maria-in-trastevere-1",
+     "thumb": "thumbs/santa-maria-in-trastevere-1.jpg",
+     "full": "full/santa-maria-in-trastevere-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-in-trastevere-2",
+     "thumb": "thumbs/santa-maria-in-trastevere-2.jpg",
+     "full": "full/santa-maria-in-trastevere-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-in-trastevere-3",
+     "thumb": "thumbs/santa-maria-in-trastevere-3.jpg",
+     "full": "full/santa-maria-in-trastevere-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-in-trastevere-4",
+     "thumb": "thumbs/santa-maria-in-trastevere-4.jpg",
+     "full": "full/santa-maria-in-trastevere-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-in-trastevere-5",
+     "thumb": "thumbs/santa-maria-in-trastevere-5.jpg",
+     "full": "full/santa-maria-in-trastevere-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "santa-maria-maggiore",
@@ -1850,6 +2278,38 @@
      "title": "Official website",
      "url": "https://www.basilicasantamariamaggiore.va/it.html"
     }
+   ],
+   "photos": [
+    {
+     "id": "santa-maria-maggiore-1",
+     "thumb": "thumbs/santa-maria-maggiore-1.jpg",
+     "full": "full/santa-maria-maggiore-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-maggiore-2",
+     "thumb": "thumbs/santa-maria-maggiore-2.jpg",
+     "full": "full/santa-maria-maggiore-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-maggiore-3",
+     "thumb": "thumbs/santa-maria-maggiore-3.jpg",
+     "full": "full/santa-maria-maggiore-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-maggiore-4",
+     "thumb": "thumbs/santa-maria-maggiore-4.jpg",
+     "full": "full/santa-maria-maggiore-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-maggiore-5",
+     "thumb": "thumbs/santa-maria-maggiore-5.jpg",
+     "full": "full/santa-maria-maggiore-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -1874,7 +2334,39 @@
    },
    "summary": "A basilica with ancient frescoes and mosaics, decorated by Pope St. Paschal I, who himself is depicted in mosaics in three major Roman churches",
    "description": "This 8th-9th century church is notable for its ancient frescoes and its mosaics in the apse, the apsidal arch, and the triumphal arch, as well as mosaics in the attached chapel of St. Zeno, built by Pope St. Paschal for his mother, Theodora.",
-   "hours": "9:00–12:30 & 15:00–18:00"
+   "hours": "9:00–12:30 & 15:00–18:00",
+   "photos": [
+    {
+     "id": "santa-prassede-1",
+     "thumb": "thumbs/santa-prassede-1.jpg",
+     "full": "full/santa-prassede-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-prassede-2",
+     "thumb": "thumbs/santa-prassede-2.jpg",
+     "full": "full/santa-prassede-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-prassede-3",
+     "thumb": "thumbs/santa-prassede-3.jpg",
+     "full": "full/santa-prassede-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-prassede-4",
+     "thumb": "thumbs/santa-prassede-4.jpg",
+     "full": "full/santa-prassede-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-prassede-5",
+     "thumb": "thumbs/santa-prassede-5.jpg",
+     "full": "full/santa-prassede-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "santa-prisca",
@@ -1900,6 +2392,14 @@
     {
      "title": "Official website",
      "url": "https://www.santaprisca.it/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "santa-prisca-1",
+     "thumb": "thumbs/santa-prisca-1.jpg",
+     "full": "full/santa-prisca-1.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -1929,6 +2429,38 @@
     {
      "title": "Official website",
      "url": "http://www.stpudenziana.org/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "santa-pudenziana-1",
+     "thumb": "thumbs/santa-pudenziana-1.jpg",
+     "full": "full/santa-pudenziana-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-pudenziana-2",
+     "thumb": "thumbs/santa-pudenziana-2.jpg",
+     "full": "full/santa-pudenziana-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-pudenziana-3",
+     "thumb": "thumbs/santa-pudenziana-3.jpg",
+     "full": "full/santa-pudenziana-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-pudenziana-4",
+     "thumb": "thumbs/santa-pudenziana-4.jpg",
+     "full": "full/santa-pudenziana-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-pudenziana-5",
+     "thumb": "thumbs/santa-pudenziana-5.jpg",
+     "full": "full/santa-pudenziana-5.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -1961,6 +2493,32 @@
      "title": "Official website",
      "url": "https://www.cgu.it/it/santo-stefano-rotondo/"
     }
+   ],
+   "photos": [
+    {
+     "id": "santo-stefano-rotondo-1",
+     "thumb": "thumbs/santo-stefano-rotondo-1.jpg",
+     "full": "full/santo-stefano-rotondo-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santo-stefano-rotondo-2",
+     "thumb": "thumbs/santo-stefano-rotondo-2.jpg",
+     "full": "full/santo-stefano-rotondo-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santo-stefano-rotondo-3",
+     "thumb": "thumbs/santo-stefano-rotondo-3.jpg",
+     "full": "full/santo-stefano-rotondo-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santo-stefano-rotondo-4",
+     "thumb": "thumbs/santo-stefano-rotondo-4.jpg",
+     "full": "full/santo-stefano-rotondo-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -1990,6 +2548,38 @@
     {
      "title": "Official website",
      "url": "http://www.cosmadamiano.com/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "basilica-of-saints-cosmas-and-damian-1",
+     "thumb": "thumbs/basilica-of-saints-cosmas-and-damian-1.jpg",
+     "full": "full/basilica-of-saints-cosmas-and-damian-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-saints-cosmas-and-damian-2",
+     "thumb": "thumbs/basilica-of-saints-cosmas-and-damian-2.jpg",
+     "full": "full/basilica-of-saints-cosmas-and-damian-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-saints-cosmas-and-damian-3",
+     "thumb": "thumbs/basilica-of-saints-cosmas-and-damian-3.jpg",
+     "full": "full/basilica-of-saints-cosmas-and-damian-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-saints-cosmas-and-damian-4",
+     "thumb": "thumbs/basilica-of-saints-cosmas-and-damian-4.jpg",
+     "full": "full/basilica-of-saints-cosmas-and-damian-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-saints-cosmas-and-damian-5",
+     "thumb": "thumbs/basilica-of-saints-cosmas-and-damian-5.jpg",
+     "full": "full/basilica-of-saints-cosmas-and-damian-5.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -2021,6 +2611,26 @@
      "title": "Official website",
      "url": "http://www.basilicassgiovanniepaolo.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "basilica-santi-giovanni-e-paolo-1",
+     "thumb": "thumbs/basilica-santi-giovanni-e-paolo-1.jpg",
+     "full": "full/basilica-santi-giovanni-e-paolo-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-santi-giovanni-e-paolo-2",
+     "thumb": "thumbs/basilica-santi-giovanni-e-paolo-2.jpg",
+     "full": "full/basilica-santi-giovanni-e-paolo-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-santi-giovanni-e-paolo-3",
+     "thumb": "thumbs/basilica-santi-giovanni-e-paolo-3.jpg",
+     "full": "full/basilica-santi-giovanni-e-paolo-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -2051,6 +2661,20 @@
      "title": "Official website",
      "url": "https://accademiasanluca.it/la-chiesa-dei-santi-luca-e-martina"
     }
+   ],
+   "photos": [
+    {
+     "id": "chiesa-dei-santi-luca-e-martina-martiri-1",
+     "thumb": "thumbs/chiesa-dei-santi-luca-e-martina-martiri-1.jpg",
+     "full": "full/chiesa-dei-santi-luca-e-martina-martiri-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "chiesa-dei-santi-luca-e-martina-martiri-2",
+     "thumb": "thumbs/chiesa-dei-santi-luca-e-martina-martiri-2.jpg",
+     "full": "full/chiesa-dei-santi-luca-e-martina-martiri-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -2080,6 +2704,20 @@
     {
      "title": "Official website",
      "url": "http://www.chiesasantinereoeachilleo.it/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "basilica-of-saints-nereus-and-achilleus-1",
+     "thumb": "thumbs/basilica-of-saints-nereus-and-achilleus-1.jpg",
+     "full": "full/basilica-of-saints-nereus-and-achilleus-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-saints-nereus-and-achilleus-2",
+     "thumb": "thumbs/basilica-of-saints-nereus-and-achilleus-2.jpg",
+     "full": "full/basilica-of-saints-nereus-and-achilleus-2.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -2139,6 +2777,14 @@
      "title": "Official website",
      "url": "http://www.ukr-parafia-roma.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-saints-sergius-and-bacchus-1",
+     "thumb": "thumbs/church-of-saints-sergius-and-bacchus-1.jpg",
+     "full": "full/church-of-saints-sergius-and-bacchus-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -2168,6 +2814,32 @@
      "title": "Official website",
      "url": "http://www.santagnese.com/"
     }
+   ],
+   "photos": [
+    {
+     "id": "st-agnes-outside-the-walls-1",
+     "thumb": "thumbs/st-agnes-outside-the-walls-1.jpg",
+     "full": "full/st-agnes-outside-the-walls-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-agnes-outside-the-walls-2",
+     "thumb": "thumbs/st-agnes-outside-the-walls-2.jpg",
+     "full": "full/st-agnes-outside-the-walls-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-agnes-outside-the-walls-3",
+     "thumb": "thumbs/st-agnes-outside-the-walls-3.jpg",
+     "full": "full/st-agnes-outside-the-walls-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-agnes-outside-the-walls-4",
+     "thumb": "thumbs/st-agnes-outside-the-walls-4.jpg",
+     "full": "full/st-agnes-outside-the-walls-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -2196,6 +2868,38 @@
     {
      "title": "Official website",
      "url": "http://sangiorgioinvelabro.org/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "st-george-in-velabro-1",
+     "thumb": "thumbs/st-george-in-velabro-1.jpg",
+     "full": "full/st-george-in-velabro-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-george-in-velabro-2",
+     "thumb": "thumbs/st-george-in-velabro-2.jpg",
+     "full": "full/st-george-in-velabro-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-george-in-velabro-3",
+     "thumb": "thumbs/st-george-in-velabro-3.jpg",
+     "full": "full/st-george-in-velabro-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-george-in-velabro-4",
+     "thumb": "thumbs/st-george-in-velabro-4.jpg",
+     "full": "full/st-george-in-velabro-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-george-in-velabro-5",
+     "thumb": "thumbs/st-george-in-velabro-5.jpg",
+     "full": "full/st-george-in-velabro-5.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -2228,6 +2932,38 @@
      "title": "Official website",
      "url": "http://www.basilicasanpaolo.org/"
     }
+   ],
+   "photos": [
+    {
+     "id": "st-paul-outside-the-walls-1",
+     "thumb": "thumbs/st-paul-outside-the-walls-1.jpg",
+     "full": "full/st-paul-outside-the-walls-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-paul-outside-the-walls-2",
+     "thumb": "thumbs/st-paul-outside-the-walls-2.jpg",
+     "full": "full/st-paul-outside-the-walls-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-paul-outside-the-walls-3",
+     "thumb": "thumbs/st-paul-outside-the-walls-3.jpg",
+     "full": "full/st-paul-outside-the-walls-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-paul-outside-the-walls-4",
+     "thumb": "thumbs/st-paul-outside-the-walls-4.jpg",
+     "full": "full/st-paul-outside-the-walls-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-paul-outside-the-walls-5",
+     "thumb": "thumbs/st-paul-outside-the-walls-5.jpg",
+     "full": "full/st-paul-outside-the-walls-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -2259,6 +2995,14 @@
      "title": "Official website",
      "url": "http://www.chiesaortodossa-roma.org/"
     }
+   ],
+   "photos": [
+    {
+     "id": "orthodox-church-of-saint-theodore-at-the-palatine-hill-1",
+     "thumb": "thumbs/orthodox-church-of-saint-theodore-at-the-palatine-hill-1.jpg",
+     "full": "full/orthodox-church-of-saint-theodore-at-the-palatine-hill-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -2289,6 +3033,26 @@
      "title": "Official website",
      "url": "https://www.basilicasanpietro.va/it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "st-peters-basilica-1",
+     "thumb": "thumbs/st-peters-basilica-1.jpg",
+     "full": "full/st-peters-basilica-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-peters-basilica-2",
+     "thumb": "thumbs/st-peters-basilica-2.jpg",
+     "full": "full/st-peters-basilica-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-peters-basilica-3",
+     "thumb": "thumbs/st-peters-basilica-3.jpg",
+     "full": "full/st-peters-basilica-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -2314,6 +3078,20 @@
     {
      "title": "Official website",
      "url": "https://www.museivaticani.va/content/museivaticani/it.html"
+    }
+   ],
+   "photos": [
+    {
+     "id": "vatican-museums-1",
+     "thumb": "thumbs/vatican-museums-1.jpg",
+     "full": "full/vatican-museums-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "vatican-museums-2",
+     "thumb": "thumbs/vatican-museums-2.jpg",
+     "full": "full/vatican-museums-2.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -5295,7 +6073,45 @@
     "era": "komnenian"
    },
    "summary": "A church containing the most complete cycle of late-Komnenian painting in Cyprus",
-   "description": "This UNESCO-listed church is one of the best examples of the art of the period, given almost nothing contemporaneous survived the Fourth Crusade in Constantinople. The frescoes are the most complete cycle of late-Komnenian painting on the island, executed by the Constantinople-trained monk Theodoros Apsevdis."
+   "description": "This UNESCO-listed church is one of the best examples of the art of the period, given almost nothing contemporaneous survived the Fourth Crusade in Constantinople. The frescoes are the most complete cycle of late-Komnenian painting on the island, executed by the Constantinople-trained monk Theodoros Apsevdis.",
+   "photos": [
+    {
+     "id": "panagia-tou-araka-1",
+     "thumb": "thumbs/panagia-tou-araka-1.jpg",
+     "full": "full/panagia-tou-araka-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-tou-araka-2",
+     "thumb": "thumbs/panagia-tou-araka-2.jpg",
+     "full": "full/panagia-tou-araka-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-tou-araka-3",
+     "thumb": "thumbs/panagia-tou-araka-3.jpg",
+     "full": "full/panagia-tou-araka-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-tou-araka-4",
+     "thumb": "thumbs/panagia-tou-araka-4.jpg",
+     "full": "full/panagia-tou-araka-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-tou-araka-5",
+     "thumb": "thumbs/panagia-tou-araka-5.jpg",
+     "full": "full/panagia-tou-araka-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-tou-araka-6",
+     "thumb": "thumbs/panagia-tou-araka-6.jpg",
+     "full": "full/panagia-tou-araka-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "agios-nikolaos-tis-stegis",
@@ -5314,7 +6130,45 @@
     "era": "komnenian"
    },
    "summary": "An 11th century monastery church, fully painted inside with layered art",
-   "description": "The sole surviving building of an 11th century monastery, the inside of the steep-roofed church is fully painted, with layers spanning the 11th through the 17th century, including a celebrated Forty Martyrs and a fine St. Nicholas."
+   "description": "The sole surviving building of an 11th century monastery, the inside of the steep-roofed church is fully painted, with layers spanning the 11th through the 17th century, including a celebrated Forty Martyrs and a fine St. Nicholas.",
+   "photos": [
+    {
+     "id": "agios-nikolaos-tis-stegis-1",
+     "thumb": "thumbs/agios-nikolaos-tis-stegis-1.jpg",
+     "full": "full/agios-nikolaos-tis-stegis-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agios-nikolaos-tis-stegis-2",
+     "thumb": "thumbs/agios-nikolaos-tis-stegis-2.jpg",
+     "full": "full/agios-nikolaos-tis-stegis-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agios-nikolaos-tis-stegis-3",
+     "thumb": "thumbs/agios-nikolaos-tis-stegis-3.jpg",
+     "full": "full/agios-nikolaos-tis-stegis-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agios-nikolaos-tis-stegis-4",
+     "thumb": "thumbs/agios-nikolaos-tis-stegis-4.jpg",
+     "full": "full/agios-nikolaos-tis-stegis-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agios-nikolaos-tis-stegis-5",
+     "thumb": "thumbs/agios-nikolaos-tis-stegis-5.jpg",
+     "full": "full/agios-nikolaos-tis-stegis-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agios-nikolaos-tis-stegis-6",
+     "thumb": "thumbs/agios-nikolaos-tis-stegis-6.jpg",
+     "full": "full/agios-nikolaos-tis-stegis-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "agios-sozomenos-church",
@@ -5357,7 +6211,27 @@
     "era": "palaiologan"
    },
    "summary": "A painted chapel that melds Byzantine and Crusader/Italian influence",
-   "description": "A tiny chapel built and painted in 1280, with a narthex added after 1500. Its frescoes capture the meeting of continued Byzantine tradition and Crusader and Italian influence, sitting as they do in the early Lusignan period."
+   "description": "A tiny chapel built and painted in 1280, with a narthex added after 1500. Its frescoes capture the meeting of continued Byzantine tradition and Crusader and Italian influence, sitting as they do in the early Lusignan period.",
+   "photos": [
+    {
+     "id": "panagia-tou-moutoulla-1",
+     "thumb": "thumbs/panagia-tou-moutoulla-1.jpg",
+     "full": "full/panagia-tou-moutoulla-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-tou-moutoulla-2",
+     "thumb": "thumbs/panagia-tou-moutoulla-2.jpg",
+     "full": "full/panagia-tou-moutoulla-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-tou-moutoulla-3",
+     "thumb": "thumbs/panagia-tou-moutoulla-3.jpg",
+     "full": "full/panagia-tou-moutoulla-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "archangelos-michail",
@@ -5381,7 +6255,39 @@
     "era": "palaiologan"
    },
    "summary": "A late-15th century painted church showing a blend of influences",
-   "description": "Built and frescoed in 1474, this is a small, steep-roofed UNESCO church whose late-15th-century wall paintings show the harmonious blend of Byzantine tradition, local Cypriot idiom, and touches of Western influence."
+   "description": "Built and frescoed in 1474, this is a small, steep-roofed UNESCO church whose late-15th-century wall paintings show the harmonious blend of Byzantine tradition, local Cypriot idiom, and touches of Western influence.",
+   "photos": [
+    {
+     "id": "archangelos-michail-1",
+     "thumb": "thumbs/archangelos-michail-1.jpg",
+     "full": "full/archangelos-michail-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "archangelos-michail-2",
+     "thumb": "thumbs/archangelos-michail-2.jpg",
+     "full": "full/archangelos-michail-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "archangelos-michail-3",
+     "thumb": "thumbs/archangelos-michail-3.jpg",
+     "full": "full/archangelos-michail-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "archangelos-michail-4",
+     "thumb": "thumbs/archangelos-michail-4.jpg",
+     "full": "full/archangelos-michail-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "archangelos-michail-5",
+     "thumb": "thumbs/archangelos-michail-5.jpg",
+     "full": "full/archangelos-michail-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "byzantine-museum-of-pedoulas",
@@ -5420,7 +6326,33 @@
     "era": "palaiologan"
    },
    "summary": "A 14th century church with notable Palaiologan period wall paintings",
-   "description": "Once the property of Jean de Lusignan, son of King Hugh IV, this 14th-century church is one of the UNESCO ten, notable for wall paintings of the Palaiologan period that show the revived art of late-Byzantine Constantinople alongside local and Western elements."
+   "description": "Once the property of Jean de Lusignan, son of King Hugh IV, this 14th-century church is one of the UNESCO ten, notable for wall paintings of the Palaiologan period that show the revived art of late-Byzantine Constantinople alongside local and Western elements.",
+   "photos": [
+    {
+     "id": "church-of-the-holy-cross-1",
+     "thumb": "thumbs/church-of-the-holy-cross-1.jpg",
+     "full": "full/church-of-the-holy-cross-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-holy-cross-2",
+     "thumb": "thumbs/church-of-the-holy-cross-2.jpg",
+     "full": "full/church-of-the-holy-cross-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-holy-cross-3",
+     "thumb": "thumbs/church-of-the-holy-cross-3.jpg",
+     "full": "full/church-of-the-holy-cross-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-holy-cross-4",
+     "thumb": "thumbs/church-of-the-holy-cross-4.jpg",
+     "full": "full/church-of-the-holy-cross-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "panagias-katholikis",
@@ -5443,7 +6375,15 @@
     "era": "postByzantine"
    },
    "summary": "An interesting contrast to its Palaiologan neighbor, this post-Byzantine church shows more of an Italo-Byzantine style",
-   "description": "This church dates to the early 16th century, with wall paintings in the Italo-Byzantine style that flourished on Cyprus under Venetian rule, marrying Byzantine iconography with Italian Renaissance forms."
+   "description": "This church dates to the early 16th century, with wall paintings in the Italo-Byzantine style that flourished on Cyprus under Venetian rule, marrying Byzantine iconography with Italian Renaissance forms.",
+   "photos": [
+    {
+     "id": "panagias-katholikis-1",
+     "thumb": "thumbs/panagias-katholikis-1.jpg",
+     "full": "full/panagias-katholikis-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "timios-stavros-monastery",
@@ -5462,7 +6402,15 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "An old and traditional monastery long associated with relics of the Holy Cross",
-   "description": "One of the oldest and best-known monasteries on the island, traditionally said to predate the Byzantine period and long associated with relics of the Holy Cross. The present buildings are largely 18th and 19th century."
+   "description": "One of the oldest and best-known monasteries on the island, traditionally said to predate the Byzantine period and long associated with relics of the Holy Cross. The present buildings are largely 18th and 19th century.",
+   "photos": [
+    {
+     "id": "timios-stavros-monastery-1",
+     "thumb": "thumbs/timios-stavros-monastery-1.jpg",
+     "full": "full/timios-stavros-monastery-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "church-of-panagia-katholiki-panagia-odigitria",
@@ -5485,7 +6433,27 @@
     "era": "palaiologan"
    },
    "summary": "A medieval Byzantine church with 15th century wall painting next to a famous Sanctuary of Aphrodite",
-   "description": "The Church of Panagia Katholiki is situated just next to the famous Sanctuary of Aphrodite in Palaia Paphos. It was constructed during the 12th-13th century, with additions in the 16th century. The church is decorated with 15th century wall painting."
+   "description": "The Church of Panagia Katholiki is situated just next to the famous Sanctuary of Aphrodite in Palaia Paphos. It was constructed during the 12th-13th century, with additions in the 16th century. The church is decorated with 15th century wall painting.",
+   "photos": [
+    {
+     "id": "church-of-panagia-katholiki-panagia-odigitria-1",
+     "thumb": "thumbs/church-of-panagia-katholiki-panagia-odigitria-1.jpg",
+     "full": "full/church-of-panagia-katholiki-panagia-odigitria-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-panagia-katholiki-panagia-odigitria-2",
+     "thumb": "thumbs/church-of-panagia-katholiki-panagia-odigitria-2.jpg",
+     "full": "full/church-of-panagia-katholiki-panagia-odigitria-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-panagia-katholiki-panagia-odigitria-3",
+     "thumb": "thumbs/church-of-panagia-katholiki-panagia-odigitria-3.jpg",
+     "full": "full/church-of-panagia-katholiki-panagia-odigitria-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "church-of-the-virgin-mary-of-podithou",
@@ -5508,7 +6476,21 @@
     "era": "postByzantine"
    },
    "summary": "Byzantine tradition meets the Latin West in this Venetian-influenced UNESCO church",
-   "description": "Built in 1502, this UNESCO church has frescoes that are a leading example of the Italo-Byzantine style: the iconography remains Orthodox, but the modeling, architecture, and details are strongly Italian-Renaissance."
+   "description": "Built in 1502, this UNESCO church has frescoes that are a leading example of the Italo-Byzantine style: the iconography remains Orthodox, but the modeling, architecture, and details are strongly Italian-Renaissance.",
+   "photos": [
+    {
+     "id": "church-of-the-virgin-mary-of-podithou-1",
+     "thumb": "thumbs/church-of-the-virgin-mary-of-podithou-1.jpg",
+     "full": "full/church-of-the-virgin-mary-of-podithou-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-virgin-mary-of-podithou-2",
+     "thumb": "thumbs/church-of-the-virgin-mary-of-podithou-2.jpg",
+     "full": "full/church-of-the-virgin-mary-of-podithou-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "archangelos-michael-chapel",
@@ -5531,7 +6513,27 @@
     "era": "postByzantine"
    },
    "summary": "A small chapel completely painted in the post-Byzantine style",
-   "description": "This small chapel is completely painted in the post-Byzantine style and belongs to Galata's cluster of four painted churches."
+   "description": "This small chapel is completely painted in the post-Byzantine style and belongs to Galata's cluster of four painted churches.",
+   "photos": [
+    {
+     "id": "archangelos-michael-chapel-1",
+     "thumb": "thumbs/archangelos-michael-chapel-1.jpg",
+     "full": "full/archangelos-michael-chapel-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "archangelos-michael-chapel-2",
+     "thumb": "thumbs/archangelos-michael-chapel-2.jpg",
+     "full": "full/archangelos-michael-chapel-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "archangelos-michael-chapel-3",
+     "thumb": "thumbs/archangelos-michael-chapel-3.jpg",
+     "full": "full/archangelos-michael-chapel-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "panagia-theotokos",
@@ -12771,7 +13773,39 @@
    },
    "summary": "Mystras's cathedral of St Demetrios, tied to the last Byzantine emperor",
    "description": "The cathedral of Byzantine Mystras, dedicated to St. Demetrios, begun in the 1260s and later given an upper gallery and domes. Its frescoes span the city's golden age, and a marble slab in the floor marks where, by tradition, the last emperor Constantine XI was proclaimed in 1449.",
-   "hours": "8:00–18:00 daily"
+   "hours": "8:00–18:00 daily",
+   "photos": [
+    {
+     "id": "cathedral-of-agios-demetrios-1",
+     "thumb": "thumbs/cathedral-of-agios-demetrios-1.jpg",
+     "full": "full/cathedral-of-agios-demetrios-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-agios-demetrios-2",
+     "thumb": "thumbs/cathedral-of-agios-demetrios-2.jpg",
+     "full": "full/cathedral-of-agios-demetrios-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-agios-demetrios-3",
+     "thumb": "thumbs/cathedral-of-agios-demetrios-3.jpg",
+     "full": "full/cathedral-of-agios-demetrios-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-agios-demetrios-4",
+     "thumb": "thumbs/cathedral-of-agios-demetrios-4.jpg",
+     "full": "full/cathedral-of-agios-demetrios-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-agios-demetrios-5",
+     "thumb": "thumbs/cathedral-of-agios-demetrios-5.jpg",
+     "full": "full/cathedral-of-agios-demetrios-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "agioi-theodoroi-vrontochion",
@@ -12795,7 +13829,21 @@
    },
    "summary": "Mystras's earliest great church, a domed octagon of the 1290s",
    "description": "The oldest of the great monastic churches of Mystras, built around 1290–95 in the Vrontochion monastery, this octagon-domed church is based on the model of Hosios Loukas and Daphni.",
-   "hours": "8:00–20:00 daily"
+   "hours": "8:00–20:00 daily",
+   "photos": [
+    {
+     "id": "agioi-theodoroi-vrontochion-1",
+     "thumb": "thumbs/agioi-theodoroi-vrontochion-1.jpg",
+     "full": "full/agioi-theodoroi-vrontochion-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agioi-theodoroi-vrontochion-2",
+     "thumb": "thumbs/agioi-theodoroi-vrontochion-2.jpg",
+     "full": "full/agioi-theodoroi-vrontochion-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "hodegetria-aphentiko-vrontochion",
@@ -12844,7 +13892,27 @@
    },
    "summary": "A rock-built Mystras monastery with a complete, refined late-Byzantine fresco cycle",
    "description": "A monastery church of the mid-fourteenth century built into the rock at the lower edge of Mystras, whose interior keeps one of the most complete and refined late-Byzantine fresco cycles anywhere.",
-   "hours": "8:00–20:00 daily"
+   "hours": "8:00–20:00 daily",
+   "photos": [
+    {
+     "id": "peribleptos-monastery-1",
+     "thumb": "thumbs/peribleptos-monastery-1.jpg",
+     "full": "full/peribleptos-monastery-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "peribleptos-monastery-2",
+     "thumb": "thumbs/peribleptos-monastery-2.jpg",
+     "full": "full/peribleptos-monastery-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "peribleptos-monastery-3",
+     "thumb": "thumbs/peribleptos-monastery-3.jpg",
+     "full": "full/peribleptos-monastery-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "pantanassa-monastery",
@@ -12867,7 +13935,33 @@
     "era": "palaiologan"
    },
    "summary": "Mystras's last and still-living church of 1428, a final flourish of Byzantine art",
-   "description": "The last church built at Mystras, consecrated in 1428 and the only monastery still inhabited, by a small community of nuns. Its elegant belfry and richly colored frescoes mark the final flowering of Byzantine art on the eve of the fall."
+   "description": "The last church built at Mystras, consecrated in 1428 and the only monastery still inhabited, by a small community of nuns. Its elegant belfry and richly colored frescoes mark the final flowering of Byzantine art on the eve of the fall.",
+   "photos": [
+    {
+     "id": "pantanassa-monastery-1",
+     "thumb": "thumbs/pantanassa-monastery-1.jpg",
+     "full": "full/pantanassa-monastery-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "pantanassa-monastery-2",
+     "thumb": "thumbs/pantanassa-monastery-2.jpg",
+     "full": "full/pantanassa-monastery-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "pantanassa-monastery-3",
+     "thumb": "thumbs/pantanassa-monastery-3.jpg",
+     "full": "full/pantanassa-monastery-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "pantanassa-monastery-4",
+     "thumb": "thumbs/pantanassa-monastery-4.jpg",
+     "full": "full/pantanassa-monastery-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "hagia-sophia-mystras",
@@ -12891,7 +13985,27 @@
    },
    "summary": "The palace chapel of the despots of Mystras, high in the upper town",
    "description": "The palace church of the despots of Mystras, built around the mid-fourteenth century high in the upper town, serving as chapel royal and a burial place for members of the ruling house.",
-   "hours": "8:00–20:00 daily"
+   "hours": "8:00–20:00 daily",
+   "photos": [
+    {
+     "id": "hagia-sophia-mystras-1",
+     "thumb": "thumbs/hagia-sophia-mystras-1.jpg",
+     "full": "full/hagia-sophia-mystras-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-mystras-2",
+     "thumb": "thumbs/hagia-sophia-mystras-2.jpg",
+     "full": "full/hagia-sophia-mystras-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-mystras-3",
+     "thumb": "thumbs/hagia-sophia-mystras-3.jpg",
+     "full": "full/hagia-sophia-mystras-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "evangelistria",
@@ -12915,7 +14029,27 @@
    },
    "summary": "A small, finely carved funerary church of late Mystras",
    "description": "A small, finely built funerary church of the late fourteenth or early fifteenth century at Mystras, notable for the quality of its carved marble.",
-   "hours": "8:00–20:00 daily"
+   "hours": "8:00–20:00 daily",
+   "photos": [
+    {
+     "id": "evangelistria-1",
+     "thumb": "thumbs/evangelistria-1.jpg",
+     "full": "full/evangelistria-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "evangelistria-2",
+     "thumb": "thumbs/evangelistria-2.jpg",
+     "full": "full/evangelistria-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "evangelistria-3",
+     "thumb": "thumbs/evangelistria-3.jpg",
+     "full": "full/evangelistria-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "palace-of-the-despots",
@@ -12939,7 +14073,39 @@
    },
    "summary": "The rare surviving palace of the despots of the Morea",
    "description": "The sprawling palace of the despots of the Morea, one of very few Byzantine secular palaces to survive, built in stages from the thirteenth to fifteenth centuries around an L-shaped plan with a great throne hall. Extensively restored.",
-   "hours": "8:00–20:00 daily"
+   "hours": "8:00–20:00 daily",
+   "photos": [
+    {
+     "id": "palace-of-the-despots-1",
+     "thumb": "thumbs/palace-of-the-despots-1.jpg",
+     "full": "full/palace-of-the-despots-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "palace-of-the-despots-2",
+     "thumb": "thumbs/palace-of-the-despots-2.jpg",
+     "full": "full/palace-of-the-despots-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "palace-of-the-despots-3",
+     "thumb": "thumbs/palace-of-the-despots-3.jpg",
+     "full": "full/palace-of-the-despots-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "palace-of-the-despots-4",
+     "thumb": "thumbs/palace-of-the-despots-4.jpg",
+     "full": "full/palace-of-the-despots-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "palace-of-the-despots-5",
+     "thumb": "thumbs/palace-of-the-despots-5.jpg",
+     "full": "full/palace-of-the-despots-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "castle-of-mystras",
@@ -12963,7 +14129,33 @@
    },
    "summary": "The 1249 Frankish castle whose hill became Byzantine Mystras",
    "description": "The Frankish castle crowning the hill of Mystras, built in 1249 by the Villehardouin prince of Achaea and soon ceded to the Byzantines, who grew the city down the slope beneath it.",
-   "hours": "8:30–15:30 daily"
+   "hours": "8:30–15:30 daily",
+   "photos": [
+    {
+     "id": "castle-of-mystras-1",
+     "thumb": "thumbs/castle-of-mystras-1.jpg",
+     "full": "full/castle-of-mystras-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "castle-of-mystras-2",
+     "thumb": "thumbs/castle-of-mystras-2.jpg",
+     "full": "full/castle-of-mystras-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "castle-of-mystras-3",
+     "thumb": "thumbs/castle-of-mystras-3.jpg",
+     "full": "full/castle-of-mystras-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "castle-of-mystras-4",
+     "thumb": "thumbs/castle-of-mystras-4.jpg",
+     "full": "full/castle-of-mystras-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "laskaris-house",
@@ -12984,7 +14176,21 @@
    },
    "summary": "An aristocratic mansion of old Mystras, associated with the Laskaris family",
    "description": "An elegant mansion of two stories, with arches, vaults, and a balcony, historically associated with the aristocratic Laskaris family.",
-   "hours": "8:00–20:00 daily"
+   "hours": "8:00–20:00 daily",
+   "photos": [
+    {
+     "id": "laskaris-house-1",
+     "thumb": "thumbs/laskaris-house-1.jpg",
+     "full": "full/laskaris-house-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "laskaris-house-2",
+     "thumb": "thumbs/laskaris-house-2.jpg",
+     "full": "full/laskaris-house-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "hagia-sophia-monemvasia-upper-town",
@@ -13014,6 +14220,38 @@
      "title": "Official website",
      "url": "https://monemvasia.gr/2017/05/%CE%B1%CE%B3%CE%AF%CE%B1-%CF%83%CE%BF%CF%86%CE%AF%CE%B1/"
     }
+   ],
+   "photos": [
+    {
+     "id": "hagia-sophia-monemvasia-upper-town-1",
+     "thumb": "thumbs/hagia-sophia-monemvasia-upper-town-1.jpg",
+     "full": "full/hagia-sophia-monemvasia-upper-town-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-monemvasia-upper-town-2",
+     "thumb": "thumbs/hagia-sophia-monemvasia-upper-town-2.jpg",
+     "full": "full/hagia-sophia-monemvasia-upper-town-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-monemvasia-upper-town-3",
+     "thumb": "thumbs/hagia-sophia-monemvasia-upper-town-3.jpg",
+     "full": "full/hagia-sophia-monemvasia-upper-town-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-monemvasia-upper-town-4",
+     "thumb": "thumbs/hagia-sophia-monemvasia-upper-town-4.jpg",
+     "full": "full/hagia-sophia-monemvasia-upper-town-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-monemvasia-upper-town-5",
+     "thumb": "thumbs/hagia-sophia-monemvasia-upper-town-5.jpg",
+     "full": "full/hagia-sophia-monemvasia-upper-town-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -13037,7 +14275,21 @@
     "era": "palaiologan"
    },
    "summary": "Monemvasia's lower-town cathedral of Christ Elkomenos",
-   "description": "The main church of Monemvasia's lower town, dedicated to Christ Elkomenos (\"the dragged to crucifixion\"), of Byzantine origin and much rebuilt, but still the town's cathedral."
+   "description": "The main church of Monemvasia's lower town, dedicated to Christ Elkomenos (\"the dragged to crucifixion\"), of Byzantine origin and much rebuilt, but still the town's cathedral.",
+   "photos": [
+    {
+     "id": "elkomenos-christos-1",
+     "thumb": "thumbs/elkomenos-christos-1.jpg",
+     "full": "full/elkomenos-christos-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "elkomenos-christos-2",
+     "thumb": "thumbs/elkomenos-christos-2.jpg",
+     "full": "full/elkomenos-christos-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "kastro-fortifications",
@@ -13060,7 +14312,39 @@
     "era": "palaiologan"
    },
    "summary": "The fortifications of Monemvasia's fortress-rock, layered from Byzantium onward",
-   "description": "The walls and gates of the great fortress-rock of Monemvasia, a Byzantine stronghold from the sixth century whose upper and lower towns were defended by successive Byzantine, Frankish, Venetian and Ottoman fortifications."
+   "description": "The walls and gates of the great fortress-rock of Monemvasia, a Byzantine stronghold from the sixth century whose upper and lower towns were defended by successive Byzantine, Frankish, Venetian and Ottoman fortifications.",
+   "photos": [
+    {
+     "id": "kastro-fortifications-1",
+     "thumb": "thumbs/kastro-fortifications-1.jpg",
+     "full": "full/kastro-fortifications-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "kastro-fortifications-2",
+     "thumb": "thumbs/kastro-fortifications-2.jpg",
+     "full": "full/kastro-fortifications-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "kastro-fortifications-3",
+     "thumb": "thumbs/kastro-fortifications-3.jpg",
+     "full": "full/kastro-fortifications-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "kastro-fortifications-4",
+     "thumb": "thumbs/kastro-fortifications-4.jpg",
+     "full": "full/kastro-fortifications-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "kastro-fortifications-5",
+     "thumb": "thumbs/kastro-fortifications-5.jpg",
+     "full": "full/kastro-fortifications-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "archaeological-collection",
@@ -13079,7 +14363,15 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "Monemvasia's small museum of Byzantine sculpture and finds, in a former mosque",
-   "description": "A small museum in the restored former mosque of Monemvasia's lower town, displaying Byzantine architectural sculpture, ceramics and finds from the site."
+   "description": "A small museum in the restored former mosque of Monemvasia's lower town, displaying Byzantine architectural sculpture, ceramics and finds from the site.",
+   "photos": [
+    {
+     "id": "archaeological-collection-1",
+     "thumb": "thumbs/archaeological-collection-1.jpg",
+     "full": "full/archaeological-collection-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "geraki-castle-and-frescoed-churches",
@@ -13818,7 +15110,27 @@
    },
    "summary": "The mighty acropolis-fortress above Corinth, Byzantine among its many holders",
    "description": "The towering acropolis of Corinth, one of the great fortresses of Greece, held and rebuilt by Byzantines, Franks, Venetians and Ottomans in turn above the ancient city.",
-   "hours": "8:30–15:30 & 20:30–24:00 Fri"
+   "hours": "8:30–15:30 & 20:30–24:00 Fri",
+   "photos": [
+    {
+     "id": "acrocorinth-1",
+     "thumb": "thumbs/acrocorinth-1.jpg",
+     "full": "full/acrocorinth-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "acrocorinth-2",
+     "thumb": "thumbs/acrocorinth-2.jpg",
+     "full": "full/acrocorinth-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "acrocorinth-3",
+     "thumb": "thumbs/acrocorinth-3.jpg",
+     "full": "full/acrocorinth-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "iviron-monastery",
