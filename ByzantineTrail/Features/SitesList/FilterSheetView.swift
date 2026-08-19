@@ -21,12 +21,12 @@ struct FilterSheetView: View {
                     }
                 }
                 Section("Country") {
-                    ForEach(allCountryCodes, id: \.self) { code in
+                    ForEach(sortedCountryCodes, id: \.self) { code in
                         Toggle(CountryName.localized(code), isOn: membership(code, in: \.countries))
                     }
                 }
                 Section("City") {
-                    ForEach(cities) { city in
+                    ForEach(sortedCities) { city in
                         Toggle(city.name, isOn: membership(city.id, in: \.cityIds))
                     }
                 }
@@ -48,6 +48,21 @@ struct FilterSheetView: View {
                 }
             }
         }
+    }
+
+    /// Countries alphabetized by localized display name (not ISO code, which
+    /// only looks alphabetical by coincidence — the UK's "GB" would otherwise
+    /// sort under G).
+    private var sortedCountryCodes: [String] {
+        allCountryCodes.sorted {
+            CountryName.localized($0).localizedStandardCompare(CountryName.localized($1)) == .orderedAscending
+        }
+    }
+
+    /// Cities alphabetized by name; localizedStandardCompare sorts accents and
+    /// case the way Finder does ("Vall de Boí" lands with the V's).
+    private var sortedCities: [City] {
+        cities.sorted { $0.name.localizedStandardCompare($1.name) == .orderedAscending }
     }
 
     /// Binding that adds/removes `value` from one of SiteFilter's Set members.
