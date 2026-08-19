@@ -25,10 +25,11 @@ struct SiteRowView: View {
     var flags: SiteUserFlags = SiteUserFlags()
     var average: Double? = nil
     var myRating: Int? = nil
+    var resolver: PhotoResolver? = nil
 
     var body: some View {
         HStack(spacing: 12) {
-            iconTile
+            leadingTile
             VStack(alignment: .leading, spacing: 3) {
                 Text(site.name)
                     .font(.headline)
@@ -98,15 +99,42 @@ struct SiteRowView: View {
         return parts.isEmpty ? "" : ", " + parts.joined(separator: ", ")
     }
 
+    /// A real photo thumbnail when the site has one (bundled thumbs resolve to
+    /// local file URLs, so no network fetch on first paint); the type icon
+    /// otherwise. The icon also fills in while the image loads or if it fails.
+    @ViewBuilder private var leadingTile: some View {
+        if let photo = site.photos.first, let url = resolver?.thumbURL(for: photo) {
+            RoundedRectangle(cornerRadius: 8)
+                .fill(theme.bgCardAlt)
+                .frame(width: 44, height: 44)
+                .overlay(
+                    AsyncImage(url: url) { phase in
+                        switch phase {
+                        case .success(let image):
+                            image.resizable().scaledToFill()
+                        default:
+                            iconGlyph
+                        }
+                    }
+                )
+                .clipShape(RoundedRectangle(cornerRadius: 8))
+                .accessibilityHidden(true)
+        } else {
+            iconTile
+        }
+    }
+
     private var iconTile: some View {
         RoundedRectangle(cornerRadius: 8)
             .fill(theme.bgCardAlt)
             .frame(width: 44, height: 44)
-            .overlay(
-                Image(systemName: site.type.iconName)
-                    .font(.system(size: 20))
-                    .foregroundStyle(theme.accentPrimary)
-            )
+            .overlay(iconGlyph)
+    }
+
+    private var iconGlyph: some View {
+        Image(systemName: site.type.iconName)
+            .font(.system(size: 20))
+            .foregroundStyle(theme.accentPrimary)
     }
 
     private var importanceBadge: some View {

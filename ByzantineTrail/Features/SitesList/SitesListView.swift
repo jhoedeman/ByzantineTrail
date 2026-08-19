@@ -38,7 +38,8 @@ struct SitesListView: View {
                                 theme: theme,
                                 flags: userState.flags(for: site.id),
                                 average: ratingsSnapshot.average(for: site.id),
-                                myRating: ratingsSnapshot.mine(for: site.id))
+                                myRating: ratingsSnapshot.mine(for: site.id),
+                                resolver: catalogStore.photoResolver)
                 }
             }
             .listStyle(.plain)
