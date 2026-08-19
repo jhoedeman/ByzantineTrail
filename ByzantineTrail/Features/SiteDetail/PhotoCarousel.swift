@@ -44,9 +44,14 @@ struct PhotoCarousel: View {
     }
 
     private func page(_ photo: Photo) -> some View {
-        let url = resolver?.fullURL(for: photo)
+        // Banner uses the thumbnail: it's bundled (offline first-run) and 500px
+        // is ample for a 260pt banner. Full-res streams from photoBaseURL only
+        // when tapped (ZoomableImageView), so the carousel never blocks on the
+        // network to show a picture.
+        let bannerURL = resolver?.thumbURL(for: photo)
+        let fullURL = resolver?.fullURL(for: photo)
         return ZStack(alignment: .bottomLeading) {
-            AsyncImage(url: url) { phase in
+            AsyncImage(url: bannerURL) { phase in
                 switch phase {
                 case .success(let image):
                     // Fit (letterbox) so portrait photos show whole rather than
@@ -64,7 +69,7 @@ struct PhotoCarousel: View {
             .background(theme.bgCardAlt)
             .clipped()
             .contentShape(Rectangle())
-            .onTapGesture { if let url { zoom = ZoomItem(url: url) } }
+            .onTapGesture { if let fullURL { zoom = ZoomItem(url: fullURL) } }
 
             if let caption = photo.caption, !caption.isEmpty {
                 captionBar(caption, credit: photo.credit)

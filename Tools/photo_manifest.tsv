@@ -1,0 +1,73 @@
+# photo_manifest.tsv — permanent folder-name -> site-id mapping for the photo
+# import pipeline (Tools/import_photos.sh). One row per photo folder.
+# Format:  <folder-name><TAB><site-id>
+# Lines starting with # and blank lines are ignored. Regenerate proposals with
+# Tools/match_photo_folders.py; resolved rows below are the source of truth.
+# site-id must exist in ByzantineTrail/Resources/catalog.json.
+#
+# folder	site-id
+Acrocorinth	acrocorinth
+Agios Nikolaos tis Stegis	agios-nikolaos-tis-stegis
+Arch of Constantine	arch-of-constantine
+Archangelos Michael Chapel	archangelos-michael-chapel
+Archangelos Michail	archangelos-michail
+Archbasilica of Saint John Lateran	archbasilica-of-saint-john-lateran
+Basilica of Maxentius and Constantine	basilica-of-maxentius-and-constantine
+Basilica of San Clemente	basilica-of-san-clemente
+Castle of Mystras	castle-of-mystras
+Church of the Holy Cross Pelendri	church-of-the-holy-cross
+Colossus of Constantine	colossus-of-constantine
+Column of Phocas	column-of-phocas
+Lateran Baptistery	lateran-baptistery
+Mausoleum of Constantina	mausoleum-of-constantina
+Monemvasia Archaeological Collection	archaeological-collection
+Monemvasia Elkomenos Christos	elkomenos-christos
+Monemvasia Hagia Sophia	hagia-sophia-monemvasia-upper-town
+Monemvasia Kastro Fortifications	kastro-fortifications
+Mystras Agioi Theodoroi (Vrontochion)	agioi-theodoroi-vrontochion
+Mystras Cathedral of Agios Demetrios	cathedral-of-agios-demetrios
+Mystras Evangelistria	evangelistria
+Mystras Hagia Sophia	hagia-sophia-mystras
+Mystras Laskaris House	laskaris-house
+Mystras Palace of the Despots	palace-of-the-despots
+Mystras Pantanassa Monastery	pantanassa-monastery
+Mystras Peribloptos Monastery	peribleptos-monastery
+Panagia Katholiki (Odigitria)	church-of-panagia-katholiki-panagia-odigitria
+Panagia Podithou	church-of-the-virgin-mary-of-podithou
+Panagia tou Araka Laghoudera	panagia-tou-araka
+Panagia tou Moutoulla	panagia-tou-moutoulla
+Panagias Katholikis	panagias-katholikis
+Saint Agatha of the Goths	basilica-of-saint-agatha-of-the-goths
+San Cesario in Palatino	san-cesareo-in-palatio
+San Giovanni a Porta Latina	san-giovanni-a-porta-latina
+San Marco Evangelista	san-marco-evangelista
+San Martino ai Monti	san-martino-ai-monti
+San Saba	san-saba
+San Silvestro in Capite	san-silvestro-in-capite
+Sant'Anastasia	santanastasia-al-palatino
+Santa Cecilia in Trastevere	santa-cecilia-in-trastevere
+Santa Croce in Gerusalemme	santa-croce-in-gerusalemme
+Santa Lucia in Selci	santa-lucia-in-selci
+Santa Maria della Concezione in Campo Marzio	santa-maria-della-concezione-in-campo-marzio
+Santa Maria in Ara Coeli	santa-maria-in-ara-coeli
+Santa Maria in Cosmedin	santa-maria-in-cosmedin
+Santa Maria in Domnica	santa-maria-in-domnica
+Santa Maria in Tempulo	santa-maria-in-tempulo
+Santa Maria in Trastevere	santa-maria-in-trastevere
+Santa Maria Maggiore	santa-maria-maggiore
+Santa Prassede	santa-prassede
+Santa Prisca	santa-prisca
+Santa Pudenziana	santa-pudenziana
+Santo Stefano Rotondo	santo-stefano-rotondo
+Ss Cosmas and Damian	basilica-of-saints-cosmas-and-damian
+Ss Giovanni e Paolo	basilica-santi-giovanni-e-paolo
+Ss Luca e Martina	chiesa-dei-santi-luca-e-martina-martiri
+Ss Nereus and Achilleus	basilica-of-saints-nereus-and-achilleus
+Ss Sergius and Bacchus Rome	church-of-saints-sergius-and-bacchus
+St. Agnes Outside the Walls	st-agnes-outside-the-walls
+St. George in Velabro	st-george-in-velabro
+St. Paul Outside the Walls	st-paul-outside-the-walls
+St. Peter's	st-peters-basilica
+St. Theodore Orthodox Rome	orthodox-church-of-saint-theodore-at-the-palatine-hill
+Timios Stavros Monastery	timios-stavros-monastery
+Vatican Museums	vatican-museums

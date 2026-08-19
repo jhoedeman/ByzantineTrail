@@ -9,6 +9,14 @@ targets:
     platform: iOS
     sources:
       - path: ByzantineTrail
+        excludes:
+          - "Resources/thumbs"
+      # Bundled photo thumbnails as a FOLDER REFERENCE so the "thumbs/"
+      # subdirectory is preserved in the app bundle (PhotoResolver looks up
+      # thumbnails via subdirectory: "thumbs"). A normal group would flatten
+      # them into the bundle root and the lookup would fail.
+      - path: ByzantineTrail/Resources/thumbs
+        type: folder
       - path: AppIcon.icon
         buildPhase: resources
     info:

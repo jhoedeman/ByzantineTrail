@@ -12891,7 +12891,27 @@
    },
    "summary": "The palace chapel of the despots of Mystras, high in the upper town",
    "description": "The palace church of the despots of Mystras, built around the mid-fourteenth century high in the upper town, serving as chapel royal and a burial place for members of the ruling house.",
-   "hours": "8:00–20:00 daily"
+   "hours": "8:00–20:00 daily",
+   "photos": [
+    {
+     "id": "hagia-sophia-mystras-1",
+     "thumb": "thumbs/hagia-sophia-mystras-1.jpg",
+     "full": "full/hagia-sophia-mystras-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-mystras-2",
+     "thumb": "thumbs/hagia-sophia-mystras-2.jpg",
+     "full": "full/hagia-sophia-mystras-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-mystras-3",
+     "thumb": "thumbs/hagia-sophia-mystras-3.jpg",
+     "full": "full/hagia-sophia-mystras-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "evangelistria",
@@ -13013,6 +13033,38 @@
     {
      "title": "Official website",
      "url": "https://monemvasia.gr/2017/05/%CE%B1%CE%B3%CE%AF%CE%B1-%CF%83%CE%BF%CF%86%CE%AF%CE%B1/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "hagia-sophia-monemvasia-upper-town-1",
+     "thumb": "thumbs/hagia-sophia-monemvasia-upper-town-1.jpg",
+     "full": "full/hagia-sophia-monemvasia-upper-town-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-monemvasia-upper-town-2",
+     "thumb": "thumbs/hagia-sophia-monemvasia-upper-town-2.jpg",
+     "full": "full/hagia-sophia-monemvasia-upper-town-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-monemvasia-upper-town-3",
+     "thumb": "thumbs/hagia-sophia-monemvasia-upper-town-3.jpg",
+     "full": "full/hagia-sophia-monemvasia-upper-town-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-monemvasia-upper-town-4",
+     "thumb": "thumbs/hagia-sophia-monemvasia-upper-town-4.jpg",
+     "full": "full/hagia-sophia-monemvasia-upper-town-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-monemvasia-upper-town-5",
+     "thumb": "thumbs/hagia-sophia-monemvasia-upper-town-5.jpg",
+     "full": "full/hagia-sophia-monemvasia-upper-town-5.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -13818,7 +13870,27 @@
    },
    "summary": "The mighty acropolis-fortress above Corinth, Byzantine among its many holders",
    "description": "The towering acropolis of Corinth, one of the great fortresses of Greece, held and rebuilt by Byzantines, Franks, Venetians and Ottomans in turn above the ancient city.",
-   "hours": "8:30–15:30 & 20:30–24:00 Fri"
+   "hours": "8:30–15:30 & 20:30–24:00 Fri",
+   "photos": [
+    {
+     "id": "acrocorinth-1",
+     "thumb": "thumbs/acrocorinth-1.jpg",
+     "full": "full/acrocorinth-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "acrocorinth-2",
+     "thumb": "thumbs/acrocorinth-2.jpg",
+     "full": "full/acrocorinth-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "acrocorinth-3",
+     "thumb": "thumbs/acrocorinth-3.jpg",
+     "full": "full/acrocorinth-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "iviron-monastery",
