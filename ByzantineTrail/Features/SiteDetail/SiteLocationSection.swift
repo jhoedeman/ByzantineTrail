@@ -4,6 +4,7 @@ import MapKit
 struct SiteLocationSection: View {
     let site: Site
     let theme: Theme
+    @Environment(\.openURL) private var openURL
 
     private var coordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: site.coordinate.lat, longitude: site.coordinate.lon)
@@ -48,6 +49,19 @@ struct SiteLocationSection: View {
                     .frame(maxWidth: .infinity)
             }
             .buttonStyle(.borderedProminent)
+            .tint(theme.accentPrimary)
+
+            // Secondary alternative. The universal https link opens the Google
+            // Maps app when installed and the Google Maps website otherwise,
+            // so it needs no URL scheme or LSApplicationQueriesSchemes entry.
+            Button {
+                openURL(SiteDetailFormatter.googleMapsURL(
+                    latitude: site.coordinate.lat, longitude: site.coordinate.lon))
+            } label: {
+                Label("Open in Google Maps", systemImage: "globe")
+                    .frame(maxWidth: .infinity)
+            }
+            .buttonStyle(.bordered)
             .tint(theme.accentPrimary)
         }
     }
