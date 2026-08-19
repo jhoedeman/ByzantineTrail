@@ -72,16 +72,32 @@ struct SiteMapView: UIViewRepresentable {
             self.onSelectSite = onSelectSite
         }
 
-        /// Animate the camera to fit `annotations` once per new `fitToken`.
+        /// Fit the camera once per new `fitToken`. The FIRST fit uses a fixed
+        /// Aegean-focused region (not the bounding box of every site, which
+        /// zooms out to the mid-Atlantic to include the American outliers);
+        /// subsequent fits — triggered by a filter change bumping the token —
+        /// frame the filtered results so e.g. filtering to Cyprus zooms there.
         func fitOnce(_ map: MKMapView, to annotations: [SiteAnnotation], lastToken: Int) {
             guard appliedFitToken != lastToken else { return }
             let coords = annotations.map(\.coordinate)
-            // Only consume the token once we actually have something to fit — an
+            // Only consume the token once we actually have something to show — an
             // empty first pass (e.g. catalog still loading) must not suppress the
             // fit that should happen when sites arrive on the same token.
-            guard let region = MapRegionMath.boundingRegion(for: coords) else { return }
+            guard !coords.isEmpty else { return }
+
+            let isInitial = appliedFitToken == nil
+            let region: MKCoordinateRegion
+            if isInitial {
+                region = MapRegionMath.initialFocusRegion
+            } else if let bounded = MapRegionMath.boundingRegion(for: coords) {
+                region = bounded
+            } else {
+                return
+            }
             appliedFitToken = lastToken
-            map.setRegion(map.regionThatFits(region), animated: true)
+            // Initial framing lands without animation (opens already focused);
+            // filter refits animate so the movement reads as a response.
+            map.setRegion(map.regionThatFits(region), animated: !isInitial)
         }
 
         func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
