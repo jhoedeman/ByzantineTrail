@@ -6621,7 +6621,33 @@
    "importance": "major",
    "addedInVersion": 1,
    "summary": "A layered and well-preserved monastic complex with art and architecture from the 11th to the 16th centuries",
-   "description": "A beautifully preserved, UNESCO-listed, monastic complex, which is actually a composite of churches under one huge timber roof: an 11th century church of Agios Irakleidios, a 12th century church with St. John Lampadistes' remains, and a 13th century Italo-Byzantine chapel. Contains Palaiologan and Italo-Byzantine paintings."
+   "description": "A beautifully preserved, UNESCO-listed, monastic complex, which is actually a composite of churches under one huge timber roof: an 11th century church of Agios Irakleidios, a 12th century church with St. John Lampadistes' remains, and a 13th century Italo-Byzantine chapel. Contains Palaiologan and Italo-Byzantine paintings.",
+   "photos": [
+    {
+     "id": "monastery-of-saint-john-lampadistes-1",
+     "thumb": "thumbs/monastery-of-saint-john-lampadistes-1.jpg",
+     "full": "full/monastery-of-saint-john-lampadistes-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-saint-john-lampadistes-2",
+     "thumb": "thumbs/monastery-of-saint-john-lampadistes-2.jpg",
+     "full": "full/monastery-of-saint-john-lampadistes-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-saint-john-lampadistes-3",
+     "thumb": "thumbs/monastery-of-saint-john-lampadistes-3.jpg",
+     "full": "full/monastery-of-saint-john-lampadistes-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-saint-john-lampadistes-4",
+     "thumb": "thumbs/monastery-of-saint-john-lampadistes-4.jpg",
+     "full": "full/monastery-of-saint-john-lampadistes-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "panagia-phorviotissa-tis-asinou",
