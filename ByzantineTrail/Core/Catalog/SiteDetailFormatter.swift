@@ -12,6 +12,20 @@ enum SiteDetailFormatter {
         return comps.url!
     }
 
+    /// Google Maps universal link for a coordinate. Opened via `openURL`, iOS
+    /// routes this to the Google Maps app when installed and falls back to
+    /// Google Maps on the web otherwise — no URL scheme or Info.plist query
+    /// entry required. `query` is the exact coordinate (not the name) so the
+    /// pin lands precisely, matching the Apple Maps button's behavior.
+    static func googleMapsURL(latitude: Double, longitude: Double) -> URL {
+        var comps = URLComponents(string: "https://www.google.com/maps/search/")!
+        comps.queryItems = [
+            URLQueryItem(name: "api", value: "1"),
+            URLQueryItem(name: "query", value: "\(latitude),\(longitude)"),
+        ]
+        return comps.url!
+    }
+
     /// MKMapItem for "Open in Maps" (opens as a pin, not directions).
     static func mapItem(latitude: Double, longitude: Double, name: String) -> MKMapItem {
         let item: MKMapItem

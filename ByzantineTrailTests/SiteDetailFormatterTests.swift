@@ -12,6 +12,17 @@ struct SiteDetailFormatterTests {
         #expect(items.contains { $0.name == "q" && $0.value == "Hagia Sophia" })
     }
 
+    @Test func googleMapsURLHasCoordinateQuery() {
+        let url = SiteDetailFormatter.googleMapsURL(latitude: 41.0086, longitude: 28.9802)
+        #expect(url.host == "www.google.com")
+        #expect(url.absoluteString.hasPrefix("https://www.google.com/maps/search/?"))
+        let items = URLComponents(url: url, resolvingAgainstBaseURL: false)?.queryItems ?? []
+        // Universal cross-platform link: query is the exact coordinate, so the
+        // pin lands precisely instead of relying on Google's name geocoding.
+        #expect(items.contains { $0.name == "api" && $0.value == "1" })
+        #expect(items.contains { $0.name == "query" && $0.value == "41.0086,28.9802" })
+    }
+
     @Test func mapItemCarriesNameAndCoordinate() {
         let item = SiteDetailFormatter.mapItem(latitude: 1, longitude: 2, name: "X")
         #expect(item.name == "X")
