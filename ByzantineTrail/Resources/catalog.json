@@ -6621,7 +6621,33 @@
    "importance": "major",
    "addedInVersion": 1,
    "summary": "A layered and well-preserved monastic complex with art and architecture from the 11th to the 16th centuries",
-   "description": "A beautifully preserved, UNESCO-listed, monastic complex, which is actually a composite of churches under one huge timber roof: an 11th century church of Agios Irakleidios, a 12th century church with St. John Lampadistes' remains, and a 13th century Italo-Byzantine chapel. Contains Palaiologan and Italo-Byzantine paintings."
+   "description": "A beautifully preserved, UNESCO-listed, monastic complex, which is actually a composite of churches under one huge timber roof: an 11th century church of Agios Irakleidios, a 12th century church with St. John Lampadistes' remains, and a 13th century Italo-Byzantine chapel. Contains Palaiologan and Italo-Byzantine paintings.",
+   "photos": [
+    {
+     "id": "monastery-of-saint-john-lampadistes-1",
+     "thumb": "thumbs/monastery-of-saint-john-lampadistes-1.jpg",
+     "full": "full/monastery-of-saint-john-lampadistes-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-saint-john-lampadistes-2",
+     "thumb": "thumbs/monastery-of-saint-john-lampadistes-2.jpg",
+     "full": "full/monastery-of-saint-john-lampadistes-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-saint-john-lampadistes-3",
+     "thumb": "thumbs/monastery-of-saint-john-lampadistes-3.jpg",
+     "full": "full/monastery-of-saint-john-lampadistes-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-saint-john-lampadistes-4",
+     "thumb": "thumbs/monastery-of-saint-john-lampadistes-4.jpg",
+     "full": "full/monastery-of-saint-john-lampadistes-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "panagia-phorviotissa-tis-asinou",
@@ -6645,7 +6671,39 @@
     "era": "komnenian"
    },
    "summary": "One of the crown jewels of Byzantine Cyprus, with a complete sequence of Byzantine wall painting",
-   "description": "One of the crown jewels of Byzantine Cyprus, this small, barn-roofed 12th-century church that was the katholikon of the vanished monastery \"of the Phorbia.\" It preserves one of the most complete sequences of Byzantine wall painting in the Mediterranean, built up from the early 12th to the 17th century."
+   "description": "One of the crown jewels of Byzantine Cyprus, this small, barn-roofed 12th-century church that was the katholikon of the vanished monastery \"of the Phorbia.\" It preserves one of the most complete sequences of Byzantine wall painting in the Mediterranean, built up from the early 12th to the 17th century.",
+   "photos": [
+    {
+     "id": "panagia-phorviotissa-tis-asinou-1",
+     "thumb": "thumbs/panagia-phorviotissa-tis-asinou-1.jpg",
+     "full": "full/panagia-phorviotissa-tis-asinou-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-phorviotissa-tis-asinou-2",
+     "thumb": "thumbs/panagia-phorviotissa-tis-asinou-2.jpg",
+     "full": "full/panagia-phorviotissa-tis-asinou-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-phorviotissa-tis-asinou-3",
+     "thumb": "thumbs/panagia-phorviotissa-tis-asinou-3.jpg",
+     "full": "full/panagia-phorviotissa-tis-asinou-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-phorviotissa-tis-asinou-4",
+     "thumb": "thumbs/panagia-phorviotissa-tis-asinou-4.jpg",
+     "full": "full/panagia-phorviotissa-tis-asinou-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-phorviotissa-tis-asinou-5",
+     "thumb": "thumbs/panagia-phorviotissa-tis-asinou-5.jpg",
+     "full": "full/panagia-phorviotissa-tis-asinou-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "church-of-the-holy-cross-of-agiasmati-at-platanistasa",
@@ -6669,7 +6727,39 @@
     "era": "palaiologan"
    },
    "summary": "One of the best cycles of 15th century wall painting on the island",
-   "description": "This 15th-century painted church holds the most complete cycle of later-15th-century wall painting on the island. The frescoes, completed in 1494 and signed by the important painter Philippos Goul, are unusually rich on the theme of the Cross."
+   "description": "This 15th-century painted church holds the most complete cycle of later-15th-century wall painting on the island. The frescoes, completed in 1494 and signed by the important painter Philippos Goul, are unusually rich on the theme of the Cross.",
+   "photos": [
+    {
+     "id": "church-of-the-holy-cross-of-agiasmati-at-platanistasa-1",
+     "thumb": "thumbs/church-of-the-holy-cross-of-agiasmati-at-platanistasa-1.jpg",
+     "full": "full/church-of-the-holy-cross-of-agiasmati-at-platanistasa-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-holy-cross-of-agiasmati-at-platanistasa-2",
+     "thumb": "thumbs/church-of-the-holy-cross-of-agiasmati-at-platanistasa-2.jpg",
+     "full": "full/church-of-the-holy-cross-of-agiasmati-at-platanistasa-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-holy-cross-of-agiasmati-at-platanistasa-3",
+     "thumb": "thumbs/church-of-the-holy-cross-of-agiasmati-at-platanistasa-3.jpg",
+     "full": "full/church-of-the-holy-cross-of-agiasmati-at-platanistasa-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-holy-cross-of-agiasmati-at-platanistasa-4",
+     "thumb": "thumbs/church-of-the-holy-cross-of-agiasmati-at-platanistasa-4.jpg",
+     "full": "full/church-of-the-holy-cross-of-agiasmati-at-platanistasa-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-holy-cross-of-agiasmati-at-platanistasa-5",
+     "thumb": "thumbs/church-of-the-holy-cross-of-agiasmati-at-platanistasa-5.jpg",
+     "full": "full/church-of-the-holy-cross-of-agiasmati-at-platanistasa-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "metamorphosis-tou-sotiros",
@@ -6693,7 +6783,51 @@
     "era": "postByzantine"
    },
    "summary": "a post-Byzantine UNESCO site with a melding of Palaiologan and Western Renaissance styles",
-   "description": "An early-16th-century chapel on the slope above Palaichori village, and one of the ten UNESCO-listed painted churches, this church is completely covered with one of the most complete series of murals of the post-Byzantine period in Cyprus. Palaiologan and Western Renaissance elements abound."
+   "description": "An early-16th-century chapel on the slope above Palaichori village, and one of the ten UNESCO-listed painted churches, this church is completely covered with one of the most complete series of murals of the post-Byzantine period in Cyprus. Palaiologan and Western Renaissance elements abound.",
+   "photos": [
+    {
+     "id": "metamorphosis-tou-sotiros-1",
+     "thumb": "thumbs/metamorphosis-tou-sotiros-1.jpg",
+     "full": "full/metamorphosis-tou-sotiros-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "metamorphosis-tou-sotiros-2",
+     "thumb": "thumbs/metamorphosis-tou-sotiros-2.jpg",
+     "full": "full/metamorphosis-tou-sotiros-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "metamorphosis-tou-sotiros-3",
+     "thumb": "thumbs/metamorphosis-tou-sotiros-3.jpg",
+     "full": "full/metamorphosis-tou-sotiros-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "metamorphosis-tou-sotiros-4",
+     "thumb": "thumbs/metamorphosis-tou-sotiros-4.jpg",
+     "full": "full/metamorphosis-tou-sotiros-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "metamorphosis-tou-sotiros-5",
+     "thumb": "thumbs/metamorphosis-tou-sotiros-5.jpg",
+     "full": "full/metamorphosis-tou-sotiros-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "metamorphosis-tou-sotiros-6",
+     "thumb": "thumbs/metamorphosis-tou-sotiros-6.jpg",
+     "full": "full/metamorphosis-tou-sotiros-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "metamorphosis-tou-sotiros-7",
+     "thumb": "thumbs/metamorphosis-tou-sotiros-7.jpg",
+     "full": "full/metamorphosis-tou-sotiros-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "panagia-crysopantanassa",
@@ -6716,7 +6850,27 @@
     "era": "postByzantine"
    },
    "summary": "A post-Byzantine church with unique wall paintings",
-   "description": "A 16th-century gabled, timber-roofed church, with wall paintings dating to the same century. Among its frescoes is a rare image: Saints Demetrios and George depicted together on horseback, the only one of its kind in Cyprus."
+   "description": "A 16th-century gabled, timber-roofed church, with wall paintings dating to the same century. Among its frescoes is a rare image: Saints Demetrios and George depicted together on horseback, the only one of its kind in Cyprus.",
+   "photos": [
+    {
+     "id": "panagia-crysopantanassa-1",
+     "thumb": "thumbs/panagia-crysopantanassa-1.jpg",
+     "full": "full/panagia-crysopantanassa-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-crysopantanassa-2",
+     "thumb": "thumbs/panagia-crysopantanassa-2.jpg",
+     "full": "full/panagia-crysopantanassa-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-crysopantanassa-3",
+     "thumb": "thumbs/panagia-crysopantanassa-3.jpg",
+     "full": "full/panagia-crysopantanassa-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "ss-paraskevi-and-christina",
@@ -6763,7 +6917,21 @@
     "era": "komnenian"
    },
    "summary": "An important working monastery with its roots in the 12th century",
-   "description": "This working monastery in the Troodos grew around the legendary discovery of an icon painted by St. Luke, and through Komnenian patronage. The present buildings were rebuilt after fires, but the complex holds important manuscripts, icons, and relics."
+   "description": "This working monastery in the Troodos grew around the legendary discovery of an icon painted by St. Luke, and through Komnenian patronage. The present buildings were rebuilt after fires, but the complex holds important manuscripts, icons, and relics.",
+   "photos": [
+    {
+     "id": "holy-monastery-of-panagia-machaira-1",
+     "thumb": "thumbs/holy-monastery-of-panagia-machaira-1.jpg",
+     "full": "full/holy-monastery-of-panagia-machaira-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-panagia-machaira-2",
+     "thumb": "thumbs/holy-monastery-of-panagia-machaira-2.jpg",
+     "full": "full/holy-monastery-of-panagia-machaira-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "monastery-of-the-virgin-mary-chrysokourdaliotissa",
@@ -6792,6 +6960,38 @@
     {
      "title": "Official website",
      "url": "https://immorfou.org.cy/%CE%B9%CE%B5%CF%81%CE%AC-%CE%BC%CE%BF%CE%BD%CE%AE-%CF%80%CE%B1%CE%BD%CE%B1%CE%B3%CE%AF%CE%B1%CF%82-%CF%87%CF%81%CF%85%CF%83%CE%BF%CE%BA%CE%BF%CF%85%CF%81%CE%B4%CE%B1%CE%BB%CE%B9%CF%8E%CF%84%CE%B9/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "monastery-of-the-virgin-mary-chrysokourdaliotissa-1",
+     "thumb": "thumbs/monastery-of-the-virgin-mary-chrysokourdaliotissa-1.jpg",
+     "full": "full/monastery-of-the-virgin-mary-chrysokourdaliotissa-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-the-virgin-mary-chrysokourdaliotissa-2",
+     "thumb": "thumbs/monastery-of-the-virgin-mary-chrysokourdaliotissa-2.jpg",
+     "full": "full/monastery-of-the-virgin-mary-chrysokourdaliotissa-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-the-virgin-mary-chrysokourdaliotissa-3",
+     "thumb": "thumbs/monastery-of-the-virgin-mary-chrysokourdaliotissa-3.jpg",
+     "full": "full/monastery-of-the-virgin-mary-chrysokourdaliotissa-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-the-virgin-mary-chrysokourdaliotissa-4",
+     "thumb": "thumbs/monastery-of-the-virgin-mary-chrysokourdaliotissa-4.jpg",
+     "full": "full/monastery-of-the-virgin-mary-chrysokourdaliotissa-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-the-virgin-mary-chrysokourdaliotissa-5",
+     "thumb": "thumbs/monastery-of-the-virgin-mary-chrysokourdaliotissa-5.jpg",
+     "full": "full/monastery-of-the-virgin-mary-chrysokourdaliotissa-5.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -6822,6 +7022,38 @@
     {
      "title": "Official website",
      "url": "https://monikykkou.org.cy/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "holy-monastery-of-the-virgin-mary-of-kykkos-1",
+     "thumb": "thumbs/holy-monastery-of-the-virgin-mary-of-kykkos-1.jpg",
+     "full": "full/holy-monastery-of-the-virgin-mary-of-kykkos-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-the-virgin-mary-of-kykkos-2",
+     "thumb": "thumbs/holy-monastery-of-the-virgin-mary-of-kykkos-2.jpg",
+     "full": "full/holy-monastery-of-the-virgin-mary-of-kykkos-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-the-virgin-mary-of-kykkos-3",
+     "thumb": "thumbs/holy-monastery-of-the-virgin-mary-of-kykkos-3.jpg",
+     "full": "full/holy-monastery-of-the-virgin-mary-of-kykkos-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-the-virgin-mary-of-kykkos-4",
+     "thumb": "thumbs/holy-monastery-of-the-virgin-mary-of-kykkos-4.jpg",
+     "full": "full/holy-monastery-of-the-virgin-mary-of-kykkos-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-the-virgin-mary-of-kykkos-5",
+     "thumb": "thumbs/holy-monastery-of-the-virgin-mary-of-kykkos-5.jpg",
+     "full": "full/holy-monastery-of-the-virgin-mary-of-kykkos-5.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -6876,6 +7108,26 @@
      "title": "Official website",
      "url": "https://trooditissa.org/"
     }
+   ],
+   "photos": [
+    {
+     "id": "trooditissa-monastery-1",
+     "thumb": "thumbs/trooditissa-monastery-1.jpg",
+     "full": "full/trooditissa-monastery-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "trooditissa-monastery-2",
+     "thumb": "thumbs/trooditissa-monastery-2.jpg",
+     "full": "full/trooditissa-monastery-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "trooditissa-monastery-3",
+     "thumb": "thumbs/trooditissa-monastery-3.jpg",
+     "full": "full/trooditissa-monastery-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -6900,7 +7152,27 @@
    },
    "summary": "Traditionally the oldest monastery in Cyprus, with 20th century wall paintings by one of its monks, a renowned painter of the Byzantine tradition.",
    "description": "Traditionally the oldest monastery in Cyprus, said to have been founded around 327–330 by St. Helena, who left a piece of the True Cross there, which is still its central relic. Ottomans destroyed much of the original complex, so its buildings are later, and its paintings are 20th century (by Kallinikos Stavrovouniotis), though still firmly within the Byzantine tradition.",
-   "hours": "7:00–11:00 & 15:00–17:00; 7:00–11:00 & 14:00–17:00 Sun"
+   "hours": "7:00–11:00 & 15:00–17:00; 7:00–11:00 & 14:00–17:00 Sun",
+   "photos": [
+    {
+     "id": "stavrovouni-monastery-1",
+     "thumb": "thumbs/stavrovouni-monastery-1.jpg",
+     "full": "full/stavrovouni-monastery-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "stavrovouni-monastery-2",
+     "thumb": "thumbs/stavrovouni-monastery-2.jpg",
+     "full": "full/stavrovouni-monastery-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "stavrovouni-monastery-3",
+     "thumb": "thumbs/stavrovouni-monastery-3.jpg",
+     "full": "full/stavrovouni-monastery-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "church-of-the-archangel-michael",
@@ -6989,6 +7261,26 @@
     {
      "title": "Official website",
      "url": "https://www.agioslazaros.org/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "church-of-saint-lazarus-1",
+     "thumb": "thumbs/church-of-saint-lazarus-1.jpg",
+     "full": "full/church-of-saint-lazarus-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-saint-lazarus-2",
+     "thumb": "thumbs/church-of-saint-lazarus-2.jpg",
+     "full": "full/church-of-saint-lazarus-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-saint-lazarus-3",
+     "thumb": "thumbs/church-of-saint-lazarus-3.jpg",
+     "full": "full/church-of-saint-lazarus-3.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -7148,7 +7440,15 @@
     "era": "palaiologan"
    },
    "summary": "A church built in stages with paintings spanning centuries",
-   "description": "Structurally a fusion of two churches, eastern section built in the 12th century and western in the 13th, it preserves valuable wall paintings spanning the 12th, 13th, 15th, and 16th centuries and a fine iconostasis."
+   "description": "Structurally a fusion of two churches, eastern section built in the 12th century and western in the 13th, it preserves valuable wall paintings spanning the 12th, 13th, 15th, and 16th centuries and a fine iconostasis.",
+   "photos": [
+    {
+     "id": "panagia-chryseleousa-1",
+     "thumb": "thumbs/panagia-chryseleousa-1.jpg",
+     "full": "full/panagia-chryseleousa-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "agios-georgios-church-emba",
@@ -7191,7 +7491,21 @@
    },
    "summary": "A rock-cut tomb complex with 12th century fragmentary frescoes",
    "description": "An underground rock-cut tomb complex, several chambers preserve fragmentary frescoes of Christian saints, generally dated to the 12th century with some even earlier phases.",
-   "hours": "8:00–16:00; closed Sun"
+   "hours": "8:00–16:00; closed Sun",
+   "photos": [
+    {
+     "id": "agia-solomoni-catacomb-1",
+     "thumb": "thumbs/agia-solomoni-catacomb-1.jpg",
+     "full": "full/agia-solomoni-catacomb-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agia-solomoni-catacomb-2",
+     "thumb": "thumbs/agia-solomoni-catacomb-2.jpg",
+     "full": "full/agia-solomoni-catacomb-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "church-of-agia-paraskevi",
@@ -7215,7 +7529,33 @@
    },
    "summary": "A unique five-domed basilica with painting from the 9th, 12th, and 15th centuries",
    "description": "Famous for its unusual form: a five-domed basilica, and the only remaining example of this kind on the island. Its thick walls carry layered frescoes: fragments from the 9th century, including iconoclastic non-figural decorations, over which lie 12th-century and, most extensively, 15th-century painting.",
-   "hours": "8:30–13:00; closed Sun"
+   "hours": "8:30–13:00; closed Sun",
+   "photos": [
+    {
+     "id": "church-of-agia-paraskevi-1",
+     "thumb": "thumbs/church-of-agia-paraskevi-1.jpg",
+     "full": "full/church-of-agia-paraskevi-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-agia-paraskevi-2",
+     "thumb": "thumbs/church-of-agia-paraskevi-2.jpg",
+     "full": "full/church-of-agia-paraskevi-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-agia-paraskevi-3",
+     "thumb": "thumbs/church-of-agia-paraskevi-3.jpg",
+     "full": "full/church-of-agia-paraskevi-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-agia-paraskevi-4",
+     "thumb": "thumbs/church-of-agia-paraskevi-4.jpg",
+     "full": "full/church-of-agia-paraskevi-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "paphos-castle",
@@ -7239,7 +7579,27 @@
    },
    "summary": "A harbor castle of Ottoman over Frankish over Byzantine foundations",
    "description": "Originally a Byzantine fort built to protect the harbor, it was rebuilt by the Lusignans in the 13th century, destroyed by the Venetians in 1570 to deny it to the Ottomans, and rebuilt again in the Ottoman 16th century.",
-   "hours": "8:30–19:30"
+   "hours": "8:30–19:30",
+   "photos": [
+    {
+     "id": "paphos-castle-1",
+     "thumb": "thumbs/paphos-castle-1.jpg",
+     "full": "full/paphos-castle-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "paphos-castle-2",
+     "thumb": "thumbs/paphos-castle-2.jpg",
+     "full": "full/paphos-castle-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "paphos-castle-3",
+     "thumb": "thumbs/paphos-castle-3.jpg",
+     "full": "full/paphos-castle-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "agia-kyriaki-chrysopolitissa",
@@ -7259,7 +7619,21 @@
    "addedInVersion": 1,
    "summary": "A 13th century church standing among the ruins of a 4th century complex with extant floor mosaics, where St. Paul was said to be flogged",
    "description": "The medieval church sits amid the excavated ruins of the largest Early Byzantine basilica on the island: the Chrysopolitissa basilica, built at the end of the 4th century as the cathedral of Paphos. In the compound stands St. Paul's Pillar, where tradition holds that Paul was lashed until the Roman governor converted.",
-   "hours": "8:00–13:00 & 14:00–17:00; closed Sat–Sun"
+   "hours": "8:00–13:00 & 14:00–17:00; closed Sat–Sun",
+   "photos": [
+    {
+     "id": "agia-kyriaki-chrysopolitissa-1",
+     "thumb": "thumbs/agia-kyriaki-chrysopolitissa-1.jpg",
+     "full": "full/agia-kyriaki-chrysopolitissa-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agia-kyriaki-chrysopolitissa-2",
+     "thumb": "thumbs/agia-kyriaki-chrysopolitissa-2.jpg",
+     "full": "full/agia-kyriaki-chrysopolitissa-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "church-of-panagia-theoskepasti",
@@ -7278,7 +7652,15 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "The reconstruction of an earlier church with a venerated icon",
-   "description": "There has been a church on this spot since the Byzantine period, but the present building is 20th-century, although it holds a venerated, silver-clad icon said to be by St. Luke."
+   "description": "There has been a church on this spot since the Byzantine period, but the present building is 20th-century, although it holds a venerated, silver-clad icon said to be by St. Luke.",
+   "photos": [
+    {
+     "id": "church-of-panagia-theoskepasti-1",
+     "thumb": "thumbs/church-of-panagia-theoskepasti-1.jpg",
+     "full": "full/church-of-panagia-theoskepasti-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "church-of-the-virgin-mary-angeloktisti",
