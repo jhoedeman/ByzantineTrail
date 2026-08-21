@@ -3709,7 +3709,27 @@
     "era": "theodosian"
    },
    "summary": "A Byzantine cistern that now holds a park, with its masonry borders still visible",
-   "description": "The most interesting thing about this park, which sits noticeably below the surrounding street level, is what you'll see along its borders. The whole park, which was the Cistern of Aspar, and its masonry remains visible. \"Çukurbostan\" means something like \"sunken garden.\""
+   "description": "The most interesting thing about this park, which sits noticeably below the surrounding street level, is what you'll see along its borders. The whole park, which was the Cistern of Aspar, and its masonry remains visible. \"Çukurbostan\" means something like \"sunken garden.\"",
+   "photos": [
+    {
+     "id": "cistern-of-aspar-1",
+     "thumb": "thumbs/cistern-of-aspar-1.jpg",
+     "full": "full/cistern-of-aspar-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cistern-of-aspar-2",
+     "thumb": "thumbs/cistern-of-aspar-2.jpg",
+     "full": "full/cistern-of-aspar-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cistern-of-aspar-3",
+     "thumb": "thumbs/cistern-of-aspar-3.jpg",
+     "full": "full/cistern-of-aspar-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "cistern-of-mocius",
@@ -3783,7 +3803,15 @@
    },
    "summary": "An underground Justinianic cistern in the heart of the old city's historic center",
    "description": "This Justinianic cistern from the 6th century sat below, and is named for, the Stoa Basilica. It is the most famous and well-trafficked of the city's cisterns, and it is indeed well worth a visit.",
-   "hours": "9:00–18:30 & 19:30–22:00"
+   "hours": "9:00–18:30 & 19:30–22:00",
+   "photos": [
+    {
+     "id": "basilica-cistern-1",
+     "thumb": "thumbs/basilica-cistern-1.jpg",
+     "full": "full/basilica-cistern-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "ac-musluk-street-cistern",
@@ -3846,7 +3874,27 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A former Byzantine cistern in a pleasant park, now a cultural space",
-   "description": "The Gülhane Park Cistern, conveniently in Gülhane Park, is generally dated to the 5th-7th centuries and is now open to the public as a cultural and art space."
+   "description": "The Gülhane Park Cistern, conveniently in Gülhane Park, is generally dated to the 5th-7th centuries and is now open to the public as a cultural and art space.",
+   "photos": [
+    {
+     "id": "g-lhane-park-cistern-1",
+     "thumb": "thumbs/g-lhane-park-cistern-1.jpg",
+     "full": "full/g-lhane-park-cistern-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "g-lhane-park-cistern-2",
+     "thumb": "thumbs/g-lhane-park-cistern-2.jpg",
+     "full": "full/g-lhane-park-cistern-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "g-lhane-park-cistern-3",
+     "thumb": "thumbs/g-lhane-park-cistern-3.jpg",
+     "full": "full/g-lhane-park-cistern-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "byzantine-cistern-in-sultantepe-sk-dar",
@@ -4841,6 +4889,20 @@
      "title": "Official website",
      "url": "https://www.binbirdirek.com.tr/"
     }
+   ],
+   "photos": [
+    {
+     "id": "cistern-of-philoxenos-1",
+     "thumb": "thumbs/cistern-of-philoxenos-1.jpg",
+     "full": "full/cistern-of-philoxenos-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cistern-of-philoxenos-2",
+     "thumb": "thumbs/cistern-of-philoxenos-2.jpg",
+     "full": "full/cistern-of-philoxenos-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -4865,7 +4927,39 @@
    },
    "summary": "The scattered and crumbling remains of the 5th century palace of a Byzantine court eunuch",
    "description": "An early-5th-century aristocratic palace just northwest of the Hippodrome in the heart of historic Constantinople. Today, only scattered and crumbling walls remain.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "palace-of-antiochos-1",
+     "thumb": "thumbs/palace-of-antiochos-1.jpg",
+     "full": "full/palace-of-antiochos-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "palace-of-antiochos-2",
+     "thumb": "thumbs/palace-of-antiochos-2.jpg",
+     "full": "full/palace-of-antiochos-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "palace-of-antiochos-3",
+     "thumb": "thumbs/palace-of-antiochos-3.jpg",
+     "full": "full/palace-of-antiochos-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "palace-of-antiochos-4",
+     "thumb": "thumbs/palace-of-antiochos-4.jpg",
+     "full": "full/palace-of-antiochos-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "palace-of-antiochos-5",
+     "thumb": "thumbs/palace-of-antiochos-5.jpg",
+     "full": "full/palace-of-antiochos-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "church-of-st-tryphon",
@@ -11464,7 +11558,45 @@
     "era": "theodosian"
    },
    "summary": "The fifth-century walls that kept Constantinople all but unconquerable for a thousand years",
-   "description": "The great triple line of land fortifications that sealed off the western approach to Constantinople, thrown up under Theodosius II in the early fifth century. They held for a thousand years, and they're still hugely impressive to walk along even where they've crumbled."
+   "description": "The great triple line of land fortifications that sealed off the western approach to Constantinople, thrown up under Theodosius II in the early fifth century. They held for a thousand years, and they're still hugely impressive to walk along even where they've crumbled.",
+   "photos": [
+    {
+     "id": "theodosian-land-walls-1",
+     "thumb": "thumbs/theodosian-land-walls-1.jpg",
+     "full": "full/theodosian-land-walls-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theodosian-land-walls-2",
+     "thumb": "thumbs/theodosian-land-walls-2.jpg",
+     "full": "full/theodosian-land-walls-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theodosian-land-walls-3",
+     "thumb": "thumbs/theodosian-land-walls-3.jpg",
+     "full": "full/theodosian-land-walls-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theodosian-land-walls-4",
+     "thumb": "thumbs/theodosian-land-walls-4.jpg",
+     "full": "full/theodosian-land-walls-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theodosian-land-walls-5",
+     "thumb": "thumbs/theodosian-land-walls-5.jpg",
+     "full": "full/theodosian-land-walls-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theodosian-land-walls-6",
+     "thumb": "thumbs/theodosian-land-walls-6.jpg",
+     "full": "full/theodosian-land-walls-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "blachernai-palace",
@@ -11561,7 +11693,27 @@
    },
    "summary": "The city's best-preserved Byzantine palace, standing tall against the land walls",
    "description": "The best-preserved Byzantine palace in the city, a tall three-story block wedged into the land walls and built in the late thirteenth or early fourteenth century. Recently restored inside.",
-   "hours": "9:00–18:00; closed Mon"
+   "hours": "9:00–18:00; closed Mon",
+   "photos": [
+    {
+     "id": "palace-of-the-porphyrogennetos-1",
+     "thumb": "thumbs/palace-of-the-porphyrogennetos-1.jpg",
+     "full": "full/palace-of-the-porphyrogennetos-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "palace-of-the-porphyrogennetos-2",
+     "thumb": "thumbs/palace-of-the-porphyrogennetos-2.jpg",
+     "full": "full/palace-of-the-porphyrogennetos-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "palace-of-the-porphyrogennetos-3",
+     "thumb": "thumbs/palace-of-the-porphyrogennetos-3.jpg",
+     "full": "full/palace-of-the-porphyrogennetos-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "monastery-of-manuel-the-armenian",
@@ -11612,7 +11764,45 @@
     "era": "komnenian"
    },
    "summary": "A Komnenian church whose mosaic-filled side chapel rivals Chora",
-   "description": "A Komnenian monastery church best known for its side chapel, whose fourteenth-century mosaics are among the finest in the city. It was the seat of the Patriarchate for over a century after 1453."
+   "description": "A Komnenian monastery church best known for its side chapel, whose fourteenth-century mosaics are among the finest in the city. It was the seat of the Patriarchate for over a century after 1453.",
+   "photos": [
+    {
+     "id": "theotokos-pammakaristos-1",
+     "thumb": "thumbs/theotokos-pammakaristos-1.jpg",
+     "full": "full/theotokos-pammakaristos-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-pammakaristos-2",
+     "thumb": "thumbs/theotokos-pammakaristos-2.jpg",
+     "full": "full/theotokos-pammakaristos-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-pammakaristos-3",
+     "thumb": "thumbs/theotokos-pammakaristos-3.jpg",
+     "full": "full/theotokos-pammakaristos-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-pammakaristos-4",
+     "thumb": "thumbs/theotokos-pammakaristos-4.jpg",
+     "full": "full/theotokos-pammakaristos-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-pammakaristos-5",
+     "thumb": "thumbs/theotokos-pammakaristos-5.jpg",
+     "full": "full/theotokos-pammakaristos-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-pammakaristos-6",
+     "thumb": "thumbs/theotokos-pammakaristos-6.jpg",
+     "full": "full/theotokos-pammakaristos-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "holy-savior-in-chora",
@@ -11638,7 +11828,69 @@
     "era": "komnenian"
    },
    "summary": "Home to the finest late-Byzantine mosaics and frescoes anywhere in the city",
-   "description": "A monastery church tucked up by the land walls, rebuilt in the Komnenian period and famous for the dazzling fourteenth-century mosaics and frescoes paid for by Theodore Metochites. If you see only one thing for Byzantine art in the city, make it this."
+   "description": "A monastery church tucked up by the land walls, rebuilt in the Komnenian period and famous for the dazzling fourteenth-century mosaics and frescoes paid for by Theodore Metochites. If you see only one thing for Byzantine art in the city, make it this.",
+   "photos": [
+    {
+     "id": "holy-savior-in-chora-1",
+     "thumb": "thumbs/holy-savior-in-chora-1.jpg",
+     "full": "full/holy-savior-in-chora-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-savior-in-chora-2",
+     "thumb": "thumbs/holy-savior-in-chora-2.jpg",
+     "full": "full/holy-savior-in-chora-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-savior-in-chora-3",
+     "thumb": "thumbs/holy-savior-in-chora-3.jpg",
+     "full": "full/holy-savior-in-chora-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-savior-in-chora-4",
+     "thumb": "thumbs/holy-savior-in-chora-4.jpg",
+     "full": "full/holy-savior-in-chora-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-savior-in-chora-5",
+     "thumb": "thumbs/holy-savior-in-chora-5.jpg",
+     "full": "full/holy-savior-in-chora-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-savior-in-chora-6",
+     "thumb": "thumbs/holy-savior-in-chora-6.jpg",
+     "full": "full/holy-savior-in-chora-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-savior-in-chora-7",
+     "thumb": "thumbs/holy-savior-in-chora-7.jpg",
+     "full": "full/holy-savior-in-chora-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-savior-in-chora-8",
+     "thumb": "thumbs/holy-savior-in-chora-8.jpg",
+     "full": "full/holy-savior-in-chora-8.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-savior-in-chora-9",
+     "thumb": "thumbs/holy-savior-in-chora-9.jpg",
+     "full": "full/holy-savior-in-chora-9.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-savior-in-chora-10",
+     "thumb": "thumbs/holy-savior-in-chora-10.jpg",
+     "full": "full/holy-savior-in-chora-10.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "palace-of-the-kantakouzenoi",
@@ -11691,6 +11943,50 @@
      "title": "Official website",
      "url": "https://www.thebyzantinelegacy.com/gul"
     }
+   ],
+   "photos": [
+    {
+     "id": "st-theodosia-1",
+     "thumb": "thumbs/st-theodosia-1.jpg",
+     "full": "full/st-theodosia-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-theodosia-2",
+     "thumb": "thumbs/st-theodosia-2.jpg",
+     "full": "full/st-theodosia-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-theodosia-3",
+     "thumb": "thumbs/st-theodosia-3.jpg",
+     "full": "full/st-theodosia-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-theodosia-4",
+     "thumb": "thumbs/st-theodosia-4.jpg",
+     "full": "full/st-theodosia-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-theodosia-5",
+     "thumb": "thumbs/st-theodosia-5.jpg",
+     "full": "full/st-theodosia-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-theodosia-6",
+     "thumb": "thumbs/st-theodosia-6.jpg",
+     "full": "full/st-theodosia-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-theodosia-7",
+     "thumb": "thumbs/st-theodosia-7.jpg",
+     "full": "full/st-theodosia-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -11715,7 +12011,33 @@
     "era": "komnenian"
    },
    "summary": "A modest late-Byzantine church by the Pammakaristos, now a mosque",
-   "description": "A small late-Byzantine church near the Pammakaristos, now the Hirami Ahmet Paşa Mosque."
+   "description": "A small late-Byzantine church near the Pammakaristos, now the Hirami Ahmet Paşa Mosque.",
+   "photos": [
+    {
+     "id": "st-john-the-forerunner-in-trullo-1",
+     "thumb": "thumbs/st-john-the-forerunner-in-trullo-1.jpg",
+     "full": "full/st-john-the-forerunner-in-trullo-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-john-the-forerunner-in-trullo-2",
+     "thumb": "thumbs/st-john-the-forerunner-in-trullo-2.jpg",
+     "full": "full/st-john-the-forerunner-in-trullo-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-john-the-forerunner-in-trullo-3",
+     "thumb": "thumbs/st-john-the-forerunner-in-trullo-3.jpg",
+     "full": "full/st-john-the-forerunner-in-trullo-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-john-the-forerunner-in-trullo-4",
+     "thumb": "thumbs/st-john-the-forerunner-in-trullo-4.jpg",
+     "full": "full/st-john-the-forerunner-in-trullo-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "church-of-st-george-ecumenical-patriarchate",
@@ -11767,7 +12089,33 @@
     "era": "komnenian"
    },
    "summary": "The best-preserved Komnenian church in the city, founded by Alexios I's mother",
-   "description": "A late-eleventh-century monastery church founded by Anna Dalassene, mother of Alexios I, and the best-preserved Komnenian church in the city. Now the Eski İmaret Mosque."
+   "description": "A late-eleventh-century monastery church founded by Anna Dalassene, mother of Alexios I, and the best-preserved Komnenian church in the city. Now the Eski İmaret Mosque.",
+   "photos": [
+    {
+     "id": "christ-pantepoptes-1",
+     "thumb": "thumbs/christ-pantepoptes-1.jpg",
+     "full": "full/christ-pantepoptes-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "christ-pantepoptes-2",
+     "thumb": "thumbs/christ-pantepoptes-2.jpg",
+     "full": "full/christ-pantepoptes-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "christ-pantepoptes-3",
+     "thumb": "thumbs/christ-pantepoptes-3.jpg",
+     "full": "full/christ-pantepoptes-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "christ-pantepoptes-4",
+     "thumb": "thumbs/christ-pantepoptes-4.jpg",
+     "full": "full/christ-pantepoptes-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "christ-pantokrator",
@@ -11792,7 +12140,33 @@
     "era": "komnenian"
    },
    "summary": "The great Komnenian imperial monastery and mausoleum, now the Zeyrek Mosque",
-   "description": "A vast twelfth-century monastery of three linked churches, founded by John II Komnenos and his empress Eirene as a dynastic burial place and hospital. Now the Zeyrek Mosque and a UNESCO site."
+   "description": "A vast twelfth-century monastery of three linked churches, founded by John II Komnenos and his empress Eirene as a dynastic burial place and hospital. Now the Zeyrek Mosque and a UNESCO site.",
+   "photos": [
+    {
+     "id": "christ-pantokrator-1",
+     "thumb": "thumbs/christ-pantokrator-1.jpg",
+     "full": "full/christ-pantokrator-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "christ-pantokrator-2",
+     "thumb": "thumbs/christ-pantokrator-2.jpg",
+     "full": "full/christ-pantokrator-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "christ-pantokrator-3",
+     "thumb": "thumbs/christ-pantokrator-3.jpg",
+     "full": "full/christ-pantokrator-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "christ-pantokrator-4",
+     "thumb": "thumbs/christ-pantokrator-4.jpg",
+     "full": "full/christ-pantokrator-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "st-theodoros",
@@ -11843,7 +12217,27 @@
    },
    "summary": "A tenth-century church later doubled into a Palaiologan imperial mausoleum",
    "description": "A monastery of two joined churches: the north church founded by the admiral Constantine Lips in 907, the south added by the early Palaiologoi as a dynastic mausoleum. Now the Fenari İsa Mosque.",
-   "hours": "4:30–22:00"
+   "hours": "4:30–22:00",
+   "photos": [
+    {
+     "id": "monastery-of-constantine-lips-1",
+     "thumb": "thumbs/monastery-of-constantine-lips-1.jpg",
+     "full": "full/monastery-of-constantine-lips-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-constantine-lips-2",
+     "thumb": "thumbs/monastery-of-constantine-lips-2.jpg",
+     "full": "full/monastery-of-constantine-lips-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-constantine-lips-3",
+     "thumb": "thumbs/monastery-of-constantine-lips-3.jpg",
+     "full": "full/monastery-of-constantine-lips-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "st-polyeuktos",
@@ -11867,7 +12261,33 @@
     "era": "justinianic"
    },
    "summary": "Ruins of Anicia Juliana's showpiece church, out-built only by Hagia Sophia",
-   "description": "The excavated ruins of a huge and lavish early-sixth-century church built by the aristocrat Anicia Juliana, briefly the grandest church in the city until Hagia Sophia eclipsed it. Its carved fragments were carried off as far as Venice. Fenced off, but largely unguarded, the ruins are mostly used by neighbors as a trash can and toilet."
+   "description": "The excavated ruins of a huge and lavish early-sixth-century church built by the aristocrat Anicia Juliana, briefly the grandest church in the city until Hagia Sophia eclipsed it. Its carved fragments were carried off as far as Venice. Fenced off, but largely unguarded, the ruins are mostly used by neighbors as a trash can and toilet.",
+   "photos": [
+    {
+     "id": "st-polyeuktos-1",
+     "thumb": "thumbs/st-polyeuktos-1.jpg",
+     "full": "full/st-polyeuktos-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-polyeuktos-2",
+     "thumb": "thumbs/st-polyeuktos-2.jpg",
+     "full": "full/st-polyeuktos-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-polyeuktos-3",
+     "thumb": "thumbs/st-polyeuktos-3.jpg",
+     "full": "full/st-polyeuktos-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-polyeuktos-4",
+     "thumb": "thumbs/st-polyeuktos-4.jpg",
+     "full": "full/st-polyeuktos-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "holy-apostles",
@@ -11891,7 +12311,21 @@
     "era": "justinianic"
    },
    "summary": "The vanished imperial mausoleum-church, model for St. Mark's in Venice",
-   "description": "Once the second church of the city and the burial place of the emperors, a great cruciform five-domed church that inspired St. Mark's in Venice. It was pulled down after 1453 for the Fatih Mosque, so nothing survives above ground."
+   "description": "Once the second church of the city and the burial place of the emperors, a great cruciform five-domed church that inspired St. Mark's in Venice. It was pulled down after 1453 for the Fatih Mosque, so nothing survives above ground. Truly intrepid searchers may find more success in the courtyard of the Istanbul Archaeology Museum, which contains monumental porphyry sarcophagi, almost certainly Imperial resting places, almost certainly taken from Holy Apostles.",
+   "photos": [
+    {
+     "id": "holy-apostles-1",
+     "thumb": "thumbs/holy-apostles-1.jpg",
+     "full": "full/holy-apostles-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-apostles-2",
+     "thumb": "thumbs/holy-apostles-2.jpg",
+     "full": "full/holy-apostles-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "galata-tower",
@@ -11918,6 +12352,32 @@
     {
      "title": "Official website",
      "url": "https://galatakulesi.gov.tr/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "galata-tower-1",
+     "thumb": "thumbs/galata-tower-1.jpg",
+     "full": "full/galata-tower-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "galata-tower-2",
+     "thumb": "thumbs/galata-tower-2.jpg",
+     "full": "full/galata-tower-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "galata-tower-3",
+     "thumb": "thumbs/galata-tower-3.jpg",
+     "full": "full/galata-tower-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "galata-tower-4",
+     "thumb": "thumbs/galata-tower-4.jpg",
+     "full": "full/galata-tower-4.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -12006,7 +12466,33 @@
    "importance": "notable",
    "addedInVersion": 1,
    "summary": "A Genoese Gothic Dominican church in Galata, now the Arap Mosque",
-   "description": "A large Dominican church built in the early fourteenth century in Genoese Galata, later converted into the Arap Mosque. Gothic rather than Byzantine, but a key monument of Latin Constantinople."
+   "description": "A large Dominican church built in the early fourteenth century in Genoese Galata, later converted into the Arap Mosque. Gothic rather than Byzantine, but a key monument of Latin Constantinople.",
+   "photos": [
+    {
+     "id": "church-of-ss-dominic-and-paul-1",
+     "thumb": "thumbs/church-of-ss-dominic-and-paul-1.jpg",
+     "full": "full/church-of-ss-dominic-and-paul-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-ss-dominic-and-paul-2",
+     "thumb": "thumbs/church-of-ss-dominic-and-paul-2.jpg",
+     "full": "full/church-of-ss-dominic-and-paul-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-ss-dominic-and-paul-3",
+     "thumb": "thumbs/church-of-ss-dominic-and-paul-3.jpg",
+     "full": "full/church-of-ss-dominic-and-paul-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-ss-dominic-and-paul-4",
+     "thumb": "thumbs/church-of-ss-dominic-and-paul-4.jpg",
+     "full": "full/church-of-ss-dominic-and-paul-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "palazzo-di-venezia",
@@ -12084,7 +12570,51 @@
    },
    "summary": "An early church, never converted to a mosque, keeping its stark iconoclast interior",
    "description": "One of the oldest churches in the city, rebuilt by Justinian after the Nika riots and again in the eighth century. It never became a mosque, so its bare interior and iconoclast cross-apse survive intact, inside the Topkapı grounds.",
-   "hours": "9:00–17:00; closed Tue"
+   "hours": "9:00–17:00; closed Tue",
+   "photos": [
+    {
+     "id": "hagia-eirene-1",
+     "thumb": "thumbs/hagia-eirene-1.jpg",
+     "full": "full/hagia-eirene-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-eirene-2",
+     "thumb": "thumbs/hagia-eirene-2.jpg",
+     "full": "full/hagia-eirene-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-eirene-3",
+     "thumb": "thumbs/hagia-eirene-3.jpg",
+     "full": "full/hagia-eirene-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-eirene-4",
+     "thumb": "thumbs/hagia-eirene-4.jpg",
+     "full": "full/hagia-eirene-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-eirene-5",
+     "thumb": "thumbs/hagia-eirene-5.jpg",
+     "full": "full/hagia-eirene-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-eirene-6",
+     "thumb": "thumbs/hagia-eirene-6.jpg",
+     "full": "full/hagia-eirene-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-eirene-7",
+     "thumb": "thumbs/hagia-eirene-7.jpg",
+     "full": "full/hagia-eirene-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "hodegetria-monastery-and-ayazma",
@@ -12154,7 +12684,27 @@
    },
    "summary": "A Roman victory column still standing in Gülhane, commemorating a victory over the Goths",
    "description": "A tall Roman victory column standing in Gülhane Park, raised to mark a triumph over the Goths in the late third or early fourth century. One of the oldest monuments still standing in the city.",
-   "hours": "6:30–22:30"
+   "hours": "6:30–22:30",
+   "photos": [
+    {
+     "id": "column-of-the-goths-1",
+     "thumb": "thumbs/column-of-the-goths-1.jpg",
+     "full": "full/column-of-the-goths-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "column-of-the-goths-2",
+     "thumb": "thumbs/column-of-the-goths-2.jpg",
+     "full": "full/column-of-the-goths-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "column-of-the-goths-3",
+     "thumb": "thumbs/column-of-the-goths-3.jpg",
+     "full": "full/column-of-the-goths-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "column-of-marcian",
@@ -12205,7 +12755,93 @@
     "era": "justinianic"
    },
    "summary": "Justinian's world-changing domed cathedral, the masterpiece of Byzantine architecture",
-   "description": "Justinian's great domed church, finished in 537 and for nearly a thousand years the largest edifice in the world. The scale of the interior still stops people in their tracks. Notable mosaics from over the Byzantine centuries remain, including a striking Deesis. Unfortunately it has regressed into a mosque from the museum it was. Ensure you plan your visit around blocked times."
+   "description": "Justinian's great domed church, finished in 537 and for nearly a thousand years the largest edifice in the world. The scale of the interior still stops people in their tracks. Notable mosaics from over the Byzantine centuries remain, including a striking Deesis. Unfortunately it has regressed into a mosque from the museum it was. Ensure you plan your visit around blocked times.",
+   "photos": [
+    {
+     "id": "hagia-sophia-1",
+     "thumb": "thumbs/hagia-sophia-1.jpg",
+     "full": "full/hagia-sophia-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-2",
+     "thumb": "thumbs/hagia-sophia-2.jpg",
+     "full": "full/hagia-sophia-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-3",
+     "thumb": "thumbs/hagia-sophia-3.jpg",
+     "full": "full/hagia-sophia-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-4",
+     "thumb": "thumbs/hagia-sophia-4.jpg",
+     "full": "full/hagia-sophia-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-5",
+     "thumb": "thumbs/hagia-sophia-5.jpg",
+     "full": "full/hagia-sophia-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-6",
+     "thumb": "thumbs/hagia-sophia-6.jpg",
+     "full": "full/hagia-sophia-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-7",
+     "thumb": "thumbs/hagia-sophia-7.jpg",
+     "full": "full/hagia-sophia-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-8",
+     "thumb": "thumbs/hagia-sophia-8.jpg",
+     "full": "full/hagia-sophia-8.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-9",
+     "thumb": "thumbs/hagia-sophia-9.jpg",
+     "full": "full/hagia-sophia-9.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-10",
+     "thumb": "thumbs/hagia-sophia-10.jpg",
+     "full": "full/hagia-sophia-10.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-11",
+     "thumb": "thumbs/hagia-sophia-11.jpg",
+     "full": "full/hagia-sophia-11.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-12",
+     "thumb": "thumbs/hagia-sophia-12.jpg",
+     "full": "full/hagia-sophia-12.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-13",
+     "thumb": "thumbs/hagia-sophia-13.jpg",
+     "full": "full/hagia-sophia-13.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-14",
+     "thumb": "thumbs/hagia-sophia-14.jpg",
+     "full": "full/hagia-sophia-14.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "the-hippodrome-and-sphendone",
@@ -12231,7 +12867,33 @@
    },
    "summary": "The city's chariot-racing arena and political cockpit; its curved end still stands",
    "description": "The great chariot-racing arena and social heart of the city, laid out by Septimius Severus and completed by Constantine. Its curved southern end, the Sphendone, still stands in massive substructure, and three monuments of its central barrier survive.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "the-hippodrome-and-sphendone-1",
+     "thumb": "thumbs/the-hippodrome-and-sphendone-1.jpg",
+     "full": "full/the-hippodrome-and-sphendone-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-hippodrome-and-sphendone-2",
+     "thumb": "thumbs/the-hippodrome-and-sphendone-2.jpg",
+     "full": "full/the-hippodrome-and-sphendone-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-hippodrome-and-sphendone-3",
+     "thumb": "thumbs/the-hippodrome-and-sphendone-3.jpg",
+     "full": "full/the-hippodrome-and-sphendone-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-hippodrome-and-sphendone-4",
+     "thumb": "thumbs/the-hippodrome-and-sphendone-4.jpg",
+     "full": "full/the-hippodrome-and-sphendone-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "great-palace-peristyle",
@@ -12261,6 +12923,38 @@
      "title": "Official website",
      "url": "https://muze.gov.tr/muze-detay?SectionId=MOZ01&DistId=MOZ"
     }
+   ],
+   "photos": [
+    {
+     "id": "great-palace-peristyle-1",
+     "thumb": "thumbs/great-palace-peristyle-1.jpg",
+     "full": "full/great-palace-peristyle-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "great-palace-peristyle-2",
+     "thumb": "thumbs/great-palace-peristyle-2.jpg",
+     "full": "full/great-palace-peristyle-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "great-palace-peristyle-3",
+     "thumb": "thumbs/great-palace-peristyle-3.jpg",
+     "full": "full/great-palace-peristyle-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "great-palace-peristyle-4",
+     "thumb": "thumbs/great-palace-peristyle-4.jpg",
+     "full": "full/great-palace-peristyle-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "great-palace-peristyle-5",
+     "thumb": "thumbs/great-palace-peristyle-5.jpg",
+     "full": "full/great-palace-peristyle-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -12286,7 +12980,39 @@
    },
    "summary": "The Great Palace's marble sea-facade, still standing in the shore walls",
    "description": "The sea-front wing of the Great Palace on the Marmara shore, its marble balcony windows still hanging in a stretch of the sea walls. It took its name from a harbor marked by a bull-and-lion sculpture.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "bukeoleon-palace-1",
+     "thumb": "thumbs/bukeoleon-palace-1.jpg",
+     "full": "full/bukeoleon-palace-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "bukeoleon-palace-2",
+     "thumb": "thumbs/bukeoleon-palace-2.jpg",
+     "full": "full/bukeoleon-palace-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "bukeoleon-palace-3",
+     "thumb": "thumbs/bukeoleon-palace-3.jpg",
+     "full": "full/bukeoleon-palace-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "bukeoleon-palace-4",
+     "thumb": "thumbs/bukeoleon-palace-4.jpg",
+     "full": "full/bukeoleon-palace-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "bukeoleon-palace-5",
+     "thumb": "thumbs/bukeoleon-palace-5.jpg",
+     "full": "full/bukeoleon-palace-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "ss-sergius-and-bacchus",
@@ -12312,7 +13038,51 @@
    },
    "summary": "Justinian's experimental \"Little Hagia Sophia,\" now a mosque",
    "description": "An inventive domed church built by Justinian early in his reign, long called \"Little Hagia Sophia\" for its resemblance to the great church. Now the Küçük Ayasofya Mosque, but note the carved Greek writing in the stonework.",
-   "hours": "8:00–20:00"
+   "hours": "8:00–20:00",
+   "photos": [
+    {
+     "id": "ss-sergius-and-bacchus-1",
+     "thumb": "thumbs/ss-sergius-and-bacchus-1.jpg",
+     "full": "full/ss-sergius-and-bacchus-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ss-sergius-and-bacchus-2",
+     "thumb": "thumbs/ss-sergius-and-bacchus-2.jpg",
+     "full": "full/ss-sergius-and-bacchus-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ss-sergius-and-bacchus-3",
+     "thumb": "thumbs/ss-sergius-and-bacchus-3.jpg",
+     "full": "full/ss-sergius-and-bacchus-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ss-sergius-and-bacchus-4",
+     "thumb": "thumbs/ss-sergius-and-bacchus-4.jpg",
+     "full": "full/ss-sergius-and-bacchus-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ss-sergius-and-bacchus-5",
+     "thumb": "thumbs/ss-sergius-and-bacchus-5.jpg",
+     "full": "full/ss-sergius-and-bacchus-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ss-sergius-and-bacchus-6",
+     "thumb": "thumbs/ss-sergius-and-bacchus-6.jpg",
+     "full": "full/ss-sergius-and-bacchus-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ss-sergius-and-bacchus-7",
+     "thumb": "thumbs/ss-sergius-and-bacchus-7.jpg",
+     "full": "full/ss-sergius-and-bacchus-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "column-of-constantine",
@@ -12337,12 +13107,38 @@
     "era": "constantinian"
    },
    "summary": "Constantine's porphyry column, still standing where he founded his new capital",
-   "description": "The round forum that Constantine laid out when he refounded the city was marked at its center by his great porphyry column: still standing, fire-scarred and iron-hooped, as the Çemberlitaş.",
+   "description": "The round forum that Constantine laid out when he refounded the city was marked at its center by his great porphyry column: still standing, fire-scarred and iron-hooped, as the Çemberlitaş. While the forum itself is gone, the courtyard of the Istanbul Archaeology Museum contains a colossal Gorgoneion (Medusa head) carved on a massive marble archivolt, which was the keystone of a monumental forum arch. These gorgons' twins may be found in the Basilica Cistern, reused as column bases.",
    "hours": "Open 24 hours",
    "links": [
     {
      "title": "Official website",
      "url": "https://byzantinetrail.com/2017/12/04/byzantine-istanbul-i-the-column-of-constantine/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "column-of-constantine-1",
+     "thumb": "thumbs/column-of-constantine-1.jpg",
+     "full": "full/column-of-constantine-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "column-of-constantine-2",
+     "thumb": "thumbs/column-of-constantine-2.jpg",
+     "full": "full/column-of-constantine-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "column-of-constantine-3",
+     "thumb": "thumbs/column-of-constantine-3.jpg",
+     "full": "full/column-of-constantine-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "column-of-constantine-4",
+     "thumb": "thumbs/column-of-constantine-4.jpg",
+     "full": "full/column-of-constantine-4.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -12418,7 +13214,39 @@
    },
    "summary": "The city's landmark Roman aqueduct, still striding across the main boulevard",
    "description": "The great double-tiered aqueduct that strides across the valley between two of the city's hills, completed under Valens in the 370s and kept in use for well over a thousand years. It still leaps over the main boulevard.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "aqueduct-of-valens-1",
+     "thumb": "thumbs/aqueduct-of-valens-1.jpg",
+     "full": "full/aqueduct-of-valens-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "aqueduct-of-valens-2",
+     "thumb": "thumbs/aqueduct-of-valens-2.jpg",
+     "full": "full/aqueduct-of-valens-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "aqueduct-of-valens-3",
+     "thumb": "thumbs/aqueduct-of-valens-3.jpg",
+     "full": "full/aqueduct-of-valens-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "aqueduct-of-valens-4",
+     "thumb": "thumbs/aqueduct-of-valens-4.jpg",
+     "full": "full/aqueduct-of-valens-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "aqueduct-of-valens-5",
+     "thumb": "thumbs/aqueduct-of-valens-5.jpg",
+     "full": "full/aqueduct-of-valens-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "kontoskalion-and-eleutherios-harbors",
@@ -12715,7 +13543,33 @@
     "era": "palaiologan"
    },
    "summary": "A Byzantine-Genoese fortress guarding the Bosphorus's Black Sea mouth",
-   "description": "A commanding fortress on the hill above the northern Bosphorus, held in turn by Byzantines, Genoese and Ottomans, guarding the strait's entrance from the Black Sea."
+   "description": "A commanding fortress on the hill above the northern Bosphorus, held in turn by Byzantines, Genoese and Ottomans, guarding the strait's entrance from the Black Sea.",
+   "photos": [
+    {
+     "id": "yoros-castle-1",
+     "thumb": "thumbs/yoros-castle-1.jpg",
+     "full": "full/yoros-castle-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "yoros-castle-2",
+     "thumb": "thumbs/yoros-castle-2.jpg",
+     "full": "full/yoros-castle-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "yoros-castle-3",
+     "thumb": "thumbs/yoros-castle-3.jpg",
+     "full": "full/yoros-castle-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "yoros-castle-4",
+     "thumb": "thumbs/yoros-castle-4.jpg",
+     "full": "full/yoros-castle-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "anadolu-hisari",
@@ -12740,7 +13594,21 @@
    },
    "summary": "Bayezid I's Bosphorus fortress, built to strangle Byzantine Constantinople",
    "description": "A compact fortress on the Asian shore of the Bosphorus, built by Bayezid I in 1394 to blockade Constantinople. It's Ottoman work, but it is part of the story of the city's fall.",
-   "hours": "10:00–17:30; closed Mon"
+   "hours": "10:00–17:30; closed Mon",
+   "photos": [
+    {
+     "id": "anadolu-hisari-1",
+     "thumb": "thumbs/anadolu-hisari-1.jpg",
+     "full": "full/anadolu-hisari-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "anadolu-hisari-2",
+     "thumb": "thumbs/anadolu-hisari-2.jpg",
+     "full": "full/anadolu-hisari-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "rumeli-hisari",
@@ -12765,7 +13633,33 @@
    },
    "summary": "Mehmed II's 1452 fortress that sealed the city's fate before the conquest",
    "description": "The great fortress Mehmed II threw up on the European shore in 1452 to cut Constantinople off from the Black Sea, the final noose before the siege of 1453.",
-   "hours": "10:00–17:30; closed Mon"
+   "hours": "10:00–17:30; closed Mon",
+   "photos": [
+    {
+     "id": "rumeli-hisari-1",
+     "thumb": "thumbs/rumeli-hisari-1.jpg",
+     "full": "full/rumeli-hisari-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "rumeli-hisari-2",
+     "thumb": "thumbs/rumeli-hisari-2.jpg",
+     "full": "full/rumeli-hisari-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "rumeli-hisari-3",
+     "thumb": "thumbs/rumeli-hisari-3.jpg",
+     "full": "full/rumeli-hisari-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "rumeli-hisari-4",
+     "thumb": "thumbs/rumeli-hisari-4.jpg",
+     "full": "full/rumeli-hisari-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "leanders-tower",
@@ -12790,7 +13684,15 @@
    },
    "summary": "The islet tower off Üsküdar, once anchoring a Komnenian Bosphorus chain",
    "description": "The little tower on its islet off Üsküdar, where Manuel I Komnenos raised a tower to anchor a chain across the Bosphorus. The present building is far later, but the site is ancient.",
-   "hours": "9:00–18:00 daily"
+   "hours": "9:00–18:00 daily",
+   "photos": [
+    {
+     "id": "leanders-tower-1",
+     "thumb": "thumbs/leanders-tower-1.jpg",
+     "full": "full/leanders-tower-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "forum-of-arcadius",
