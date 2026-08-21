@@ -13,6 +13,9 @@
 set -euo pipefail
 
 FULL_MAX=2560; THUMB_MAX=500; FULL_Q=80; THUMB_Q=72
+# Target profile for down-converting wide-gamut sources (Display P3, Adobe RGB)
+# to sRGB before their embedded profile is stripped. See the matchTo step below.
+SRGB_PROFILE="/System/Library/ColorSync/Profiles/sRGB Profile.icc"
 
 die() { echo "✗ $*" >&2; exit 1; }
 command -v sips     >/dev/null 2>&1 || die "sips not found (macOS required)"
@@ -49,6 +52,14 @@ for f in "${originals[@]}"; do
   tmp="$OUT/full/$id.src.tmp"
 
   cp "$f" "$tmp"
+  # Convert wide-gamut sources (e.g. Display P3, Adobe RGB) to sRGB BEFORE the
+  # profile is stripped below. Stripping a P3 profile without converting leaves
+  # P3 pixel values reinterpreted as sRGB — a visible color shift. matchTo is a
+  # no-op on images already in sRGB; guarded on the source carrying a profile at
+  # all (a profile-less image has no defined gamut to convert from).
+  if [ -f "$SRGB_PROFILE" ] && sips -g profile "$tmp" 2>/dev/null | grep -q 'profile:'; then
+    sips --matchTo "$SRGB_PROFILE" "$tmp" >/dev/null 2>&1 || true
+  fi
   # Strip ALL metadata, then re-apply only Orientation (non-sensitive; keeps the
   # image upright without retaining GPS/camera/timestamp data). Read orientation
   # first and re-apply only when present, so metadata-less images stay quiet.

@@ -1805,6 +1805,14 @@
      "title": "Official website",
      "url": "https://www.monasterosangregorio.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "san-gregorio-magno-al-celio-1",
+     "thumb": "thumbs/san-gregorio-magno-al-celio-1.jpg",
+     "full": "full/san-gregorio-magno-al-celio-1.jpg",
+     "credit": "Lalupa, Public domain, via Wikimedia Commons"
+    }
    ]
   },
   {
@@ -3144,7 +3152,21 @@
     "era": "constantinian"
    },
    "summary": "A minor basilica on the Aventine with a Constantinian legend and a 4th century provenance",
-   "description": "A pleasant and quiet minor Basilica on the Aventine from the 4th century, this church is said to be where Constantine bade farewell to the pope before he went east to found his city."
+   "description": "A pleasant and quiet minor Basilica on the Aventine from the 4th century, this church is said to be where Constantine bade farewell to the pope before he went east to found his city.",
+   "photos": [
+    {
+     "id": "santa-balbina-1",
+     "thumb": "thumbs/santa-balbina-1.jpg",
+     "full": "full/santa-balbina-1.jpg",
+     "credit": "MarkusMark, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "santa-balbina-2",
+     "thumb": "thumbs/santa-balbina-2.jpg",
+     "full": "full/santa-balbina-2.jpg",
+     "credit": "Lalupa, Public domain, via Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "papal-basilica-of-saint-lawrence-outside-the-walls",
@@ -3174,6 +3196,29 @@
      "title": "Official website",
      "url": "https://www.basilicasanlorenzofuorilemura.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "papal-basilica-of-saint-lawrence-outside-the-walls-1",
+     "thumb": "thumbs/papal-basilica-of-saint-lawrence-outside-the-walls-1.jpg",
+     "full": "full/papal-basilica-of-saint-lawrence-outside-the-walls-1.jpg",
+     "credit": "bradhostetler, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "papal-basilica-of-saint-lawrence-outside-the-walls-2",
+     "thumb": "thumbs/papal-basilica-of-saint-lawrence-outside-the-walls-2.jpg",
+     "full": "full/papal-basilica-of-saint-lawrence-outside-the-walls-2.jpg",
+     "credit": "bradhostetler, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "papal-basilica-of-saint-lawrence-outside-the-walls-3",
+     "thumb": "thumbs/papal-basilica-of-saint-lawrence-outside-the-walls-3.jpg",
+     "full": "full/papal-basilica-of-saint-lawrence-outside-the-walls-3.jpg",
+     "credit": "bradhostetler, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
    ]
   },
   {
@@ -3198,7 +3243,23 @@
     "era": "constantinian"
    },
    "summary": "The site of the famous battle that established Constantine as sole emperor, mediated by his vision of a divine sign",
-   "description": "A 2nd century pedestrian bridge that survives to this day, this site is most famous for being the site of the Battle of the Milvian Bridge, establishing Constantine as sole emperor after his victory, mediated by his vision of the sign under which he would conquer."
+   "description": "A 2nd century pedestrian bridge that survives to this day, this site is most famous for being the site of the Battle of the Milvian Bridge, establishing Constantine as sole emperor after his victory, mediated by his vision of the sign under which he would conquer.",
+   "photos": [
+    {
+     "id": "milvian-bridge-1",
+     "thumb": "thumbs/milvian-bridge-1.jpg",
+     "full": "full/milvian-bridge-1.jpg",
+     "credit": "Kyle Van Horn, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "milvian-bridge-2",
+     "thumb": "thumbs/milvian-bridge-2.jpg",
+     "full": "full/milvian-bridge-2.jpg",
+     "credit": "antmoose, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "santa-maria-antiqua",
@@ -3222,7 +3283,37 @@
    },
    "summary": "A 6th century church inside the Roman Forum, this church contains extensive and important pre-Iconoclasm wall paintings.",
    "description": "Built in the 6th century, this church is widely noted for its extensive and indeed important collection of 6th-8th century wall paintings, which together make up one of the largest collections of pre-Iconoclasm Roman-Byzantine art in the world.",
-   "hours": "9:30–15:15, when not being excavated"
+   "hours": "9:30–15:15, when not being excavated",
+   "photos": [
+    {
+     "id": "santa-maria-antiqua-1",
+     "thumb": "thumbs/santa-maria-antiqua-1.jpg",
+     "full": "full/santa-maria-antiqua-1.jpg",
+     "credit": "AML KING, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "santa-maria-antiqua-2",
+     "thumb": "thumbs/santa-maria-antiqua-2.jpg",
+     "full": "full/santa-maria-antiqua-2.jpg",
+     "credit": "KatieThebeau, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "santa-maria-antiqua-3",
+     "thumb": "thumbs/santa-maria-antiqua-3.jpg",
+     "full": "full/santa-maria-antiqua-3.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "santa-maria-antiqua-4",
+     "thumb": "thumbs/santa-maria-antiqua-4.jpg",
+     "full": "full/santa-maria-antiqua-4.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "santa-sabina-allaventino",
@@ -3251,6 +3342,32 @@
     {
      "title": "Official website",
      "url": "https://basilicasantasabina.it/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "santa-sabina-allaventino-1",
+     "thumb": "thumbs/santa-sabina-allaventino-1.jpg",
+     "full": "full/santa-sabina-allaventino-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-sabina-allaventino-2",
+     "thumb": "thumbs/santa-sabina-allaventino-2.jpg",
+     "full": "full/santa-sabina-allaventino-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-sabina-allaventino-3",
+     "thumb": "thumbs/santa-sabina-allaventino-3.jpg",
+     "full": "full/santa-sabina-allaventino-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-sabina-allaventino-4",
+     "thumb": "thumbs/santa-sabina-allaventino-4.jpg",
+     "full": "full/santa-sabina-allaventino-4.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },

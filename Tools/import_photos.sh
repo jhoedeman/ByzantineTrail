@@ -129,10 +129,12 @@ while IFS=$'\t' read -r folder sid || [ -n "$folder" ]; do
     raw=""
     if [ -f "$credits_file" ]; then
       # Match the line whose key (text before the first ':') equals this source
-      # filename exactly, then strip "<filename>:" and surrounding whitespace.
+      # filename, case-insensitively (a camera's "1.JPG" must match a credits key
+      # typed "1.jpg"; a mismatch would silently fall back to the owner credit and
+      # misattribute a third-party photo). Then strip "<filename>:" and whitespace.
       raw="$(awk -F: -v k="$srcname" '
         { key=$1; sub(/^[ \t]+/,"",key); sub(/[ \t]+$/,"",key);
-          if (key==k) { sub(/^[^:]*:[ \t]*/,""); print; exit } }' "$credits_file")"
+          if (tolower(key)==tolower(k)) { sub(/^[^:]*:[ \t]*/,""); print; exit } }' "$credits_file")"
     fi
     if [ -n "$raw" ]; then
       lurl="$(printf '%s' "$raw" | grep -oE '<https?://[^>]+>' | head -1 | tr -d '<>' || true)"
