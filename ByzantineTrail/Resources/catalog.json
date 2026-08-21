@@ -3203,6 +3203,9 @@
   {
    "id": "santa-maria-antiqua",
    "name": "Santa Maria Antiqua",
+   "alternateNames": [
+    "Chiesa di Santa Maria Antiqua"
+   ],
    "type": "church",
    "country": "IT",
    "cityId": "rome",
@@ -8478,8 +8481,8 @@
    "country": "GR",
    "cityId": "thessaloniki",
    "coordinate": {
-    "lat": 37.975039,
-    "lon": 23.729952
+    "lat": 40.632381,
+    "lon": 22.950175
    },
    "address": "Egnatia 138, Thessaloniki 546 22, Greece",
    "importance": "minor",
@@ -8747,26 +8750,6 @@
    ]
   },
   {
-   "id": "chiesa-di-santa-maria-antiqua",
-   "name": "Chiesa di Santa Maria Antiqua",
-   "type": "church",
-   "country": "IT",
-   "cityId": "rome",
-   "coordinate": {
-    "lat": 41.891096,
-    "lon": 12.485608
-   },
-   "address": "00186 Rome, Metropolitan City of Rome Capital, Italy",
-   "importance": "notable",
-   "addedInVersion": 1,
-   "period": {
-    "century": 6,
-    "era": "justinianic"
-   },
-   "summary": "A Roman Forum church with intermittent public access that holds a palimpsest wall and pre-Iconoclasm frescoes",
-   "description": "One of the two surviving early churches in the Roman Forum, built in the 6th century inside an earlier Roman structure. Covered by an earthquake and subsequent landslide in 847, which thankfully preserved its frescoes until the 20th century. It's palimpsest wall and pre-Iconoclasm frescos are must-see."
-  },
-  {
    "id": "arch-of-malborghetto",
    "name": "Arch of Malborghetto",
    "type": "triumphalArch",
@@ -8889,29 +8872,6 @@
      "url": "https://edirnekultur.com/detay/makedonya-saat-kulesi"
     }
    ]
-  },
-  {
-   "id": "ancient-christian-church-of-virgin-mary",
-   "name": "Ancient Christian Church of Virgin Mary",
-   "alternateNames": [
-    "Meryem Kilisesi"
-   ],
-   "type": "church",
-   "country": "TR",
-   "cityId": "izmir",
-   "coordinate": {
-    "lat": 37.945004,
-    "lon": 27.339152
-   },
-   "address": "Atatürk, 35920 Selçuk/İzmir, Türkiye",
-   "importance": "notable",
-   "addedInVersion": 1,
-   "period": {
-    "century": 5,
-    "era": "theodosian"
-   },
-   "summary": "A council church inside the archaeological site of Ephesus",
-   "description": "This church is inside the Ephesus archaeological site. It's the \"Council Church,\" believed to have hosted the Council of Ephesus in 431, establishing Mary as the mother of God. Roman, early Christian, and Byzantine layers."
   },
   {
    "id": "basilica-of-saint-john",
@@ -18469,7 +18429,8 @@
    "alternateNames": [
     "Church of the Councils",
     "Double Church",
-    "Church of the Virgin Mary"
+    "Church of the Virgin Mary",
+    "Meryem Kilisesi"
    ],
    "type": "church",
    "country": "TR",
