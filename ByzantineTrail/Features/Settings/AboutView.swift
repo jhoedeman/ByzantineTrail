@@ -14,6 +14,8 @@ struct AboutView: View {
             Section {
                 NavigationLink("Privacy Policy") { PrivacyPolicyView() }
                     .accessibilityIdentifier("about.privacy")
+                NavigationLink("Image Credits") { ImageCreditsView() }
+                    .accessibilityIdentifier("about.credits")
             }
         }
         .navigationTitle("About")

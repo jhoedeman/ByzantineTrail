@@ -46,6 +46,7 @@ struct VPeriod: Decodable { let century: Int?; let era: String? }
 struct VPhoto: Decodable {
     let id: String; let thumb: String; let full: String
     let caption: String?; let credit: String?
+    let licenseURL: String?
 }
 struct VLink: Decodable { let title: String; let url: String }
 struct VCity: Decodable { let id: String; let name: String }
@@ -199,6 +200,21 @@ if let root = assetsRoot {
             if !FileManager.default.fileExists(atPath: path) {
                 fail("site \(site.id): photo '\(photo.id)' thumb file not found: \(photo.thumb) (looked in \(root))")
             }
+        }
+    }
+}
+
+// (10.5) attribution compliance: any photo whose credit names a Creative Commons
+//        license (CC BY / CC BY-SA / CC0 …) must carry a licenseURL, so the
+//        About → Image Credits screen can link to the license text as the CC
+//        licenses require. Owner photos ("Photo: John Hoedeman") are exempt.
+let ccLicensePattern = #"(?i)\bCC[ -]?(BY|0)"#
+for site in catalog.sites {
+    for photo in site.photos ?? [] {
+        guard let credit = photo.credit,
+              credit.range(of: ccLicensePattern, options: .regularExpression) != nil else { continue }
+        if (photo.licenseURL ?? "").trimmingCharacters(in: .whitespaces).isEmpty {
+            fail("site \(site.id): photo '\(photo.id)' credit names a CC license but has no licenseURL: '\(credit)'")
         }
     }
 }

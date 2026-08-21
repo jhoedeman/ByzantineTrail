@@ -80,9 +80,20 @@ while IFS=$'\t' read -r folder sid || [ -n "$folder" ]; do
     skipped=$((skipped+1)); continue
   fi
 
+  # Optional attribution sidecar: Tools reads a plain-text "_credits.txt" in the
+  # folder to credit third-party/licensed photos. One line per source file:
+  #     <source-filename>: <Attribution text> <https://license-url>, <source>
+  # e.g. 1.jpg: Sailko, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons
+  # The angle-bracketed URL is split off into the photo's licenseURL; the rest
+  # (with the URL removed) becomes the displayed credit. Files with no matching
+  # line — or folders with no _credits.txt at all — default to the owner credit.
+  # (Bash 3.2 on macOS has no associative arrays; credit_for() greps the file.)
+  credits_file="$src/_credits.txt"
+
   # Collect + order the folder's images: sort by trailing integer, then name.
   rm -rf "$STAGE"; mkdir -p "$STAGE"
   n=0
+  declare -a SRCNAME=()          # SRCNAME[n] = original source filename for photo n
   while IFS= read -r f; do
     [ -n "$f" ] || continue
     # Skip zero-byte source files (e.g. an incompletely-synced cloud file or a
@@ -90,6 +101,7 @@ while IFS=$'\t' read -r folder sid || [ -n "$folder" ]; do
     # valid images are renumbered contiguously.
     if [ ! -s "$src/$f" ]; then echo "⚠ skip empty/corrupt source: $folder/$f" >&2; continue; fi
     n=$((n+1))
+    SRCNAME[$n]="$f"
     ext="${f##*.}"; ext="$(printf '%s' "$ext" | tr '[:upper:]' '[:lower:]')"
     cp "$src/$f" "$STAGE/$sid-$n.$ext"
   done < <(
@@ -108,14 +120,35 @@ while IFS=$'\t' read -r folder sid || [ -n "$folder" ]; do
   # Publish thumbnails into the bundled resources dir.
   for i in $(seq 1 "$n"); do cp "$BUILD_OUT/thumbs/$sid-$i.jpg" "$THUMBS_DEST/$sid-$i.jpg"; done
 
-  # Build this site's photos[] array and merge it into the catalog.
-  photos_json="$(jq -n --arg id "$sid" --arg credit "$CREDIT" --argjson n "$n" '
-    [range(1; $n+1) | {
-      id:     "\($id)-\(.)",
-      thumb:  "thumbs/\($id)-\(.).jpg",
-      full:   "full/\($id)-\(.).jpg",
-      credit: $credit
-    }]')"
+  # Build this site's photos[] array (one TSV record per photo: index, credit,
+  # licenseURL) then let jq assemble it. Third-party photos carry a licenseURL;
+  # owner photos get the default credit and no licenseURL key at all.
+  recfile="$STAGE/.credits.tsv"; : > "$recfile"
+  for i in $(seq 1 "$n"); do
+    srcname="${SRCNAME[$i]}"
+    raw=""
+    if [ -f "$credits_file" ]; then
+      # Match the line whose key (text before the first ':') equals this source
+      # filename exactly, then strip "<filename>:" and surrounding whitespace.
+      raw="$(awk -F: -v k="$srcname" '
+        { key=$1; sub(/^[ \t]+/,"",key); sub(/[ \t]+$/,"",key);
+          if (key==k) { sub(/^[^:]*:[ \t]*/,""); print; exit } }' "$credits_file")"
+    fi
+    if [ -n "$raw" ]; then
+      lurl="$(printf '%s' "$raw" | grep -oE '<https?://[^>]+>' | head -1 | tr -d '<>' || true)"
+      cred="$(printf '%s' "$raw" | sed -E 's/[[:space:]]*<https?:\/\/[^>]+>//; s/^[[:space:]]+//; s/[[:space:]]+$//')"
+    else
+      lurl=""; cred="$CREDIT"
+    fi
+    printf '%s\t%s\t%s\n' "$i" "$cred" "$lurl" >> "$recfile"
+  done
+  photos_json="$(jq -R -n --arg id "$sid" '
+    [inputs | split("\t") | {
+      id:     "\($id)-\(.[0])",
+      thumb:  "thumbs/\($id)-\(.[0]).jpg",
+      full:   "full/\($id)-\(.[0]).jpg",
+      credit: .[1]
+    } + (if (.[2] // "") != "" then { licenseURL: .[2] } else {} end)]' "$recfile")"
   tmp="$CATALOG.tmp"
   jq --indent 1 --arg id "$sid" --argjson photos "$photos_json" \
     '(.sites[] | select(.id == $id) | .photos) |= $photos' "$CATALOG" > "$tmp"

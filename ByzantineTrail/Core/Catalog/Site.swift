@@ -6,6 +6,11 @@ struct Period: Codable, Equatable { let century: Int?; let era: String? }
 struct Photo: Codable, Equatable, Identifiable {
     let id, thumb, full: String
     let caption, credit: String?
+    // Link to the license (e.g. CC BY) for a third-party photo. Present only
+    // for licensed/third-party images; nil for the owner's own photos. Surfaced
+    // on the About → Image Credits screen to satisfy attribution requirements.
+    // Defaulted so existing memberwise initializers keep compiling.
+    var licenseURL: String? = nil
 }
 
 struct SiteLink: Codable, Equatable { let title, url: String }
