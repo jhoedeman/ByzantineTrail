@@ -85,6 +85,10 @@ while IFS=$'\t' read -r folder sid || [ -n "$folder" ]; do
   n=0
   while IFS= read -r f; do
     [ -n "$f" ] || continue
+    # Skip zero-byte source files (e.g. an incompletely-synced cloud file or a
+    # corrupt original) so one bad file doesn't abort the whole batch. Remaining
+    # valid images are renumbered contiguously.
+    if [ ! -s "$src/$f" ]; then echo "⚠ skip empty/corrupt source: $folder/$f" >&2; continue; fi
     n=$((n+1))
     ext="${f##*.}"; ext="$(printf '%s' "$ext" | tr '[:upper:]' '[:lower:]')"
     cp "$src/$f" "$STAGE/$sid-$n.$ext"
