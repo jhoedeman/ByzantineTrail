@@ -3753,7 +3753,27 @@
     "era": "justinianic"
    },
    "summary": "A Byzantine cistern that now holds a park, with its masonry borders still visible",
-   "description": "This park sits noticeably below street level, and indeed its name includes the Turkish word \"Çukurbostan,\" meaning sunken garden. That is because it sits within the former Cistern of Mocius, named for the now-gone Church of St. Mocius nearby. It was built somewhere within the late 5th and early 6th century on Constantinople's seventh hill."
+   "description": "This park sits noticeably below street level, and indeed its name includes the Turkish word \"Çukurbostan,\" meaning sunken garden. That is because it sits within the former Cistern of Mocius, named for the now-gone Church of St. Mocius nearby. It was built somewhere within the late 5th and early 6th century on Constantinople's seventh hill.",
+   "photos": [
+    {
+     "id": "cistern-of-mocius-1",
+     "thumb": "thumbs/cistern-of-mocius-1.jpg",
+     "full": "full/cistern-of-mocius-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cistern-of-mocius-2",
+     "thumb": "thumbs/cistern-of-mocius-2.jpg",
+     "full": "full/cistern-of-mocius-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cistern-of-mocius-3",
+     "thumb": "thumbs/cistern-of-mocius-3.jpg",
+     "full": "full/cistern-of-mocius-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "pantokrator-cistern",
@@ -4319,6 +4339,14 @@
      "title": "Official website",
      "url": "http://www.turkiyeermenileripatrikligi.org/site/surp-kevork-ermeni-kilisesi/"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-st-george-of-samatya-1",
+     "thumb": "thumbs/church-of-st-george-of-samatya-1.jpg",
+     "full": "full/church-of-st-george-of-samatya-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -4752,7 +4780,27 @@
    },
    "summary": "A 13th century church founded by an emperor's daughter, only occasionally open to the public",
    "description": "The present church was established in 1281 by Maria Palaiologina, an illegitimate daughter of Michael VIII who had been sent to marry a Mongol Ilkhan and returned a widow to become a nun, hence \"of the Mongols.\" It's the only Byzantine church in Istanbul never converted into a mosque, and it holds an 11th-century mosaic.",
-   "hours": "occasionally"
+   "hours": "occasionally",
+   "photos": [
+    {
+     "id": "st-mary-of-the-mongols-1",
+     "thumb": "thumbs/st-mary-of-the-mongols-1.jpg",
+     "full": "full/st-mary-of-the-mongols-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-mary-of-the-mongols-2",
+     "thumb": "thumbs/st-mary-of-the-mongols-2.jpg",
+     "full": "full/st-mary-of-the-mongols-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-mary-of-the-mongols-3",
+     "thumb": "thumbs/st-mary-of-the-mongols-3.jpg",
+     "full": "full/st-mary-of-the-mongols-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "bo-dan-saray",
@@ -11620,7 +11668,21 @@
     "era": "komnenian"
    },
    "summary": "The Komnenian and Palaiologan emperors' main residence, in the city's northwest corner",
-   "description": "The imperial palace up in the northwest corner by the walls, which took over from the Great Palace as the emperors' main residence from the twelfth century. Little survives above ground, but the setting against the walls is evocative."
+   "description": "The imperial palace up in the northwest corner by the walls, which took over from the Great Palace as the emperors' main residence from the twelfth century. Little survives above ground, but the setting against the walls is evocative.",
+   "photos": [
+    {
+     "id": "blachernai-palace-1",
+     "thumb": "thumbs/blachernai-palace-1.jpg",
+     "full": "full/blachernai-palace-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "blachernai-palace-2",
+     "thumb": "thumbs/blachernai-palace-2.jpg",
+     "full": "full/blachernai-palace-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "prison-of-anemas",
@@ -11644,7 +11706,27 @@
     "era": "komnenian"
    },
    "summary": "A grim tower in the Blachernai walls where fallen emperors were shut away",
-   "description": "A hulking tower and substructure set into the Blachernai walls, used to lock up out-of-favor emperors and princes. You can still climb through parts of it."
+   "description": "A hulking tower and substructure set into the Blachernai walls, used to lock up out-of-favor emperors and princes. You can still climb through parts of it.",
+   "photos": [
+    {
+     "id": "prison-of-anemas-1",
+     "thumb": "thumbs/prison-of-anemas-1.jpg",
+     "full": "full/prison-of-anemas-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "prison-of-anemas-2",
+     "thumb": "thumbs/prison-of-anemas-2.jpg",
+     "full": "full/prison-of-anemas-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "prison-of-anemas-3",
+     "thumb": "thumbs/prison-of-anemas-3.jpg",
+     "full": "full/prison-of-anemas-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "st-thekla-of-blachernai",
@@ -11668,7 +11750,45 @@
     "era": "komnenian"
    },
    "summary": "A modest Blachernai church, later a mosque, now barely traceable",
-   "description": "A small church in the Blachernai quarter, later turned into a mosque and now barely traceable, traditionally identified with the Toklu Dede Mescidi."
+   "description": "A small church in the Blachernai quarter, later turned into a mosque and now barely traceable, traditionally identified with the Toklu Dede Mescidi.",
+   "photos": [
+    {
+     "id": "st-thekla-of-blachernai-1",
+     "thumb": "thumbs/st-thekla-of-blachernai-1.jpg",
+     "full": "full/st-thekla-of-blachernai-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-thekla-of-blachernai-2",
+     "thumb": "thumbs/st-thekla-of-blachernai-2.jpg",
+     "full": "full/st-thekla-of-blachernai-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-thekla-of-blachernai-3",
+     "thumb": "thumbs/st-thekla-of-blachernai-3.jpg",
+     "full": "full/st-thekla-of-blachernai-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-thekla-of-blachernai-4",
+     "thumb": "thumbs/st-thekla-of-blachernai-4.jpg",
+     "full": "full/st-thekla-of-blachernai-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-thekla-of-blachernai-5",
+     "thumb": "thumbs/st-thekla-of-blachernai-5.jpg",
+     "full": "full/st-thekla-of-blachernai-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-thekla-of-blachernai-6",
+     "thumb": "thumbs/st-thekla-of-blachernai-6.jpg",
+     "full": "full/st-thekla-of-blachernai-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "palace-of-the-porphyrogennetos",
@@ -11738,7 +11858,27 @@
     "era": "palaiologan"
    },
    "summary": "A little-known monastery tied to a ninth-century general, later the Kefeli Mosque",
-   "description": "A monastery traditionally linked to the ninth-century general Manuel the Armenian, generally identified with the building later known as the Kefeli Mosque."
+   "description": "A monastery traditionally linked to the ninth-century general Manuel the Armenian, generally identified with the building later known as the Kefeli Mosque.",
+   "photos": [
+    {
+     "id": "monastery-of-manuel-the-armenian-1",
+     "thumb": "thumbs/monastery-of-manuel-the-armenian-1.jpg",
+     "full": "full/monastery-of-manuel-the-armenian-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-manuel-the-armenian-2",
+     "thumb": "thumbs/monastery-of-manuel-the-armenian-2.jpg",
+     "full": "full/monastery-of-manuel-the-armenian-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-manuel-the-armenian-3",
+     "thumb": "thumbs/monastery-of-manuel-the-armenian-3.jpg",
+     "full": "full/monastery-of-manuel-the-armenian-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "theotokos-pammakaristos",
@@ -12398,7 +12538,45 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "Scattered remains of the walls that once ringed Genoese Galata",
-   "description": "The fortifications that once ringed the Genoese colony of Galata across the Golden Horn. Only scattered fragments and a few towers survive among the streets."
+   "description": "The fortifications that once ringed the Genoese colony of Galata across the Golden Horn. Only scattered fragments and a few towers survive among the streets.",
+   "photos": [
+    {
+     "id": "galata-walls-1",
+     "thumb": "thumbs/galata-walls-1.jpg",
+     "full": "full/galata-walls-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "galata-walls-2",
+     "thumb": "thumbs/galata-walls-2.jpg",
+     "full": "full/galata-walls-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "galata-walls-3",
+     "thumb": "thumbs/galata-walls-3.jpg",
+     "full": "full/galata-walls-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "galata-walls-4",
+     "thumb": "thumbs/galata-walls-4.jpg",
+     "full": "full/galata-walls-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "galata-walls-5",
+     "thumb": "thumbs/galata-walls-5.jpg",
+     "full": "full/galata-walls-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "galata-walls-6",
+     "thumb": "thumbs/galata-walls-6.jpg",
+     "full": "full/galata-walls-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "st-benoit",
@@ -12425,6 +12603,14 @@
      "title": "Official website",
      "url": "https://www.sb.k12.tr/"
     }
+   ],
+   "photos": [
+    {
+     "id": "st-benoit-1",
+     "thumb": "thumbs/st-benoit-1.jpg",
+     "full": "full/st-benoit-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -12445,7 +12631,27 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "Vaults of the fortress that held the Golden Horn chain, now under a mosque",
-   "description": "The vaulted substructures of the Byzantine castle that anchored the great chain across the mouth of the Golden Horn, now beneath the Yeraltı (Underground) Mosque in Karaköy."
+   "description": "The vaulted substructures of the Byzantine castle that anchored the great chain across the mouth of the Golden Horn, now beneath the Yeraltı (Underground) Mosque in Karaköy.",
+   "photos": [
+    {
+     "id": "kastellion-substructures-1",
+     "thumb": "thumbs/kastellion-substructures-1.jpg",
+     "full": "full/kastellion-substructures-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "kastellion-substructures-2",
+     "thumb": "thumbs/kastellion-substructures-2.jpg",
+     "full": "full/kastellion-substructures-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "kastellion-substructures-3",
+     "thumb": "thumbs/kastellion-substructures-3.jpg",
+     "full": "full/kastellion-substructures-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "church-of-ss-dominic-and-paul",
@@ -12729,7 +12935,39 @@
    },
    "summary": "A standing fifth-century column of the emperor Marcian, the \"Maiden's Stone\"",
    "description": "A standing fifth-century honorific column raised for the emperor Marcian, tucked into a side street in Fatih and known locally as the Kıztaşı.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "column-of-marcian-1",
+     "thumb": "thumbs/column-of-marcian-1.jpg",
+     "full": "full/column-of-marcian-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "column-of-marcian-2",
+     "thumb": "thumbs/column-of-marcian-2.jpg",
+     "full": "full/column-of-marcian-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "column-of-marcian-3",
+     "thumb": "thumbs/column-of-marcian-3.jpg",
+     "full": "full/column-of-marcian-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "column-of-marcian-4",
+     "thumb": "thumbs/column-of-marcian-4.jpg",
+     "full": "full/column-of-marcian-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "column-of-marcian-5",
+     "thumb": "thumbs/column-of-marcian-5.jpg",
+     "full": "full/column-of-marcian-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "hagia-sophia",
@@ -12839,6 +13077,12 @@
      "id": "hagia-sophia-14",
      "thumb": "thumbs/hagia-sophia-14.jpg",
      "full": "full/hagia-sophia-14.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "hagia-sophia-15",
+     "thumb": "thumbs/hagia-sophia-15.jpg",
+     "full": "full/hagia-sophia-15.jpg",
      "credit": "Photo: John Hoedeman"
     }
    ]
@@ -13165,7 +13409,27 @@
    },
    "summary": "The city's grandest forum, its carved column drums still strewn round Beyazıt",
    "description": "The largest of the city's forums, laid out by Theodosius I on the model of Trajan's Forum in Rome. Carved fragments of its columns lie scattered around Beyazıt Square.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "forum-of-theodosius-1",
+     "thumb": "thumbs/forum-of-theodosius-1.jpg",
+     "full": "full/forum-of-theodosius-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "forum-of-theodosius-2",
+     "thumb": "thumbs/forum-of-theodosius-2.jpg",
+     "full": "full/forum-of-theodosius-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "forum-of-theodosius-3",
+     "thumb": "thumbs/forum-of-theodosius-3.jpg",
+     "full": "full/forum-of-theodosius-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "arch-of-theodosius",
@@ -13189,7 +13453,21 @@
    },
    "summary": "Ruined triumphal arch of the Forum of Theodosius, its knobbly columns still visible",
    "description": "The monumental arch that spanned the Forum of Theodosius, its distinctive column drums carved with peacock-eye motifs, now displayed where they fell beside Beyazıt Square.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "arch-of-theodosius-1",
+     "thumb": "thumbs/arch-of-theodosius-1.jpg",
+     "full": "full/arch-of-theodosius-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "arch-of-theodosius-2",
+     "thumb": "thumbs/arch-of-theodosius-2.jpg",
+     "full": "full/arch-of-theodosius-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "aqueduct-of-valens",
@@ -13296,7 +13574,39 @@
     "era": "macedonian"
    },
    "summary": "A tidy tenth-century palace church that ended up as an emperor's mausoleum",
-   "description": "A compact tenth-century church built by the emperor Romanos I Lekapenos next to his palace, later serving as his family mausoleum. It sits on top of a huge earlier rotunda, which you can still see underneath."
+   "description": "A compact tenth-century church built by the emperor Romanos I Lekapenos next to his palace, later serving as his family mausoleum. It sits on top of a huge earlier rotunda, which you can still see underneath.",
+   "photos": [
+    {
+     "id": "the-myrelaion-1",
+     "thumb": "thumbs/the-myrelaion-1.jpg",
+     "full": "full/the-myrelaion-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-myrelaion-2",
+     "thumb": "thumbs/the-myrelaion-2.jpg",
+     "full": "full/the-myrelaion-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-myrelaion-3",
+     "thumb": "thumbs/the-myrelaion-3.jpg",
+     "full": "full/the-myrelaion-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-myrelaion-4",
+     "thumb": "thumbs/the-myrelaion-4.jpg",
+     "full": "full/the-myrelaion-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-myrelaion-5",
+     "thumb": "thumbs/the-myrelaion-5.jpg",
+     "full": "full/the-myrelaion-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "theotokos-kyriotissa",
@@ -13321,7 +13631,57 @@
     "era": "komnenian"
    },
    "summary": "A Komnenian church layered over older ones, now the Kalenderhane Mosque",
-   "description": "A Komnenian domed church raised over a jumble of earlier structures near the aqueduct of Valens, and the place where fragments of a rare fresco cycle of St. Francis came to light. Now the Kalenderhane Mosque."
+   "description": "A Komnenian domed church raised over a jumble of earlier structures near the aqueduct of Valens, and the place where fragments of a rare fresco cycle of St. Francis came to light. Now the Kalenderhane Mosque.",
+   "photos": [
+    {
+     "id": "theotokos-kyriotissa-1",
+     "thumb": "thumbs/theotokos-kyriotissa-1.jpg",
+     "full": "full/theotokos-kyriotissa-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-kyriotissa-2",
+     "thumb": "thumbs/theotokos-kyriotissa-2.jpg",
+     "full": "full/theotokos-kyriotissa-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-kyriotissa-3",
+     "thumb": "thumbs/theotokos-kyriotissa-3.jpg",
+     "full": "full/theotokos-kyriotissa-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-kyriotissa-4",
+     "thumb": "thumbs/theotokos-kyriotissa-4.jpg",
+     "full": "full/theotokos-kyriotissa-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-kyriotissa-5",
+     "thumb": "thumbs/theotokos-kyriotissa-5.jpg",
+     "full": "full/theotokos-kyriotissa-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-kyriotissa-6",
+     "thumb": "thumbs/theotokos-kyriotissa-6.jpg",
+     "full": "full/theotokos-kyriotissa-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-kyriotissa-7",
+     "thumb": "thumbs/theotokos-kyriotissa-7.jpg",
+     "full": "full/theotokos-kyriotissa-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "theotokos-kyriotissa-8",
+     "thumb": "thumbs/theotokos-kyriotissa-8.jpg",
+     "full": "full/theotokos-kyriotissa-8.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "st-andrew-of-crete-in-krisei",
@@ -13345,7 +13705,33 @@
     "era": "palaiologan"
    },
    "summary": "A much-altered late-Byzantine convent church, now the Koca Mustafa Paşa Mosque",
-   "description": "An old monastery church dedicated to St. Andrew of Crete, remodelled in the Palaiologan period and heavily altered when it became the Koca Mustafa Paşa Mosque."
+   "description": "An old monastery church dedicated to St. Andrew of Crete, remodelled in the Palaiologan period and heavily altered when it became the Koca Mustafa Paşa Mosque.",
+   "photos": [
+    {
+     "id": "st-andrew-of-crete-in-krisei-1",
+     "thumb": "thumbs/st-andrew-of-crete-in-krisei-1.jpg",
+     "full": "full/st-andrew-of-crete-in-krisei-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-andrew-of-crete-in-krisei-2",
+     "thumb": "thumbs/st-andrew-of-crete-in-krisei-2.jpg",
+     "full": "full/st-andrew-of-crete-in-krisei-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-andrew-of-crete-in-krisei-3",
+     "thumb": "thumbs/st-andrew-of-crete-in-krisei-3.jpg",
+     "full": "full/st-andrew-of-crete-in-krisei-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-andrew-of-crete-in-krisei-4",
+     "thumb": "thumbs/st-andrew-of-crete-in-krisei-4.jpg",
+     "full": "full/st-andrew-of-crete-in-krisei-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "gastria-monastery",
@@ -13369,7 +13755,27 @@
     "era": "palaiologan"
    },
    "summary": "Fragments of a small monastery tied to St Helena, now a tiny mosque",
-   "description": "The scanty remains of the small monastery of the Gastria, traditionally linked to St. Helena, surviving as the little Sancaktar Mosque."
+   "description": "The scanty remains of the small monastery of the Gastria, traditionally linked to St. Helena, surviving as the little Sancaktar Mosque.",
+   "photos": [
+    {
+     "id": "gastria-monastery-1",
+     "thumb": "thumbs/gastria-monastery-1.jpg",
+     "full": "full/gastria-monastery-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "gastria-monastery-2",
+     "thumb": "thumbs/gastria-monastery-2.jpg",
+     "full": "full/gastria-monastery-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "gastria-monastery-3",
+     "thumb": "thumbs/gastria-monastery-3.jpg",
+     "full": "full/gastria-monastery-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "hospital-church-ese-kapi",
@@ -13419,7 +13825,51 @@
    },
    "summary": "The land walls' triumphal marble gateway, now inside the Yedikule fortress",
    "description": "The great ceremonial gate in the land walls through which triumphant emperors entered the city, a triple marble arch later swallowed into the Ottoman fortress of Yedikule.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "the-golden-gate-1",
+     "thumb": "thumbs/the-golden-gate-1.jpg",
+     "full": "full/the-golden-gate-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-golden-gate-2",
+     "thumb": "thumbs/the-golden-gate-2.jpg",
+     "full": "full/the-golden-gate-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-golden-gate-3",
+     "thumb": "thumbs/the-golden-gate-3.jpg",
+     "full": "full/the-golden-gate-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-golden-gate-4",
+     "thumb": "thumbs/the-golden-gate-4.jpg",
+     "full": "full/the-golden-gate-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-golden-gate-5",
+     "thumb": "thumbs/the-golden-gate-5.jpg",
+     "full": "full/the-golden-gate-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-golden-gate-6",
+     "thumb": "thumbs/the-golden-gate-6.jpg",
+     "full": "full/the-golden-gate-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "the-golden-gate-7",
+     "thumb": "thumbs/the-golden-gate-7.jpg",
+     "full": "full/the-golden-gate-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "the-marble-tower",
@@ -13443,7 +13893,15 @@
    },
    "summary": "The marble-clad tower where the land walls meet the sea",
    "description": "The tower that marks the seaward end of the land walls where they meet the Marmara, faced in marble and once linked to a small imperial retreat.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "the-marble-tower-1",
+     "thumb": "thumbs/the-marble-tower-1.jpg",
+     "full": "full/the-marble-tower-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "st-mary-of-zoodochos-pege",
@@ -13469,7 +13927,57 @@
    },
    "summary": "The ancient healing-spring shrine outside the walls, still drawing pilgrims",
    "description": "The famous shrine of the life-giving spring outside the walls, a place of pilgrimage since Justinian's day. The present church is a nineteenth-century rebuild, but the holy spring with its sacred fish endures.",
-   "hours": "8:30–16:30"
+   "hours": "8:30–16:30",
+   "photos": [
+    {
+     "id": "st-mary-of-zoodochos-pege-1",
+     "thumb": "thumbs/st-mary-of-zoodochos-pege-1.jpg",
+     "full": "full/st-mary-of-zoodochos-pege-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-mary-of-zoodochos-pege-2",
+     "thumb": "thumbs/st-mary-of-zoodochos-pege-2.jpg",
+     "full": "full/st-mary-of-zoodochos-pege-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-mary-of-zoodochos-pege-3",
+     "thumb": "thumbs/st-mary-of-zoodochos-pege-3.jpg",
+     "full": "full/st-mary-of-zoodochos-pege-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-mary-of-zoodochos-pege-4",
+     "thumb": "thumbs/st-mary-of-zoodochos-pege-4.jpg",
+     "full": "full/st-mary-of-zoodochos-pege-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-mary-of-zoodochos-pege-5",
+     "thumb": "thumbs/st-mary-of-zoodochos-pege-5.jpg",
+     "full": "full/st-mary-of-zoodochos-pege-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-mary-of-zoodochos-pege-6",
+     "thumb": "thumbs/st-mary-of-zoodochos-pege-6.jpg",
+     "full": "full/st-mary-of-zoodochos-pege-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-mary-of-zoodochos-pege-7",
+     "thumb": "thumbs/st-mary-of-zoodochos-pege-7.jpg",
+     "full": "full/st-mary-of-zoodochos-pege-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "st-mary-of-zoodochos-pege-8",
+     "thumb": "thumbs/st-mary-of-zoodochos-pege-8.jpg",
+     "full": "full/st-mary-of-zoodochos-pege-8.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "monastery-of-the-studion",
@@ -13494,7 +14002,39 @@
     "era": "theodosian"
    },
    "summary": "The city's oldest church, heart of Byzantine monasticism, now a roofless ruin",
-   "description": "The city's oldest surviving church, a fifth-century basilica of St. John at the great Stoudios monastery, long the powerhouse of Byzantine monasticism. It stands roofless as the İmrahor ruin."
+   "description": "The city's oldest surviving church, a fifth-century basilica of St. John at the great Stoudios monastery, long the powerhouse of Byzantine monasticism. It stands roofless as the İmrahor ruin.",
+   "photos": [
+    {
+     "id": "monastery-of-the-studion-1",
+     "thumb": "thumbs/monastery-of-the-studion-1.jpg",
+     "full": "full/monastery-of-the-studion-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-the-studion-2",
+     "thumb": "thumbs/monastery-of-the-studion-2.jpg",
+     "full": "full/monastery-of-the-studion-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-the-studion-3",
+     "thumb": "thumbs/monastery-of-the-studion-3.jpg",
+     "full": "full/monastery-of-the-studion-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-the-studion-4",
+     "thumb": "thumbs/monastery-of-the-studion-4.jpg",
+     "full": "full/monastery-of-the-studion-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-the-studion-5",
+     "thumb": "thumbs/monastery-of-the-studion-5.jpg",
+     "full": "full/monastery-of-the-studion-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "anastasian-walls",
@@ -13796,7 +14336,27 @@
     "era": "komnenian"
    },
    "summary": "A small monastery annex by the walls, later the Kasım Ağa Mosque",
-   "description": "A small Byzantine building near the land walls, an annex of an unidentified monastery, later the Kasım Ağa Mosque."
+   "description": "A small Byzantine building near the land walls, an annex of an unidentified monastery, later the Kasım Ağa Mosque.",
+   "photos": [
+    {
+     "id": "monastery-annex-and-kasim-aga-1",
+     "thumb": "thumbs/monastery-annex-and-kasim-aga-1.jpg",
+     "full": "full/monastery-annex-and-kasim-aga-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-annex-and-kasim-aga-2",
+     "thumb": "thumbs/monastery-annex-and-kasim-aga-2.jpg",
+     "full": "full/monastery-annex-and-kasim-aga-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-annex-and-kasim-aga-3",
+     "thumb": "thumbs/monastery-annex-and-kasim-aga-3.jpg",
+     "full": "full/monastery-annex-and-kasim-aga-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "germigny-des-pr-s-oratory",
@@ -17524,6 +18084,20 @@
      "title": "Official website",
      "url": "https://muze.gov.tr/muze-detay?SectionId=GRM01&DistId=GRM"
     }
+   ],
+   "photos": [
+    {
+     "id": "g-reme-open-air-museum-1",
+     "thumb": "thumbs/g-reme-open-air-museum-1.jpg",
+     "full": "full/g-reme-open-air-museum-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "g-reme-open-air-museum-2",
+     "thumb": "thumbs/g-reme-open-air-museum-2.jpg",
+     "full": "full/g-reme-open-air-museum-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -17599,7 +18173,45 @@
    },
    "summary": "A river gorge lined with rock-cut churches, some of Cappadocia's earliest",
    "description": "A deep volcanic gorge along the Melendiz river honeycombed with rock-cut churches, some among the earliest in Cappadocia. Their frescoes range from austere, cross-heavy iconoclast-era schemes to rich narrative cycles painted between the ninth and eleventh centuries. The Ağaçaltı and Kokar churches are the best known.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "ihlara-valley-churches-1",
+     "thumb": "thumbs/ihlara-valley-churches-1.jpg",
+     "full": "full/ihlara-valley-churches-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ihlara-valley-churches-2",
+     "thumb": "thumbs/ihlara-valley-churches-2.jpg",
+     "full": "full/ihlara-valley-churches-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ihlara-valley-churches-3",
+     "thumb": "thumbs/ihlara-valley-churches-3.jpg",
+     "full": "full/ihlara-valley-churches-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ihlara-valley-churches-4",
+     "thumb": "thumbs/ihlara-valley-churches-4.jpg",
+     "full": "full/ihlara-valley-churches-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ihlara-valley-churches-5",
+     "thumb": "thumbs/ihlara-valley-churches-5.jpg",
+     "full": "full/ihlara-valley-churches-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ihlara-valley-churches-6",
+     "thumb": "thumbs/ihlara-valley-churches-6.jpg",
+     "full": "full/ihlara-valley-churches-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "selime-monastery",
@@ -17622,7 +18234,39 @@
     "era": "macedonian"
    },
    "summary": "Cappadocia's largest rock-cut monastery, a cathedral hollowed from a stone cone",
-   "description": "The largest rock-cut religious building in Cappadocia, a cathedral-scale monastery carved into a towering cone at the mouth of the Ihlara valley, with a basilical church, kitchens, stables and living quarters all hollowed from the rock in the tenth to eleventh century."
+   "description": "The largest rock-cut religious building in Cappadocia, a cathedral-scale monastery carved into a towering cone at the mouth of the Ihlara valley, with a basilical church, kitchens, stables and living quarters all hollowed from the rock in the tenth to eleventh century.",
+   "photos": [
+    {
+     "id": "selime-monastery-1",
+     "thumb": "thumbs/selime-monastery-1.jpg",
+     "full": "full/selime-monastery-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "selime-monastery-2",
+     "thumb": "thumbs/selime-monastery-2.jpg",
+     "full": "full/selime-monastery-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "selime-monastery-3",
+     "thumb": "thumbs/selime-monastery-3.jpg",
+     "full": "full/selime-monastery-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "selime-monastery-4",
+     "thumb": "thumbs/selime-monastery-4.jpg",
+     "full": "full/selime-monastery-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "selime-monastery-5",
+     "thumb": "thumbs/selime-monastery-5.jpg",
+     "full": "full/selime-monastery-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "avu-in-church",
@@ -17679,6 +18323,26 @@
     {
      "title": "Official website",
      "url": "https://muze.gov.tr/muze-detay?DistId=DKY&SectionId=DKY01"
+    }
+   ],
+   "photos": [
+    {
+     "id": "derinkuyu-underground-city-1",
+     "thumb": "thumbs/derinkuyu-underground-city-1.jpg",
+     "full": "full/derinkuyu-underground-city-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "derinkuyu-underground-city-2",
+     "thumb": "thumbs/derinkuyu-underground-city-2.jpg",
+     "full": "full/derinkuyu-underground-city-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "derinkuyu-underground-city-3",
+     "thumb": "thumbs/derinkuyu-underground-city-3.jpg",
+     "full": "full/derinkuyu-underground-city-3.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
