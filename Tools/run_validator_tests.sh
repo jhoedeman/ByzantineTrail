@@ -31,7 +31,7 @@ run() {
 }
 
 echo "valid catalogs (expect exit 0):"
-run valid                 0 "catalog valid"    -- "$FIX/valid.json"   # note: valid.json's credit is "Photo by Jane Doe" — a name in a credit passes
+run valid                 0 "catalog valid"    -- "$FIX/valid.json"   # note: credit names a person (passes email scan) and carries a CC license + licenseURL (passes attribution check)
 run valid_unknown_type    0 "catalog valid"    -- "$FIX/valid_unknown_type.json"
 run valid_with_assets     0 "catalog valid"    -- "$FIX/valid.json" "$FIX/assets"
 run denylist_off_passes   0 "catalog valid"    -- "$FIX/denylist_target.json"
@@ -51,6 +51,7 @@ run email_leak            1 "email"              -- "$FIX/email_leak.json"
 run malformed_json        1 "schema"             -- "$FIX/malformed.json"
 run missing_field         1 "schema"             -- "$FIX/missing_field.json"
 run missing_thumb         1 "thumb"              -- "$FIX/missing_thumb.json" "$FIX/assets"
+run cc_missing_license    1 "no licenseURL"      -- "$FIX/cc_missing_license.json"
 
 echo "denylist (opt-in, env-supplied):"
 # Same fixture that PASSES above must FAIL once the denylist names the handle.

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "catalogVersion": 5,
+  "photoBaseURL": "https://example.invalid/bt/",
+  "cities": [{"id":"istanbul","name":"Istanbul"}],
+  "sites": [
+    {"id":"a","name":"Hagia Sophia","type":"church","country":"TR","cityId":"istanbul","coordinate":{"lat":41.0,"lon":29.0},"importance":"major","addedInVersion":1,"photos":[{"id":"a-01","thumb":"thumbs/a-01.jpg","full":"photos/a-01.jpg","credit":"Sailko, CC BY 3.0, via Wikimedia Commons"}]}
+  ]
+}
