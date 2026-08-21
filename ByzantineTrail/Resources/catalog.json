@@ -1578,7 +1578,8 @@
    "name": "San Marco Evangelista",
    "alternateNames": [
     "San Marco Evangelista al Campidoglio",
-    "San Marco"
+    "San Marco",
+    "Basilica of Saint Mark"
    ],
    "type": "church",
    "country": "IT",
@@ -3219,35 +3220,6 @@
    "summary": "A 6th century church inside the Roman Forum, this church contains extensive and important pre-Iconoclasm wall paintings.",
    "description": "Built in the 6th century, this church is widely noted for its extensive and indeed important collection of 6th-8th century wall paintings, which together make up one of the largest collections of pre-Iconoclasm Roman-Byzantine art in the world.",
    "hours": "9:30–15:15, when not being excavated"
-  },
-  {
-   "id": "san-marco-evangelista-al-campidoglio",
-   "name": "San Marco Evangelista al Campidoglio",
-   "alternateNames": [
-    "San Marco",
-    "Basilica of Saint Mark"
-   ],
-   "type": "church",
-   "country": "IT",
-   "cityId": "rome",
-   "coordinate": {
-    "lat": 41.895859,
-    "lon": 12.481662
-   },
-   "address": "Palazzo Venezia, Piazza di S. Marco, 48, 00186 Roma RM, Italy",
-   "importance": "minor",
-   "addedInVersion": 1,
-   "period": {
-    "century": 9
-   },
-   "summary": "A 9th century rebuild of this church provided it with stunning apse mosaics.",
-   "description": "First built in 334, this church was rebuilt in the 9th century, at which point it picked up a set of gorgeous mosaics in the apse.",
-   "links": [
-    {
-     "title": "Official website",
-     "url": "http://www.sanmarcoevangelista.it/"
-    }
-   ]
   },
   {
    "id": "santa-sabina-allaventino",
