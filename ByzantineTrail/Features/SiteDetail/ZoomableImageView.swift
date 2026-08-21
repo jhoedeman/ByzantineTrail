@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ZoomableImageView: View {
     let url: URL
+    var credit: String? = nil
     let onDismiss: () -> Void
     @State private var scale: CGFloat = 1
     @State private var lastScale: CGFloat = 1
@@ -45,6 +46,20 @@ struct ZoomableImageView: View {
                     .padding()
             }
             .accessibilityLabel("Close")
+        }
+        // Credit stays visible over the full-res image (attribution must show
+        // here too). allowsHitTesting(false) keeps pinch/pan working underneath.
+        .overlay(alignment: .bottom) {
+            if let credit, !credit.isEmpty {
+                Text(credit)
+                    .font(.caption)
+                    .foregroundStyle(.white.opacity(0.9))
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 10)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(.black.opacity(0.5))
+                    .allowsHitTesting(false)
+            }
         }
     }
 }

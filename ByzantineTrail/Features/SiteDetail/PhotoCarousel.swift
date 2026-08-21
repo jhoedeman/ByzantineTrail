@@ -5,7 +5,7 @@ struct PhotoCarousel: View {
     let resolver: PhotoResolver?
     let theme: Theme
 
-    private struct ZoomItem: Identifiable { let id = UUID(); let url: URL }
+    private struct ZoomItem: Identifiable { let id = UUID(); let url: URL; let credit: String? }
     @State private var zoom: ZoomItem?
 
     private let height: CGFloat = 260
@@ -13,7 +13,7 @@ struct PhotoCarousel: View {
     var body: some View {
         content
             .fullScreenCover(item: $zoom) { item in
-                ZoomableImageView(url: item.url) { zoom = nil }
+                ZoomableImageView(url: item.url, credit: item.credit) { zoom = nil }
             }
     }
 
@@ -69,20 +69,27 @@ struct PhotoCarousel: View {
             .background(theme.bgCardAlt)
             .clipped()
             .contentShape(Rectangle())
-            .onTapGesture { if let fullURL { zoom = ZoomItem(url: fullURL) } }
+            .onTapGesture { if let fullURL { zoom = ZoomItem(url: fullURL, credit: photo.credit) } }
 
-            if let caption = photo.caption, !caption.isEmpty {
-                captionBar(caption, credit: photo.credit)
+            // Always surface the credit (and caption, if any). Photo
+            // attributions must be visible — a hard requirement once any
+            // third-party/licensed photo is used, not just a nicety.
+            let caption = photo.caption.flatMap { $0.isEmpty ? nil : $0 }
+            let credit = photo.credit.flatMap { $0.isEmpty ? nil : $0 }
+            if caption != nil || credit != nil {
+                captionCreditBar(caption: caption, credit: credit)
             }
         }
     }
 
-    private func captionBar(_ caption: String, credit: String?) -> some View {
+    private func captionCreditBar(caption: String?, credit: String?) -> some View {
         VStack(alignment: .leading, spacing: 2) {
-            Text(caption)
-                .font(.caption)
-                .foregroundStyle(theme.textOnImage)
-            if let credit, !credit.isEmpty {
+            if let caption {
+                Text(caption)
+                    .font(.caption)
+                    .foregroundStyle(theme.textOnImage)
+            }
+            if let credit {
                 Text(credit)
                     .font(.caption2)
                     .foregroundStyle(theme.textOnImage.opacity(0.8))
