@@ -13550,7 +13550,15 @@
    },
    "summary": "The Marmara harbors whose Yenikapı dig unearthed a fleet of sunken ships",
    "description": "The city's great southern harbors on the Marmara, silted up and built over long ago. Excavations at Yenikapı for the metro spectacularly uncovered the Theodosian harbor with dozens of sunken ships.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "kontoskalion-and-eleutherios-harbors-1",
+     "thumb": "thumbs/kontoskalion-and-eleutherios-harbors-1.jpg",
+     "full": "full/kontoskalion-and-eleutherios-harbors-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "the-myrelaion",
