@@ -14435,6 +14435,56 @@
      "title": "Official website",
      "url": "http://www.aachenerdom.de/"
     }
+   ],
+   "photos": [
+    {
+     "id": "aachen-cathedral-1",
+     "thumb": "thumbs/aachen-cathedral-1.jpg",
+     "full": "full/aachen-cathedral-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "aachen-cathedral-2",
+     "thumb": "thumbs/aachen-cathedral-2.jpg",
+     "full": "full/aachen-cathedral-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "aachen-cathedral-3",
+     "thumb": "thumbs/aachen-cathedral-3.jpg",
+     "full": "full/aachen-cathedral-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "aachen-cathedral-4",
+     "thumb": "thumbs/aachen-cathedral-4.jpg",
+     "full": "full/aachen-cathedral-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "aachen-cathedral-5",
+     "thumb": "thumbs/aachen-cathedral-5.jpg",
+     "full": "full/aachen-cathedral-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "aachen-cathedral-6",
+     "thumb": "thumbs/aachen-cathedral-6.jpg",
+     "full": "full/aachen-cathedral-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "aachen-cathedral-7",
+     "thumb": "thumbs/aachen-cathedral-7.jpg",
+     "full": "full/aachen-cathedral-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "aachen-cathedral-8",
+     "thumb": "thumbs/aachen-cathedral-8.jpg",
+     "full": "full/aachen-cathedral-8.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -17070,6 +17120,32 @@
      "title": "Official website",
      "url": "http://www.amzd.hr/"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-st-donatus-1",
+     "thumb": "thumbs/church-of-st-donatus-1.jpg",
+     "full": "full/church-of-st-donatus-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-st-donatus-2",
+     "thumb": "thumbs/church-of-st-donatus-2.jpg",
+     "full": "full/church-of-st-donatus-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-st-donatus-3",
+     "thumb": "thumbs/church-of-st-donatus-3.jpg",
+     "full": "full/church-of-st-donatus-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-st-donatus-4",
+     "thumb": "thumbs/church-of-st-donatus-4.jpg",
+     "full": "full/church-of-st-donatus-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -17124,7 +17200,33 @@
    },
    "summary": "Diocletian's vast palace, his mausoleum reborn as Split's cathedral",
    "description": "The colossal fortified palace Diocletian built around 300, later filled by the medieval town of Split; the emperor's own mausoleum was turned into the Cathedral of St. Domnius, so a persecutor of Christians lies displaced by the saint he martyred. Late-Roman fabric with a continuous Byzantine-to-medieval afterlife.",
-   "hours": "8:15–19:30; 12:30–17:30 Sun"
+   "hours": "8:15–19:30; 12:30–17:30 Sun",
+   "photos": [
+    {
+     "id": "diocletians-palace-and-cathedral-of-st-domnius-1",
+     "thumb": "thumbs/diocletians-palace-and-cathedral-of-st-domnius-1.jpg",
+     "full": "full/diocletians-palace-and-cathedral-of-st-domnius-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "diocletians-palace-and-cathedral-of-st-domnius-2",
+     "thumb": "thumbs/diocletians-palace-and-cathedral-of-st-domnius-2.jpg",
+     "full": "full/diocletians-palace-and-cathedral-of-st-domnius-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "diocletians-palace-and-cathedral-of-st-domnius-3",
+     "thumb": "thumbs/diocletians-palace-and-cathedral-of-st-domnius-3.jpg",
+     "full": "full/diocletians-palace-and-cathedral-of-st-domnius-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "diocletians-palace-and-cathedral-of-st-domnius-4",
+     "thumb": "thumbs/diocletians-palace-and-cathedral-of-st-domnius-4.jpg",
+     "full": "full/diocletians-palace-and-cathedral-of-st-domnius-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "cathedral-of-st-tryphon",
