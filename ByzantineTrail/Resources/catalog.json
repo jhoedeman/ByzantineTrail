@@ -15039,6 +15039,29 @@
      "title": "Official website",
      "url": "http://www.zupaporec.com/eufrazijeva-bazilika.html"
     }
+   ],
+   "photos": [
+    {
+     "id": "euphrasian-basilica-1",
+     "thumb": "thumbs/euphrasian-basilica-1.jpg",
+     "full": "full/euphrasian-basilica-1.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "euphrasian-basilica-2",
+     "thumb": "thumbs/euphrasian-basilica-2.jpg",
+     "full": "full/euphrasian-basilica-2.jpg",
+     "credit": "Javier Losa, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "euphrasian-basilica-3",
+     "thumb": "thumbs/euphrasian-basilica-3.jpg",
+     "full": "full/euphrasian-basilica-3.jpg",
+     "credit": "Aquamunda, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
    ]
   },
   {

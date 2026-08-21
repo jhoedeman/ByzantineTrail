@@ -53,6 +53,23 @@ struct SiteDecodingTests {
         #expect(site.id == "x")
     }
 
+    @Test func decodesPhotoLicenseURLWhenPresentAndNilWhenAbsent() throws {
+        let site = try decodeSite(#"""
+        {"id":"x","name":"X","type":"church","country":"TR",
+         "coordinate":{"lat":0,"lon":0},"importance":"minor",
+         "photos":[
+           {"id":"x-1","thumb":"thumbs/x-1.jpg","full":"full/x-1.jpg",
+            "credit":"Sailko, CC BY 3.0, via Wikimedia Commons",
+            "licenseURL":"https://creativecommons.org/licenses/by/3.0"},
+           {"id":"x-2","thumb":"thumbs/x-2.jpg","full":"full/x-2.jpg",
+            "credit":"Photo: John Hoedeman"}
+         ]}
+        """#)
+        #expect(site.photos[0].licenseURL == "https://creativecommons.org/licenses/by/3.0")
+        #expect(site.photos[0].credit == "Sailko, CC BY 3.0, via Wikimedia Commons")
+        #expect(site.photos[1].licenseURL == nil)
+    }
+
     @Test func missingArraysDefaultToEmpty() throws {
         let site = try decodeSite(#"""
         {"id":"x","name":"X","type":"church","country":"TR",
