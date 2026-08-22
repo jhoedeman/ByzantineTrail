@@ -4534,7 +4534,23 @@
    "importance": "notable",
    "addedInVersion": 1,
    "summary": "An abandoned monastery with a long and storied history, now deteriorating",
-   "description": "A large and historically important multistory monastery complex with a 1700 year history, now abandoned due to the genocide of the Pontic Greeks, with deteriorating and vandalized Christian artwork"
+   "description": "A large and historically important multistory monastery complex with a 1700 year history, now abandoned due to the genocide of the Pontic Greeks, with deteriorating and vandalized Christian artwork",
+   "photos": [
+    {
+     "id": "vazelon-monastery-1",
+     "thumb": "thumbs/vazelon-monastery-1.jpg",
+     "full": "full/vazelon-monastery-1.jpg",
+     "credit": "Ingo Leonard, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "vazelon-monastery-2",
+     "thumb": "thumbs/vazelon-monastery-2.jpg",
+     "full": "full/vazelon-monastery-2.jpg",
+     "credit": "Ingo Leonard, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "trabzon-castle",
@@ -4553,7 +4569,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A series of city fortifications that housed the palace of the Empire of Trebizond",
-   "description": "Commonly called a castle, this is a series of fortifications and city walls, including a citadel that contained the imperial palace of the Grand Komnenoi of the Empire of Trebizond. Substantial sections survive."
+   "description": "Commonly called a castle, this is a series of fortifications and city walls, including a citadel that contained the imperial palace of the Grand Komnenoi of the Empire of Trebizond. Substantial sections survive.",
+   "photos": [
+    {
+     "id": "trabzon-castle-1",
+     "thumb": "thumbs/trabzon-castle-1.jpg",
+     "full": "full/trabzon-castle-1.jpg",
+     "credit": "Herbert Frank from Wien (Vienna), AT, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "hagia-sophia-trabzon",
@@ -4576,7 +4601,30 @@
     "era": "palaiologan"
    },
    "summary": "An exemplar of late Byzantine architecture and 13th-14th century fresco, reconverted from a museum to a mosque",
-   "description": "An important example of late Byzantine architecture, this church was completed in the 13th century with some surviving frescoes of the Palaiologan Renaissance. Converted to a mosque after the Ottoman conquest, it was then made a museum and then sadly reconverted to a mosque, covering the beautiful art and floors."
+   "description": "An important example of late Byzantine architecture, this church was completed in the 13th century with some surviving frescoes of the Palaiologan Renaissance. Converted to a mosque after the Ottoman conquest, it was then made a museum and then sadly reconverted to a mosque, covering the beautiful art and floors.",
+   "photos": [
+    {
+     "id": "hagia-sophia-trabzon-1",
+     "thumb": "thumbs/hagia-sophia-trabzon-1.jpg",
+     "full": "full/hagia-sophia-trabzon-1.jpg",
+     "credit": "Sasha India, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "hagia-sophia-trabzon-2",
+     "thumb": "thumbs/hagia-sophia-trabzon-2.jpg",
+     "full": "full/hagia-sophia-trabzon-2.jpg",
+     "credit": "Herbert Frank from Wien (Vienna), AT, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "hagia-sophia-trabzon-3",
+     "thumb": "thumbs/hagia-sophia-trabzon-3.jpg",
+     "full": "full/hagia-sophia-trabzon-3.jpg",
+     "credit": "Sasha India, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "panagia-chrysokephalos",
@@ -11801,7 +11849,16 @@
    },
    "summary": "A well-preserved Byzantine wall",
    "description": "The defensive circuit around the old city, built by Anastasius I, and one of the best-preserved such systems in Albania.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "city-wall-of-durr-s-1",
+     "thumb": "thumbs/city-wall-of-durr-s-1.jpg",
+     "full": "full/city-wall-of-durr-s-1.jpg",
+     "credit": "David Stanley from Nanaimo, Canada, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "d-rres-amphitheater",
@@ -11825,7 +11882,23 @@
    },
    "summary": "A Roman amphitheater with a Byzantine chapel and mosaics inside",
    "description": "While this is undoubtedly an Imperial Roman amphitheater, started under Trajan, the Byzantinist will find a 4th century chapel inside of it, originally decorated with frescoes, now with 6th century Early Christian Mosaics. A medieval chapel was built in the 13th century.",
-   "hours": "9:00–19:00 daily"
+   "hours": "9:00–19:00 daily",
+   "photos": [
+    {
+     "id": "d-rres-amphitheater-1",
+     "thumb": "thumbs/d-rres-amphitheater-1.jpg",
+     "full": "full/d-rres-amphitheater-1.jpg",
+     "credit": "Stefan Kühn at de.wikipedia, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+     "id": "d-rres-amphitheater-2",
+     "thumb": "thumbs/d-rres-amphitheater-2.jpg",
+     "full": "full/d-rres-amphitheater-2.jpg",
+     "credit": "Marcin Konsek, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "byzantine-forum",
@@ -11849,7 +11922,16 @@
    },
    "summary": "The Byzantine-era forum of Durrës",
    "description": "A circular archaeological site representing the urban core of Byzantine Dyrrachium, and containing a colonnade, ancient baths, and market ruins.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "byzantine-forum-1",
+     "thumb": "thumbs/byzantine-forum-1.jpg",
+     "full": "full/byzantine-forum-1.jpg",
+     "credit": "Leeturtle, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "auditorium-santa-lucia",
