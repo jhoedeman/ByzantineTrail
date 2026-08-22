@@ -3412,7 +3412,30 @@
    },
    "summary": "A center-city 11th century Byzantine church, and one of the oldest continuously in use",
    "description": "A Byzantine church from the 11th century right in the middle of bustling Athens, this is one of the oldest churches continuously in use in the city. Probably once the katholikon of a monastery, the church itself is domed cross-in-square.",
-   "hours": "11:00–17:00 & 7:00–17:00 Sun"
+   "hours": "11:00–17:00 & 7:00–17:00 Sun",
+   "photos": [
+    {
+     "id": "church-of-panagia-kapnikarea-1",
+     "thumb": "thumbs/church-of-panagia-kapnikarea-1.jpg",
+     "full": "full/church-of-panagia-kapnikarea-1.jpg",
+     "credit": "Jakub Hałun, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "church-of-panagia-kapnikarea-2",
+     "thumb": "thumbs/church-of-panagia-kapnikarea-2.jpg",
+     "full": "full/church-of-panagia-kapnikarea-2.jpg",
+     "credit": "Jakub Hałun, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "church-of-panagia-kapnikarea-3",
+     "thumb": "thumbs/church-of-panagia-kapnikarea-3.jpg",
+     "full": "full/church-of-panagia-kapnikarea-3.jpg",
+     "credit": "Jakub Hałun, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ]
   },
   {
    "id": "santa-maria-de-ta-ll",
@@ -3435,7 +3458,30 @@
    },
    "summary": "Two Catalan churches with directly Byzantine art, including a Pantokrator and enthroned Theotokos, transmitted through trading links to Italy",
    "description": "To be clear, the Catalan Pyrenees were never Byzantine, nor was this site occupied by Greek refugees. However, the visual language of the church is clearly derived from Byzantium, albeit at the far edge of its diffusion, a thousand miles from Constantinople",
-   "hours": "10:00–19:00"
+   "hours": "10:00–19:00",
+   "photos": [
+    {
+     "id": "santa-maria-de-ta-ll-1",
+     "thumb": "thumbs/santa-maria-de-ta-ll-1.jpg",
+     "full": "full/santa-maria-de-ta-ll-1.jpg",
+     "credit": "Ángel M. Felicísimo from Mérida, España, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "santa-maria-de-ta-ll-2",
+     "thumb": "thumbs/santa-maria-de-ta-ll-2.jpg",
+     "full": "full/santa-maria-de-ta-ll-2.jpg",
+     "credit": "Ángel M. Felicísimo from Mérida, España, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "santa-maria-de-ta-ll-3",
+     "thumb": "thumbs/santa-maria-de-ta-ll-3.jpg",
+     "full": "full/santa-maria-de-ta-ll-3.jpg",
+     "credit": "AinhoaP, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "sant-climent-de-ta-ll",
@@ -3458,7 +3504,23 @@
    },
    "summary": "Two Catalan churches with directly Byzantine art, including a Pantokrator and enthroned Theotokos, transmitted through trading links to Italy",
    "description": "One of two sister churches in Vall de Boí, Catalonia, Sant Climent speaks the visual language of Byzantium, derived from trading links with Italy. Note the Pantokrator in the apse, emblematic of the Catalan Romanesque, and directly Byzantine in derivation.",
-   "hours": "10:00–14:00 & 16:00–19:00 daily"
+   "hours": "10:00–14:00 & 16:00–19:00 daily",
+   "photos": [
+    {
+     "id": "sant-climent-de-ta-ll-1",
+     "thumb": "thumbs/sant-climent-de-ta-ll-1.jpg",
+     "full": "full/sant-climent-de-ta-ll-1.jpg",
+     "credit": "Turol Jones CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "sant-climent-de-ta-ll-2",
+     "thumb": "thumbs/sant-climent-de-ta-ll-2.jpg",
+     "full": "full/sant-climent-de-ta-ll-2.jpg",
+     "credit": "Ainhoa from Catalunya, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "museum-of-byzantine-and-medieval-abruzzo",
@@ -3502,7 +3564,16 @@
     "era": "palaiologan"
    },
    "summary": "A monastery closely connected to the Palaiologan emperors and with beautiful 15th century late-Byzantine frescoes",
-   "description": "A Serbian Orthodox monastery founded by Konstantin Dragaš, father of Helena Dragaš, who became the mother of the last two Byzantine emperors, brother John VIII and Constantine XI. Its late 15th century frescoes are gems of Balkan late-Byzantine art."
+   "description": "A Serbian Orthodox monastery founded by Konstantin Dragaš, father of Helena Dragaš, who became the mother of the last two Byzantine emperors, brother John VIII and Constantine XI. Its late 15th century frescoes are gems of Balkan late-Byzantine art.",
+   "photos": [
+    {
+     "id": "poganovo-monastery-1",
+     "thumb": "thumbs/poganovo-monastery-1.jpg",
+     "full": "full/poganovo-monastery-1.jpg",
+     "credit": "Orjen, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "bachkovo-monastery",
@@ -3527,7 +3598,23 @@
    },
    "summary": "One of Bulgaria's greatest monasteries, with a tricultural heritage, 12th century Komnenian frescoes, and a notable icon",
    "description": "Founded in the late 11th century by the megas domestikos of the western armies of Alexios I Komnenos, this site is tricultural: Byzantine, Georgian, and Bulgarian. Note the well-preserved Komnenian frescoes of the 12th century and the icon of the Virgin of Eleusa, brought from Georgia and hidden in the mountains during the Ottoman occupation.",
-   "hours": "7:00–19:00 daily"
+   "hours": "7:00–19:00 daily",
+   "photos": [
+    {
+     "id": "bachkovo-monastery-1",
+     "thumb": "thumbs/bachkovo-monastery-1.jpg",
+     "full": "full/bachkovo-monastery-1.jpg",
+     "credit": "David Stanley from Nanaimo, Canada, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "bachkovo-monastery-2",
+     "thumb": "thumbs/bachkovo-monastery-2.jpg",
+     "full": "full/bachkovo-monastery-2.jpg",
+     "credit": "Красимир Косев, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "st-clement-of-ohrid",
@@ -3546,7 +3633,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A modern church on the original site of St. Clement's life and work",
-   "description": "This is the historically authentic site of St. Clement's life, school, and tomb, originally built in 890; however, the Ottomans demolished it to the foundations and built a mosque on top. Thankfully, a new church was built on the site in 2002 in the Byzantine style, and St. Clement was laid to rest there once again."
+   "description": "This is the historically authentic site of St. Clement's life, school, and tomb, originally built in 890; however, the Ottomans demolished it to the foundations and built a mosque on top. Thankfully, a new church was built on the site in 2002 in the Byzantine style, and St. Clement was laid to rest there once again.",
+   "photos": [
+    {
+     "id": "st-clement-of-ohrid-1",
+     "thumb": "thumbs/st-clement-of-ohrid-1.jpg",
+     "full": "full/st-clement-of-ohrid-1.jpg",
+     "credit": "Klovovi, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-erasmus",
@@ -3587,7 +3683,16 @@
    "importance": "notable",
    "addedInVersion": 1,
    "summary": "A 10th century monastery with a 16th century Byzantine church",
-   "description": "At the southern tip of Lake Ohrid, about 29 km south of town right by the Albanian border, this monastery was founded in 905 by St. Naum himself. The original 9th century trefoil church was destroyed, but the site now holds a multi-domed Byzantine church built in the 16th century."
+   "description": "At the southern tip of Lake Ohrid, about 29 km south of town right by the Albanian border, this monastery was founded in 905 by St. Naum himself. The original 9th century trefoil church was destroyed, but the site now holds a multi-domed Byzantine church built in the 16th century.",
+   "photos": [
+    {
+     "id": "saint-naum-monastery-1",
+     "thumb": "thumbs/saint-naum-monastery-1.jpg",
+     "full": "full/saint-naum-monastery-1.jpg",
+     "credit": "Petar Milošević, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "treskavec-monastery",
@@ -3607,7 +3712,30 @@
    "importance": "notable",
    "addedInVersion": 1,
    "summary": "A layered and difficult to access religious complex whose core is a Palaiologan church with beautiful frescoes.",
-   "description": "The single-nave domed church has a 12th-century core, but its defining phase came at the end of the 13th and start of the 14th century — above all the outer porch — under the patronage of the Byzantine general Michael Doukas Glabas Tarchaneiotes, protostrator under Andronikos II and Michael IX Palaiologos, whose donor portrait survives above the main entrance. Lovely frescoes round out the church."
+   "description": "The single-nave domed church has a 12th-century core, but its defining phase came at the end of the 13th and start of the 14th century — above all the outer porch — under the patronage of the Byzantine general Michael Doukas Glabas Tarchaneiotes, protostrator under Andronikos II and Michael IX Palaiologos, whose donor portrait survives above the main entrance. Lovely frescoes round out the church.",
+   "photos": [
+    {
+     "id": "treskavec-monastery-1",
+     "thumb": "thumbs/treskavec-monastery-1.jpg",
+     "full": "full/treskavec-monastery-1.jpg",
+     "credit": "Македонец, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "treskavec-monastery-2",
+     "thumb": "thumbs/treskavec-monastery-2.jpg",
+     "full": "full/treskavec-monastery-2.jpg",
+     "credit": "Македонец, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "treskavec-monastery-3",
+     "thumb": "thumbs/treskavec-monastery-3.jpg",
+     "full": "full/treskavec-monastery-3.jpg",
+     "credit": "ГП, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "asteriou-monastery-of-the-taxiarchs",
@@ -3630,7 +3758,23 @@
     "era": "macedonian"
    },
    "summary": "A working monastery with 16th century structures and wall paintings and an unclear founding date",
-   "description": "A fuzzy foundation legend puts this monastery either in the 5th century or the 10th century, the latter suggesting that Hosios Loukas lived here as a young monk. However, the architectural structures and wall paintings date to the 16th century. Pilgrims are welcome in the mornings, but it is a working monastery and often closed."
+   "description": "A fuzzy foundation legend puts this monastery either in the 5th century or the 10th century, the latter suggesting that Hosios Loukas lived here as a young monk. However, the architectural structures and wall paintings date to the 16th century. Pilgrims are welcome in the mornings, but it is a working monastery and often closed.",
+   "photos": [
+    {
+     "id": "asteriou-monastery-of-the-taxiarchs-1",
+     "thumb": "thumbs/asteriou-monastery-of-the-taxiarchs-1.jpg",
+     "full": "full/asteriou-monastery-of-the-taxiarchs-1.jpg",
+     "credit": "George E. Koronaios, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "asteriou-monastery-of-the-taxiarchs-2",
+     "thumb": "thumbs/asteriou-monastery-of-the-taxiarchs-2.jpg",
+     "full": "full/asteriou-monastery-of-the-taxiarchs-2.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "hymettus",
@@ -3649,7 +3793,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A mountain near Athens with hikes and views, along with various working monasteries and other Byzantine remnants",
-   "description": "A mountain east of Athens in Attica offering superb hiking and views over the city, but also containing Byzantine monasteries and various smaller Byzantine foundations including St. John the Hunter (Agios Ioannis Kyrigos) from the 12th century, St. John the Theologian near Papagou with lovely wall paintings, and Agios Ioannis Prodomos (Kareas) perhaps from the 12th century."
+   "description": "A mountain east of Athens in Attica offering superb hiking and views over the city, but also containing Byzantine monasteries and various smaller Byzantine foundations including St. John the Hunter (Agios Ioannis Kyrigos) from the 12th century, St. John the Theologian near Papagou with lovely wall paintings, and Agios Ioannis Prodomos (Kareas) perhaps from the 12th century.",
+   "photos": [
+    {
+     "id": "hymettus-1",
+     "thumb": "thumbs/hymettus-1.jpg",
+     "full": "full/hymettus-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "kaisariani-monastery",
@@ -3673,7 +3826,23 @@
    },
    "summary": "This 12th century monastery, renowned as a scholarly center at its peak, retains gorgeous late- and post-Byzantine frescoes",
    "description": "A cross-in-square katholikon dedicated to the Presentation of the Virgin, its interior covered in exquisite post-Byzantine frescoes by Athonite masters. At its late-12th/early-13th-century peak it was the richest and most renowned monastery on the mountain, famed for a library that drew scholars; in 1458 Mehmed II reportedly received the keys of Athens here.",
-   "hours": "8:30–15:00; closed Tue"
+   "hours": "8:30–15:00; closed Tue",
+   "photos": [
+    {
+     "id": "kaisariani-monastery-1",
+     "thumb": "thumbs/kaisariani-monastery-1.jpg",
+     "full": "full/kaisariani-monastery-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "kaisariani-monastery-2",
+     "thumb": "thumbs/kaisariani-monastery-2.jpg",
+     "full": "full/kaisariani-monastery-2.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "old-port-of-classe",
@@ -3692,7 +3861,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "An extremely important port of the Byzantine era, conquered by Belisarius, now an active archaeological site",
-   "description": "The old port of Ravenna, now inland due to silting of the Po River and sinking several inches every year, it is an active archaeological site and museum. Long an extremely important hub for the Byzantine Empire and the Exarchate of Ravenna, Belisarius took this port in 540 in the Gothic Wars and the empire held it for more than 200 years after."
+   "description": "The old port of Ravenna, now inland due to silting of the Po River and sinking several inches every year, it is an active archaeological site and museum. Long an extremely important hub for the Byzantine Empire and the Exarchate of Ravenna, Belisarius took this port in 540 in the Gothic Wars and the empire held it for more than 200 years after.",
+   "photos": [
+    {
+     "id": "old-port-of-classe-1",
+     "thumb": "thumbs/old-port-of-classe-1.jpg",
+     "full": "full/old-port-of-classe-1.jpg",
+     "credit": "Trapezaki, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "basilica-di-san-severo-in-classe",
@@ -3715,7 +3893,16 @@
     "era": "justinianic"
    },
    "summary": "An archaeological site near its still-standing sister basilica. As of this writing it is not open to the public, but it is slated to become a visitable part of the archaeological park.",
-   "description": "One of three basilicas within a stone's throw, just up the road from Sant'Apollinare in Classe, this one was totally destroyed, but is now an active archaeological site. Dedicated to St. Severus of Ravenna, whose image you will see in the Justinianic mosaics at Sant'Apollinare in Classe."
+   "description": "One of three basilicas within a stone's throw, just up the road from Sant'Apollinare in Classe, this one was totally destroyed, but is now an active archaeological site. Dedicated to St. Severus of Ravenna, whose image you will see in the Justinianic mosaics at Sant'Apollinare in Classe.",
+   "photos": [
+    {
+     "id": "basilica-di-san-severo-in-classe-1",
+     "thumb": "thumbs/basilica-di-san-severo-in-classe-1.jpg",
+     "full": "full/basilica-di-san-severo-in-classe-1.jpg",
+     "credit": "Sailko, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "vezneciler-cistern",
@@ -3778,7 +3965,16 @@
     "era": "theodosian"
    },
    "summary": "A modern soccer stadium that sits atop a Byzantine cistern",
-   "description": "You may be wondering why this soccer field sits so much lower than the street level around it. Wonder no more - it is the Cistern of Aetius. Or rather, it sits upon the footprint of the cistern, though nothing much of the original remains to be seen."
+   "description": "You may be wondering why this soccer field sits so much lower than the street level around it. Wonder no more - it is the Cistern of Aetius. Or rather, it sits upon the footprint of the cistern, though nothing much of the original remains to be seen.",
+   "photos": [
+    {
+     "id": "cistern-of-aetius-1",
+     "thumb": "thumbs/cistern-of-aetius-1.jpg",
+     "full": "full/cistern-of-aetius-1.jpg",
+     "credit": "Myviki, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "cistern-of-aspar",
@@ -3890,7 +4086,16 @@
    },
    "summary": "Street-level visible cistern masonry, once a part of the great Monastery of Christ Pantokrator complex",
    "description": "Fully visible at street level along Atatürk Boulevard, the remains of this cistern belonged to the complex of the great Monastery of Christ Pantokrator (now called Molla Zeyrek Mosque), one of the most important Byzantine sites in the city. You can visit this one, and there is a teahouse inside.",
-   "hours": "10:00–20:00"
+   "hours": "10:00–20:00",
+   "photos": [
+    {
+     "id": "pantokrator-cistern-1",
+     "thumb": "thumbs/pantokrator-cistern-1.jpg",
+     "full": "full/pantokrator-cistern-1.jpg",
+     "credit": "Censgrz, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ]
   },
   {
    "id": "basilica-cistern",
@@ -3942,7 +4147,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A small Byzantine cistern repurposed as an Ottoman jail then left to deteriorate",
-   "description": "A small Byzantine cistern, repurposed by the Ottomans as a jail, and allowed to become a neighborhood trash dump. Masonry and columns are still somewhat visible, but there are better cisterns to visit."
+   "description": "A small Byzantine cistern, repurposed by the Ottomans as a jail, and allowed to become a neighborhood trash dump. Masonry and columns are still somewhat visible, but there are better cisterns to visit.",
+   "photos": [
+    {
+     "id": "ac-musluk-street-cistern-1",
+     "thumb": "thumbs/ac-musluk-street-cistern-1.jpg",
+     "full": "full/ac-musluk-street-cistern-1.jpg",
+     "credit": "BerkayRower, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "rotunda-cistern-of-myrelaion",
@@ -4047,6 +4261,22 @@
      "title": "Official website",
      "url": "https://www.basilicasanpietroincieldoro.com/"
     }
+   ],
+   "photos": [
+    {
+     "id": "basilica-di-san-pietro-in-ciel-doro-1",
+     "thumb": "thumbs/basilica-di-san-pietro-in-ciel-doro-1.jpg",
+     "full": "full/basilica-di-san-pietro-in-ciel-doro-1.jpg",
+     "credit": "Adapted from c:User:Tango7174, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "basilica-di-san-pietro-in-ciel-doro-2",
+     "thumb": "thumbs/basilica-di-san-pietro-in-ciel-doro-2.jpg",
+     "full": "full/basilica-di-san-pietro-in-ciel-doro-2.jpg",
+     "credit": "Welleschik, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -4070,7 +4300,16 @@
     "era": "justinianic"
    },
    "summary": "The remains of one of Ravenna's great mosaiced churches, now just a few fragments visible in a shop",
-   "description": "Bearing the dubious distinction of being Ravenna's only major Byzantine church whose art was dispersed, the site today houses a commercial shop, but parts of the apse and a 15th century chapel are still visible, along with a bell tower. Africisco (ad Frigiselo) likely referred to the neighborhood. The great mosaics are now in the Bode Museum, Berlin"
+   "description": "Bearing the dubious distinction of being Ravenna's only major Byzantine church whose art was dispersed, the site today houses a commercial shop, but parts of the apse and a 15th century chapel are still visible, along with a bell tower. Africisco (ad Frigiselo) likely referred to the neighborhood. The great mosaics are now in the Bode Museum, Berlin",
+   "photos": [
+    {
+     "id": "church-of-saint-michael-in-africisco-1",
+     "thumb": "thumbs/church-of-saint-michael-in-africisco-1.jpg",
+     "full": "full/church-of-saint-michael-in-africisco-1.jpg",
+     "credit": "Gianni Careddu, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "bode-museum",
@@ -4116,7 +4355,16 @@
     "century": 6
    },
    "summary": "A 6th century church with mosaics and wall paintings in the style of Ravenna",
-   "description": "A 6th century Greek cross church, built by Maximianus, later Archbishop of Ravenna. The floors and walls are decorated with 6th century mosaics, and it has drawn comparison to the Ravenna mausoleum of Galla Placidia."
+   "description": "A 6th century Greek cross church, built by Maximianus, later Archbishop of Ravenna. The floors and walls are decorated with 6th century mosaics, and it has drawn comparison to the Ravenna mausoleum of Galla Placidia.",
+   "photos": [
+    {
+     "id": "chapel-of-st-mary-formosa-1",
+     "thumb": "thumbs/chapel-of-st-mary-formosa-1.jpg",
+     "full": "full/chapel-of-st-mary-formosa-1.jpg",
+     "credit": "Robert Jukić, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "chiesa-della-panaghia",
@@ -4139,7 +4387,16 @@
    },
    "summary": "A small, 11th century Byzantine church with notable brickwork and fragmentary frescoes",
    "description": "A small church built during the Byzantine period in Calabria, including decorative brickwork and fragmentary frescoes showing St. John Chrysostom and St. Basil of Caesarea from the 13th-14th century. No official opening hours, but if you ask at the museum or a nearby coffee shop, someone will find a key for you.",
-   "hours": "Ask at the museum"
+   "hours": "Ask at the museum",
+   "photos": [
+    {
+     "id": "chiesa-della-panaghia-1",
+     "thumb": "thumbs/chiesa-della-panaghia-1.jpg",
+     "full": "full/chiesa-della-panaghia-1.jpg",
+     "credit": "Louise0193, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "butrint-baptistery",
@@ -4159,7 +4416,23 @@
     "era": "justinianic"
    },
    "summary": "A 6th century baptistery repurposed from a Roman bath, with noted mosaic flooring and inscriptions",
-   "description": "A 6th century baptistery that cleverly reused a Roman hypocaust for the rite of baptism. Decorated by notable mosaic floors, it was excavated in the 20th century. Visitors may not always see the floors, however, as they are covered with sand to protect them from rising and falling water levels in the surrounding lagoon."
+   "description": "A 6th century baptistery that cleverly reused a Roman hypocaust for the rite of baptism. Decorated by notable mosaic floors, it was excavated in the 20th century. Visitors may not always see the floors, however, as they are covered with sand to protect them from rising and falling water levels in the surrounding lagoon.",
+   "photos": [
+    {
+     "id": "butrint-baptistery-1",
+     "thumb": "thumbs/butrint-baptistery-1.jpg",
+     "full": "full/butrint-baptistery-1.jpg",
+     "credit": "Radosław Botev, CC BY 3.0 PL, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0/pl/deed.en"
+    },
+    {
+     "id": "butrint-baptistery-2",
+     "thumb": "thumbs/butrint-baptistery-2.jpg",
+     "full": "full/butrint-baptistery-2.jpg",
+     "credit": "czernik.jerzy, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "fortress-of-timgad",
@@ -4183,7 +4456,16 @@
    },
    "summary": "A 6th century fortress erected during the Justinianic reconquest of North Africa",
    "description": "Constructed by the Byzantines during Justinians reconquest of North Africa in the mid-6th century, it reused much material from earlier Roman structures nearby and remains one of the better-preserved Byzantine military sites in Africa.",
-   "hours": "9:00–18:00"
+   "hours": "9:00–18:00",
+   "photos": [
+    {
+     "id": "fortress-of-timgad-1",
+     "thumb": "thumbs/fortress-of-timgad-1.jpg",
+     "full": "full/fortress-of-timgad-1.jpg",
+     "credit": "Hamza-sia, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "trieste-cathedral",
@@ -4208,6 +4490,29 @@
     {
      "title": "Official website",
      "url": "http://www.sangiustomartire.it/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "trieste-cathedral-1",
+     "thumb": "thumbs/trieste-cathedral-1.jpg",
+     "full": "full/trieste-cathedral-1.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "trieste-cathedral-2",
+     "thumb": "thumbs/trieste-cathedral-2.jpg",
+     "full": "full/trieste-cathedral-2.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "trieste-cathedral-3",
+     "thumb": "thumbs/trieste-cathedral-3.jpg",
+     "full": "full/trieste-cathedral-3.jpg",
+     "credit": "Twice25 & Rinina25, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
     }
    ]
   },
@@ -6253,7 +6558,16 @@
    },
    "summary": "Iconic clifftop church exemplifies the North Macedonian Byzantine tradition",
    "description": "Utterly iconic clifftop church, and the most photographed building in the country, this UNESCO site is dedicated to St. John the Theologian. Restoration in 1964 uncovered its medieval wall painting.",
-   "hours": "9:00–16:00"
+   "hours": "9:00–16:00",
+   "photos": [
+    {
+     "id": "church-of-saint-jovan-the-theologian-at-kaneo-1",
+     "thumb": "thumbs/church-of-saint-jovan-the-theologian-at-kaneo-1.jpg",
+     "full": "full/church-of-saint-jovan-the-theologian-at-kaneo-1.jpg",
+     "credit": "BrankaVV, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-the-virgin-mary-peribleptos",

@@ -128,13 +128,16 @@ while IFS=$'\t' read -r folder sid || [ -n "$folder" ]; do
     srcname="${SRCNAME[$i]}"
     raw=""
     if [ -f "$credits_file" ]; then
-      # Match the line whose key (text before the first ':') equals this source
-      # filename, case-insensitively (a camera's "1.JPG" must match a credits key
-      # typed "1.jpg"; a mismatch would silently fall back to the owner credit and
-      # misattribute a third-party photo). Then strip "<filename>:" and whitespace.
+      # Match the line whose key (text before the first ':') names this source
+      # photo. Compare by STEM only — the filename minus its extension, lowercased
+      # — because the owner's credits convention writes keys as "N.jpg" regardless
+      # of the real source extension ("1.JPG", "1.png" all key off "1"). Matching
+      # the full filename would miss those and silently fall back to the owner
+      # credit, misattributing a third-party photo. Then strip "<key>:" + whitespace.
       raw="$(awk -F: -v k="$srcname" '
+        function stem(s){ sub(/\.[^.]*$/,"",s); return tolower(s) }
         { key=$1; sub(/^[ \t]+/,"",key); sub(/[ \t]+$/,"",key);
-          if (tolower(key)==tolower(k)) { sub(/^[^:]*:[ \t]*/,""); print; exit } }' "$credits_file")"
+          if (stem(key)==stem(k)) { sub(/^[^:]*:[ \t]*/,""); print; exit } }' "$credits_file")"
     fi
     if [ -n "$raw" ]; then
       lurl="$(printf '%s' "$raw" | grep -oE '<https?://[^>]+>' | head -1 | tr -d '<>' || true)"
