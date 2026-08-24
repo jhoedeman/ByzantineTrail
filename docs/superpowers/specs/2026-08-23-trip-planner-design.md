@@ -186,10 +186,13 @@ Per-stop override lives on `ItineraryStop.dwellMinutes` and sets `isPinned`.
 
 ### 2. `DayClusterer` (pure) — `Core/Planner/Domain/DayClusterer.swift`
 
-Sites → day-sized clusters. `cityId` does most of the work for free (281 cities
-already assigned); distance-based agglomeration handles sites without one and
-splits cities too large for a single day. Returns clusters ordered by a
-nearest-neighbour pass over cluster centroids.
+Sites → geographic clusters. `cityId` does most of the work for free (281 cities
+already assigned); distance-based agglomeration handles sites without one.
+Returns clusters ordered by a nearest-neighbour pass over cluster centroids.
+
+Clustering here is **purely geographic**. Splitting a city too large for one day
+is a *time-budget* question and belongs to `ItineraryPlanner` (§5.6), which is
+the only component that knows the day window.
 
 ### 3. `StopSequencer` (pure) — `Core/Planner/Domain/StopSequencer.swift`
 
@@ -218,6 +221,13 @@ time traveling than visiting."
 
 Orchestrates 2→3→4→5 over a `TripRequest`, returns a `PlannedTrip` value type.
 Synchronous. No I/O. This is the whole feature's core and it is a pure function.
+
+**`dayCount` is a maximum, not a quota.** The planner produces at most that many
+days and never pads out empty ones — seven sites across five allowed days is a
+one-day trip carrying a `largeSlack` diagnostic. A city larger than one day
+spills into the next (this is what "three days in Rome" needs), and anything
+still left over is reported in `unplacedSiteIds` rather than crammed into an
+overrunning day.
 
 ### 7. `MapKitRouteResolver: RouteResolving` — `Core/Planner/Routing/`
 
