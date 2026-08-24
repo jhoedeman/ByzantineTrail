@@ -15,7 +15,9 @@ with drawn routes, and free-form editing afterwards.
 2. **Solver** — cluster into days, order stops, budget time, report tightness.
 3. **Itinerary** — persisted, editable, readable offline.
 4. **Map** — real routes from `MKDirections`, drawn and cached.
-5. **Paywall** — generation is free and fully visible; **saving** is the gate.
+5. **Disclosures** — what the planner does and does not know, stated before
+   purchase and at each point of reliance (§8).
+6. **Paywall** — generation is free and fully visible; **saving** is the gate.
 
 Everything runs **on-device**. There is no server, no API key, and no new
 network dependency beyond MapKit, which is already linked.
@@ -48,6 +50,10 @@ Explicitly out of scope for M7. Each was considered and deferred:
 - **No per-site authored visit durations.** Derived from `importance` and
   `type`, which are already 100% populated. An optional catalog field can be
   added later where derivation is visibly wrong.
+- **No blocking disclaimer gate and no first-launch disclaimer wall.**
+  Disclosure is contextual and pre-purchase instead (§8.5).
+- **No custom EULA.** Apple's standard EULA applies by default; a short in-app
+  Terms screen supplements it (§8.4).
 
 ## 2. Constraints (carried from the project)
 
@@ -102,6 +108,9 @@ Core/Planner/
     ItineraryStore.swift          @MainActor @Observable
 
 Features/Trips/                   views
+Features/Settings/
+  TripEstimatesView.swift         static explainer (§8.3)
+  TermsView.swift                 static terms (§8.4)
 ```
 
 ### 4.1 The central decision: two travel-time protocols, not one
@@ -274,7 +283,7 @@ Three deliberate decisions:
 
 **Explicit `order: Int` everywhere.** SwiftData relationships are unordered
 sets; array order does not survive a fetch. Every ordered collection carries its
-own index and is sorted on read. This is a common and surprising bug — §9 tests
+own index and is sorted on read. This is a common and surprising bug — §10 tests
 it directly.
 
 **Denormalized `nameSnapshot` / `lat` / `lon`.** Display prefers a live
@@ -388,7 +397,93 @@ Only on the user's tap resolve a full matrix for **that one day** (≤12 stops,
 automatically for every day would blow the throttle and slow generation for no
 visible reason.
 
-## 8. Error handling and degradation
+## 8. Disclosures — what we are actually selling
+
+The planner sells **ordering and time budgeting**. It does not know whether
+anything is open. For a paid feature that distinction has to be visible *before
+purchase*, not discovered afterwards on a doorstep in Thessaloniki.
+
+Disclosure is **layered and contextual**. A single blanket notice at first launch
+is weaker — both as protection and as UX — than a specific statement at each
+point of reliance. If every number carries a warning, users stop reading all of
+them, including the one that matters.
+
+### 8.1 Paywall copy (load-bearing)
+
+This is where "don't sell what you're not selling" is decided, and it is also an
+**App Store Review Guideline 3.1.2** concern: an IAP has to accurately describe
+what it delivers. "Trip planner" unqualified invites a reviewer — and a buyer —
+to assume hours-awareness.
+
+> **Trip Planner** builds a suggested day-by-day route from the sites you choose,
+> estimates walking, driving, and transit times, and suggests how long to spend
+> at each site based on its type and significance.
+>
+> It does **not** check opening hours, closures, holidays, ticket availability,
+> or accessibility. Always confirm before you travel.
+
+The App Store description for the IAP carries the same two paragraphs.
+
+### 8.2 Contextual notices
+
+| Where | Text | Frequency |
+|---|---|---|
+| Estimated leg | `~` prefix (§7.3) | Every estimated leg |
+| `hours` row on a stop | "Hours as published — confirm before visiting" | Every stop that has hours |
+| Stop with no hours data | "Hours unknown — check before you go" | Every stop without hours |
+| Day view footer | "About these estimates" → §8.3 | Persistent, unobtrusive |
+| First generated itinerary | Short sheet summarising §8.1 | **Once**, dismissible, never again |
+
+The two `hours` rows matter most: a wrong assumption there is the only failure in
+this feature that can actually strand someone.
+
+### 8.3 `TripEstimatesView` — `Features/Settings/TripEstimatesView.swift`
+
+A static explainer, reached from Settings → About and from the day-view footer.
+Mirrors the existing `PrivacyPolicyView` structure exactly — bundled text, no
+networking, Chrysos tokens. Covers:
+
+- How visit durations are derived (type and significance, not measurement)
+- What `~` means, and when a leg becomes a real route
+- That straight-line ordering can be wrong where water or walls intervene, and
+  what "Re-optimize this day" does (§7.4)
+- **What the app does not know:** opening hours, closures, public and religious
+  holidays, services in working churches, strikes, ticket availability, queues,
+  weather, accessibility, road conditions
+- Catalog currency — data is community-maintained and may lag reality
+
+### 8.4 Terms
+
+The app currently ships a Privacy Policy and no terms. Two facts shape the
+recommendation:
+
+- **Apple's standard EULA already applies** to every App Store app that does not
+  supply its own, and it already disclaims warranties and limits liability. For
+  an app in this risk class that is a defensible baseline.
+- **EU and UK consumer law caps what can be disclaimed** against consumers
+  regardless of EULA wording, and this app's audience skews heavily European
+  (Greece, Italy, Turkey, Cyprus). A blanket exclusion buys less than it appears
+  to. Apple also controls refunds, so any refund clause of ours is inoperative.
+
+**Recommendation for M7:** rely on Apple's standard EULA and put the effort into
+§8.1 and §8.3, which do the real work. Add a short in-app **Terms** screen
+alongside `PrivacyPolicyView` stating informational-use-only, no warranty of
+accuracy, and that travel decisions remain the user's own.
+
+A custom EULA is a §12 decision, not an M7 blocker. **Not drafted here — this
+spec is not legal advice, and the wording should be reviewed by someone
+qualified before it ships.**
+
+### 8.5 Deliberately not done
+
+- **No blocking "I understand" gate before generating.** Friction that buys
+  little — the purchase is already the consent moment — and it makes a paid
+  feature feel defensive.
+- **No first-launch disclaimer wall.** Nobody reads it; it displaces the
+  contextual notices that people do read.
+- **No per-number warning icons.** The `~` convention carries this.
+
+## 9. Error handling and degradation
 
 | Situation | Behavior |
 |---|---|
@@ -406,7 +501,7 @@ The unroutable row matters more than it looks: the catalog spans Cyprus, Crimea,
 and several Greek islands. A walking route from Athens to Patmos must fail
 loudly rather than quietly render a line across the Aegean.
 
-## 9. Testing
+## 10. Testing
 
 Swift Testing. Everything in `Domain/` is a pure function over value types, so
 the interesting logic is covered by synchronous unit tests with fixture
@@ -443,7 +538,7 @@ in-memory container per test.
 with a stub. A small number of integration tests exercise the real resolver;
 throttle handling is tested with a stub that returns `MKError.loadingThrottled`.
 
-## 10. Build order (informs the plan)
+## 11. Build order (informs the plan)
 
 1. `TravelMode`, `Coordinate` helpers, `HaversineEstimator`, `VisitDuration` — pure, fully tested
 2. `StopSequencer` — pure, the algorithmic core
@@ -454,23 +549,28 @@ throttle handling is tested with a stub that returns `MKError.loadingThrottled`.
 7. Day view: split panes, corner toggles, map chrome
 8. `MapKitRouteResolver` + progressive leg resolution + tilde treatment
 9. Diagnostics UI, re-optimize pass, drift banner
-10. `FeatureGate.tripPlanner` + StoreKit 2 gate on save
+10. Disclosures: contextual notices (§8.2), `TripEstimatesView` (§8.3), Terms screen (§8.4)
+11. `FeatureGate.tripPlanner` + StoreKit 2 gate on save + paywall copy (§8.1)
 
 Steps 1–4 deliver a complete, tested planner before any view exists. That is the
 point of keeping `Domain/` pure.
+
+Step 10 ships **before** the paywall deliberately. The disclosures have to be in
+place the first time anyone is asked to pay.
 
 **Scope note.** This is larger than one implementation plan. The natural split is
 at the 4/5 boundary, which is also where the code stops being pure:
 
 - **M7a** — steps 1–4. The solver. No UI, no persistence, no MapKit. Fully
   tested in isolation and independently verifiable.
-- **M7b** — steps 5–9. Persistence, Trips tab, day view, real routes, diagnostics.
-- **M7c** — step 10. Paywall, once §11 is decided.
+- **M7b** — steps 5–10. Persistence, Trips tab, day view, real routes,
+  diagnostics, disclosures.
+- **M7c** — step 11. Paywall, once §12 is decided.
 
 Each gets its own plan. M7a is the one to write first and can proceed
 immediately; M7c is blocked on the pricing decisions below.
 
-## 11. Deferred decisions
+## 12. Deferred decisions
 
 - **Subscription vs. one-time unlock.** StoreKit 2 covers a one-time unlock
   on-device. A subscription makes server-side receipt validation more attractive
@@ -479,6 +579,9 @@ immediately; M7c is blocked on the pricing decisions below.
 - **Free tier shape.** Recommendation: **one free saved trip**, so the feature is
   not merely a demo. Undecided — must be settled before M7c; nothing in M7a or
   M7b depends on it.
+- **Custom EULA.** Apple's standard EULA is the M7 baseline (§8.4). Revisit only
+  if the feature does well. Any wording should be reviewed by someone qualified
+  before shipping — nothing in this spec is legal advice.
 - **Optional `typicalVisitMinutes` catalog field** where derivation is visibly
   wrong.
 - **Itinerary export** (PDF, Apple Maps handoff, share sheet).
