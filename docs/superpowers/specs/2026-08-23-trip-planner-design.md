@@ -194,6 +194,19 @@ Clustering here is **purely geographic**. Splitting a city too large for one day
 is a *time-budget* question and belongs to `ItineraryPlanner` (§5.6), which is
 the only component that knows the day window.
 
+**Adjacent cities merge.** After grouping, clusters whose centroids fall within
+`orphanThresholdMetres` (15 km) are merged. The catalog gives neighbouring
+villages their own `cityId` — Monemvasia alone has three, 285 m apart, and 242
+distinct-city pairs sit within 15 km — and one cluster becomes one day, so
+without this a morning's walk through the Troodos painted churches would be
+spread across five days with six free hours each. Merging leaves genuinely
+distant cities untouched: Rome and Ravenna are 281 km apart.
+
+A merged cluster's `cityId` is the earliest contributing city and is a
+**provenance hint, not a name**. M7b must derive `ItineraryDay.anchorCityId`
+from the day's own stops, or a Monemvasia day gets labelled
+"monemvasia-upper-town".
+
 ### 3. `StopSequencer` (pure) — `Core/Planner/Domain/StopSequencer.swift`
 
 Cluster → ordered path. **Open TSP** (a path, not a cycle) unless the trip
@@ -333,7 +346,8 @@ with a specific offered remedy.
 
 | Condition | Message |
 |---|---|
-| Sites span more cities than days allow | "These are in Ravenna, Rome, and Istanbul. 2 days won't cover them — extend to 5, or split into separate trips?" |
+| Sites span more **places** than days allow | "These are in Ravenna, Rome, and Istanbul. 2 days won't cover them — extend to 5, or split into separate trips?" |
+| Chosen sites did not fit at all | "12 of your sites didn't fit in 3 days. Add days, or drop them?" |
 | Day exceeds its window | "Day 2 runs ~2h over. Drop a stop, extend the day, or accept and see it flagged?" |
 | Mode cannot cover the distances | "Mystras and Athens are 3½ hours apart on foot. Switch to driving?" |
 | One site far from its cluster | "Nicaea is 2h from everything else. Give it its own day, or remove it?" |
