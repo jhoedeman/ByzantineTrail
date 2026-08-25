@@ -57,3 +57,42 @@ struct PlannedDay: Equatable, Sendable {
     /// the answer. So this is not the elapsed length of the day.
     var occupiedMinutes: Int { dwellMinutes + travelMinutes }
 }
+
+/// Everything the planner needs to build a trip.
+struct TripRequest: Equatable, Sendable {
+    let sites: [PlannerSite]
+    let mode: TravelMode
+    let pace: Pace
+    let dayCount: Int
+    let dayStartMinutes: Int
+    let dayEndMinutes: Int
+    /// Keyed by zero-based day index.
+    let fixedBlocks: [Int: [FixedBlockSpec]]
+    let includeLunch: Bool
+
+    init(sites: [PlannerSite],
+         mode: TravelMode,
+         pace: Pace = .standard,
+         dayCount: Int,
+         dayStartMinutes: Int = 540,
+         dayEndMinutes: Int = 1_080,
+         fixedBlocks: [Int: [FixedBlockSpec]] = [:],
+         includeLunch: Bool = true) {
+        self.sites = sites
+        self.mode = mode
+        self.pace = pace
+        self.dayCount = dayCount
+        self.dayStartMinutes = dayStartMinutes
+        self.dayEndMinutes = dayEndMinutes
+        self.fixedBlocks = fixedBlocks
+        self.includeLunch = includeLunch
+    }
+}
+
+/// The planner's output.
+struct PlannedTrip: Equatable, Sendable {
+    let days: [PlannedDay]
+    let diagnostics: [PlanDiagnostic]
+    /// Sites that did not fit in `dayCount` days.
+    let unplacedSiteIds: [String]
+}
