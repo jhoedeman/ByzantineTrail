@@ -33,6 +33,7 @@ struct VisitDurationTests {
     @Test func archaeologicalSitesGetHalfAgain() {
         #expect(m(.archaeologicalSite, .minor) == 25)    // 15 * 1.5 = 22.5 -> 25
         #expect(m(.archaeologicalSite, .notable) == 45)  // 30 * 1.5 = 45
+        #expect(m(.archaeologicalSite, .major) == 115)   // 75 * 1.5 = 112.5 -> 115 (absent from today's catalog but reachable through the public API)
     }
 
     @Test func monasteriesGetAQuarterMore() {
@@ -59,6 +60,9 @@ struct VisitDurationTests {
     /// Without the exemption the cap would budget six kilometres of the most
     /// formidable fortification in the Byzantine world at half an hour.
     @Test func capsDoNotApplyToMajorSites() {
+        for t: SiteType in [.column, .triumphalArch, .icon, .tower, .mausoleum, .aqueduct] {
+            #expect(m(t, .major) == 75, "\(t) major should exempt from cap and return 75")
+        }
         #expect(m(.cityWalls, .major) == 75)
     }
 
