@@ -187,7 +187,7 @@ struct ItineraryPlannerTests {
 
     // MARK: diagnostics
 
-    @Test func tooManyCitiesForTheDaysIsDiagnosed() {
+    @Test func tooManyPlacesForTheDaysIsDiagnosed() {
         let sites = [
             site("a", 41.89, 12.49, city: "rome"),
             site("b", 44.42, 12.20, city: "ravenna"),

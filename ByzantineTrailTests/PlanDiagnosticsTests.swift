@@ -93,13 +93,13 @@ struct PlanDiagnosticsTests {
 
     // MARK: trip-level
 
-    @Test func moreCitiesThanDaysIsReported() {
+    @Test func morePlacesThanDaysIsReported() {
         let d = day(dwells: [30], legMinutes: [])
         let found = PlanDiagnostics.evaluate(days: [d], placeCount: 3, dayCount: 2, mode: .walking)
         #expect(found.contains(.tooManyPlacesForDays(placeCount: 3, dayCount: 2)))
     }
 
-    @Test func enoughDaysForTheCitiesIsNotReported() {
+    @Test func enoughDaysForThePlacesIsNotReported() {
         let d = day(dwells: [30], legMinutes: [])
         let found = PlanDiagnostics.evaluate(days: [d], placeCount: 2, dayCount: 3, mode: .walking)
         #expect(!found.contains { if case .tooManyPlacesForDays = $0 { true } else { false } })
