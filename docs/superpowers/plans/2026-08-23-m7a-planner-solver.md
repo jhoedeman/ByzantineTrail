@@ -12,7 +12,7 @@
 
 - iOS deployment floor **17.0**; Swift 6.2.
 - Tests use **Swift Testing** (`import Testing`, `@Test`, `#expect`) — never XCTest.
-- **Nothing in `Core/Planner/Domain/` may `import SwiftUI`, `import UIKit`, `import MapKit`, `import SwiftData`, or `import Combine`.** `import Foundation` only. This is the whole point of M7a and is asserted by a test in Task 9.
+- **Nothing in `Core/Planner/Domain/` may `import SwiftUI`, `import UIKit`, `import MapKit`, `import SwiftData`, or `import Combine`.** `import Foundation` only. This is the whole point of M7a and is asserted by a test in Task 8.
 - **No `async`, no actors, no I/O** anywhere in M7a. Every function is synchronous and deterministic.
 - All new source files go under `ByzantineTrail/Core/Planner/Domain/`. All new test files go **flat** in `ByzantineTrailTests/` (that directory has no subfolders except `Mocks`).
 - XcodeGen: regenerate with the **real binary** `~/bin/xcodegen_dist/bin/xcodegen generate` (NOT the symlink) after adding any file. Sources are path-based, so new files under `ByzantineTrail/` are auto-included on regen.
@@ -35,7 +35,7 @@
 - `ByzantineTrail/Core/Planner/Domain/PlannerSite.swift` — the domain's own site value type plus a `Site` adapter.
 - `ByzantineTrail/Core/Planner/Domain/StopSequencer.swift` — stop ordering: exact Held–Karp and the heuristic fallback.
 - `ByzantineTrail/Core/Planner/Domain/DayClusterer.swift` — geographic clustering and cluster ordering.
-- `ByzantineTrail/Core/Planner/Domain/PlannerTypes.swift` — `FixedBlockSpec`, `PlannedStop`, `PlannedBlock`, `PlannedDay`, `TripRequest`, `PlannedTrip`. Shared value types with no behaviour.
+- `ByzantineTrail/Core/Planner/Domain/PlannerTypes.swift` — `FixedBlockSpec`, `PlannedStop`, `PlannedBlock`, `PlannedDay` (Task 6), then `TripRequest` and `PlannedTrip` (Task 8). Shared value types with no behaviour.
 - `ByzantineTrail/Core/Planner/Domain/TimeBudget.swift` — lays stops and blocks onto the clock.
 - `ByzantineTrail/Core/Planner/Domain/PlanDiagnostics.swift` — tightness and the §6 conditions.
 - `ByzantineTrail/Core/Planner/Domain/ItineraryPlanner.swift` — composes everything.
@@ -683,11 +683,12 @@ git commit -m "feat(planner): PlannerSite value type and Site adapter"
 
 ---
 
-### Task 4: `StopSequencer` — exact ordering for small days
+### Task 4: `StopSequencer`
 
 **Files:**
 - Create: `ByzantineTrail/Core/Planner/Domain/StopSequencer.swift`
 - Test: `ByzantineTrailTests/StopSequencerExactTests.swift`
+- Test: `ByzantineTrailTests/StopSequencerHeuristicTests.swift`
 
 **Interfaces:**
 - Consumes: `Coordinate`, `TravelMode`, `TravelEstimating`, `HaversineEstimator` (Task 1).
@@ -696,9 +697,15 @@ git commit -m "feat(planner): PlannerSite value type and Site adapter"
   - `static func sequence(coordinates: [Coordinate], mode: TravelMode, estimator: any TravelEstimating, pinnedPositions: Set<Int> = [], closed: Bool = false) -> [Int]` — returns a permutation of `0..<coordinates.count`
   - `static func totalSeconds(order: [Int], coordinates: [Coordinate], mode: TravelMode, estimator: any TravelEstimating, closed: Bool = false) -> TimeInterval`
 
-Task 5 replaces the heuristic branch; this task stubs it by falling back to input order so the exact path is testable on its own.
+Two solvers behind one signature: exact Held-Karp when there are no pinned
+positions and at most `exactLimit` stops, nearest-neighbour + 2-opt otherwise.
 
-- [ ] **Step 1: Write the failing test**
+**Pinning semantics:** a position `p` in `pinnedPositions` means the stop that
+entered at index `p` stays at index `p` in the result. Free stops fill the
+remaining positions. This is what M7b's "Re-optimize this day" needs once the
+user has hand-placed a stop.
+
+- [ ] **Step 1: Write both failing test files**
 
 Create `ByzantineTrailTests/StopSequencerExactTests.swift`:
 
@@ -808,13 +815,121 @@ struct StopSequencerExactTests {
 }
 ```
 
-- [ ] **Step 2: Run the test to verify it fails**
+Create `ByzantineTrailTests/StopSequencerHeuristicTests.swift`:
 
-Run: `cd /Users/jhoedeman/Documents/Programs/ByzantineTrail && ~/bin/xcodegen_dist/bin/xcodegen generate && xcodebuild -scheme ByzantineTrail -destination 'platform=iOS Simulator,name=iPhone 16' test -only-testing:ByzantineTrailTests/StopSequencerExactTests 2>&1 | tail -20`
+```swift
+import Testing
+@testable import ByzantineTrail
+
+struct StopSequencerHeuristicTests {
+    private let estimator = HaversineEstimator()
+
+    private func seq(_ coords: [Coordinate],
+                     pinned: Set<Int> = [],
+                     closed: Bool = false) -> [Int] {
+        StopSequencer.sequence(coordinates: coords, mode: .walking,
+                               estimator: estimator,
+                               pinnedPositions: pinned, closed: closed)
+    }
+
+    private func cost(_ order: [Int], _ coords: [Coordinate]) -> Double {
+        StopSequencer.totalSeconds(order: order, coordinates: coords,
+                                   mode: .walking, estimator: estimator)
+    }
+
+    /// Scrambled collinear points, above the exact limit. The heuristic should
+    /// still find the walk-the-line answer on an input this easy.
+    private var scrambledLine: [Coordinate] {
+        let latitudes = [0.07, 0.00, 0.13, 0.02, 0.11, 0.04, 0.09,
+                         0.01, 0.12, 0.05, 0.08, 0.03, 0.10, 0.06]
+        return latitudes.map { Coordinate(lat: $0, lon: 0) }
+    }
+
+    // MARK: above the exact limit
+
+    @Test func fourteenStopsReturnsAPermutation() {
+        let result = seq(scrambledLine)
+        #expect(result.count == 14)
+        #expect(Set(result) == Set(0..<14))
+    }
+
+    @Test func heuristicWalksTheLine() {
+        let coords = scrambledLine
+        let sorted = (0..<coords.count).sorted { coords[$0].lat < coords[$1].lat }
+        let result = seq(coords)
+        #expect(result == sorted || result == sorted.reversed())
+    }
+
+    @Test func heuristicBeatsTheInputOrder() {
+        let coords = scrambledLine
+        #expect(cost(seq(coords), coords) < cost(Array(0..<coords.count), coords))
+    }
+
+    /// The heuristic must land close to the exact answer on a case both can do.
+    @Test func heuristicIsCloseToExactOnATenStopDay() {
+        let coords = (0..<10).map {
+            Coordinate(lat: 41.89 + Double(($0 * 7) % 10) * 0.004,
+                       lon: 12.47 + Double(($0 * 3) % 10) * 0.005)
+        }
+        let exact = seq(coords)                       // n <= 12, exact path
+        let heuristic = seq(coords, pinned: [0])      // forces the heuristic
+        #expect(cost(heuristic, coords) <= cost(exact, coords) * 1.25)
+    }
+
+    // MARK: pinning
+
+    @Test func pinnedPositionKeepsItsStop() {
+        let coords = scrambledLine
+        let result = seq(coords, pinned: [3])
+        #expect(result[3] == 3)
+    }
+
+    @Test func severalPinnedPositionsAllHold() {
+        let coords = scrambledLine
+        let result = seq(coords, pinned: [0, 5, 13])
+        #expect(result[0] == 0)
+        #expect(result[5] == 5)
+        #expect(result[13] == 13)
+        #expect(Set(result) == Set(0..<14))
+    }
+
+    @Test func pinningEveryPositionReturnsTheInputOrder() {
+        let coords = scrambledLine
+        #expect(seq(coords, pinned: Set(0..<14)) == Array(0..<14))
+    }
+
+    @Test func pinnedSmallDayStillHonoursPins() {
+        let coords = (0..<6).map { Coordinate(lat: Double($0) * 0.01,
+                                              lon: Double(($0 * 5) % 6) * 0.01) }
+        let result = seq(coords, pinned: [2])
+        #expect(result[2] == 2)
+        #expect(Set(result) == Set(0..<6))
+    }
+
+    @Test func outOfRangePinsAreIgnoredRatherThanCrashing() {
+        let coords = scrambledLine
+        let result = seq(coords, pinned: [99, -4])
+        #expect(Set(result) == Set(0..<14))
+    }
+
+    // MARK: closed tours above the limit
+
+    @Test func closedHeuristicTourStartsAtIndexZero() {
+        let coords = (0..<14).map { Coordinate(lat: Double($0) * 0.01,
+                                               lon: Double(($0 * 5) % 14) * 0.01) }
+        #expect(seq(coords, closed: true).first == 0)
+    }
+}
+```
+
+- [ ] **Step 2: Run both suites to verify they fail**
+
+Run: `~/bin/xcodegen_dist/bin/xcodegen generate && xcodebuild -scheme ByzantineTrail -destination 'platform=iOS Simulator,name=iPhone 16' test -only-testing:ByzantineTrailTests/StopSequencerExactTests -only-testing:ByzantineTrailTests/StopSequencerHeuristicTests 2>&1 | tail -20`
 
 Expected: FAIL — `cannot find 'StopSequencer' in scope`.
 
-- [ ] **Step 3: Implement `StopSequencer` with the exact solver**
+- [ ] **Step 3: Implement `StopSequencer`**
+
 
 Create `ByzantineTrail/Core/Planner/Domain/StopSequencer.swift`:
 
@@ -832,8 +947,8 @@ import Foundation
 /// walls intervene, which is why M7b offers a re-optimize pass over resolved
 /// routes. Never present the result to a user as "the optimal route".
 enum StopSequencer {
-    /// Above this many stops, exact Held-Karp becomes too slow and Task 5's
-    /// heuristic takes over. At n = 12 the exact solve is n^2 * 2^n ~ 590k
+    /// Above this many stops, exact Held-Karp becomes too slow and the
+    /// nearest-neighbour + 2-opt heuristic below takes over. At n = 12 the exact solve is n^2 * 2^n ~ 590k
     /// operations — a few milliseconds.
     static let exactLimit = 12
 
@@ -851,8 +966,11 @@ enum StopSequencer {
             return closed ? heldKarpClosedTour(cost) : heldKarpOpenPath(cost)
         }
 
-        // Replaced in Task 5 by the nearest-neighbour + 2-opt heuristic.
-        return Array(0..<n)
+        let valid = pinnedPositions.filter { $0 >= 0 && $0 < n }
+        let seed = valid.isEmpty
+            ? nearestNeighbour(cost)
+            : pinnedSeed(cost, pinned: valid)
+        return twoOpt(seed, cost, pinned: valid, closed: closed)
     }
 
     /// Total travel time for an order. Used by diagnostics and by tests.
@@ -970,177 +1088,7 @@ enum StopSequencer {
         }
         return path.reversed()
     }
-}
-```
 
-- [ ] **Step 4: Run the test to verify it passes**
-
-Run: `cd /Users/jhoedeman/Documents/Programs/ByzantineTrail && ~/bin/xcodegen_dist/bin/xcodegen generate && xcodebuild -scheme ByzantineTrail -destination 'platform=iOS Simulator,name=iPhone 16' test -only-testing:ByzantineTrailTests/StopSequencerExactTests 2>&1 | tail -20`
-
-Expected: PASS, 10 tests.
-
-- [ ] **Step 5: Commit**
-
-```bash
-git add ByzantineTrail/Core/Planner/Domain/StopSequencer.swift \
-        ByzantineTrailTests/StopSequencerExactTests.swift \
-        ByzantineTrail.xcodeproj
-git commit -m "feat(planner): exact Held-Karp stop ordering for days up to 12 stops"
-```
-
----
-
-### Task 5: `StopSequencer` — heuristic ordering and pinned positions
-
-**Files:**
-- Modify: `ByzantineTrail/Core/Planner/Domain/StopSequencer.swift` — replace the `return Array(0..<n)` fallback in `sequence(coordinates:mode:estimator:pinnedPositions:closed:)` and append the private helpers below.
-- Test: `ByzantineTrailTests/StopSequencerHeuristicTests.swift`
-
-**Interfaces:**
-- Consumes: everything from Task 4. The public signature does **not** change.
-- Produces: no new public API. `sequence` now honours `pinnedPositions` and handles `n > exactLimit`.
-
-**Pinning semantics:** a position `p` in `pinnedPositions` means the stop that entered at index `p` stays at index `p` in the result. Free stops fill the remaining positions. This is what M7b's "Re-optimize this day" needs when the user has hand-placed a stop.
-
-- [ ] **Step 1: Write the failing test**
-
-Create `ByzantineTrailTests/StopSequencerHeuristicTests.swift`:
-
-```swift
-import Testing
-@testable import ByzantineTrail
-
-struct StopSequencerHeuristicTests {
-    private let estimator = HaversineEstimator()
-
-    private func seq(_ coords: [Coordinate],
-                     pinned: Set<Int> = [],
-                     closed: Bool = false) -> [Int] {
-        StopSequencer.sequence(coordinates: coords, mode: .walking,
-                               estimator: estimator,
-                               pinnedPositions: pinned, closed: closed)
-    }
-
-    private func cost(_ order: [Int], _ coords: [Coordinate]) -> Double {
-        StopSequencer.totalSeconds(order: order, coordinates: coords,
-                                   mode: .walking, estimator: estimator)
-    }
-
-    /// Scrambled collinear points, above the exact limit. The heuristic should
-    /// still find the walk-the-line answer on an input this easy.
-    private var scrambledLine: [Coordinate] {
-        let latitudes = [0.07, 0.00, 0.13, 0.02, 0.11, 0.04, 0.09,
-                         0.01, 0.12, 0.05, 0.08, 0.03, 0.10, 0.06]
-        return latitudes.map { Coordinate(lat: $0, lon: 0) }
-    }
-
-    // MARK: above the exact limit
-
-    @Test func fourteenStopsReturnsAPermutation() {
-        let result = seq(scrambledLine)
-        #expect(result.count == 14)
-        #expect(Set(result) == Set(0..<14))
-    }
-
-    @Test func heuristicWalksTheLine() {
-        let coords = scrambledLine
-        let sorted = (0..<coords.count).sorted { coords[$0].lat < coords[$1].lat }
-        let result = seq(coords)
-        #expect(result == sorted || result == sorted.reversed())
-    }
-
-    @Test func heuristicBeatsTheInputOrder() {
-        let coords = scrambledLine
-        #expect(cost(seq(coords), coords) < cost(Array(0..<coords.count), coords))
-    }
-
-    /// The heuristic must land close to the exact answer on a case both can do.
-    @Test func heuristicIsCloseToExactOnATenStopDay() {
-        let coords = (0..<10).map {
-            Coordinate(lat: 41.89 + Double(($0 * 7) % 10) * 0.004,
-                       lon: 12.47 + Double(($0 * 3) % 10) * 0.005)
-        }
-        let exact = seq(coords)                       // n <= 12, exact path
-        let heuristic = seq(coords, pinned: [0])      // forces the heuristic
-        #expect(cost(heuristic, coords) <= cost(exact, coords) * 1.25)
-    }
-
-    // MARK: pinning
-
-    @Test func pinnedPositionKeepsItsStop() {
-        let coords = scrambledLine
-        let result = seq(coords, pinned: [3])
-        #expect(result[3] == 3)
-    }
-
-    @Test func severalPinnedPositionsAllHold() {
-        let coords = scrambledLine
-        let result = seq(coords, pinned: [0, 5, 13])
-        #expect(result[0] == 0)
-        #expect(result[5] == 5)
-        #expect(result[13] == 13)
-        #expect(Set(result) == Set(0..<14))
-    }
-
-    @Test func pinningEveryPositionReturnsTheInputOrder() {
-        let coords = scrambledLine
-        #expect(seq(coords, pinned: Set(0..<14)) == Array(0..<14))
-    }
-
-    @Test func pinnedSmallDayStillHonoursPins() {
-        let coords = (0..<6).map { Coordinate(lat: Double($0) * 0.01,
-                                              lon: Double(($0 * 5) % 6) * 0.01) }
-        let result = seq(coords, pinned: [2])
-        #expect(result[2] == 2)
-        #expect(Set(result) == Set(0..<6))
-    }
-
-    @Test func outOfRangePinsAreIgnoredRatherThanCrashing() {
-        let coords = scrambledLine
-        let result = seq(coords, pinned: [99, -4])
-        #expect(Set(result) == Set(0..<14))
-    }
-
-    // MARK: closed tours above the limit
-
-    @Test func closedHeuristicTourStartsAtIndexZero() {
-        let coords = (0..<14).map { Coordinate(lat: Double($0) * 0.01,
-                                               lon: Double(($0 * 5) % 14) * 0.01) }
-        #expect(seq(coords, closed: true).first == 0)
-    }
-}
-```
-
-- [ ] **Step 2: Run the test to verify it fails**
-
-Run: `cd /Users/jhoedeman/Documents/Programs/ByzantineTrail && ~/bin/xcodegen_dist/bin/xcodegen generate && xcodebuild -scheme ByzantineTrail -destination 'platform=iOS Simulator,name=iPhone 16' test -only-testing:ByzantineTrailTests/StopSequencerHeuristicTests 2>&1 | tail -20`
-
-Expected: FAIL — the fallback returns input order, so `heuristicWalksTheLine`, `heuristicBeatsTheInputOrder`, and the pinning tests fail.
-
-- [ ] **Step 3: Replace the fallback branch**
-
-In `ByzantineTrail/Core/Planner/Domain/StopSequencer.swift`, replace these two lines:
-
-```swift
-        // Replaced in Task 5 by the nearest-neighbour + 2-opt heuristic.
-        return Array(0..<n)
-```
-
-with:
-
-```swift
-        let valid = pinnedPositions.filter { $0 >= 0 && $0 < n }
-        let seed = valid.isEmpty
-            ? nearestNeighbour(cost)
-            : pinnedSeed(cost, pinned: valid)
-        return twoOpt(seed, cost, pinned: valid, closed: closed)
-```
-
-- [ ] **Step 4: Append the heuristic helpers**
-
-Add these methods inside `enum StopSequencer`, after `reconstruct`:
-
-```swift
     // MARK: - Heuristic: nearest neighbour + 2-opt
 
     private static func nearestNeighbour(_ cost: [[Double]]) -> [Int] {
@@ -1257,40 +1205,41 @@ Add these methods inside `enum StopSequencer`, after `reconstruct`:
         let before = order[i - 1]
         return (cost[before][tail] + addedEdge) - (cost[before][head] + removedEdge)
     }
+}
 ```
 
-- [ ] **Step 5: Run both sequencer suites to verify they pass**
+- [ ] **Step 4: Run both suites to verify they pass**
 
-Run: `cd /Users/jhoedeman/Documents/Programs/ByzantineTrail && ~/bin/xcodegen_dist/bin/xcodegen generate && xcodebuild -scheme ByzantineTrail -destination 'platform=iOS Simulator,name=iPhone 16' test -only-testing:ByzantineTrailTests/StopSequencerExactTests -only-testing:ByzantineTrailTests/StopSequencerHeuristicTests 2>&1 | tail -20`
+Run: `~/bin/xcodegen_dist/bin/xcodegen generate && xcodebuild -scheme ByzantineTrail -destination 'platform=iOS Simulator,name=iPhone 16' test -only-testing:ByzantineTrailTests/StopSequencerExactTests -only-testing:ByzantineTrailTests/StopSequencerHeuristicTests 2>&1 | tail -20`
 
-Expected: PASS, 20 tests. Task 4's tests must still pass — the exact path is unchanged.
+Expected: PASS, 20 tests.
 
-- [ ] **Step 6: Commit**
+- [ ] **Step 5: Commit**
 
 ```bash
 git add ByzantineTrail/Core/Planner/Domain/StopSequencer.swift \
+        ByzantineTrailTests/StopSequencerExactTests.swift \
         ByzantineTrailTests/StopSequencerHeuristicTests.swift \
         ByzantineTrail.xcodeproj
-git commit -m "feat(planner): 2-opt heuristic ordering and pinned-position support"
+git commit -m "feat(planner): exact and heuristic stop ordering with pinned positions"
 ```
 
 ---
-
-### Task 6: `DayClusterer`
+### Task 5: `DayClusterer`
 
 **Files:**
 - Create: `ByzantineTrail/Core/Planner/Domain/DayClusterer.swift`
 - Test: `ByzantineTrailTests/DayClustererTests.swift`
 
 **Interfaces:**
-- Consumes: `PlannerSite` (Task 3), `GreatCircle` and `TravelEstimating` (Task 1), `StopSequencer.sequence` (Tasks 4–5).
+- Consumes: `PlannerSite` (Task 3), `GreatCircle` and `TravelEstimating` (Task 1), `StopSequencer.sequence` (Task 4).
 - Produces:
   - `struct SiteCluster: Equatable, Sendable { let cityId: String?; let sites: [PlannerSite]; let centroid: Coordinate }`
   - `enum DayClusterer` with `static let orphanThresholdMetres = 15_000.0`
   - `static func cluster(_ sites: [PlannerSite]) -> [SiteCluster]`
   - `static func order(_ clusters: [SiteCluster], mode: TravelMode, estimator: any TravelEstimating) -> [SiteCluster]`
 
-Clustering here is **purely geographic**. Splitting a cluster across several days is a time-budget question and belongs to `ItineraryPlanner` (Task 9), which knows the day window.
+Clustering here is **purely geographic**. Splitting a cluster across several days is a time-budget question and belongs to `ItineraryPlanner` (Task 8), which knows the day window.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -1537,7 +1486,7 @@ git commit -m "feat(planner): geographic day clustering and cluster ordering"
 
 ---
 
-### Task 7: Planner value types and `TimeBudget`
+### Task 6: Planner value types and `TimeBudget`
 
 **Files:**
 - Create: `ByzantineTrail/Core/Planner/Domain/PlannerTypes.swift`
@@ -1551,7 +1500,7 @@ git commit -m "feat(planner): geographic day clustering and cluster ordering"
   - `struct PlannedStop: Equatable, Sendable` — `let site: PlannerSite`, `let dwellMinutes: Int`, `let arrivalMinutes: Int`, `let departureMinutes: Int`, `let legTravelSeconds: Int?`
   - `struct PlannedBlock: Equatable, Sendable` — `let spec: FixedBlockSpec`, `let startMinutes: Int`, `let endMinutes: Int`
   - `struct PlannedDay: Equatable, Sendable` — `let stops: [PlannedStop]`, `let blocks: [PlannedBlock]`, `let windowStartMinutes: Int`, `let windowEndMinutes: Int`, `let endMinutes: Int`, plus computed `slackMinutes`, `dwellMinutes`, `travelMinutes`, `occupiedMinutes`
-  - `struct TripRequest: Equatable, Sendable` (used in Task 9; defined here so the value types live in one place). `PlannedTrip` is **not** defined in this task — it references `PlanDiagnostic`, which arrives in Task 8.
+  - `PlannedTrip` and `TripRequest` are **not** defined in this task — `PlannedTrip` references `PlanDiagnostic` (Task 7), and `TripRequest` has no consumer until Task 8.
 - Produces (in `TimeBudget.swift`):
   - `enum TimeBudget { static func layOut(stops:legSeconds:windowStartMinutes:windowEndMinutes:blocks:) -> PlannedDay }`
 
@@ -1755,37 +1704,6 @@ struct PlannedDay: Equatable, Sendable {
 
     var occupiedMinutes: Int { dwellMinutes + travelMinutes }
 }
-
-/// Everything the planner needs to build a trip.
-struct TripRequest: Equatable, Sendable {
-    let sites: [PlannerSite]
-    let mode: TravelMode
-    let pace: Pace
-    let dayCount: Int
-    let dayStartMinutes: Int
-    let dayEndMinutes: Int
-    /// Keyed by zero-based day index.
-    let fixedBlocks: [Int: [FixedBlockSpec]]
-    let includeLunch: Bool
-
-    init(sites: [PlannerSite],
-         mode: TravelMode,
-         pace: Pace = .standard,
-         dayCount: Int,
-         dayStartMinutes: Int = 540,
-         dayEndMinutes: Int = 1_080,
-         fixedBlocks: [Int: [FixedBlockSpec]] = [:],
-         includeLunch: Bool = true) {
-        self.sites = sites
-        self.mode = mode
-        self.pace = pace
-        self.dayCount = dayCount
-        self.dayStartMinutes = dayStartMinutes
-        self.dayEndMinutes = dayEndMinutes
-        self.fixedBlocks = fixedBlocks
-        self.includeLunch = includeLunch
-    }
-}
 ```
 
 - [ ] **Step 4: Implement `TimeBudget`**
@@ -1880,15 +1798,14 @@ git commit -m "feat(planner): planner value types and clock layout"
 
 ---
 
-### Task 8: `PlanDiagnostics`
+### Task 7: `PlanDiagnostics`
 
 **Files:**
 - Create: `ByzantineTrail/Core/Planner/Domain/PlanDiagnostics.swift`
-- Modify: `ByzantineTrail/Core/Planner/Domain/PlannerTypes.swift` — append `PlannedTrip`, which could not be defined in Task 7 because it references `PlanDiagnostic`.
 - Test: `ByzantineTrailTests/PlanDiagnosticsTests.swift`
 
 **Interfaces:**
-- Consumes: `PlannedDay`, `PlannedStop` (Task 7).
+- Consumes: `PlannedDay`, `PlannedStop` (Task 6).
 - Produces:
   - `enum Tightness: String, Equatable, Sendable { case relaxed, comfortable, tight, over }`
   - `enum PlanDiagnostic: Equatable, Sendable` with cases `tooManyCitiesForDays(cityCount: Int, dayCount: Int)`, `dayOverruns(dayIndex: Int, byMinutes: Int)`, `lowDwellRatio(dayIndex: Int, percent: Int)`, `largeSlack(dayIndex: Int, freeMinutes: Int)`, `outlierStop(dayIndex: Int, siteId: String, travelMinutes: Int)`
@@ -2107,31 +2024,16 @@ enum PlanDiagnostics {
 }
 ```
 
-- [ ] **Step 4: Add `PlannedTrip`**
-
-Append to `ByzantineTrail/Core/Planner/Domain/PlannerTypes.swift`:
-
-```swift
-/// The planner's output.
-struct PlannedTrip: Equatable, Sendable {
-    let days: [PlannedDay]
-    let diagnostics: [PlanDiagnostic]
-    /// Sites that did not fit in `dayCount` days.
-    let unplacedSiteIds: [String]
-}
-```
-
-- [ ] **Step 5: Run the test to verify it passes**
+- [ ] **Step 4: Run the test to verify it passes**
 
 Run: `cd /Users/jhoedeman/Documents/Programs/ByzantineTrail && ~/bin/xcodegen_dist/bin/xcodegen generate && xcodebuild -scheme ByzantineTrail -destination 'platform=iOS Simulator,name=iPhone 16' test -only-testing:ByzantineTrailTests/PlanDiagnosticsTests 2>&1 | tail -20`
 
 Expected: PASS, 14 tests.
 
-- [ ] **Step 6: Commit**
+- [ ] **Step 5: Commit**
 
 ```bash
 git add ByzantineTrail/Core/Planner/Domain/PlanDiagnostics.swift \
-        ByzantineTrail/Core/Planner/Domain/PlannerTypes.swift \
         ByzantineTrailTests/PlanDiagnosticsTests.swift \
         ByzantineTrail.xcodeproj
 git commit -m "feat(planner): plan diagnostics and day tightness"
@@ -2139,15 +2041,18 @@ git commit -m "feat(planner): plan diagnostics and day tightness"
 
 ---
 
-### Task 9: `ItineraryPlanner`
+### Task 8: `ItineraryPlanner`
 
 **Files:**
 - Create: `ByzantineTrail/Core/Planner/Domain/ItineraryPlanner.swift`
+- Modify: `ByzantineTrail/Core/Planner/Domain/PlannerTypes.swift` — append `TripRequest` and `PlannedTrip`
 - Test: `ByzantineTrailTests/ItineraryPlannerTests.swift`
 
 **Interfaces:**
-- Consumes: everything from Tasks 1–8.
-- Produces: `enum ItineraryPlanner { static let defaultLunch: FixedBlockSpec; static func plan(_ request: TripRequest, estimator: any TravelEstimating = HaversineEstimator()) -> PlannedTrip }`
+- Consumes: everything from Tasks 1–7.
+- Produces:
+  - `struct TripRequest: Equatable, Sendable` and `struct PlannedTrip: Equatable, Sendable`, appended to `PlannerTypes.swift`
+  - `enum ItineraryPlanner { static let defaultLunch: FixedBlockSpec; static func plan(_ request: TripRequest, estimator: any TravelEstimating = HaversineEstimator()) -> PlannedTrip }`
 
 Pipeline: cluster → order clusters → sequence each cluster's stops → fill days with as many stops as fit → lay out the clock → diagnose.
 
@@ -2158,7 +2063,54 @@ day spills into the next, which is what "three days in Rome" needs, and anything
 still left over is reported in `unplacedSiteIds` rather than crammed into an
 overrunning day.
 
-- [ ] **Step 1: Write the failing test**
+- [ ] **Step 1: Add the two remaining value types**
+
+Neither could live in Task 6: `PlannedTrip` references `PlanDiagnostic`, which
+arrives in Task 7, and `TripRequest` has no consumer until this task. Append
+both to `ByzantineTrail/Core/Planner/Domain/PlannerTypes.swift`:
+
+```swift
+/// Everything the planner needs to build a trip.
+struct TripRequest: Equatable, Sendable {
+    let sites: [PlannerSite]
+    let mode: TravelMode
+    let pace: Pace
+    let dayCount: Int
+    let dayStartMinutes: Int
+    let dayEndMinutes: Int
+    /// Keyed by zero-based day index.
+    let fixedBlocks: [Int: [FixedBlockSpec]]
+    let includeLunch: Bool
+
+    init(sites: [PlannerSite],
+         mode: TravelMode,
+         pace: Pace = .standard,
+         dayCount: Int,
+         dayStartMinutes: Int = 540,
+         dayEndMinutes: Int = 1_080,
+         fixedBlocks: [Int: [FixedBlockSpec]] = [:],
+         includeLunch: Bool = true) {
+        self.sites = sites
+        self.mode = mode
+        self.pace = pace
+        self.dayCount = dayCount
+        self.dayStartMinutes = dayStartMinutes
+        self.dayEndMinutes = dayEndMinutes
+        self.fixedBlocks = fixedBlocks
+        self.includeLunch = includeLunch
+    }
+}
+
+/// The planner's output.
+struct PlannedTrip: Equatable, Sendable {
+    let days: [PlannedDay]
+    let diagnostics: [PlanDiagnostic]
+    /// Sites that did not fit in `dayCount` days.
+    let unplacedSiteIds: [String]
+}
+```
+
+- [ ] **Step 2: Write the failing test**
 
 Create `ByzantineTrailTests/ItineraryPlannerTests.swift`:
 
@@ -2387,13 +2339,13 @@ struct ItineraryPlannerTests {
 }
 ```
 
-- [ ] **Step 2: Run the test to verify it fails**
+- [ ] **Step 3: Run the test to verify it fails**
 
 Run: `cd /Users/jhoedeman/Documents/Programs/ByzantineTrail && ~/bin/xcodegen_dist/bin/xcodegen generate && xcodebuild -scheme ByzantineTrail -destination 'platform=iOS Simulator,name=iPhone 16' test -only-testing:ByzantineTrailTests/ItineraryPlannerTests 2>&1 | tail -20`
 
 Expected: FAIL — `cannot find 'ItineraryPlanner' in scope`.
 
-- [ ] **Step 3: Implement `ItineraryPlanner`**
+- [ ] **Step 4: Implement `ItineraryPlanner`**
 
 Create `ByzantineTrail/Core/Planner/Domain/ItineraryPlanner.swift`:
 
@@ -2527,13 +2479,13 @@ enum ItineraryPlanner {
 }
 ```
 
-- [ ] **Step 4: Run the test to verify it passes**
+- [ ] **Step 5: Run the test to verify it passes**
 
 Run: `cd /Users/jhoedeman/Documents/Programs/ByzantineTrail && ~/bin/xcodegen_dist/bin/xcodegen generate && xcodebuild -scheme ByzantineTrail -destination 'platform=iOS Simulator,name=iPhone 16' test -only-testing:ByzantineTrailTests/ItineraryPlannerTests 2>&1 | tail -20`
 
 Expected: PASS, 20 tests.
 
-- [ ] **Step 5: Add the purity guard test**
+- [ ] **Step 6: Add the purity guard test**
 
 Append to `ByzantineTrailTests/ItineraryPlannerTests.swift`:
 
@@ -2567,16 +2519,17 @@ struct PlannerDomainPurityTests {
 }
 ```
 
-- [ ] **Step 6: Run the full test suite**
+- [ ] **Step 7: Run the full test suite**
 
 Run: `cd /Users/jhoedeman/Documents/Programs/ByzantineTrail && ~/bin/xcodegen_dist/bin/xcodegen generate && xcodebuild -scheme ByzantineTrail -destination 'platform=iOS Simulator,name=iPhone 16' test 2>&1 | tail -25`
 
 Expected: PASS. Every pre-existing test still passes — M7a is purely additive and modifies no existing file.
 
-- [ ] **Step 7: Commit**
+- [ ] **Step 8: Commit**
 
 ```bash
 git add ByzantineTrail/Core/Planner/Domain/ItineraryPlanner.swift \
+        ByzantineTrail/Core/Planner/Domain/PlannerTypes.swift \
         ByzantineTrailTests/ItineraryPlannerTests.swift \
         ByzantineTrail.xcodeproj
 git commit -m "feat(planner): compose the solver into ItineraryPlanner"
