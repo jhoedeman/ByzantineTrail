@@ -11,6 +11,12 @@ enum TimeBudget {
                        windowStartMinutes: Int,
                        windowEndMinutes: Int,
                        blocks: [FixedBlockSpec]) -> PlannedDay {
+        // The caller owns this invariant; a mismatch means a bug upstream, not
+        // a day with missing legs. Trip generation must not crash a traveller
+        // mid-trip, so this asserts in debug and degrades gracefully in release.
+        assert(legSeconds.count == max(0, stops.count - 1),
+               "legSeconds must have one entry per leg: expected \(max(0, stops.count - 1)), got \(legSeconds.count)")
+
         var clock = windowStartMinutes
         var placedStops: [PlannedStop] = []
         var placedBlocks: [PlannedBlock] = []
@@ -22,7 +28,7 @@ enum TimeBudget {
             // next one.
             while let next = pending.first, next.startMinutes <= clock {
                 pending.removeFirst()
-                let start = max(next.startMinutes, clock)
+                let start = clock   // the guard above already ensures startMinutes <= clock
                 placedBlocks.append(PlannedBlock(spec: next,
                                                  startMinutes: start,
                                                  endMinutes: start + next.durationMinutes))

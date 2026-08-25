@@ -14,13 +14,6 @@ struct FixedBlockSpec: Equatable, Sendable {
     let title: String
     let startMinutes: Int
     let durationMinutes: Int
-
-    init(kind: Kind, title: String, startMinutes: Int, durationMinutes: Int) {
-        self.kind = kind
-        self.title = title
-        self.startMinutes = startMinutes
-        self.durationMinutes = durationMinutes
-    }
 }
 
 /// One site placed on the clock.
@@ -58,5 +51,9 @@ struct PlannedDay: Equatable, Sendable {
         stops.reduce(0) { $0 + ($1.legTravelSeconds.map { s in s / 60 } ?? 0) }
     }
 
+    /// Time spent visiting plus time spent moving. Deliberately EXCLUDES
+    /// blocks: the dwell ratio in `PlanDiagnostics` asks "am I seeing more than
+    /// I'm travelling?", and counting lunch on either side of that would muddy
+    /// the answer. So this is not the elapsed length of the day.
     var occupiedMinutes: Int { dwellMinutes + travelMinutes }
 }

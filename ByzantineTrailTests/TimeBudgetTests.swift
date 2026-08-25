@@ -80,6 +80,19 @@ struct TimeBudgetTests {
         #expect(day.blocks[0].startMinutes == 1_020)
     }
 
+    @Test func consumedAndNeverDueBlocksComeBackInTimeOrder() {
+        let lunch = FixedBlockSpec(kind: .meal, title: "Lunch",
+                                   startMinutes: 600, durationMinutes: 60)
+        let departure = FixedBlockSpec(kind: .departure, title: "Train",
+                                       startMinutes: 1_020, durationMinutes: 30)
+        // Passed in reverse time order to prove the result is sorted, not echoed.
+        let day = layOut(dwells: [75, 30], legMinutes: [15], blocks: [departure, lunch])
+        #expect(day.blocks.count == 2)
+        #expect(day.blocks.map(\.spec.kind) == [.meal, .departure])
+        #expect(day.blocks[0].startMinutes == 615)    // consumed once the clock reached it
+        #expect(day.blocks[1].startMinutes == 1_020)  // never came due; keeps its requested time
+    }
+
     // MARK: totals
 
     @Test func totalsAddUp() {
