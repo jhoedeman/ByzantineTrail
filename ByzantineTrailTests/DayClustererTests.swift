@@ -119,4 +119,42 @@ struct DayClustererTests {
                                          estimator: HaversineEstimator())
         #expect(ordered.map(\.cityId) == ["rome"])
     }
+
+    // MARK: merging adjacent cities
+
+    /// Five Troodos villages, five distinct cityIds, all within a few km. These
+    /// are one day's walk, not five days.
+    @Test func adjacentVillagesShareAClusterRatherThanOneEach() {
+        let sites = [
+            site("kakopetria", 34.9880, 32.9000, city: "kakopetria"),
+            site("galata",     34.9930, 32.9020, city: "galata"),
+            site("moutoullas", 34.9930, 32.8340, city: "moutoullas"),
+            site("kalopan",    34.9990, 32.8300, city: "kalopanayiotis"),
+            site("pedoulas",   34.9720, 32.8300, city: "pedoulas"),
+        ]
+        let clusters = DayClusterer.cluster(sites)
+        #expect(clusters.count == 1)
+        #expect(clusters[0].sites.count == 5)
+    }
+
+    /// Three cityIds for one town, 140-270 m apart.
+    @Test func oneTownWithSeveralCityIdsIsOneCluster() {
+        let sites = [
+            site("lower",  36.6870, 23.0530, city: "monemvasia"),
+            site("upper",  36.6885, 23.0545, city: "monemvasia-upper-town"),
+            site("both",   36.6878, 23.0538, city: "monemvasia-upper-and-lower-town"),
+        ]
+        #expect(DayClusterer.cluster(sites).count == 1)
+    }
+
+    /// Genuinely distant cities must still get their own clusters.
+    @Test func distantCitiesAreNotMerged() {
+        let sites = [
+            site("r", 41.89, 12.49, city: "rome"),
+            site("v", 44.42, 12.20, city: "ravenna"),
+            site("i", 41.00, 28.98, city: "istanbul"),
+            site("a", 37.97, 23.73, city: "athens"),
+        ]
+        #expect(DayClusterer.cluster(sites).count == 4)
+    }
 }

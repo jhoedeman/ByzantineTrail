@@ -42,8 +42,19 @@ struct PlannedDay: Equatable, Sendable {
     /// When the last stop ends. Equals `windowStartMinutes` for an empty day.
     let endMinutes: Int
 
-    /// Positive means room to spare; negative means the day does not fit.
-    var slackMinutes: Int { windowEndMinutes - endMinutes }
+    /// Free time left in the window after the last stop, with any block still
+    /// ahead of that point deducted — a lunch never reached or a train home is
+    /// time already spoken for, not room to spare. Blocks consumed during the
+    /// day have already pushed `endMinutes` out, so they are not counted twice.
+    /// Negative means the day does not fit.
+    var slackMinutes: Int {
+        let stillAhead = blocks.reduce(0) { total, block in
+            let start = max(block.startMinutes, endMinutes)
+            let end = min(block.endMinutes, windowEndMinutes)
+            return total + max(0, end - start)
+        }
+        return windowEndMinutes - endMinutes - stillAhead
+    }
 
     var dwellMinutes: Int { stops.reduce(0) { $0 + $1.dwellMinutes } }
 

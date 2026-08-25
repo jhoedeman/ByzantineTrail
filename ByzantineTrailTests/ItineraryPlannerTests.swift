@@ -206,6 +206,19 @@ struct ItineraryPlannerTests {
         #expect(trip.diagnostics.contains { if case .largeSlack = $0 { true } else { false } })
     }
 
+    /// Thirty major churches over three days cannot all fit. The sites that get
+    /// dropped must be announced, not just listed in `unplacedSiteIds`.
+    @Test func droppedSitesGetADiagnostic() {
+        let many = (0..<30).map {
+            site("m\($0)", 41.88 + Double($0 % 6) * 0.003,
+                 12.47 + Double($0 / 6) * 0.003, city: "rome", .church, .major)
+        }
+        let trip = ItineraryPlanner.plan(
+            TripRequest(sites: many, mode: .walking, dayCount: 3))
+        #expect(!trip.unplacedSiteIds.isEmpty)
+        #expect(trip.diagnostics.contains(.sitesDidNotFit(siteIds: trip.unplacedSiteIds)))
+    }
+
     // MARK: degenerate inputs
 
     @Test func noSitesProducesNoDaysAndNoCrash() {

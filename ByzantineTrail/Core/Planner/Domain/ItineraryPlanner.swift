@@ -12,9 +12,10 @@ enum ItineraryPlanner {
     static func plan(_ request: TripRequest,
                      estimator: any TravelEstimating = HaversineEstimator()) -> PlannedTrip {
         guard !request.sites.isEmpty, request.dayCount > 0 else {
-            return PlannedTrip(days: [], diagnostics: [],
-                               unplacedSiteIds: request.dayCount > 0
-                                   ? [] : request.sites.map(\.id))
+            let unplaced = request.dayCount > 0 ? [] : request.sites.map(\.id)
+            return PlannedTrip(days: [],
+                               diagnostics: unplaced.isEmpty ? [] : [.sitesDidNotFit(siteIds: unplaced)],
+                               unplacedSiteIds: unplaced)
         }
 
         let clusters = DayClusterer.order(DayClusterer.cluster(request.sites),
@@ -55,7 +56,9 @@ enum ItineraryPlanner {
 
         let diagnostics = PlanDiagnostics.evaluate(days: days,
                                                    cityCount: cityCount,
-                                                   dayCount: request.dayCount)
+                                                   dayCount: request.dayCount,
+                                                   mode: request.mode,
+                                                   unplacedSiteIds: unplaced)
 
         return PlannedTrip(days: days,
                            diagnostics: diagnostics,

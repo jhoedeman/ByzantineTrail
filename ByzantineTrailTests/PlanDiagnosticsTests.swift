@@ -108,4 +108,37 @@ struct PlanDiagnosticsTests {
     @Test func anEmptyTripProducesNoDiagnostics() {
         #expect(PlanDiagnostics.evaluate(days: [], cityCount: 0, dayCount: 0).isEmpty)
     }
+
+    // MARK: dropped sites and mode
+
+    @Test func droppedSitesAreReported() {
+        let d = day(dwells: [30], legMinutes: [])
+        let found = PlanDiagnostics.evaluate(days: [d], cityCount: 1, dayCount: 1,
+                                             unplacedSiteIds: ["a", "b"])
+        #expect(found.contains(.sitesDidNotFit(siteIds: ["a", "b"])))
+    }
+
+    @Test func nothingDroppedProducesNoSuchDiagnostic() {
+        let d = day(dwells: [30], legMinutes: [])
+        let found = PlanDiagnostics.evaluate(days: [d], cityCount: 1, dayCount: 1)
+        #expect(!found.contains { if case .sitesDidNotFit = $0 { true } else { false } })
+    }
+
+    @Test func aLongWalkSuggestsChangingMode() {
+        let d = day(dwells: [30, 30], legMinutes: [75])
+        let found = PlanDiagnostics.evaluate(days: [d], cityCount: 1, dayCount: 1,
+                                             mode: .walking)
+        #expect(found.contains(.modeTooSlow(dayIndex: 0, siteId: "s1", travelMinutes: 75)))
+    }
+
+    @Test func drivingTheSameLegIsNotFlagged() {
+        let d = day(dwells: [30, 30], legMinutes: [75])
+        let found = PlanDiagnostics.evaluate(days: [d], cityCount: 1, dayCount: 1,
+                                             mode: .driving)
+        #expect(!found.contains { if case .modeTooSlow = $0 { true } else { false } })
+    }
+
+    @Test func walkingLegCeilingIsAnHour() {
+        #expect(PlanDiagnostics.walkingLegCeilingMinutes == 60)
+    }
 }

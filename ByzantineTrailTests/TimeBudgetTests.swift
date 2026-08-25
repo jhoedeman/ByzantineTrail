@@ -114,6 +114,22 @@ struct TimeBudgetTests {
         #expect(day.slackMinutes == -120)
     }
 
+    @Test func slackExcludesBlockTimeStillAhead() {
+        let train = FixedBlockSpec(kind: .departure, title: "Train home",
+                                   startMinutes: 1_020, durationMinutes: 30)
+        let day = layOut(dwells: [30], legMinutes: [], blocks: [train])
+        #expect(day.endMinutes == 570)
+        #expect(day.slackMinutes == 480)   // 1080 - 570, less the 30 the train takes
+    }
+
+    @Test func slackDoesNotDoubleCountAConsumedBlock() {
+        let lunch = FixedBlockSpec(kind: .meal, title: "Lunch",
+                                   startMinutes: 600, durationMinutes: 60)
+        let day = layOut(dwells: [75, 30], legMinutes: [15], blocks: [lunch])
+        #expect(day.endMinutes == 720)     // lunch already pushed the day out
+        #expect(day.slackMinutes == 360)   // 1080 - 720, nothing further deducted
+    }
+
     // MARK: degenerate inputs
 
     @Test func emptyDayEndsWhenItStarts() {

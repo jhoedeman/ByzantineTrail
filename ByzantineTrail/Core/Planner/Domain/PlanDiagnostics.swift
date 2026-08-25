@@ -13,6 +13,8 @@ enum PlanDiagnostic: Equatable, Sendable {
     case lowDwellRatio(dayIndex: Int, percent: Int)
     case largeSlack(dayIndex: Int, freeMinutes: Int)
     case outlierStop(dayIndex: Int, siteId: String, travelMinutes: Int)
+    case sitesDidNotFit(siteIds: [String])
+    case modeTooSlow(dayIndex: Int, siteId: String, travelMinutes: Int)
 }
 
 /// Detects the conditions in spec §6. Needs no opening-hours data and no
@@ -25,6 +27,10 @@ enum PlanDiagnostics {
     static let outlierTravelMinutes = 90
     /// Slack above this share of the window is worth offering to fill.
     static let largeSlackFraction = 0.25
+    /// A walking leg longer than this is a suggestion to change mode, not just
+    /// a long walk. Distinct from `outlierTravelMinutes`, which asks whether a
+    /// stop belongs on this day at all.
+    static let walkingLegCeilingMinutes = 60
 
     static func tightness(slackMinutes: Int, windowMinutes: Int) -> Tightness {
         guard windowMinutes > 0 else { return .over }
@@ -37,11 +43,17 @@ enum PlanDiagnostics {
 
     static func evaluate(days: [PlannedDay],
                          cityCount: Int,
-                         dayCount: Int) -> [PlanDiagnostic] {
+                         dayCount: Int,
+                         mode: TravelMode = .walking,
+                         unplacedSiteIds: [String] = []) -> [PlanDiagnostic] {
         var found: [PlanDiagnostic] = []
 
         if cityCount > dayCount, dayCount > 0 {
             found.append(.tooManyCitiesForDays(cityCount: cityCount, dayCount: dayCount))
+        }
+
+        if !unplacedSiteIds.isEmpty {
+            found.append(.sitesDidNotFit(siteIds: unplacedSiteIds))
         }
 
         for (index, day) in days.enumerated() {
@@ -69,6 +81,11 @@ enum PlanDiagnostics {
                 let minutes = seconds / 60
                 if minutes > outlierTravelMinutes {
                     found.append(.outlierStop(dayIndex: index,
+                                              siteId: stop.site.id,
+                                              travelMinutes: minutes))
+                }
+                if mode == .walking, minutes > walkingLegCeilingMinutes {
+                    found.append(.modeTooSlow(dayIndex: index,
                                               siteId: stop.site.id,
                                               travelMinutes: minutes))
                 }

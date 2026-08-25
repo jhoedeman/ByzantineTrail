@@ -60,10 +60,41 @@ enum DayClusterer {
             }
         }
 
-        return groups.map {
+        return mergeAdjacent(groups).map {
             SiteCluster(cityId: $0.cityId, sites: $0.sites,
                         centroid: centroid(of: $0.sites))
         }
+    }
+
+    /// Merge groups whose centroids sit within `orphanThresholdMetres`.
+    ///
+    /// The catalog gives neighbouring villages their own `cityId` — Monemvasia
+    /// alone has three, 140 m apart — and one cluster becomes one day, so
+    /// without this a morning's walk through the Troodos churches would be
+    /// spread across five days with six free hours each.
+    private static func mergeAdjacent(
+        _ groups: [(cityId: String?, sites: [PlannerSite])]
+    ) -> [(cityId: String?, sites: [PlannerSite])] {
+        var merged = groups
+        var didMerge = true
+        while didMerge {
+            didMerge = false
+            search: for i in 0..<merged.count {
+                for j in (i + 1)..<merged.count {
+                    let apart = GreatCircle.metres(from: centroid(of: merged[i].sites),
+                                                   to: centroid(of: merged[j].sites))
+                    guard apart <= orphanThresholdMetres else { continue }
+                    // The surviving group keeps the earlier city's id; a merged
+                    // cluster spans several, and the first is the one the user's
+                    // selection reached first.
+                    merged[i].sites.append(contentsOf: merged[j].sites)
+                    merged.remove(at: j)
+                    didMerge = true
+                    break search
+                }
+            }
+        }
+        return merged
     }
 
     /// Orders clusters into a short chain by their centroids.
