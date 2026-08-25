@@ -15,7 +15,7 @@
 - **Nothing in `Core/Planner/Domain/` may `import SwiftUI`, `import UIKit`, `import MapKit`, `import SwiftData`, or `import Combine`.** `import Foundation` only. This is the whole point of M7a and is asserted by a test in Task 8.
 - **No `async`, no actors, no I/O** anywhere in M7a. Every function is synchronous and deterministic.
 - All new source files go under `ByzantineTrail/Core/Planner/Domain/`. All new test files go **flat** in `ByzantineTrailTests/` (that directory has no subfolders except `Mocks`).
-- XcodeGen: regenerate with the **real binary** `~/bin/xcodegen_dist/bin/xcodegen generate` (NOT the symlink) after adding any file. Sources are path-based, so new files under `ByzantineTrail/` are auto-included on regen.
+- XcodeGen: regenerate with the **real binary** `~/bin/xcodegen_dist/bin/xcodegen generate` (NOT the symlink) after adding any file. Sources are path-based, so new files under `ByzantineTrail/` are auto-included on regen. **`*.xcodeproj` is gitignored and never tracked** — regenerate it, but never `git add` it.
 - Build/test destination: `platform=iOS Simulator,name=iPhone 16`.
 - `xcodebuild` is the authoritative signal. SourceKit shows cross-file "cannot find X in scope" and "No such module 'Testing'" false positives — ignore them, trust `xcodebuild`.
 - Spec: `docs/superpowers/specs/2026-08-23-trip-planner-design.md`. Section references below (§4.1, §5, §6) point there.
@@ -312,8 +312,7 @@ git add ByzantineTrail/Core/Planner/Domain/TravelMode.swift \
         ByzantineTrail/Core/Planner/Domain/TravelEstimating.swift \
         ByzantineTrail/Core/Planner/Domain/HaversineEstimator.swift \
         ByzantineTrailTests/GreatCircleTests.swift \
-        ByzantineTrailTests/HaversineEstimatorTests.swift \
-        ByzantineTrail.xcodeproj
+        ByzantineTrailTests/HaversineEstimatorTests.swift
 git commit -m "feat(planner): great-circle distance and haversine travel estimator"
 ```
 
@@ -550,8 +549,7 @@ Expected: PASS, 12 tests.
 ```bash
 git add ByzantineTrail/Core/Planner/Domain/Pace.swift \
         ByzantineTrail/Core/Planner/Domain/VisitDuration.swift \
-        ByzantineTrailTests/VisitDurationTests.swift \
-        ByzantineTrail.xcodeproj
+        ByzantineTrailTests/VisitDurationTests.swift
 git commit -m "feat(planner): derive visit duration from importance and type"
 ```
 
@@ -676,8 +674,7 @@ Expected: PASS, 3 tests.
 
 ```bash
 git add ByzantineTrail/Core/Planner/Domain/PlannerSite.swift \
-        ByzantineTrailTests/PlannerSiteTests.swift \
-        ByzantineTrail.xcodeproj
+        ByzantineTrailTests/PlannerSiteTests.swift
 git commit -m "feat(planner): PlannerSite value type and Site adapter"
 ```
 
@@ -1219,8 +1216,7 @@ Expected: PASS, 20 tests.
 ```bash
 git add ByzantineTrail/Core/Planner/Domain/StopSequencer.swift \
         ByzantineTrailTests/StopSequencerExactTests.swift \
-        ByzantineTrailTests/StopSequencerHeuristicTests.swift \
-        ByzantineTrail.xcodeproj
+        ByzantineTrailTests/StopSequencerHeuristicTests.swift
 git commit -m "feat(planner): exact and heuristic stop ordering with pinned positions"
 ```
 
@@ -1479,8 +1475,7 @@ Expected: PASS, 11 tests.
 
 ```bash
 git add ByzantineTrail/Core/Planner/Domain/DayClusterer.swift \
-        ByzantineTrailTests/DayClustererTests.swift \
-        ByzantineTrail.xcodeproj
+        ByzantineTrailTests/DayClustererTests.swift
 git commit -m "feat(planner): geographic day clustering and cluster ordering"
 ```
 
@@ -1791,8 +1786,7 @@ Expected: PASS, 11 tests.
 ```bash
 git add ByzantineTrail/Core/Planner/Domain/PlannerTypes.swift \
         ByzantineTrail/Core/Planner/Domain/TimeBudget.swift \
-        ByzantineTrailTests/TimeBudgetTests.swift \
-        ByzantineTrail.xcodeproj
+        ByzantineTrailTests/TimeBudgetTests.swift
 git commit -m "feat(planner): planner value types and clock layout"
 ```
 
@@ -2034,8 +2028,7 @@ Expected: PASS, 14 tests.
 
 ```bash
 git add ByzantineTrail/Core/Planner/Domain/PlanDiagnostics.swift \
-        ByzantineTrailTests/PlanDiagnosticsTests.swift \
-        ByzantineTrail.xcodeproj
+        ByzantineTrailTests/PlanDiagnosticsTests.swift
 git commit -m "feat(planner): plan diagnostics and day tightness"
 ```
 
@@ -2530,8 +2523,7 @@ Expected: PASS. Every pre-existing test still passes — M7a is purely additive 
 ```bash
 git add ByzantineTrail/Core/Planner/Domain/ItineraryPlanner.swift \
         ByzantineTrail/Core/Planner/Domain/PlannerTypes.swift \
-        ByzantineTrailTests/ItineraryPlannerTests.swift \
-        ByzantineTrail.xcodeproj
+        ByzantineTrailTests/ItineraryPlannerTests.swift
 git commit -m "feat(planner): compose the solver into ItineraryPlanner"
 ```
 
