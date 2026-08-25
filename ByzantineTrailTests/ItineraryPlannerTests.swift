@@ -108,6 +108,23 @@ struct ItineraryPlannerTests {
         #expect(trip.days[0].blocks.contains { $0.spec.kind == .arrival })
     }
 
+    /// A declared block eats into the day's capacity. Without reserving it, the
+    /// planner packs the same seven stops it would fit on a free day and then
+    /// overruns once the block is laid onto the clock.
+    @Test func aDeclaredBlockIsReservedWhenFillingTheDay() {
+        let curatorVisit = FixedBlockSpec(kind: .custom, title: "Afternoon with a curator",
+                                          startMinutes: 660, durationMinutes: 180)
+        let freeDay = ItineraryPlanner.plan(
+            TripRequest(sites: romeDay, mode: .walking, dayCount: 1))
+        let bookedDay = ItineraryPlanner.plan(
+            TripRequest(sites: romeDay, mode: .walking, dayCount: 1,
+                        fixedBlocks: [0: [curatorVisit]]))
+
+        #expect(freeDay.days[0].stops.count == 7)
+        #expect(bookedDay.days[0].stops.count == 6)
+        #expect(bookedDay.unplacedSiteIds.count == 1)
+    }
+
     // MARK: multi-city splitting
 
     @Test func citiesAreSpreadAcrossDays() {

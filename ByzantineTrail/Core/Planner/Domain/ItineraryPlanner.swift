@@ -39,7 +39,7 @@ enum ItineraryPlanner {
                                                     estimator: estimator))
 
             while !remaining.isEmpty && dayIndex < request.dayCount {
-                let take = prefixThatFits(Array(remaining),
+                let take = prefixThatFits(Array(remaining), dayIndex: dayIndex,
                                           request: request, estimator: estimator)
                 days.append(buildDay(sites: Array(remaining.prefix(take)),
                                      dayIndex: dayIndex,
@@ -75,10 +75,15 @@ enum ItineraryPlanner {
     /// Always at least one — a day with a single oversized stop is allowed to
     /// overrun and be flagged, but the planner must never loop forever.
     private static func prefixThatFits(_ sites: [PlannerSite],
+                                       dayIndex: Int,
                                        request: TripRequest,
                                        estimator: any TravelEstimating) -> Int {
         let window = request.dayEndMinutes - request.dayStartMinutes
         var used = request.includeLunch ? defaultLunch.durationMinutes : 0
+        // Declared blocks consume the day as surely as lunch does. Budgeting for
+        // lunch alone packs a day that then overruns the moment an arrival or
+        // departure is laid onto the clock.
+        used += (request.fixedBlocks[dayIndex] ?? []).reduce(0) { $0 + $1.durationMinutes }
         var count = 0
 
         for (index, site) in sites.enumerated() {
