@@ -90,6 +90,13 @@ enum DayClusterer {
                     merged[i].sites.append(contentsOf: merged[j].sites)
                     merged.remove(at: j)
                     didMerge = true
+                    // Load-bearing: `for i in 0..<merged.count` captured the
+                    // range before this removal shrank `merged`. Continuing
+                    // the inner/outer loops after a merge would run `i` (and
+                    // `j`) past the new `merged.count` and crash with an
+                    // index out of range. Restarting the whole search on the
+                    // next `while` pass is what keeps this safe — do not
+                    // remove this break to "batch" merges.
                     break search
                 }
             }

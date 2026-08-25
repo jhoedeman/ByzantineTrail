@@ -47,13 +47,23 @@ struct PlannedDay: Equatable, Sendable {
     /// time already spoken for, not room to spare. Blocks consumed during the
     /// day have already pushed `endMinutes` out, so they are not counted twice.
     /// Negative means the day does not fit.
+    ///
+    /// Overlapping blocks are clamped to the room actually available rather
+    /// than summed: two blocks covering the same clock time (an arrival and a
+    /// lodging check-in both declared at 17:00, say) must not each deduct in
+    /// full, which would manufacture an overrun out of double-counted minutes.
+    /// A consequence: a block alone can never make `slackMinutes` negative —
+    /// it can consume free time down to zero, but no further — so `dayOverruns`
+    /// stays a stops-only signal. "Negative means the day does not fit" means
+    /// the *stops* do not fit.
     var slackMinutes: Int {
+        let capacity = max(0, windowEndMinutes - endMinutes)
         let stillAhead = blocks.reduce(0) { total, block in
             let start = max(block.startMinutes, endMinutes)
             let end = min(block.endMinutes, windowEndMinutes)
             return total + max(0, end - start)
         }
-        return windowEndMinutes - endMinutes - stillAhead
+        return windowEndMinutes - endMinutes - min(stillAhead, capacity)
     }
 
     var dwellMinutes: Int { stops.reduce(0) { $0 + $1.dwellMinutes } }

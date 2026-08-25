@@ -196,7 +196,26 @@ struct ItineraryPlannerTests {
         let trip = ItineraryPlanner.plan(
             TripRequest(sites: sites, mode: .driving, dayCount: 1))
         #expect(trip.diagnostics.contains(
-            .tooManyCitiesForDays(cityCount: 3, dayCount: 1)))
+            .tooManyPlacesForDays(placeCount: 3, dayCount: 1)))
+    }
+
+    /// Four sites under three cityIds, 285 m apart — one town, one day. The
+    /// day-count diagnostic must count day-sized clusters, not cityIds, or the
+    /// plan tells the user to extend a trip that already fits with hours spare.
+    @Test func oneTownWithSeveralCityIdsDoesNotAskForMoreDays() {
+        let sites = [
+            site("upper",  36.6885, 23.0545, city: "monemvasia-upper-town"),
+            site("church", 36.6870, 23.0530, city: "monemvasia"),
+            site("kastro", 36.6878, 23.0538, city: "monemvasia-upper-and-lower-town"),
+            site("museum", 36.6872, 23.0532, city: "monemvasia", .museum, .minor),
+        ]
+        let trip = ItineraryPlanner.plan(
+            TripRequest(sites: sites, mode: .walking, dayCount: 1))
+
+        #expect(trip.days.count == 1)
+        #expect(trip.days[0].stops.count == 4)
+        #expect(trip.unplacedSiteIds.isEmpty)
+        #expect(!trip.diagnostics.contains { if case .tooManyPlacesForDays = $0 { true } else { false } })
     }
 
     @Test func aRoomyDayIsDiagnosedAsHavingSlack() {

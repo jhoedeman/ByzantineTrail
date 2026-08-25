@@ -130,6 +130,16 @@ struct TimeBudgetTests {
         #expect(day.slackMinutes == 360)   // 1080 - 720, nothing further deducted
     }
 
+    @Test func overlappingBlocksCannotManufactureAnOverrun() {
+        let arrival = FixedBlockSpec(kind: .arrival, title: "Ferry",
+                                     startMinutes: 1_020, durationMinutes: 60)
+        let checkIn = FixedBlockSpec(kind: .lodging, title: "Check in",
+                                     startMinutes: 1_020, durationMinutes: 60)
+        let day = layOut(dwells: [30], legMinutes: [], blocks: [arrival, checkIn])
+        #expect(day.endMinutes == 570)
+        #expect(day.slackMinutes >= 0)
+    }
+
     // MARK: degenerate inputs
 
     @Test func emptyDayEndsWhenItStarts() {

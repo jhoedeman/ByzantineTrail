@@ -20,7 +20,6 @@ enum ItineraryPlanner {
 
         let clusters = DayClusterer.order(DayClusterer.cluster(request.sites),
                                           mode: request.mode, estimator: estimator)
-        let cityCount = Set(request.sites.compactMap(\.cityId)).count
 
         var days: [PlannedDay] = []
         var unplaced: [String] = []
@@ -55,7 +54,7 @@ enum ItineraryPlanner {
         }
 
         let diagnostics = PlanDiagnostics.evaluate(days: days,
-                                                   cityCount: cityCount,
+                                                   placeCount: clusters.count,
                                                    dayCount: request.dayCount,
                                                    mode: request.mode,
                                                    unplacedSiteIds: unplaced)

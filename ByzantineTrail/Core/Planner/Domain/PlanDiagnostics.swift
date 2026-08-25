@@ -8,7 +8,11 @@ enum Tightness: String, Equatable, Sendable {
 /// A condition worth telling the user about, with enough data for the UI to
 /// write a specific sentence and offer a specific remedy (spec §6).
 enum PlanDiagnostic: Equatable, Sendable {
-    case tooManyCitiesForDays(cityCount: Int, dayCount: Int)
+    /// A "place" is a day-sized cluster of sites, which may span several
+    /// `cityId`s — neighbouring villages merge (see `DayClusterer`) — so
+    /// `placeCount` is the number of days actually needed, not the number of
+    /// distinct `cityId`s in the request.
+    case tooManyPlacesForDays(placeCount: Int, dayCount: Int)
     case dayOverruns(dayIndex: Int, byMinutes: Int)
     case lowDwellRatio(dayIndex: Int, percent: Int)
     case largeSlack(dayIndex: Int, freeMinutes: Int)
@@ -42,14 +46,14 @@ enum PlanDiagnostics {
     }
 
     static func evaluate(days: [PlannedDay],
-                         cityCount: Int,
+                         placeCount: Int,
                          dayCount: Int,
-                         mode: TravelMode = .walking,
+                         mode: TravelMode,
                          unplacedSiteIds: [String] = []) -> [PlanDiagnostic] {
         var found: [PlanDiagnostic] = []
 
-        if cityCount > dayCount, dayCount > 0 {
-            found.append(.tooManyCitiesForDays(cityCount: cityCount, dayCount: dayCount))
+        if placeCount > dayCount, dayCount > 0 {
+            found.append(.tooManyPlacesForDays(placeCount: placeCount, dayCount: dayCount))
         }
 
         if !unplacedSiteIds.isEmpty {
