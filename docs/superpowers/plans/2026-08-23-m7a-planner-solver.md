@@ -1700,6 +1700,10 @@ struct PlannedDay: Equatable, Sendable {
         stops.reduce(0) { $0 + ($1.legTravelSeconds.map { s in s / 60 } ?? 0) }
     }
 
+    /// Time spent visiting plus time spent moving. Deliberately EXCLUDES
+    /// blocks: the dwell ratio in `PlanDiagnostics` asks "am I seeing more than
+    /// I'm travelling?", and counting lunch on either side of that would muddy
+    /// the answer. So this is not the elapsed length of the day.
     var occupiedMinutes: Int { dwellMinutes + travelMinutes }
 }
 ```
@@ -1722,6 +1726,12 @@ enum TimeBudget {
                        windowStartMinutes: Int,
                        windowEndMinutes: Int,
                        blocks: [FixedBlockSpec]) -> PlannedDay {
+        // The caller owns this invariant; a mismatch means a bug upstream, not
+        // a day with missing legs. Trip generation must not crash a traveller
+        // mid-trip, so this asserts in debug and degrades gracefully in release.
+        assert(legSeconds.count == max(0, stops.count - 1),
+               "legSeconds must have one entry per leg: expected \(max(0, stops.count - 1)), got \(legSeconds.count)")
+
         var clock = windowStartMinutes
         var placedStops: [PlannedStop] = []
         var placedBlocks: [PlannedBlock] = []
@@ -1733,7 +1743,7 @@ enum TimeBudget {
             // next one.
             while let next = pending.first, next.startMinutes <= clock {
                 pending.removeFirst()
-                let start = max(next.startMinutes, clock)
+                let start = clock   // the guard above already ensures startMinutes <= clock
                 placedBlocks.append(PlannedBlock(spec: next,
                                                  startMinutes: start,
                                                  endMinutes: start + next.durationMinutes))
