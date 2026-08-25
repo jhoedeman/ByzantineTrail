@@ -66,6 +66,14 @@ early is safe and lossless, it just waits for the feature.
   key it off the painting/phase date, not the building's founding.
 - **semanticTags** (⊆): `unesco`
 - **country**: ISO 3166-1 alpha-2
+- **coordinate**: must sit within **150 km** of the other sites sharing the same
+  `cityId`, or the validator rejects it. The limit is loose on purpose — Istanbul's
+  Anastasian Walls are 68 km from the centroid of the city's other sites, and an
+  island or a monastic peninsula can spread comparably. What it catches is a
+  coordinate from the wrong place entirely: the Cave of the Seven Sleepers once
+  carried Ephesus's name, address, country and `cityId` alongside the coordinates
+  of its rival Jordanian claimant, 1,034 km away, and every other check passed it.
+  A site genuinely that far from its neighbours wants its own city entry.
 
 ## 3. Photos
 

@@ -1,0 +1,3 @@
+{ "schemaVersion":2,"catalogVersion":5,"photoBaseURL":"https://x/","cities":[{"id":"istanbul","name":"Istanbul"}],
+  "sites":[{"id":"hagia-sophia","name":"Hagia Sophia","type":"church","country":"TR","cityId":"istanbul","coordinate":{"lat":41.008511,"lon":28.979998},"importance":"major"},
+           {"id":"anastasian-walls","name":"Anastasian Walls","type":"cityWalls","country":"TR","cityId":"istanbul","coordinate":{"lat":41.450711,"lon":28.384133},"importance":"notable"}]}

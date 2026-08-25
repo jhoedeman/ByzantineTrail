@@ -1,0 +1,3 @@
+{ "schemaVersion":2,"catalogVersion":5,"photoBaseURL":"https://x/","cities":[{"id":"sel-uk","name":"Selçuk"}],
+  "sites":[{"id":"church-of-mary","name":"Church of Mary","type":"church","country":"TR","cityId":"sel-uk","coordinate":{"lat":37.94499,"lon":27.33915},"importance":"notable"},
+           {"id":"seven-sleepers","name":"Cave of the Seven Sleepers","type":"archaeologicalSite","country":"TR","cityId":"sel-uk","coordinate":{"lat":31.89896,"lon":35.973777},"importance":"minor"}]}

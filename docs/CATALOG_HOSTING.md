@@ -27,8 +27,10 @@ a credit is fine; only emails (and any substrings you add to an optional
    ```
    Exit 0 means valid; any problem prints a `✗` line and exits non-zero. The
    validator checks schema shape, unique site/photo ids, `cityId` resolution,
-   coordinate ranges, ISO-3166 country codes, controlled `semanticTags`/`period.era`,
-   valid `importance`, `addedInVersion ≤ catalogVersion`, and no email leaks.
+   coordinate ranges, **city cohesion** (a site must sit within 150 km of the
+   other sites sharing its `cityId`), ISO-3166 country codes, controlled
+   `semanticTags`/`period.era`, valid `importance`,
+   `addedInVersion ≤ catalogVersion`, and no email leaks.
    (To also block a specific handle/username, copy `Tools/owner_denylist.example.txt`
    to the git-ignored `Tools/owner_denylist.txt` and list it there. Run the tool's
    own tests with `bash Tools/run_validator_tests.sh`.)

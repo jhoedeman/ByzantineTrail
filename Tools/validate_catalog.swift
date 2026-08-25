@@ -154,6 +154,55 @@ for site in catalog.sites {
     }
 }
 
+// (4.5) city cohesion: every site must sit near the other sites sharing its
+//       cityId. Checks (3), (4) and (5) each pass independently for a site whose
+//       coordinate belongs to a different country entirely — a valid lat/lon, a
+//       resolvable cityId, a valid ISO code — so nothing caught the Cave of the
+//       Seven Sleepers carrying Ephesus's name, address, country and cityId with
+//       the coordinates of its rival Jordanian claimant, 1,034 km away.
+//
+//       Threshold is deliberately loose. The widest legitimate spread in the
+//       shipped catalog is Istanbul's Anastasian Walls at 68 km from the
+//       centroid of its siblings, and a city district, an island or a monastic
+//       peninsula can reasonably span tens of kilometres. 150 km is roughly
+//       twice that worst legitimate case while still far below the hundreds of
+//       kilometres that a wrong-country coordinate produces.
+//
+//       Compared against the centroid of the *other* sites so a single stray
+//       row is named rather than dragging the whole city's average with it.
+//       Cities with one site are unconstrained — there is nothing to compare to.
+let cityCohesionLimitMetres = 150_000.0
+
+func metresBetween(_ a: VCoordinate, _ b: VCoordinate) -> Double {
+    let earthRadius = 6_371_000.0
+    let lat1 = a.lat * .pi / 180, lat2 = b.lat * .pi / 180
+    let dLat = (b.lat - a.lat) * .pi / 180, dLon = (b.lon - a.lon) * .pi / 180
+    let h = sin(dLat / 2) * sin(dLat / 2)
+          + cos(lat1) * cos(lat2) * sin(dLon / 2) * sin(dLon / 2)
+    return 2 * earthRadius * asin(min(1, h.squareRoot()))
+}
+
+var sitesByCity: [String: [VSite]] = [:]
+for site in catalog.sites {
+    guard let cid = site.cityId else { continue }
+    sitesByCity[cid, default: []].append(site)
+}
+for (cid, sites) in sitesByCity where sites.count > 1 {
+    for site in sites {
+        let others = sites.filter { $0.id != site.id }
+        guard !others.isEmpty else { continue }
+        let centroid = VCoordinate(
+            lat: others.reduce(0) { $0 + $1.coordinate.lat } / Double(others.count),
+            lon: others.reduce(0) { $0 + $1.coordinate.lon } / Double(others.count))
+        let away = metresBetween(site.coordinate, centroid)
+        if away > cityCohesionLimitMetres {
+            fail(String(format: "site %@: coordinate is %.0f km from the other sites in city '%@' "
+                              + "(limit %.0f km) — check the coordinate, or move the site to its own city",
+                        site.id, away / 1000, cid, cityCohesionLimitMetres / 1000))
+        }
+    }
+}
+
 // (5) country is a valid ISO 3166-1 alpha-2 code
 let isoCountries = Set(Locale.Region.isoRegions.map(\.identifier))
 for site in catalog.sites {

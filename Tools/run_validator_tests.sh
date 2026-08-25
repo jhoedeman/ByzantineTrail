@@ -35,6 +35,9 @@ run valid                 0 "catalog valid"    -- "$FIX/valid.json"   # note: cr
 run valid_unknown_type    0 "catalog valid"    -- "$FIX/valid_unknown_type.json"
 run valid_with_assets     0 "catalog valid"    -- "$FIX/valid.json" "$FIX/assets"
 run denylist_off_passes   0 "catalog valid"    -- "$FIX/denylist_target.json"
+# A city can legitimately span tens of km — Istanbul's Anastasian Walls sit 68 km
+# from the centroid of its other sites. The cohesion check must not flag that.
+run city_wide_but_valid   0 "catalog valid"    -- "$FIX/city_wide_but_valid.json"
 
 echo "invalid catalogs (expect exit 1):"
 run dup_site_id           1 "duplicate site id"  -- "$FIX/dup_site_id.json"
@@ -52,6 +55,9 @@ run malformed_json        1 "schema"             -- "$FIX/malformed.json"
 run missing_field         1 "schema"             -- "$FIX/missing_field.json"
 run missing_thumb         1 "thumb"              -- "$FIX/missing_thumb.json" "$FIX/assets"
 run cc_missing_license    1 "no licenseURL"      -- "$FIX/cc_missing_license.json"
+# The Seven Sleepers bug: Ephesus name/address/country/cityId, Amman coordinates.
+# Every other check passes it — valid lat/lon, resolvable cityId, valid ISO code.
+run city_scatter          1 "from the other sites in city" -- "$FIX/city_scatter.json"
 
 echo "denylist (opt-in, env-supplied):"
 # Same fixture that PASSES above must FAIL once the denylist names the handle.
