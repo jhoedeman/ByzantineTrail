@@ -26,11 +26,14 @@ enum StopSequencer {
 
         let cost = matrix(coordinates, mode, estimator)
 
-        if pinnedPositions.isEmpty && n <= exactLimit {
+        // Filter first: a stale out-of-range pin must not silently downgrade a
+        // small day from the exact solver to the heuristic.
+        let valid = pinnedPositions.filter { $0 >= 0 && $0 < n }
+
+        if valid.isEmpty && n <= exactLimit {
             return closed ? heldKarpClosedTour(cost) : heldKarpOpenPath(cost)
         }
 
-        let valid = pinnedPositions.filter { $0 >= 0 && $0 < n }
         let seed = valid.isEmpty
             ? nearestNeighbour(cost)
             : pinnedSeed(cost, pinned: valid)

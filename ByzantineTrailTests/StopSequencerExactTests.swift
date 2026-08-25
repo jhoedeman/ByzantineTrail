@@ -64,6 +64,29 @@ struct StopSequencerExactTests {
         #expect(seq(coords).count == 10)
     }
 
+    /// Eight points in Rome where nearest-neighbour + 2-opt gets stuck 2.2%
+    /// above the true optimum. The exact solver must find the optimum, so this
+    /// fails if `sequence` ever silently degrades to the heuristic path — the
+    /// one regression the rest of this suite cannot detect.
+    @Test func exactSolverBeatsWhatTheHeuristicWouldFind() {
+        let coords = [
+            Coordinate(lat: 41.898, lon: 12.504),
+            Coordinate(lat: 41.928, lon: 12.468),
+            Coordinate(lat: 41.889, lon: 12.472),
+            Coordinate(lat: 41.892, lon: 12.484),
+            Coordinate(lat: 41.909, lon: 12.473),
+            Coordinate(lat: 41.880, lon: 12.481),
+            Coordinate(lat: 41.898, lon: 12.488),
+            Coordinate(lat: 41.928, lon: 12.495),
+        ]
+        let result = seq(coords)
+        // Exhaustively verified optimum: 11737.30 s, achieved only by this
+        // path (or its reverse). Nearest-neighbour + 2-opt yields 11995.07 s.
+        #expect(result == [0, 6, 3, 5, 2, 4, 1, 7] || result == [7, 1, 4, 2, 5, 3, 6, 0])
+        #expect(abs(cost(result, coords) - 11_737.30) < 1.0)
+        #expect(cost(result, coords) < 11_900.0)   // strictly better than the heuristic's 11995.07
+    }
+
     // MARK: closed tours
 
     /// Four corners of a square: the optimal cycle is the perimeter, so the
