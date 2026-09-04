@@ -5055,13 +5055,13 @@
     "century": 12,
     "era": "komnenian"
    },
-   "summary": "A 12th century island fortress connected to the Korkyros Castle by a breakwater",
+   "summary": "A 12th century island fortress connected to the Korykos Castle by a breakwater",
    "description": "At the start of the 12th century the Byzantines built this supplementary castle on the small island — later called \"Maiden's Castle\" from the legend of a king who shut his daughter here",
    "hours": "8:30–18:30"
   },
   {
    "id": "korkyros-castle",
-   "name": "Korkyros Castle",
+   "name": "Korykos Castle",
    "alternateNames": [
     "Korykos Kalesi",
     "Antik Kız Kalesi"
@@ -5076,8 +5076,8 @@
    "address": "Kızkalesi, 33790 Erdemli/Mersin, Türkiye",
    "importance": "minor",
    "addedInVersion": 1,
-   "summary": "A 12th century castle protecting the Byzantine town of Korkyros",
-   "description": "The land half of the pair of Korkyros castles, along with Maiden's Castle, connected by a breakwater, this fort was restored under Justinian and Alexios Komnenos, but lies mostly in ruins today"
+   "summary": "A 12th century castle protecting the Byzantine town of Korykos",
+   "description": "The land half of the pair of Korykos castles, along with Maiden's Castle, connected by a breakwater, this fort was restored under Justinian and Alexios Komnenos, but lies mostly in ruins today"
   },
   {
    "id": "philadelphia-st-jean-church",
