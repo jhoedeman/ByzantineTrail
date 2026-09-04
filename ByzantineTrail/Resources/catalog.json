@@ -4647,7 +4647,23 @@
     "era": "komnenian"
    },
    "summary": "The most important church of the Empire of Trebizond, with much of its beauty destroyed when made into a mosque",
-   "description": "While much older than the Empire of Trebizond, this church - the metropolitan, coronation, and funerary church of the Grand Komnenoi and the cathedral of Trebizond - reached its height in the 12th century. Now it is a mosque, with its frescoes poorly painted over and wood floors dropped on its opus sectile floor."
+   "description": "While much older than the Empire of Trebizond, this church - the metropolitan, coronation, and funerary church of the Grand Komnenoi and the cathedral of Trebizond - reached its height in the 12th century. Now it is a mosque, with its frescoes poorly painted over and wood floors dropped on its opus sectile floor.",
+   "photos": [
+    {
+     "id": "panagia-chrysokephalos-1",
+     "thumb": "thumbs/panagia-chrysokephalos-1.jpg",
+     "full": "full/panagia-chrysokephalos-1.jpg",
+     "credit": "Francesco Bini, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "panagia-chrysokephalos-2",
+     "thumb": "thumbs/panagia-chrysokephalos-2.jpg",
+     "full": "full/panagia-chrysokephalos-2.jpg",
+     "credit": "Francesco Bini, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "hagios-eugenios-church",
@@ -4671,7 +4687,30 @@
     "era": "palaiologan"
    },
    "summary": "A church with a largely 13th century structure, but with its art destroyed by the Ottomans",
-   "description": "The structure of this church was rebuilt after Ottoman destruction in the 13th century. Subsequent destruction after the conquest of the Ottomans caused the destruction of its art."
+   "description": "The structure of this church was rebuilt after Ottoman destruction in the 13th century. Subsequent destruction after the conquest of the Ottomans caused the destruction of its art.",
+   "photos": [
+    {
+     "id": "hagios-eugenios-church-1",
+     "thumb": "thumbs/hagios-eugenios-church-1.jpg",
+     "full": "full/hagios-eugenios-church-1.jpg",
+     "credit": "Francesco Bini, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "hagios-eugenios-church-2",
+     "thumb": "thumbs/hagios-eugenios-church-2.jpg",
+     "full": "full/hagios-eugenios-church-2.jpg",
+     "credit": "Alaexis, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "hagios-eugenios-church-3",
+     "thumb": "thumbs/hagios-eugenios-church-3.jpg",
+     "full": "full/hagios-eugenios-church-3.jpg",
+     "credit": "Francesco Bini, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "st-anne-church",
@@ -4698,6 +4737,22 @@
      "title": "Official website",
      "url": "https://muze.gov.tr/muze-detay?sectionId=TRK01&distId=MRK"
     }
+   ],
+   "photos": [
+    {
+     "id": "st-anne-church-1",
+     "thumb": "thumbs/st-anne-church-1.jpg",
+     "full": "full/st-anne-church-1.jpg",
+     "credit": "Francesco Bini, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "st-anne-church-2",
+     "thumb": "thumbs/st-anne-church-2.jpg",
+     "full": "full/st-anne-church-2.jpg",
+     "credit": "Francesco Bini, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -4718,7 +4773,30 @@
    "addedInVersion": 1,
    "summary": "A dramatic cliffside monastery, now a museum and visitable by the public",
    "description": "Perched precariously on a cliff outside Trebizond, this monastery is now a museum. Preserved after the Ottoman conquest, it retains its frescoes, its rock church, chapels, monks' quarters, and a library. Made a museum after the Treaty of Lausanne.",
-   "hours": "8:00–18:30"
+   "hours": "8:00–18:30",
+   "photos": [
+    {
+     "id": "s-mela-monastery-1",
+     "thumb": "thumbs/s-mela-monastery-1.jpg",
+     "full": "full/s-mela-monastery-1.jpg",
+     "credit": "Hamdigumus, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    },
+    {
+     "id": "s-mela-monastery-2",
+     "thumb": "thumbs/s-mela-monastery-2.jpg",
+     "full": "full/s-mela-monastery-2.jpg",
+     "credit": "Hamdigumus, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    },
+    {
+     "id": "s-mela-monastery-3",
+     "thumb": "thumbs/s-mela-monastery-3.jpg",
+     "full": "full/s-mela-monastery-3.jpg",
+     "credit": "Moosag, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
+   ]
   },
   {
    "id": "metropolitan-cathedral-of-panagia-spilaiotissa",
@@ -4737,7 +4815,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A later church housing the remains of St. Theodora Augusta, the empress who helped end iconoclasm",
-   "description": "A Venetian church of the 16th century, he Byzantine link is its great relic: the holy body of St. Theodora Augusta, the Byzantine empress who championed the restoration of icons after the Iconoclast period, transferred to Corfu in the mid-1450s as Constantinople fell."
+   "description": "A Venetian church of the 16th century, he Byzantine link is its great relic: the holy body of St. Theodora Augusta, the Byzantine empress who championed the restoration of icons after the Iconoclast period, transferred to Corfu in the mid-1450s as Constantinople fell.",
+   "photos": [
+    {
+     "id": "metropolitan-cathedral-of-panagia-spilaiotissa-1",
+     "thumb": "thumbs/metropolitan-cathedral-of-panagia-spilaiotissa-1.jpg",
+     "full": "full/metropolitan-cathedral-of-panagia-spilaiotissa-1.jpg",
+     "credit": "Maksym Kozlenko, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "galatista-byzantine-tower",
@@ -4757,7 +4844,16 @@
     "era": "komnenian"
    },
    "summary": "A late Byzantine square tower in Chalkidiki",
-   "description": "In the middle of Galatista village in Chalkidiki stands a classic late-Byzantine square tower, built in the 11th century and added to in the 14th."
+   "description": "In the middle of Galatista village in Chalkidiki stands a classic late-Byzantine square tower, built in the 11th century and added to in the 14th.",
+   "photos": [
+    {
+     "id": "galatista-byzantine-tower-1",
+     "thumb": "thumbs/galatista-byzantine-tower-1.jpg",
+     "full": "full/galatista-byzantine-tower-1.jpg",
+     "credit": "Athacosi, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-george-of-samatya",
@@ -4821,6 +4917,22 @@
      "title": "Official website",
      "url": "https://www.kastra.eu/castlegr.php?kastro=didymoteix"
     }
+   ],
+   "photos": [
+    {
+     "id": "chapel-of-st-catherine-1",
+     "thumb": "thumbs/chapel-of-st-catherine-1.jpg",
+     "full": "full/chapel-of-st-catherine-1.jpg",
+     "credit": "User:Ggia, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "chapel-of-st-catherine-2",
+     "thumb": "thumbs/chapel-of-st-catherine-2.jpg",
+     "full": "full/chapel-of-st-catherine-2.jpg",
+     "credit": "User:Ggia, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -4845,6 +4957,22 @@
     {
      "title": "Official website",
      "url": "https://www.kastra.eu/castlegr.php?kastro=didymoteix"
+    }
+   ],
+   "photos": [
+    {
+     "id": "castle-of-didymoteicho-1",
+     "thumb": "thumbs/castle-of-didymoteicho-1.jpg",
+     "full": "full/castle-of-didymoteicho-1.jpg",
+     "credit": "User:Ggia, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "castle-of-didymoteicho-2",
+     "thumb": "thumbs/castle-of-didymoteicho-2.jpg",
+     "full": "full/castle-of-didymoteicho-2.jpg",
+     "credit": "Aramgar, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
     }
    ]
   },
@@ -4892,7 +5020,16 @@
     "era": "palaiologan"
    },
    "summary": "A medieval fortress built by the Despot of Epirus to defend Corfu",
-   "description": "A medieval fortress built by the Despot of Epirus before Corfu's Venetian era; one of three castles built to defend Corfu."
+   "description": "A medieval fortress built by the Despot of Epirus before Corfu's Venetian era; one of three castles built to defend Corfu.",
+   "photos": [
+    {
+     "id": "gardiki-castle-1",
+     "thumb": "thumbs/gardiki-castle-1.jpg",
+     "full": "full/gardiki-castle-1.jpg",
+     "credit": "Marc Ryckaert (MJJR), CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "angelokastro",
@@ -4917,7 +5054,15 @@
    },
    "summary": "A dramatic mountaintop castle built by the Despot of Eprius in Corfu",
    "description": "A Byzantine castle built on the highest peak of the island's shoreline, commanding a dramatic view of the city of Corfu and the sea. One of three castles built to defend Corfu during the Despotate of Epirus.",
-   "hours": "10:00–17:30; closed Tue"
+   "hours": "10:00–17:30; closed Tue",
+   "photos": [
+    {
+     "id": "angelokastro-1",
+     "thumb": "thumbs/angelokastro-1.jpg",
+     "full": "full/angelokastro-1.jpg",
+     "credit": "Georgios Pazios (Alaniaris), Attribution, via Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "kassiopi-castle",
@@ -4940,7 +5085,23 @@
     "era": "justinianic"
    },
    "summary": "A ruined fortress used by Byzantines, Epirotes, and Venetians",
-   "description": "The oldest of the three castles used by the Despotate of Epirus to defend Corfu, and the worst-preserved, mostly destroyed and left to deteriorate by the Venetians."
+   "description": "The oldest of the three castles used by the Despotate of Epirus to defend Corfu, and the worst-preserved, mostly destroyed and left to deteriorate by the Venetians.",
+   "photos": [
+    {
+     "id": "kassiopi-castle-1",
+     "thumb": "thumbs/kassiopi-castle-1.jpg",
+     "full": "full/kassiopi-castle-1.jpg",
+     "credit": "User:MJJR, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "kassiopi-castle-2",
+     "thumb": "thumbs/kassiopi-castle-2.jpg",
+     "full": "full/kassiopi-castle-2.jpg",
+     "credit": "Dr.K., CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ]
   },
   {
    "id": "sousse-archaeological-museum",
@@ -4960,7 +5121,16 @@
    "addedInVersion": 1,
    "summary": "A museum famous for mosaics, with a section for early Christian and Byzantine finds",
    "description": "Known for its enormous collection of Roman mosaics, it also has a room of early Christian funerary mosaics and catacomb finds, plus a standout Byzantine-era mosaic-covered baptismal font from El Gaalla and the 6th-century Christian Mosaic of Theodoulus.",
-   "hours": "9:00–17:00; closed Mon"
+   "hours": "9:00–17:00; closed Mon",
+   "photos": [
+    {
+     "id": "sousse-archaeological-museum-1",
+     "thumb": "thumbs/sousse-archaeological-museum-1.jpg",
+     "full": "full/sousse-archaeological-museum-1.jpg",
+     "credit": "Yamen, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "santa-maria-di-mesumundu",
@@ -4983,7 +5153,23 @@
     "era": "justinianic"
    },
    "summary": "A 6th century church with characteristic Byzantine masonry, rare for Sardinia",
-   "description": "A rare survivor of Byzantine Sardinia, the church stands on the ruins of a late-imperial Roman bath complex, and the Byzantines reused part of the Roman walls and the aqueduct. Built in the 6th century with characteristic Byzantine opus listatum"
+   "description": "A rare survivor of Byzantine Sardinia, the church stands on the ruins of a late-imperial Roman bath complex, and the Byzantines reused part of the Roman walls and the aqueduct. Built in the 6th century with characteristic Byzantine opus listatum",
+   "photos": [
+    {
+     "id": "santa-maria-di-mesumundu-1",
+     "thumb": "thumbs/santa-maria-di-mesumundu-1.jpg",
+     "full": "full/santa-maria-di-mesumundu-1.jpg",
+     "credit": "Gianni Careddu, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "santa-maria-di-mesumundu-2",
+     "thumb": "thumbs/santa-maria-di-mesumundu-2.jpg",
+     "full": "full/santa-maria-di-mesumundu-2.jpg",
+     "credit": "Gianni Careddu, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "westminster-cathedral",
@@ -5009,6 +5195,36 @@
      "title": "Official website",
      "url": "https://www.westminstercathedral.org.uk/"
     }
+   ],
+   "photos": [
+    {
+     "id": "westminster-cathedral-1",
+     "thumb": "thumbs/westminster-cathedral-1.jpg",
+     "full": "full/westminster-cathedral-1.jpg",
+     "credit": "Paul Hudson, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "westminster-cathedral-2",
+     "thumb": "thumbs/westminster-cathedral-2.jpg",
+     "full": "full/westminster-cathedral-2.jpg",
+     "credit": "Gary Ullah from UK, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "westminster-cathedral-3",
+     "thumb": "thumbs/westminster-cathedral-3.jpg",
+     "full": "full/westminster-cathedral-3.jpg",
+     "credit": "A S, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "westminster-cathedral-4",
+     "thumb": "thumbs/westminster-cathedral-4.jpg",
+     "full": "full/westminster-cathedral-4.jpg",
+     "credit": "Gary Ullah from UK, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
    ]
   },
   {
@@ -5033,7 +5249,23 @@
    },
    "summary": "A 12th century church with frescoes modeled after its founder's Komnenian relatives",
    "description": "Built in 1152 by the sebastokrator Isaac Komnenos, a son of Emperor Alexios I Komnenos (seen in a mosaic in Chora Church), later coming into the fief of 4th Crusade chronicler Geoffrey of Villehardouin. The 12th-century frescoes are a fine example of the Constantinopolitan school, including military saints given the features of Isaac's Komnenian relatives.",
-   "hours": "8:30–20:00"
+   "hours": "8:30–20:00",
+   "photos": [
+    {
+     "id": "theotokos-kosmosoteira-1",
+     "thumb": "thumbs/theotokos-kosmosoteira-1.jpg",
+     "full": "full/theotokos-kosmosoteira-1.jpg",
+     "credit": "D.Kaliakoudas, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "theotokos-kosmosoteira-2",
+     "thumb": "thumbs/theotokos-kosmosoteira-2.jpg",
+     "full": "full/theotokos-kosmosoteira-2.jpg",
+     "credit": "Athanasios Benisis, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "maidens-castle",
@@ -5057,7 +5289,16 @@
    },
    "summary": "A 12th century island fortress connected to the Korykos Castle by a breakwater",
    "description": "At the start of the 12th century the Byzantines built this supplementary castle on the small island — later called \"Maiden's Castle\" from the legend of a king who shut his daughter here",
-   "hours": "8:30–18:30"
+   "hours": "8:30–18:30",
+   "photos": [
+    {
+     "id": "maidens-castle-1",
+     "thumb": "thumbs/maidens-castle-1.jpg",
+     "full": "full/maidens-castle-1.jpg",
+     "credit": "Zeynel Cebeci, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "korkyros-castle",
@@ -5077,7 +5318,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A 12th century castle protecting the Byzantine town of Korykos",
-   "description": "The land half of the pair of Korykos castles, along with Maiden's Castle, connected by a breakwater, this fort was restored under Justinian and Alexios Komnenos, but lies mostly in ruins today"
+   "description": "The land half of the pair of Korykos castles, along with Maiden's Castle, connected by a breakwater, this fort was restored under Justinian and Alexios Komnenos, but lies mostly in ruins today",
+   "photos": [
+    {
+     "id": "korkyros-castle-1",
+     "thumb": "thumbs/korkyros-castle-1.jpg",
+     "full": "full/korkyros-castle-1.jpg",
+     "credit": "Klaus-Peter Simon, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "philadelphia-st-jean-church",
