@@ -4332,6 +4332,15 @@
      "title": "Official website",
      "url": "https://www.smb.museum/museen-einrichtungen/bode-museum/home/"
     }
+   ],
+   "photos": [
+    {
+     "id": "bode-museum-1",
+     "thumb": "thumbs/bode-museum-1.jpg",
+     "full": "full/bode-museum-1.jpg",
+     "credit": "Daderot, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
    ]
   },
   {
@@ -5350,7 +5359,23 @@
    },
    "summary": "The ruins of a large, ancient church in the former Byzantine city of Philadelphia",
    "description": "The ruins stand in Alaşehir, ancient Philadelphia in Manisa province, the sixth church of Revelation. The present, ruined, structure dates to about 600, some of the massive brick pillars that once held up the dome still extant, along with sections of Byzantine wall and mosaic fragments.",
-   "hours": "9:00–17:00"
+   "hours": "9:00–17:00",
+   "photos": [
+    {
+     "id": "philadelphia-st-jean-church-1",
+     "thumb": "thumbs/philadelphia-st-jean-church-1.jpg",
+     "full": "full/philadelphia-st-jean-church-1.jpg",
+     "credit": "Sharon Hahn Darlin, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "philadelphia-st-jean-church-2",
+     "thumb": "thumbs/philadelphia-st-jean-church-2.jpg",
+     "full": "full/philadelphia-st-jean-church-2.jpg",
+     "credit": "Sharon Hahn Darlin, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "museo-della-cattedrale-di-anagni",
@@ -5374,7 +5399,30 @@
    },
    "summary": "A cathedral and museum with medieval Byzantine frescoes, a Byzantine style icon and a copy of the Codex Justinianus",
    "description": "By tradition the cathedral was completed thanks to the Byzantine Emperor Michael VII Doukas, and a Byzantine-style Madonna (c. 1250) survives on a pillar of the left aisle. Above all, the crypt of San Magno beneath the choir is entirely covered in remarkably preserved medieval frescoes, deeply Byzantine in style and often called the \"Sistine Chapel of the Middle Ages.\" Also contains an important 1518 copy of the Codex Justinianus.",
-   "hours": "9:00–13:00 & 15:00–19:00; Sun 9:00–11:30 & 15:00–19:00"
+   "hours": "9:00–13:00 & 15:00–19:00; Sun 9:00–11:30 & 15:00–19:00",
+   "photos": [
+    {
+     "id": "museo-della-cattedrale-di-anagni-1",
+     "thumb": "thumbs/museo-della-cattedrale-di-anagni-1.jpg",
+     "full": "full/museo-della-cattedrale-di-anagni-1.jpg",
+     "credit": "Acquario51, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "museo-della-cattedrale-di-anagni-2",
+     "thumb": "thumbs/museo-della-cattedrale-di-anagni-2.jpg",
+     "full": "full/museo-della-cattedrale-di-anagni-2.jpg",
+     "credit": "Acquario51, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "museo-della-cattedrale-di-anagni-3",
+     "thumb": "thumbs/museo-della-cattedrale-di-anagni-3.jpg",
+     "full": "full/museo-della-cattedrale-di-anagni-3.jpg",
+     "credit": "Acquario51, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "monastery-of-st-panteleimon-gorno-nerezi",
@@ -5402,6 +5450,22 @@
     {
      "title": "Official website",
      "url": "https://travel2macedonia.com/tourist-attraction/saint-pantelejmon-monastery-skopje"
+    }
+   ],
+   "photos": [
+    {
+     "id": "monastery-of-st-panteleimon-gorno-nerezi-1",
+     "thumb": "thumbs/monastery-of-st-panteleimon-gorno-nerezi-1.jpg",
+     "full": "full/monastery-of-st-panteleimon-gorno-nerezi-1.jpg",
+     "credit": "This illustration was made by Rašo., CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "monastery-of-st-panteleimon-gorno-nerezi-2",
+     "thumb": "thumbs/monastery-of-st-panteleimon-gorno-nerezi-2.jpg",
+     "full": "full/monastery-of-st-panteleimon-gorno-nerezi-2.jpg",
+     "credit": "This illustration was made by Rašo., CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
     }
    ]
   },
@@ -5433,6 +5497,14 @@
      "title": "Official website",
      "url": "https://www.patrimoinedetunisie.com.tn/en/sites/the-archaeological-site-of-sbeitla/"
     }
+   ],
+   "photos": [
+    {
+     "id": "sbeitla-archaeological-site-1",
+     "thumb": "thumbs/sbeitla-archaeological-site-1.jpg",
+     "full": "full/sbeitla-archaeological-site-1.jpg",
+     "credit": "Rais67, Public domain, via Wikimedia Commons"
+    }
    ]
   },
   {
@@ -5448,7 +5520,30 @@
    "importance": "notable",
    "addedInVersion": 1,
    "summary": "An 11th-century monastery with excellent Macedonia Renaissance mosaics",
-   "description": "An 11th-century monastery high on Mount Provateio, about 15 km from Chios town, and among the finest examples of Macedonian Renaissance mosaic art. It was built in the mid-11th century by Emperor Constantine IX Monomachos and Empress Zoe. Plundered and vandalized by Turks in the 19th century"
+   "description": "An 11th-century monastery high on Mount Provateio, about 15 km from Chios town, and among the finest examples of Macedonian Renaissance mosaic art. It was built in the mid-11th century by Emperor Constantine IX Monomachos and Empress Zoe. Plundered and vandalized by Turks in the 19th century",
+   "photos": [
+    {
+     "id": "nea-moni-of-chios-1",
+     "thumb": "thumbs/nea-moni-of-chios-1.jpg",
+     "full": "full/nea-moni-of-chios-1.jpg",
+     "credit": "FLIOUKAS, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "nea-moni-of-chios-2",
+     "thumb": "thumbs/nea-moni-of-chios-2.jpg",
+     "full": "full/nea-moni-of-chios-2.jpg",
+     "credit": "Tash1000, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "nea-moni-of-chios-3",
+     "thumb": "thumbs/nea-moni-of-chios-3.jpg",
+     "full": "full/nea-moni-of-chios-3.jpg",
+     "credit": "Meltedrainbow, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "st-mary-of-the-mongols",
@@ -5518,7 +5613,22 @@
     "era": "palaiologan"
    },
    "summary": "A ruined Palaiologan chapel in the old city",
-   "description": "A ruined Byzantine chapel near Chora Church. Its masonry of broad alternating bands of ashlar and brick, and its multifaceted apse, are typical of Palaiologan construction."
+   "description": "A ruined Byzantine chapel near Chora Church. Its masonry of broad alternating bands of ashlar and brick, and its multifaceted apse, are typical of Palaiologan construction.",
+   "photos": [
+    {
+     "id": "bo-dan-saray-1",
+     "thumb": "thumbs/bo-dan-saray-1.jpg",
+     "full": "full/bo-dan-saray-1.jpg",
+     "credit": "Sadrettin / Cc-by-sa-4.0, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "bo-dan-saray-2",
+     "thumb": "thumbs/bo-dan-saray-2.jpg",
+     "full": "full/bo-dan-saray-2.jpg",
+     "credit": "Paspatēs, Alexandros Geōrgiou, 1814-1891. [from old catalog], Public domain, via Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "pyrohoshcha-dormition-church",
@@ -5542,7 +5652,23 @@
    },
    "summary": "A reconstruction of a classic 12th century, Byzantine-style, Kievan Rus' church",
    "description": "This stone church was erected in 1132–1136 in the Byzantine style. It is a short church of three naves and apses under a single dome, its walls frescoed, representing a classic product of Kyivan Rus', whose church architecture came directly from Constantinople. Destroyed by the Soviets and rebuilt in the 1990s.",
-   "hours": "7:45–18:15"
+   "hours": "7:45–18:15",
+   "photos": [
+    {
+     "id": "pyrohoshcha-dormition-church-1",
+     "thumb": "thumbs/pyrohoshcha-dormition-church-1.jpg",
+     "full": "full/pyrohoshcha-dormition-church-1.jpg",
+     "credit": "Вероніка Тіщенко, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "pyrohoshcha-dormition-church-2",
+     "thumb": "thumbs/pyrohoshcha-dormition-church-2.jpg",
+     "full": "full/pyrohoshcha-dormition-church-2.jpg",
+     "credit": "ЯдвигаВереск, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "saint-sophia-cathedral",
@@ -5566,7 +5692,30 @@
    },
    "summary": "An 11th century Ukrainian cathedral that preserves excellent mosaics and frescoes modeled after the Byzantines'",
    "description": "It was founded in 1037 by Grand Prince Yaroslav the Wise to celebrate his victory over the Pechenegs, and dedicated to Holy Wisdom, consciously modeling Kyiv on Constantinople and its great cathedral. Though its exterior was remodeled, its interior preserves an 11th-century collection of mosaics and frescoes unique for its integrity",
-   "hours": "10:00–18:00"
+   "hours": "10:00–18:00",
+   "photos": [
+    {
+     "id": "saint-sophia-cathedral-1",
+     "thumb": "thumbs/saint-sophia-cathedral-1.jpg",
+     "full": "full/saint-sophia-cathedral-1.jpg",
+     "credit": "Paweł 'pbm' Szubert, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "saint-sophia-cathedral-2",
+     "thumb": "thumbs/saint-sophia-cathedral-2.jpg",
+     "full": "full/saint-sophia-cathedral-2.jpg",
+     "credit": "Tim Adams, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "saint-sophia-cathedral-3",
+     "thumb": "thumbs/saint-sophia-cathedral-3.jpg",
+     "full": "full/saint-sophia-cathedral-3.jpg",
+     "credit": "Tim Adams, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "cistern-of-the-hebdomon",
@@ -5751,7 +5900,30 @@
    },
    "summary": "A large ruin of a 6th century Byzantine church made of solid brick and with fragmentary frescoes",
    "description": "This a large, partially preserved late-Roman/early-Byzantine basilica about 15 km southwest of Plovdiv, probably built under Emperor Anastasius I. It is a rare example of solid brick construction from Late Antiquity, the red brick giving it its name. A few frescoes are left in the ruin.",
-   "hours": "10:00–18:00"
+   "hours": "10:00–18:00",
+   "photos": [
+    {
+     "id": "the-red-church-perushtitsa-1",
+     "thumb": "thumbs/the-red-church-perushtitsa-1.jpg",
+     "full": "full/the-red-church-perushtitsa-1.jpg",
+     "credit": "Guus Bosman, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+     "id": "the-red-church-perushtitsa-2",
+     "thumb": "thumbs/the-red-church-perushtitsa-2.jpg",
+     "full": "full/the-red-church-perushtitsa-2.jpg",
+     "credit": "Spasimir Pilev, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "the-red-church-perushtitsa-3",
+     "thumb": "thumbs/the-red-church-perushtitsa-3.jpg",
+     "full": "full/the-red-church-perushtitsa-3.jpg",
+     "credit": "Spasimir Pilev, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "balatlar-church",
@@ -5767,7 +5939,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A layered complex of Roman-Byzantine ruins, including a long-serving Byzantine church",
-   "description": "A layered complex with its roots in a Roman bath complex, added to thereafter until the 13th century church, which operated up to the population exchanges of 1924. Still being excavated and revealing its secrets, it is not currently open to the public."
+   "description": "A layered complex with its roots in a Roman bath complex, added to thereafter until the 13th century church, which operated up to the population exchanges of 1924. Still being excavated and revealing its secrets, it is not currently open to the public.",
+   "photos": [
+    {
+     "id": "balatlar-church-1",
+     "thumb": "thumbs/balatlar-church-1.jpg",
+     "full": "full/balatlar-church-1.jpg",
+     "credit": "Sait Can Kutsal, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "tell-madaba-west-acropolis",
@@ -5788,7 +5969,16 @@
    },
    "summary": "A layered site with a very long history, the Byzantine layer is famous for mosaic pavements and the Madaba Map",
    "description": "Madaba, in Jordan, is the great Byzantine \"city of mosaics,\" and the Byzantine layer is the city's golden age: in the 5th–7th centuries Madaba was a prosperous Christian bishopric famous for its mosaic pavements - the Madaba Map and the Church of the Apostles (dated 568) among them.",
-   "hours": "8:00–20:00 daily"
+   "hours": "8:00–20:00 daily",
+   "photos": [
+    {
+     "id": "tell-madaba-west-acropolis-1",
+     "thumb": "thumbs/tell-madaba-west-acropolis-1.jpg",
+     "full": "full/tell-madaba-west-acropolis-1.jpg",
+     "credit": "Bashar Tabbah, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "jerash-archaeological-city",
@@ -5813,6 +6003,29 @@
     {
      "title": "Official website",
      "url": "http://international.visitjordan.com/Wheretogo/Jerash.aspx"
+    }
+   ],
+   "photos": [
+    {
+     "id": "jerash-archaeological-city-1",
+     "thumb": "thumbs/jerash-archaeological-city-1.jpg",
+     "full": "full/jerash-archaeological-city-1.jpg",
+     "credit": "Mohammad hajeer, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "jerash-archaeological-city-2",
+     "thumb": "thumbs/jerash-archaeological-city-2.jpg",
+     "full": "full/jerash-archaeological-city-2.jpg",
+     "credit": "Mohammad hajeer, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "jerash-archaeological-city-3",
+     "thumb": "thumbs/jerash-archaeological-city-3.jpg",
+     "full": "full/jerash-archaeological-city-3.jpg",
+     "credit": "Mohammad hajeer, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ]
   },
