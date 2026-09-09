@@ -6050,7 +6050,16 @@
     "era": "justinianic"
    },
    "summary": "The remains of a Byzantine church on the Amman citadel",
-   "description": "On the Amman Citadel, called Jabal al-Qal'a, between the Roman Temple of Hercules and the 8th-century Umayyad Palace stands a 6th-century Byzantine basilica, dating to around AD 550. Today it is mainly a ruin"
+   "description": "On the Amman Citadel, called Jabal al-Qal'a, between the Roman Temple of Hercules and the 8th-century Umayyad Palace stands a 6th-century Byzantine basilica, dating to around AD 550. Today it is mainly a ruin",
+   "photos": [
+    {
+     "id": "byzantine-church-amman-citadel-1",
+     "thumb": "thumbs/byzantine-church-amman-citadel-1.jpg",
+     "full": "full/byzantine-church-amman-citadel-1.jpg",
+     "credit": "David Bjorgen, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ]
   },
   {
    "id": "basilica-di-san-saturnino",
@@ -6076,6 +6085,22 @@
     {
      "title": "Official website",
      "url": "https://musei.sardegna.beniculturali.it/musei/basilica-di-san-saturnino/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "basilica-di-san-saturnino-1",
+     "thumb": "thumbs/basilica-di-san-saturnino-1.jpg",
+     "full": "full/basilica-di-san-saturnino-1.jpg",
+     "credit": "Ugeen, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "basilica-di-san-saturnino-2",
+     "thumb": "thumbs/basilica-di-san-saturnino-2.jpg",
+     "full": "full/basilica-di-san-saturnino-2.jpg",
+     "credit": "Giova81, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
     }
    ]
   },
@@ -6103,6 +6128,15 @@
      "title": "Official website",
      "url": "https://www.chieseromanichesardegna.it/codrongianos-chiesa-della-santissima-trinita-di-saccargia/"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-the-holy-trinity-saccargia-1",
+     "thumb": "thumbs/church-of-the-holy-trinity-saccargia-1.jpg",
+     "full": "full/church-of-the-holy-trinity-saccargia-1.jpg",
+     "credit": "Benoît Prieur, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
    ]
   },
   {
@@ -6125,6 +6159,29 @@
     {
      "title": "Official website",
      "url": "http://www.basilicasangavino.it/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "basilica-of-san-gavino-1",
+     "thumb": "thumbs/basilica-of-san-gavino-1.jpg",
+     "full": "full/basilica-of-san-gavino-1.jpg",
+     "credit": "Ottantafame, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "basilica-of-san-gavino-2",
+     "thumb": "thumbs/basilica-of-san-gavino-2.jpg",
+     "full": "full/basilica-of-san-gavino-2.jpg",
+     "credit": "Gianni Careddu, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "basilica-of-san-gavino-3",
+     "thumb": "thumbs/basilica-of-san-gavino-3.jpg",
+     "full": "full/basilica-of-san-gavino-3.jpg",
+     "credit": "Michal Osmenda from Brussels, Belgium, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
     }
    ]
   },
@@ -6151,6 +6208,15 @@
      "title": "Official website",
      "url": "https://www.visitsilanus.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "cr-sia-e-nuraghe-de-santa-sarbana-1",
+     "thumb": "thumbs/cr-sia-e-nuraghe-de-santa-sarbana-1.jpg",
+     "full": "full/cr-sia-e-nuraghe-de-santa-sarbana-1.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
    ]
   },
   {
@@ -6176,6 +6242,29 @@
     {
      "title": "Official website",
      "url": "https://museilombardia.cultura.gov.it/musei/parco-archeologico-e-antiquarium-di-castelseprio/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "chiesa-di-santa-maria-foris-portas-1",
+     "thumb": "thumbs/chiesa-di-santa-maria-foris-portas-1.jpg",
+     "full": "full/chiesa-di-santa-maria-foris-portas-1.jpg",
+     "credit": "Charadron, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "chiesa-di-santa-maria-foris-portas-2",
+     "thumb": "thumbs/chiesa-di-santa-maria-foris-portas-2.jpg",
+     "full": "full/chiesa-di-santa-maria-foris-portas-2.jpg",
+     "credit": "Capricornis crispus, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "chiesa-di-santa-maria-foris-portas-3",
+     "thumb": "thumbs/chiesa-di-santa-maria-foris-portas-3.jpg",
+     "full": "full/chiesa-di-santa-maria-foris-portas-3.jpg",
+     "credit": "Capricornis crispus, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ]
   },
@@ -6207,6 +6296,29 @@
      "title": "Official website",
      "url": "http://www.sanlorenzomaggiore.com/"
     }
+   ],
+   "photos": [
+    {
+     "id": "cappella-di-santaquilino-1",
+     "thumb": "thumbs/cappella-di-santaquilino-1.jpg",
+     "full": "full/cappella-di-santaquilino-1.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "cappella-di-santaquilino-2",
+     "thumb": "thumbs/cappella-di-santaquilino-2.jpg",
+     "full": "full/cappella-di-santaquilino-2.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "cappella-di-santaquilino-3",
+     "thumb": "thumbs/cappella-di-santaquilino-3.jpg",
+     "full": "full/cappella-di-santaquilino-3.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
    ]
   },
   {
@@ -6237,6 +6349,22 @@
      "title": "Official website",
      "url": "https://www.arlestourisme.com/fr/monument-detail.html&code=13T2000297"
     }
+   ],
+   "photos": [
+    {
+     "id": "baths-of-constantine-1",
+     "thumb": "thumbs/baths-of-constantine-1.jpg",
+     "full": "full/baths-of-constantine-1.jpg",
+     "credit": "Bjs, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "baths-of-constantine-2",
+     "thumb": "thumbs/baths-of-constantine-2.jpg",
+     "full": "full/baths-of-constantine-2.jpg",
+     "credit": "Mbzt, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -6256,7 +6384,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A layered fortress site used by Romans, Byzantines, and others",
-   "description": "Used and modified through the Roman and Byzantine centuries, this fortress owes its present form and name to Tsar Samuel of Bulgaria. After Samuel's defeat, the Byzantine emperor Basil II is said to have destroyed it, and Alexios I Komnenos later restored it."
+   "description": "Used and modified through the Roman and Byzantine centuries, this fortress owes its present form and name to Tsar Samuel of Bulgaria. After Samuel's defeat, the Byzantine emperor Basil II is said to have destroyed it, and Alexios I Komnenos later restored it.",
+   "photos": [
+    {
+     "id": "fortress-of-ohrid-1",
+     "thumb": "thumbs/fortress-of-ohrid-1.jpg",
+     "full": "full/fortress-of-ohrid-1.jpg",
+     "credit": "Pudelek (Marcin Szala), CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "church-of-saints-cosmas-and-damian-the-smaller-physician-saints",
@@ -6280,7 +6417,16 @@
     "era": "palaiologan"
    },
    "summary": "A medieval church with recently rediscovered 14th century frescoes",
-   "description": "Tucked against the town wall just below the church of Sts. Constantine and Helena, this church was built and decorated in the first half of the 14th century, with 14th century frescoes recently rediscovered under mortar."
+   "description": "Tucked against the town wall just below the church of Sts. Constantine and Helena, this church was built and decorated in the first half of the 14th century, with 14th century frescoes recently rediscovered under mortar.",
+   "photos": [
+    {
+     "id": "church-of-saints-cosmas-and-damian-the-smaller-physician-saints-1",
+     "thumb": "thumbs/church-of-saints-cosmas-and-damian-the-smaller-physician-saints-1.jpg",
+     "full": "full/church-of-saints-cosmas-and-damian-the-smaller-physician-saints-1.jpg",
+     "credit": "This illustration was made by Rašo., CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "icon-gallery-of-ohrid",
@@ -6360,6 +6506,15 @@
      "title": "Official website",
      "url": "http://www.mpc.org.mk"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-the-virgin-mary-of-the-hospital-1",
+     "thumb": "thumbs/church-of-the-virgin-mary-of-the-hospital-1.jpg",
+     "full": "full/church-of-the-virgin-mary-of-the-hospital-1.jpg",
+     "credit": "Македонец, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -6383,7 +6538,16 @@
     "era": "palaiologan"
    },
    "summary": "A tiny 14th-century church in Ohrid's Old Town that served as the men's quarantine chapel, preserving medieval frescoes.",
-   "description": "A tiny 14th-century church in the heart of the Old Town, one of a pair of \"hospital\" churches. Their function was quarantine, and this was the men's church. It preserves medieval frescoes and notable icon."
+   "description": "A tiny 14th-century church in the heart of the Old Town, one of a pair of \"hospital\" churches. Their function was quarantine, and this was the men's church. It preserves medieval frescoes and notable icon.",
+   "photos": [
+    {
+     "id": "church-of-saint-nicholas-of-the-hospital-1",
+     "thumb": "thumbs/church-of-saint-nicholas-of-the-hospital-1.jpg",
+     "full": "full/church-of-saint-nicholas-of-the-hospital-1.jpg",
+     "credit": "Onosim, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-sophia",
@@ -6413,6 +6577,15 @@
      "title": "Official website",
      "url": "http://www.mpc.org.mk/"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-st-sophia-1",
+     "thumb": "thumbs/church-of-st-sophia-1.jpg",
+     "full": "full/church-of-st-sophia-1.jpg",
+     "credit": "Petar Milošević, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -6436,7 +6609,23 @@
     "era": "justinianic"
    },
    "summary": "A partially excavated early Christian basilica whose mosaic floors date to the first half of the 6th century",
-   "description": "A partially excavated early Christian basilica whose mosaic floors date to the first half of the 6th century."
+   "description": "A partially excavated early Christian basilica whose mosaic floors date to the first half of the 6th century.",
+   "photos": [
+    {
+     "id": "early-christian-basilica-of-manchevci-1",
+     "thumb": "thumbs/early-christian-basilica-of-manchevci-1.jpg",
+     "full": "full/early-christian-basilica-of-manchevci-1.jpg",
+     "credit": "Tashkoskim, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "early-christian-basilica-of-manchevci-2",
+     "thumb": "thumbs/early-christian-basilica-of-manchevci-2.jpg",
+     "full": "full/early-christian-basilica-of-manchevci-2.jpg",
+     "credit": "Tashkoskim, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "plaoshnik-archaeological-park",
@@ -6461,6 +6650,14 @@
     {
      "title": "Official website",
      "url": "https://muzejohrid.mk/plaoshnik/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "plaoshnik-archaeological-park-1",
+     "thumb": "thumbs/plaoshnik-archaeological-park-1.jpg",
+     "full": "full/plaoshnik-archaeological-park-1.jpg",
+     "credit": "Apcbg, Public domain, via Wikimedia Commons"
     }
    ]
   },
@@ -6520,6 +6717,15 @@
      "title": "Official website",
      "url": "http://www.religiousgreece.gr/epirus-thessaly/-/asset_publisher/bD2Iayf9w5H8/content/i-n-panagias-blachernas"
     }
+   ],
+   "photos": [
+    {
+     "id": "holy-church-of-the-virgin-mary-of-blacherna-1",
+     "thumb": "thumbs/holy-church-of-the-virgin-mary-of-blacherna-1.jpg",
+     "full": "full/holy-church-of-the-virgin-mary-of-blacherna-1.jpg",
+     "credit": "Σαλαμούρας Σπ, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -6549,6 +6755,15 @@
     {
      "title": "Official website",
      "url": "https://www.kastra.eu/castleen.php?kastro=arta"
+    }
+   ],
+   "photos": [
+    {
+     "id": "arta-castle-1",
+     "thumb": "thumbs/arta-castle-1.jpg",
+     "full": "full/arta-castle-1.jpg",
+     "credit": "Vassiliki Feidopoulou, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ]
   },
@@ -6580,6 +6795,22 @@
      "title": "Official website",
      "url": "https://www.imartis.gr/%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B9%CF%83%CE%BC%CF%8C%CF%82/%CE%B9%CF%83%CF%84%CE%BF%CF%81%CE%AF%CE%B1-%CE%BC%CE%BD%CE%B7%CE%BC%CE%B5%CE%AF%CE%B1/%CE%B2%CF%85%CE%B6%CE%B1%CE%BD%CF%84%CE%B9%CE%BD%CE%AC-%CE%BC%CE%BD%CE%B7%CE%BC%CE%B5%CE%AF%CE%B1/42-%CE%BF-%CE%BD%CE%B1%CF%8C%CF%82-%CF%84%CE%B7%CF%82-%CE%B1%CE%B3%CE%AF%CE%B1%CF%82-%CE%B8%CE%B5%CE%BF%CE%B4%CF%8E%CF%81%CE%B1%CF%82-%CE%B2%CE%B1%CF%83%CE%AF%CE%BB%CE%B9%CF%83%CF%83%CE%B1%CF%82-%CF%84%CE%B7%CF%82-%CE%AC%CF%81%CF%84%CE%B1%CF%82.html"
     }
+   ],
+   "photos": [
+    {
+     "id": "holy-church-of-saint-theodora-1",
+     "thumb": "thumbs/holy-church-of-saint-theodora-1.jpg",
+     "full": "full/holy-church-of-saint-theodora-1.jpg",
+     "credit": "Mboesch, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "holy-church-of-saint-theodora-2",
+     "thumb": "thumbs/holy-church-of-saint-theodora-2.jpg",
+     "full": "full/holy-church-of-saint-theodora-2.jpg",
+     "credit": "ΚΑΤΕΡΙΝΑ ΑΓΓΕΛΗ, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -6610,6 +6841,21 @@
      "title": "Official website",
      "url": "http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=1039"
     }
+   ],
+   "photos": [
+    {
+     "id": "holy-church-of-the-virgin-mary-paregoretissa-1",
+     "thumb": "thumbs/holy-church-of-the-virgin-mary-paregoretissa-1.jpg",
+     "full": "full/holy-church-of-the-virgin-mary-paregoretissa-1.jpg",
+     "credit": "Marion Schneider & Christoph Aistleitner, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "holy-church-of-the-virgin-mary-paregoretissa-2",
+     "thumb": "thumbs/holy-church-of-the-virgin-mary-paregoretissa-2.jpg",
+     "full": "full/holy-church-of-the-virgin-mary-paregoretissa-2.jpg",
+     "credit": "Giorgos ab1234, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -6630,7 +6876,16 @@
     "era": "palaiologan"
    },
    "summary": "A small, 14th century church with cloisonné masonry and glazed clay icons",
-   "description": "A small Byzantine church built toward the end of the 14th century with very distinctive brickwork, its surviving wall paintings date to the 17th century."
+   "description": "A small Byzantine church built toward the end of the 14th century with very distinctive brickwork, its surviving wall paintings date to the 17th century.",
+   "photos": [
+    {
+     "id": "church-of-st-basil-of-the-agora-1",
+     "thumb": "thumbs/church-of-st-basil-of-the-agora-1.jpg",
+     "full": "full/church-of-st-basil-of-the-agora-1.jpg",
+     "credit": "Dodos2013, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-george-omorfokklisia",
@@ -6649,7 +6904,23 @@
     "era": "komnenian"
    },
    "summary": "A 12th century church whose nickname \"beautiful church\" is well-earned by its 13th century wall paintings",
-   "description": "Built in the second half of the 12th century, over an earlier Christian temple, its walls were painted in the last quarter of the 13th century, and the beauty and range of those frescoes have earned it the nickname \"a museum of hagiography.\""
+   "description": "Built in the second half of the 12th century, over an earlier Christian temple, its walls were painted in the last quarter of the 13th century, and the beauty and range of those frescoes have earned it the nickname \"a museum of hagiography.\"",
+   "photos": [
+    {
+     "id": "church-of-st-george-omorfokklisia-1",
+     "thumb": "thumbs/church-of-st-george-omorfokklisia-1.jpg",
+     "full": "full/church-of-st-george-omorfokklisia-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-st-george-omorfokklisia-2",
+     "thumb": "thumbs/church-of-st-george-omorfokklisia-2.jpg",
+     "full": "full/church-of-st-george-omorfokklisia-2.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agios-georgios-omorfoklisia",
