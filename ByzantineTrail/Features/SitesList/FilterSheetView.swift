@@ -74,23 +74,31 @@ struct FilterSheetView: View {
     // MARK: - Summaries
 
     private var typeSummary: String {
-        FilterSummary.summarize(filter.types.map(\.displayLabel).sorted())
+        FilterSummary.summarize(localizedSorted(filter.types.map(\.displayLabel)))
     }
     private var importanceSummary: String {
-        FilterSummary.summarize(filter.importances.map(\.displayLabel).sorted())
+        FilterSummary.summarize(localizedSorted(filter.importances.map(\.displayLabel)))
     }
     private var countrySummary: String {
-        FilterSummary.summarize(filter.countries.map { CountryName.localized($0) }.sorted())
+        FilterSummary.summarize(localizedSorted(filter.countries.map { CountryName.localized($0) }))
     }
     private var citySummary: String {
-        FilterSummary.summarize(filter.cityIds.compactMap { cityNamesByID[$0] }.sorted())
+        FilterSummary.summarize(localizedSorted(filter.cityIds.compactMap { cityNamesByID[$0] }))
     }
     private var mySitesSummary: String {
+        // Intentionally fixed order (Favorites, Want to Visit, Visited) to match
+        // the toggle order in the row — NOT alphabetized like the other summaries.
         var parts: [String] = []
         if filter.favoritesOnly { parts.append("Favorites") }
         if filter.wantOnly { parts.append("Want to Visit") }
         if filter.visitedOnly { parts.append("Visited") }
         return FilterSummary.summarize(parts)
+    }
+
+    /// Sort display names the way the rows themselves sort (accents/case like
+    /// Finder), so a collapsed summary's first two names match the expanded order.
+    private func localizedSorted(_ names: [String]) -> [String] {
+        names.sorted { $0.localizedStandardCompare($1) == .orderedAscending }
     }
 
     // MARK: - Helpers
