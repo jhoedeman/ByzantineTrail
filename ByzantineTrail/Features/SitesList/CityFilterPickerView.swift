@@ -9,6 +9,12 @@ struct CityFilterPickerView: View {
     let centerCityIds: Set<String>
     @State private var searchText = ""
 
+    init(selectedCityIds: Binding<Set<String>>, cities: [City], centerCityIds: Set<String>) {
+        self._selectedCityIds = selectedCityIds
+        self.cities = cities
+        self.centerCityIds = centerCityIds
+    }
+
     var body: some View {
         List {
             if searchText.isEmpty {
