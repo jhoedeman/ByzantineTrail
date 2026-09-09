@@ -41,6 +41,8 @@ struct MapTabView: View {
                     FilterSheetView(filter: $filterModel.filter,
                                     allCountryCodes: catalogStore.countryCodes,
                                     cities: catalogStore.cities,
+                                    centerCityIds: catalogStore.centerCityIds,
+                                    cityNamesByID: catalogStore.cityNamesByID,
                                     theme: theme)
                 }
                 .sheet(item: $selectedSite) { site in

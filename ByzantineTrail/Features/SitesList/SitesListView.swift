@@ -62,6 +62,8 @@ struct SitesListView: View {
                 FilterSheetView(filter: $filterModel.filter,
                                 allCountryCodes: catalogStore.countryCodes,
                                 cities: catalogStore.cities,
+                                centerCityIds: catalogStore.centerCityIds,
+                                cityNamesByID: cityNames,
                                 theme: theme)
             }
         }

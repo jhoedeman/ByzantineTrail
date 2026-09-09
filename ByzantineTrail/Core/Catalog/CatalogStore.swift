@@ -14,6 +14,9 @@ final class CatalogStore {
         Dictionary(cities.map { ($0.id, $0.name) }, uniquingKeysWith: { first, _ in first })
     }
 
+    /// City IDs that qualify as "centers" (3+ sites) — the default City filter list.
+    var centerCityIds: Set<String> { CityCenters.centerIds(sites: sites) }
+
     /// Distinct country codes present in the catalog, sorted.
     var countryCodes: [String] {
         Array(Set(sites.map(\.country))).sorted()
