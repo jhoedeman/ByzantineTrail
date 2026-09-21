@@ -6943,7 +6943,23 @@
     "era": "komnenian"
    },
    "summary": "A 12th century Byzantine church with a large wooden statue of St. George and medieval frescoes",
-   "description": "A 12th-century domed cross-in-square Byzantine church, its interior frescoes dating to the 13th and 15th centuries; though damaged under Ottoman rule and by an interior fire, it survives in good condition."
+   "description": "A 12th-century domed cross-in-square Byzantine church, its interior frescoes dating to the 13th and 15th centuries; though damaged under Ottoman rule and by an interior fire, it survives in good condition.",
+   "photos": [
+    {
+     "id": "agios-georgios-omorfoklisia-1",
+     "thumb": "thumbs/agios-georgios-omorfoklisia-1.jpg",
+     "full": "full/agios-georgios-omorfoklisia-1.jpg",
+     "credit": "Алиса Селезньова, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "agios-georgios-omorfoklisia-2",
+     "thumb": "thumbs/agios-georgios-omorfoklisia-2.jpg",
+     "full": "full/agios-georgios-omorfoklisia-2.jpg",
+     "credit": "Алиса Селезньова, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "holy-monastery-of-saint-john-kynegos",
@@ -6992,7 +7008,16 @@
    "addedInVersion": 1,
    "summary": "A picturesque church at the foot of Philopappou Hill with 16th century meta-Byzantine paintings",
    "description": "A picturesque little church of Byzantine origin, restored in 1955 which uncovered 16th century Byzantine-style wall paintings.",
-   "hours": "7:00–12:00 & 17:00–20:00"
+   "hours": "7:00–12:00 & 17:00–20:00",
+   "photos": [
+    {
+     "id": "st-demetrios-loumbardiaris-1",
+     "thumb": "thumbs/st-demetrios-loumbardiaris-1.jpg",
+     "full": "full/st-demetrios-loumbardiaris-1.jpg",
+     "credit": "George E. Koronaios, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agioi-asomatoi",
@@ -7012,7 +7037,16 @@
     "era": "komnenian"
    },
    "summary": "An 11th century church with fragmentary wall paintings and a silver reliquary",
-   "description": "An 11th-century Byzantine church dedicated to the \"Bodiless Ones,\" i.e. the Archangels, a 1959 restoration revealed wall-painting fragments and a silver reliquary."
+   "description": "An 11th-century Byzantine church dedicated to the \"Bodiless Ones,\" i.e. the Archangels, a 1959 restoration revealed wall-painting fragments and a silver reliquary.",
+   "photos": [
+    {
+     "id": "agioi-asomatoi-1",
+     "thumb": "thumbs/agioi-asomatoi-1.jpg",
+     "full": "full/agioi-asomatoi-1.jpg",
+     "credit": "George E. Koronaios, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
+   ]
   },
   {
    "id": "temple-of-hephaestus",
@@ -7032,7 +7066,23 @@
    "addedInVersion": 1,
    "summary": "Converted to a church in the 7th century, this Greek temple spent more of its life serving Christianity than Hephaestus.",
    "description": "Why is the Temple of Hephaestus the best-preserved Greek temple in Athens? Because it spent most of its life, beginning in the 7th century, as the Byzantine Greek Orthdox church of St. George Akamates. It doesn't look at all Byzantine, but it is an excellent example of survival through reuse.",
-   "hours": "8:00–20:00 daily"
+   "hours": "8:00–20:00 daily",
+   "photos": [
+    {
+     "id": "temple-of-hephaestus-1",
+     "thumb": "thumbs/temple-of-hephaestus-1.jpg",
+     "full": "full/temple-of-hephaestus-1.jpg",
+     "credit": "George E. Koronaios, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    },
+    {
+     "id": "temple-of-hephaestus-2",
+     "thumb": "thumbs/temple-of-hephaestus-2.jpg",
+     "full": "full/temple-of-hephaestus-2.jpg",
+     "credit": "Jakub Hałun, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ]
   },
   {
    "id": "horologion-of-andronikos-cyrrhestes",
@@ -7052,7 +7102,16 @@
    "addedInVersion": 1,
    "summary": "Conversion to a church and bell tower allowed this ancient clock and weather vane to survive intact",
    "description": "Much like the ruins of the Temple of Hephaestus, this edifice survived so well because in the early Christian period the tower was converted into a church or baptistery, then a bell tower, another example of survival through reuse.",
-   "hours": "8:00–20:00"
+   "hours": "8:00–20:00",
+   "photos": [
+    {
+     "id": "horologion-of-andronikos-cyrrhestes-1",
+     "thumb": "thumbs/horologion-of-andronikos-cyrrhestes-1.jpg",
+     "full": "full/horologion-of-andronikos-cyrrhestes-1.jpg",
+     "credit": "George E. Koronaios, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "holy-monastery-of-saint-john-the-theologian",
@@ -7076,7 +7135,16 @@
    },
    "summary": "A minor, lightly documented, but genuine, medieval Byzantine church in the heart of the Plaka",
    "description": "This is the small Plaka church of Agios Ioannis Theologos, in the upper old town. It is genuine, from the 11th or perhaps early 12th century, but it is minor and lightly documented.",
-   "hours": "10:00–12:00 & 16:00–17:00"
+   "hours": "10:00–12:00 & 16:00–17:00",
+   "photos": [
+    {
+     "id": "holy-monastery-of-saint-john-the-theologian-1",
+     "thumb": "thumbs/holy-monastery-of-saint-john-the-theologian-1.jpg",
+     "full": "full/holy-monastery-of-saint-john-the-theologian-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "holy-monastery-of-saint-john-the-theologian-patmos",
@@ -7105,6 +7173,15 @@
     {
      "title": "Official website",
      "url": "http://www.patmosmonastery.gr/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "holy-monastery-of-saint-john-the-theologian-patmos-1",
+     "thumb": "thumbs/holy-monastery-of-saint-john-the-theologian-patmos-1.jpg",
+     "full": "full/holy-monastery-of-saint-john-the-theologian-patmos-1.jpg",
+     "credit": "Raki_Man, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
     }
    ]
   },
