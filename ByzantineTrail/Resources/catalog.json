@@ -7213,6 +7213,15 @@
      "title": "Official website",
      "url": "http://enoria-ragkavas.blogspot.gr/"
     }
+   ],
+   "photos": [
+    {
+     "id": "holy-church-of-saint-nicholas-rangavas-1",
+     "thumb": "thumbs/holy-church-of-saint-nicholas-rangavas-1.jpg",
+     "full": "full/holy-church-of-saint-nicholas-rangavas-1.jpg",
+     "credit": "VctGm93, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
    ]
   },
   {
@@ -7236,7 +7245,23 @@
     "era": "komnenian"
    },
    "summary": "A simple 11th century Byzantine structure with weather columns from an ancient Roman temple",
-   "description": "A simple cross-in-square church with a dome from the 11th century, the wall paintings inside are from the 18th and 19th centuries, making the architecture the most notable Byzantine element. There are, however, the ruins of an ancient Roman temple lying beside the church."
+   "description": "A simple cross-in-square church with a dome from the 11th century, the wall paintings inside are from the 18th and 19th centuries, making the architecture the most notable Byzantine element. There are, however, the ruins of an ancient Roman temple lying beside the church.",
+   "photos": [
+    {
+     "id": "holy-church-of-saint-catherine-1",
+     "thumb": "thumbs/holy-church-of-saint-catherine-1.jpg",
+     "full": "full/holy-church-of-saint-catherine-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "holy-church-of-saint-catherine-2",
+     "thumb": "thumbs/holy-church-of-saint-catherine-2.jpg",
+     "full": "full/holy-church-of-saint-catherine-2.jpg",
+     "credit": "Palickap, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "holy-church-of-the-holy-trinity-soteira-lykodemos",
@@ -7261,7 +7286,16 @@
    },
    "summary": "A large, octagonal, 11th century church later rededicated to the Russian Orthodox Church",
    "description": "The largest surviving medieval church in Athens, and one of the great octagonal churches of Greece, in the vein of Daphni. Bought by the Russian government in the 19th century and rededicated as Russian Orthodox, leading to its nickname, the \"Russian church.\"",
-   "hours": "10:00–14:00 T, Thu, Sat; 16:00–19:00 Thu, Fri; closed Mon, Sun"
+   "hours": "10:00–14:00 T, Thu, Sat; 16:00–19:00 Thu, Fri; closed Mon, Sun",
+   "photos": [
+    {
+     "id": "holy-church-of-the-holy-trinity-soteira-lykodemos-1",
+     "thumb": "thumbs/holy-church-of-the-holy-trinity-soteira-lykodemos-1.jpg",
+     "full": "full/holy-church-of-the-holy-trinity-soteira-lykodemos-1.jpg",
+     "credit": "George E. Koronaios, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "holy-church-of-the-virgin-mary-gorgoepikoos-and-saint-eleutherius",
@@ -7286,7 +7320,16 @@
    },
    "summary": "A small church made almost entirely of spolia",
    "description": "This small wonder is made almost entirely out of reused ancient marble blocks and reliefs. Over ninety exterior sculpted pieces span classical, Hellenistic, Roman, and earlier Byzantine work.",
-   "hours": "10:00–17:00"
+   "hours": "10:00–17:00",
+   "photos": [
+    {
+     "id": "holy-church-of-the-virgin-mary-gorgoepikoos-and-saint-eleutherius-1",
+     "thumb": "thumbs/holy-church-of-the-virgin-mary-gorgoepikoos-and-saint-eleutherius-1.jpg",
+     "full": "full/holy-church-of-the-virgin-mary-gorgoepikoos-and-saint-eleutherius-1.jpg",
+     "credit": "Gary Todd from Xinzheng, China, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
+   ]
   },
   {
    "id": "hadrians-library",
@@ -7306,7 +7349,16 @@
    "addedInVersion": 1,
    "summary": "A monument whose courtyard plays host to the remains of multiple Byzantine churches",
    "description": "The courtyard of this Roman edifice hosted a stacked sequence of Byzantine churches: a 5th century tetraconch, a 7th century basilica, and another church in the 12th century that burned in the late 1800s.",
-   "hours": "8:00–20:00"
+   "hours": "8:00–20:00",
+   "photos": [
+    {
+     "id": "hadrians-library-1",
+     "thumb": "thumbs/hadrians-library-1.jpg",
+     "full": "full/hadrians-library-1.jpg",
+     "credit": "Jeanhousen, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "byzantine-and-christian-museum",
