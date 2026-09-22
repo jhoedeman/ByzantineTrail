@@ -7955,7 +7955,9 @@
    "id": "archangelos-michael-chapel",
    "name": "Archangelos Michael Chapel",
    "alternateNames": [
-    "Εκκλησία Αρχαγγέλου Μιχαήλ"
+    "Εκκλησία Αρχαγγέλου Μιχαήλ",
+    "Panagia Theotokos",
+    "Παναγία Θεοτόκος"
    ],
    "type": "church",
    "country": "CY",
@@ -7993,29 +7995,6 @@
      "credit": "Photo: John Hoedeman"
     }
    ]
-  },
-  {
-   "id": "panagia-theotokos",
-   "name": "Panagia Theotokos",
-   "alternateNames": [
-    "Παναγία Θεοτόκος"
-   ],
-   "type": "church",
-   "country": "CY",
-   "cityId": "galata",
-   "coordinate": {
-    "lat": 34.99206,
-    "lon": 32.902609
-   },
-   "address": "XWR3+R2X, Kakopetria, Lefkosia 2800, Cyprus",
-   "importance": "minor",
-   "addedInVersion": 1,
-   "period": {
-    "century": 16,
-    "era": "postByzantine"
-   },
-   "summary": "A small, 16th century painted church in Kakopetria",
-   "description": "A small 16th-century church whose painter probably also did the nearby Archangelos Michael Chapel, this roughly half of its murals."
   },
   {
    "id": "agia-paraskevi-church",
