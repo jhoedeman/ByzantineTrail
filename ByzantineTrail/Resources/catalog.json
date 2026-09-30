@@ -7384,6 +7384,26 @@
      "title": "Official website",
      "url": "http://www.byzantinemuseum.gr/"
     }
+   ],
+   "photos": [
+    {
+     "id": "byzantine-and-christian-museum-1",
+     "thumb": "thumbs/byzantine-and-christian-museum-1.jpg",
+     "full": "full/byzantine-and-christian-museum-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "byzantine-and-christian-museum-2",
+     "thumb": "thumbs/byzantine-and-christian-museum-2.jpg",
+     "full": "full/byzantine-and-christian-museum-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "byzantine-and-christian-museum-3",
+     "thumb": "thumbs/byzantine-and-christian-museum-3.jpg",
+     "full": "full/byzantine-and-christian-museum-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -7415,6 +7435,22 @@
      "title": "Official website",
      "url": "https://www.monipetraki.gr/"
     }
+   ],
+   "photos": [
+    {
+     "id": "petraki-monastery-1",
+     "thumb": "thumbs/petraki-monastery-1.jpg",
+     "full": "full/petraki-monastery-1.jpg",
+     "credit": "George E. Koronaios, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "petraki-monastery-2",
+     "thumb": "thumbs/petraki-monastery-2.jpg",
+     "full": "full/petraki-monastery-2.jpg",
+     "credit": "Iolchos07, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -7444,6 +7480,14 @@
     {
      "title": "Official website",
      "url": "https://manastirmanasija.rs/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "manasija-1",
+     "thumb": "thumbs/manasija-1.jpg",
+     "full": "full/manasija-1.jpg",
+     "credit": "en:User:Majstor Mile [2], Public domain, via Wikimedia Commons"
     }
    ]
   },
@@ -7507,6 +7551,21 @@
     {
      "title": "Official website",
      "url": "http://www.mpc.org.mk/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "church-of-the-virgin-mary-peribleptos-1",
+     "thumb": "thumbs/church-of-the-virgin-mary-peribleptos-1.jpg",
+     "full": "full/church-of-the-virgin-mary-peribleptos-1.jpg",
+     "credit": "Painters Michael and Ephtichius, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "church-of-the-virgin-mary-peribleptos-2",
+     "thumb": "thumbs/church-of-the-virgin-mary-peribleptos-2.jpg",
+     "full": "full/church-of-the-virgin-mary-peribleptos-2.jpg",
+     "credit": "Explorer1940, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ]
   },
@@ -7650,7 +7709,23 @@
     "era": "postByzantine"
    },
    "summary": "A small post-Byzantine church painted by Symeon Axentis",
-   "description": "A small, post-Byzantine painted church whose donors' names are inscribed. The paintings are early works of the painter Symeon Axentis, in a more traditional Byzantine idiom with only light Western influence."
+   "description": "A small, post-Byzantine painted church whose donors' names are inscribed. The paintings are early works of the painter Symeon Axentis, in a more traditional Byzantine idiom with only light Western influence.",
+   "photos": [
+    {
+     "id": "agios-sozomenos-church-1",
+     "thumb": "thumbs/agios-sozomenos-church-1.jpg",
+     "full": "full/agios-sozomenos-church-1.jpg",
+     "credit": "Zairon, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "agios-sozomenos-church-2",
+     "thumb": "thumbs/agios-sozomenos-church-2.jpg",
+     "full": "full/agios-sozomenos-church-2.jpg",
+     "credit": "Zairon, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "panagia-tou-moutoulla",
@@ -8331,7 +8406,16 @@
     "era": "postByzantine"
    },
    "summary": "A 16th century chapel with notable post-Byzantine art",
-   "description": "An open, country chapel about 2 km outside Fterikoudi, clad in irregular local stone and housing notable post-Byzantine frescoes concentrated in the sanctuary."
+   "description": "An open, country chapel about 2 km outside Fterikoudi, clad in irregular local stone and housing notable post-Byzantine frescoes concentrated in the sanctuary.",
+   "photos": [
+    {
+     "id": "ss-paraskevi-and-christina-1",
+     "thumb": "thumbs/ss-paraskevi-and-christina-1.jpg",
+     "full": "full/ss-paraskevi-and-christina-1.jpg",
+     "credit": "An. Antoniou, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "holy-monastery-of-panagia-machaira",
@@ -8517,7 +8601,16 @@
    },
    "summary": "Monastery and winery with a significant collection of Byzantine treasures",
    "description": "Founded in the 12th century, the present buildings date largely from around 1770, and it holds a significant collection of icons and treasures, plus (in modern times) a monastery winery.",
-   "hours": "6:00–18:00 daily"
+   "hours": "6:00–18:00 daily",
+   "photos": [
+    {
+     "id": "chrysoroyiatissa-monastery-1",
+     "thumb": "thumbs/chrysoroyiatissa-monastery-1.jpg",
+     "full": "full/chrysoroyiatissa-monastery-1.jpg",
+     "credit": "Gerda Arendt, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
+   ]
   },
   {
    "id": "trooditissa-monastery",
@@ -8736,7 +8829,22 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A medieval castle taken from Isaac Komnenos by Richard the Lionheart in the Third Crusade",
-   "description": "A medieval castle in the old town of Limassol, traditionally famous as the place where Richard the Lionheart married Berengaria in 1191, right after he seized Cyprus from its Byzantine ruler Isaac Komnenos. The present structure is later, from the Lusignan and Ottoman periods."
+   "description": "A medieval castle in the old town of Limassol, traditionally famous as the place where Richard the Lionheart married Berengaria in 1191, right after he seized Cyprus from its Byzantine ruler Isaac Komnenos. The present structure is later, from the Lusignan and Ottoman periods.",
+   "photos": [
+    {
+     "id": "limassol-castle-1",
+     "thumb": "thumbs/limassol-castle-1.jpg",
+     "full": "full/limassol-castle-1.jpg",
+     "credit": "A.Savin, FAL, via Wikimedia Commons"
+    },
+    {
+     "id": "limassol-castle-2",
+     "thumb": "thumbs/limassol-castle-2.jpg",
+     "full": "full/limassol-castle-2.jpg",
+     "credit": "Chris06, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-theodosius",
@@ -8783,7 +8891,23 @@
     "era": "postByzantine"
    },
    "summary": "A recently restored 16th century Veneto-Byzantine church in a dramatic setting",
-   "description": "The monastery church of Panagia tou Sinti, this is a fine 16th-century monastery church, single-aisled and domed, and one of the shining examples of Veneto-Byzantine architecture. A careful restoration in the 1990s brought it back from abandonment."
+   "description": "The monastery church of Panagia tou Sinti, this is a fine 16th-century monastery church, single-aisled and domed, and one of the shining examples of Veneto-Byzantine architecture. A careful restoration in the 1990s brought it back from abandonment.",
+   "photos": [
+    {
+     "id": "church-of-panagia-of-sintis-1",
+     "thumb": "thumbs/church-of-panagia-of-sintis-1.jpg",
+     "full": "full/church-of-panagia-of-sintis-1.jpg",
+     "credit": "Chris06, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-panagia-of-sintis-2",
+     "thumb": "thumbs/church-of-panagia-of-sintis-2.jpg",
+     "full": "full/church-of-panagia-of-sintis-2.jpg",
+     "credit": "Chris06, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-kirikos-and-ioulitti",
@@ -8835,6 +8959,29 @@
     {
      "title": "Official website",
      "url": "http://www.stneophytos.org.cy/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "monastery-of-saint-neophytos-1",
+     "thumb": "thumbs/monastery-of-saint-neophytos-1.jpg",
+     "full": "full/monastery-of-saint-neophytos-1.jpg",
+     "credit": "Fry72, Karel Frydrýšek, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "monastery-of-saint-neophytos-2",
+     "thumb": "thumbs/monastery-of-saint-neophytos-2.jpg",
+     "full": "full/monastery-of-saint-neophytos-2.jpg",
+     "credit": "Fry72, Karel Frydrýšek, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "monastery-of-saint-neophytos-3",
+     "thumb": "thumbs/monastery-of-saint-neophytos-3.jpg",
+     "full": "full/monastery-of-saint-neophytos-3.jpg",
+     "credit": "Fry72, Karel Frydrýšek, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ]
   },
@@ -9122,7 +9269,23 @@
    },
    "summary": "A partially late-antique, partially Byzantine church with a magnificent 6th century apse mosaic",
    "description": "The present domed, cross-in-square church was built in the 11th century over the ruins of a 5th-century early Christian basilica, whose apse holds a 6th century wall mosaic, among the finest works of Justinianic mosaic anywhere. Currently on the UNESCO tentative list.",
-   "hours": "7:00–18:00; 6:00–18:00 Sun"
+   "hours": "7:00–18:00; 6:00–18:00 Sun",
+   "photos": [
+    {
+     "id": "church-of-the-virgin-mary-angeloktisti-1",
+     "thumb": "thumbs/church-of-the-virgin-mary-angeloktisti-1.jpg",
+     "full": "full/church-of-the-virgin-mary-angeloktisti-1.jpg",
+     "credit": "Chris06, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-the-virgin-mary-angeloktisti-2",
+     "thumb": "thumbs/church-of-the-virgin-mary-angeloktisti-2.jpg",
+     "full": "full/church-of-the-virgin-mary-angeloktisti-2.jpg",
+     "credit": "JERRYE & ROY KLOTZ MD, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "antiphonitis-church",
@@ -9147,7 +9310,30 @@
    },
    "summary": "A story of modern looting and smuggling, the frescoes of this late-Byzantine church now lie elsewhere",
    "description": "A late Byzantine church with 12th and 15th-16th century frescoes that were stripped off and looted after the Turkish invasion of 1974. A sordid saga of sale, smuggling, arrest, and repatriation has brought the art back to the Byzantine Museum of Nicosia, but the church remains here, barren.",
-   "hours": "8:30–15:30"
+   "hours": "8:30–15:30",
+   "photos": [
+    {
+     "id": "antiphonitis-church-1",
+     "thumb": "thumbs/antiphonitis-church-1.jpg",
+     "full": "full/antiphonitis-church-1.jpg",
+     "credit": "Shirazibustan, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "antiphonitis-church-2",
+     "thumb": "thumbs/antiphonitis-church-2.jpg",
+     "full": "full/antiphonitis-church-2.jpg",
+     "credit": "Shirazibustan, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "antiphonitis-church-3",
+     "thumb": "thumbs/antiphonitis-church-3.jpg",
+     "full": "full/antiphonitis-church-3.jpg",
+     "credit": "The original uploader was Nevilley at English Wikipedia., CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ]
   },
   {
    "id": "panaghia-kanakaria-monastery",
@@ -9170,7 +9356,23 @@
     "era": "justinianic"
    },
    "summary": "A story of modern looting and smuggling, the 6th century mosaics of this late-Byzantine church survived iconoclasm intact, but were stolen in the 1970s",
-   "description": "An early church with 6th century apse mosaics, among the very few Early Byzantine mosaics to survive the Iconoclasm of the 8th–9th centuries, which were then looted by Turkish occupiers in 1979, only to be repatriated when an art dealer tried to sell them to the Getty Museum in Los Angeles. Mosaics now in a museum, the church lies bare."
+   "description": "An early church with 6th century apse mosaics, among the very few Early Byzantine mosaics to survive the Iconoclasm of the 8th–9th centuries, which were then looted by Turkish occupiers in 1979, only to be repatriated when an art dealer tried to sell them to the Getty Museum in Los Angeles. Mosaics now in a museum, the church lies bare.",
+   "photos": [
+    {
+     "id": "panaghia-kanakaria-monastery-1",
+     "thumb": "thumbs/panaghia-kanakaria-monastery-1.jpg",
+     "full": "full/panaghia-kanakaria-monastery-1.jpg",
+     "credit": "Julian Nyča, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "panaghia-kanakaria-monastery-2",
+     "thumb": "thumbs/panaghia-kanakaria-monastery-2.jpg",
+     "full": "full/panaghia-kanakaria-monastery-2.jpg",
+     "credit": "Ansgar Bovet, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "monastery-of-saint-barnabas",
@@ -9190,7 +9392,30 @@
    "addedInVersion": 1,
    "summary": "A key shrine in early Cypriot Christianity, now with a later church serving as icon museum",
    "description": "The original shrine was founded in the late 5th century by Emperor Zeno, in honor of the Apostle Barnabas, evangelizer of Cyprus, whose tomb lies here. The present, 18th century church serves as an icon and archaeological museum.",
-   "hours": "8:00–18:00 daily"
+   "hours": "8:00–18:00 daily",
+   "photos": [
+    {
+     "id": "monastery-of-saint-barnabas-1",
+     "thumb": "thumbs/monastery-of-saint-barnabas-1.jpg",
+     "full": "full/monastery-of-saint-barnabas-1.jpg",
+     "credit": "George M. Groutas from Dali, Nicosia, Cyprus, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "monastery-of-saint-barnabas-2",
+     "thumb": "thumbs/monastery-of-saint-barnabas-2.jpg",
+     "full": "full/monastery-of-saint-barnabas-2.jpg",
+     "credit": "Amanda Slater from Coventry, West Midlands, UK, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+     "id": "monastery-of-saint-barnabas-3",
+     "thumb": "thumbs/monastery-of-saint-barnabas-3.jpg",
+     "full": "full/monastery-of-saint-barnabas-3.jpg",
+     "credit": "George M. Groutas from Dali, Nicosia, Cyprus, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "saint-hilarion-castle",
@@ -9215,7 +9440,30 @@
    },
    "summary": "A mountain fortress whose ruined monastic church sits over the tomb of St. Hilarion",
    "description": "A spectacular mountain fortress commanding the pass to Nicosia, it began as a hermitage of the monk Hilarion, and by the 10th century the Byzantines had built a church and monastery over his tomb. From the 11th century they fortified the site.",
-   "hours": "9:00–17:00 daily"
+   "hours": "9:00–17:00 daily",
+   "photos": [
+    {
+     "id": "saint-hilarion-castle-1",
+     "thumb": "thumbs/saint-hilarion-castle-1.jpg",
+     "full": "full/saint-hilarion-castle-1.jpg",
+     "credit": "Tourguide, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "saint-hilarion-castle-2",
+     "thumb": "thumbs/saint-hilarion-castle-2.jpg",
+     "full": "full/saint-hilarion-castle-2.jpg",
+     "credit": "Dickelbers, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "saint-hilarion-castle-3",
+     "thumb": "thumbs/saint-hilarion-castle-3.jpg",
+     "full": "full/saint-hilarion-castle-3.jpg",
+     "credit": "Chris06, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
+   ]
   },
   {
    "id": "church-of-saints-barnabas-and-hilarion",
@@ -9234,7 +9482,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A five-dome church with post-Byzantine wall paintings",
-   "description": "Once one of the finest examples of Cypriot Byzantine architecture: a rare five-domed church. Only part of the original north wall survives, but the church was reconstructed on the five-dome plan, and its oldest wall paintings are 15th–16th century."
+   "description": "Once one of the finest examples of Cypriot Byzantine architecture: a rare five-domed church. Only part of the original north wall survives, but the church was reconstructed on the five-dome plan, and its oldest wall paintings are 15th–16th century.",
+   "photos": [
+    {
+     "id": "church-of-saints-barnabas-and-hilarion-1",
+     "thumb": "thumbs/church-of-saints-barnabas-and-hilarion-1.jpg",
+     "full": "full/church-of-saints-barnabas-and-hilarion-1.jpg",
+     "credit": "boulay, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "the-cyprus-museum",
@@ -9254,7 +9511,22 @@
    "addedInVersion": 1,
    "summary": "A noted archaeological museum",
    "description": "The island's principal and oldest archaeological museum, noted mainly for its pre-Byzantine finds, but worth a look for its Roman and antique collections.",
-   "hours": "8:00–18:00; closed Mon; 9:00–17:00 Sat; 10:00–13:00 Sun"
+   "hours": "8:00–18:00; closed Mon; 9:00–17:00 Sat; 10:00–13:00 Sun",
+   "photos": [
+    {
+     "id": "the-cyprus-museum-1",
+     "thumb": "thumbs/the-cyprus-museum-1.jpg",
+     "full": "full/the-cyprus-museum-1.jpg",
+     "credit": "A.Savin, FAL, via Wikimedia Commons"
+    },
+    {
+     "id": "the-cyprus-museum-2",
+     "thumb": "thumbs/the-cyprus-museum-2.jpg",
+     "full": "full/the-cyprus-museum-2.jpg",
+     "credit": "Héctor Ochoa 'Robot8A', CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "aphendrika",
@@ -9270,7 +9542,23 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "Three ruined Byzantine churches stand here amid a deserted classical city",
-   "description": "The scattered ruins of the ancient city of Ourania/Aphendrika, containing three ruined churches that stand close together: Panagia Chrysiotissa (6th century); Agios Georgios (10th century); and Panagia Asomatos (unknown)."
+   "description": "The scattered ruins of the ancient city of Ourania/Aphendrika, containing three ruined churches that stand close together: Panagia Chrysiotissa (6th century); Agios Georgios (10th century); and Panagia Asomatos (unknown).",
+   "photos": [
+    {
+     "id": "aphendrika-1",
+     "thumb": "thumbs/aphendrika-1.jpg",
+     "full": "full/aphendrika-1.jpg",
+     "credit": "Michal Klajban, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "aphendrika-2",
+     "thumb": "thumbs/aphendrika-2.jpg",
+     "full": "full/aphendrika-2.jpg",
+     "credit": "Michal Klajban, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "byzantine-museum",
@@ -9296,6 +9584,22 @@
      "title": "Official website",
      "url": "https://byzantinemuseum.setmore.com/"
     }
+   ],
+   "photos": [
+    {
+     "id": "byzantine-museum-1",
+     "thumb": "thumbs/byzantine-museum-1.jpg",
+     "full": "full/byzantine-museum-1.jpg",
+     "credit": "NicosiaRepublicCyprus, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "byzantine-museum-2",
+     "thumb": "thumbs/byzantine-museum-2.jpg",
+     "full": "full/byzantine-museum-2.jpg",
+     "credit": "Gerda Arendt, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
    ]
   },
   {
@@ -9312,7 +9616,23 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A Cypriot Romanesque church that sits atop a Roman basilica whose mosaic floors survive",
-   "description": "This one of the rare Cypriot churches built in a Romanesque rather than Byzantine idiom, and it sits atop the ruins of larger 4th–5th-century early Christian episcopal basilica with geometric mosaic floors."
+   "description": "This one of the rare Cypriot churches built in a Romanesque rather than Byzantine idiom, and it sits atop the ruins of larger 4th–5th-century early Christian episcopal basilica with geometric mosaic floors.",
+   "photos": [
+    {
+     "id": "agios-philon-agridion-church-1",
+     "thumb": "thumbs/agios-philon-agridion-church-1.jpg",
+     "full": "full/agios-philon-agridion-church-1.jpg",
+     "credit": "Chris06, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "agios-philon-agridion-church-2",
+     "thumb": "thumbs/agios-philon-agridion-church-2.jpg",
+     "full": "full/agios-philon-agridion-church-2.jpg",
+     "credit": "Chris06, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "hagia-nikola-church",
@@ -9360,7 +9680,23 @@
     "era": "justinianic"
    },
    "summary": "A recently-restored early Christian basilica with an extensive, geometric mosaic floor",
-   "description": "These ruins of a large 5th–6th-century early Christian basilica were excavated in 1935–38 and named for the Holy Trinity. Its glory is an extensive geometric mosaic floor, among the finest early-Byzantine pavements on the island. It was destroyed by Arabs and only recently restored."
+   "description": "These ruins of a large 5th–6th-century early Christian basilica were excavated in 1935–38 and named for the Holy Trinity. Its glory is an extensive geometric mosaic floor, among the finest early-Byzantine pavements on the island. It was destroyed by Arabs and only recently restored.",
+   "photos": [
+    {
+     "id": "basilica-of-agias-triadas-1",
+     "thumb": "thumbs/basilica-of-agias-triadas-1.jpg",
+     "full": "full/basilica-of-agias-triadas-1.jpg",
+     "credit": "Julian Nyča, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "basilica-of-agias-triadas-2",
+     "thumb": "thumbs/basilica-of-agias-triadas-2.jpg",
+     "full": "full/basilica-of-agias-triadas-2.jpg",
+     "credit": "Julian Nyča, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "agios-synesios",
@@ -9380,7 +9716,16 @@
     "era": "komnenian"
    },
    "summary": "A 12th century church, one of the few remaining living churches in the occupied Karpas",
-   "description": "A Byzantine-origin church, generally dated around the 12th century with later phases, it's one of only a handful of churches in the north where the remaining Greek Orthodox residents are permitted to hold regular liturgies."
+   "description": "A Byzantine-origin church, generally dated around the 12th century with later phases, it's one of only a handful of churches in the north where the remaining Greek Orthodox residents are permitted to hold regular liturgies.",
+   "photos": [
+    {
+     "id": "agios-synesios-1",
+     "thumb": "thumbs/agios-synesios-1.jpg",
+     "full": "full/agios-synesios-1.jpg",
+     "credit": "Chris06, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agios-thrysos",
@@ -9400,7 +9745,23 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "The crypt of an early church here stands atop a holy spring",
-   "description": "Two churches stand here, a late upper church, and an early lower church standing atop a sacred spring (ayiasma) said to have healing powers, reached by steps down to the water's edge."
+   "description": "Two churches stand here, a late upper church, and an early lower church standing atop a sacred spring (ayiasma) said to have healing powers, reached by steps down to the water's edge.",
+   "photos": [
+    {
+     "id": "agios-thrysos-1",
+     "thumb": "thumbs/agios-thrysos-1.jpg",
+     "full": "full/agios-thrysos-1.jpg",
+     "credit": "Chris06, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "agios-thrysos-2",
+     "thumb": "thumbs/agios-thrysos-2.jpg",
+     "full": "full/agios-thrysos-2.jpg",
+     "credit": "CabrioTop, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "heraclea-lyncestis",
@@ -9430,6 +9791,21 @@
      "title": "Official website",
      "url": "http://heraclea.archaeology.mk/"
     }
+   ],
+   "photos": [
+    {
+     "id": "heraclea-lyncestis-1",
+     "thumb": "thumbs/heraclea-lyncestis-1.jpg",
+     "full": "full/heraclea-lyncestis-1.jpg",
+     "credit": "Photo: Marcin Konsek / Wikimedia Commons"
+    },
+    {
+     "id": "heraclea-lyncestis-2",
+     "thumb": "thumbs/heraclea-lyncestis-2.jpg",
+     "full": "full/heraclea-lyncestis-2.jpg",
+     "credit": "Vaurien, CC BY-SA 3.0 DE, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+    }
    ]
   },
   {
@@ -9455,7 +9831,23 @@
    },
    "summary": "A fine 11th century Byzantine church in the heart of Athens",
    "description": "A fine 11th-century Byzantine church in the heart of Athens. It was built partly over a Roman mansion, with the cloisonné masonry and brick ornament typical of middle-Byzantine Athens.",
-   "hours": "8:00–16:00; 7:00–16:00 Sun"
+   "hours": "8:00–16:00; 7:00–16:00 Sun",
+   "photos": [
+    {
+     "id": "holy-church-of-saints-theodores-1",
+     "thumb": "thumbs/holy-church-of-saints-theodores-1.jpg",
+     "full": "full/holy-church-of-saints-theodores-1.jpg",
+     "credit": "George E. Koronaios, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "holy-church-of-saints-theodores-2",
+     "thumb": "thumbs/holy-church-of-saints-theodores-2.jpg",
+     "full": "full/holy-church-of-saints-theodores-2.jpg",
+     "credit": "George E. Koronaios, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "holy-church-of-the-holy-apostles-of-solakis",
@@ -9479,7 +9871,16 @@
    },
    "summary": "The only medieval monument to survive in the Agora, and among Athens's oldest churches",
    "description": "The only medieval monument to survive in the Agora, and one of the oldest churches in Athens, built around the late 10th century. Carefully restored by the American School in the 1950s, who brought in surviving frescoes from the demolished nearby church of Agios Spyridon.",
-   "hours": "8:00–17:00 daily"
+   "hours": "8:00–17:00 daily",
+   "photos": [
+    {
+     "id": "holy-church-of-the-holy-apostles-of-solakis-1",
+     "thumb": "thumbs/holy-church-of-the-holy-apostles-of-solakis-1.jpg",
+     "full": "full/holy-church-of-the-holy-apostles-of-solakis-1.jpg",
+     "credit": "A.Savin, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "church-of-the-virgin-mary-pantanassa-monastiraki",
@@ -9503,7 +9904,23 @@
     "era": "komnenian"
    },
    "summary": "An iconic church in the heart of Athens, dating from the 11th century",
-   "description": "The church that gives Monastiraki its name, it's one of the oldest churches in Athens, with datings ranging (depending on the scholar) from the 10th to the 12th century. The bell tower, frescoes, and iconography are later additions."
+   "description": "The church that gives Monastiraki its name, it's one of the oldest churches in Athens, with datings ranging (depending on the scholar) from the 10th to the 12th century. The bell tower, frescoes, and iconography are later additions.",
+   "photos": [
+    {
+     "id": "church-of-the-virgin-mary-pantanassa-monastiraki-1",
+     "thumb": "thumbs/church-of-the-virgin-mary-pantanassa-monastiraki-1.jpg",
+     "full": "full/church-of-the-virgin-mary-pantanassa-monastiraki-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-the-virgin-mary-pantanassa-monastiraki-2",
+     "thumb": "thumbs/church-of-the-virgin-mary-pantanassa-monastiraki-2.jpg",
+     "full": "full/church-of-the-virgin-mary-pantanassa-monastiraki-2.jpg",
+     "credit": "George E. Koronaios, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "anavatos",
@@ -9523,7 +9940,16 @@
    "addedInVersion": 1,
    "summary": "A ghost town emptied by a massacre in the Greek War of Independence, this site contains medieval churches, chapels, and fortifications",
    "description": "A dramatic, near-abandoned medieval \"ghost village\" on a steep cliff in central Chios, sometimes called the \"Mystras of the Aegean,\" largely emptied after the Ottoman massacre. Its Byzantine layer includes the church of the Taxiarchis and other small chapels.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "anavatos-1",
+     "thumb": "thumbs/anavatos-1.jpg",
+     "full": "full/anavatos-1.jpg",
+     "credit": "Mariolovre, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "koimisis-tis-theotokou",
@@ -9549,7 +9975,36 @@
     "era": "komnenian"
    },
    "summary": "A 12th century Byzantine church with spolia and frescoes",
-   "description": "This is a 12th-century three-aisled basilica that reuses impressive ancient columns and spolia and preserves fragmentary frescoes."
+   "description": "This is a 12th-century three-aisled basilica that reuses impressive ancient columns and spolia and preserves fragmentary frescoes.",
+   "photos": [
+    {
+     "id": "koimisis-tis-theotokou-1",
+     "thumb": "thumbs/koimisis-tis-theotokou-1.jpg",
+     "full": "full/koimisis-tis-theotokou-1.jpg",
+     "credit": "CHE, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "koimisis-tis-theotokou-2",
+     "thumb": "thumbs/koimisis-tis-theotokou-2.jpg",
+     "full": "full/koimisis-tis-theotokou-2.jpg",
+     "credit": "Moleskine, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "koimisis-tis-theotokou-3",
+     "thumb": "thumbs/koimisis-tis-theotokou-3.jpg",
+     "full": "full/koimisis-tis-theotokou-3.jpg",
+     "credit": "Unknown author, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "koimisis-tis-theotokou-4",
+     "thumb": "thumbs/koimisis-tis-theotokou-4.jpg",
+     "full": "full/koimisis-tis-theotokou-4.jpg",
+     "credit": "Мико, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "byzantine-walls-of-drama",
@@ -9568,7 +10023,16 @@
    "addedInVersion": 1,
    "summary": "Layered Byzantine walls of the old city of Drama",
    "description": "Drama preserves stretches of its Byzantine fortification walls in the old town, around the area of the Agia Sophia church and the archaeological core.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "byzantine-walls-of-drama-1",
+     "thumb": "thumbs/byzantine-walls-of-drama-1.jpg",
+     "full": "full/byzantine-walls-of-drama-1.jpg",
+     "credit": "DocWoKav, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "hagia-sophia-drama",
@@ -9592,7 +10056,16 @@
    },
    "summary": "A 10th century middle Byzantine church, much restored",
    "description": "The principal Byzantine monument of Drama's old town, usually dated to the 10th century. Much restored and altered, and echoing in miniature the great Hagia Sophias of Constantinople, Thessalonica, and Ohrid.",
-   "hours": "10:30–12:45 Sun, Tue, & Thu"
+   "hours": "10:30–12:45 Sun, Tue, & Thu",
+   "photos": [
+    {
+     "id": "hagia-sophia-drama-1",
+     "thumb": "thumbs/hagia-sophia-drama-1.jpg",
+     "full": "full/hagia-sophia-drama-1.jpg",
+     "credit": "Georgios86, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "basilica-of-saint-achillius",
@@ -9622,6 +10095,15 @@
      "title": "Official website",
      "url": "http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=1768"
     }
+   ],
+   "photos": [
+    {
+     "id": "basilica-of-saint-achillius-1",
+     "thumb": "thumbs/basilica-of-saint-achillius-1.jpg",
+     "full": "full/basilica-of-saint-achillius-1.jpg",
+     "credit": "CHE, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -9646,7 +10128,16 @@
     "era": "postByzantine"
    },
    "summary": "A post-Byzantine monastery in Lake Prespa",
-   "description": "A small post-Byzantine monastery in Lake Prespa, in the Byzantine tradition. Its annual festival, held around the November feast of the Virgin, is famous for participants dressing in authentic traditional costume."
+   "description": "A small post-Byzantine monastery in Lake Prespa, in the Byzantine tradition. Its annual festival, held around the November feast of the Virgin, is famous for participants dressing in authentic traditional costume.",
+   "photos": [
+    {
+     "id": "monastery-of-the-virgin-mary-porphyra-1",
+     "thumb": "thumbs/monastery-of-the-virgin-mary-porphyra-1.jpg",
+     "full": "full/monastery-of-the-virgin-mary-porphyra-1.jpg",
+     "credit": "Протогер, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "basilica-of-the-twelve-apostles",
@@ -9670,7 +10161,16 @@
    },
    "summary": "A small, ruined church dated to the 11th-12th century",
    "description": "One of the small scattered churches on Agios Achillios island, dated to the 11th–12th century, contemporary with or just after Samuel's great basilica.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "basilica-of-the-twelve-apostles-1",
+     "thumb": "thumbs/basilica-of-the-twelve-apostles-1.jpg",
+     "full": "full/basilica-of-the-twelve-apostles-1.jpg",
+     "credit": "Pjposullivan, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-john-the-baptist",
