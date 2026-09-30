@@ -146,14 +146,17 @@ swapping is just "re-run with the new folder contents":
    - **Partial swap** → keep only the lines for images that are still
      third-party; your own files (no matching line) fall back to the owner
      default.
-3. Re-run scoped to that folder (no `--force` needed — `--only` reprocesses a
-   site even if already wired):
+3. Re-run scoped to that folder. `--only` only *filters* which folders are
+   considered — the idempotent "already wired" skip still applies — so a site
+   that already has photos needs `--force` to actually rebuild. Combine the two
+   to force-rebuild just the named folder(s):
 
    ```bash
-   Tools/import_photos.sh <incoming-root> --only "Saint Hilarion Castle"
+   Tools/import_photos.sh <incoming-root> --force --only "Saint Hilarion Castle"
    ```
 
-   Use `--force` (no `--only`) to rebuild every site instead.
+   `--only` may be repeated. Use `--force` with no `--only` to rebuild every
+   site instead.
 
 **Gotcha — a shrinking photo count leaves orphan thumbnails.** Thumbnails are
 overwritten in place, not pruned. Going from 3 photos to 2 leaves a stale
