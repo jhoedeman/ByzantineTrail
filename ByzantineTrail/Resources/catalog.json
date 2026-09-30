@@ -10307,6 +10307,38 @@
      "title": "Official website",
      "url": "http://agdimitriosthes.gr/"
     }
+   ],
+   "photos": [
+    {
+     "id": "holy-church-of-saint-demetrius-1",
+     "thumb": "thumbs/holy-church-of-saint-demetrius-1.jpg",
+     "full": "full/holy-church-of-saint-demetrius-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-church-of-saint-demetrius-2",
+     "thumb": "thumbs/holy-church-of-saint-demetrius-2.jpg",
+     "full": "full/holy-church-of-saint-demetrius-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-church-of-saint-demetrius-3",
+     "thumb": "thumbs/holy-church-of-saint-demetrius-3.jpg",
+     "full": "full/holy-church-of-saint-demetrius-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-church-of-saint-demetrius-4",
+     "thumb": "thumbs/holy-church-of-saint-demetrius-4.jpg",
+     "full": "full/holy-church-of-saint-demetrius-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-church-of-saint-demetrius-5",
+     "thumb": "thumbs/holy-church-of-saint-demetrius-5.jpg",
+     "full": "full/holy-church-of-saint-demetrius-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -10380,7 +10412,15 @@
    },
    "summary": "An architectural gem of a church with 14th century wall paintings",
    "description": "A jewel of late-Byzantine architecture in the upper town, built between the late 13th and early 14th century, this domed church preserves Palaiologan wall paintings.",
-   "hours": "8:30–15:30; 9:00–14:00 Sat; 7:00–12:00 Sun"
+   "hours": "8:30–15:30; 9:00–14:00 Sat; 7:00–12:00 Sun",
+   "photos": [
+    {
+     "id": "holy-church-of-saint-panteleimon-1",
+     "thumb": "thumbs/holy-church-of-saint-panteleimon-1.jpg",
+     "full": "full/holy-church-of-saint-panteleimon-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "latomos-monastery-holy-church-of-hosios-david",
@@ -10404,7 +10444,33 @@
    },
    "summary": "A small church containing an extraordinary and unique pre-Iconoclasm mosaic and 12th century frescoes",
    "description": "Small, unassuming, and holding one of the most extraordinary mosaics in all of Byzantine art. The old katholikon of the Latomou Monastery contains a unique, pre-Iconoclasm early mosaic of the Vision of Ezekiel. The church also preserves fine 12th-century frescoes.",
-   "hours": "9:00–15:30; 7:00–12:00 Sun"
+   "hours": "9:00–15:30; 7:00–12:00 Sun",
+   "photos": [
+    {
+     "id": "latomos-monastery-holy-church-of-hosios-david-1",
+     "thumb": "thumbs/latomos-monastery-holy-church-of-hosios-david-1.jpg",
+     "full": "full/latomos-monastery-holy-church-of-hosios-david-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "latomos-monastery-holy-church-of-hosios-david-2",
+     "thumb": "thumbs/latomos-monastery-holy-church-of-hosios-david-2.jpg",
+     "full": "full/latomos-monastery-holy-church-of-hosios-david-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "latomos-monastery-holy-church-of-hosios-david-3",
+     "thumb": "thumbs/latomos-monastery-holy-church-of-hosios-david-3.jpg",
+     "full": "full/latomos-monastery-holy-church-of-hosios-david-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "latomos-monastery-holy-church-of-hosios-david-4",
+     "thumb": "thumbs/latomos-monastery-holy-church-of-hosios-david-4.jpg",
+     "full": "full/latomos-monastery-holy-church-of-hosios-david-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "church-of-the-transfiguration-of-the-savior",
@@ -10428,7 +10494,27 @@
     "era": "palaiologan"
    },
    "summary": "An elegant church with Palaiologan frescoes",
-   "description": "A small but elegant late-Byzantine church of the early 14th century, partly sunk below the modern street level. The church preserves early-14th-century frescoes in the dome and elsewhere, in the refined Palaiologan manner."
+   "description": "A small but elegant late-Byzantine church of the early 14th century, partly sunk below the modern street level. The church preserves early-14th-century frescoes in the dome and elsewhere, in the refined Palaiologan manner.",
+   "photos": [
+    {
+     "id": "church-of-the-transfiguration-of-the-savior-1",
+     "thumb": "thumbs/church-of-the-transfiguration-of-the-savior-1.jpg",
+     "full": "full/church-of-the-transfiguration-of-the-savior-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-transfiguration-of-the-savior-2",
+     "thumb": "thumbs/church-of-the-transfiguration-of-the-savior-2.jpg",
+     "full": "full/church-of-the-transfiguration-of-the-savior-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-transfiguration-of-the-savior-3",
+     "thumb": "thumbs/church-of-the-transfiguration-of-the-savior-3.jpg",
+     "full": "full/church-of-the-transfiguration-of-the-savior-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "tower-of-prosphorion",
@@ -11987,7 +12073,33 @@
    },
    "summary": "Four kilometers of genuine Byzantine city walls",
    "description": "The surviving circuit dates mainly to around 390, in the early Byzantine period. A major late-4th/early-5th-century reconstruction is credited to the eparch Hormisdas, whose long inscription survives on the western wall, with further Palaiologan repairs.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "western-walls-of-thessaloniki-1",
+     "thumb": "thumbs/western-walls-of-thessaloniki-1.jpg",
+     "full": "full/western-walls-of-thessaloniki-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "western-walls-of-thessaloniki-2",
+     "thumb": "thumbs/western-walls-of-thessaloniki-2.jpg",
+     "full": "full/western-walls-of-thessaloniki-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "western-walls-of-thessaloniki-3",
+     "thumb": "thumbs/western-walls-of-thessaloniki-3.jpg",
+     "full": "full/western-walls-of-thessaloniki-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "western-walls-of-thessaloniki-4",
+     "thumb": "thumbs/western-walls-of-thessaloniki-4.jpg",
+     "full": "full/western-walls-of-thessaloniki-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "anna-palaiologina-gate",
@@ -12011,7 +12123,27 @@
    },
    "summary": "A Palaiologan gate with a specific marble inscription",
    "description": "A precisely dated Palaiologan gate on the upper (acropolis) walls near the Trigonion tower. Its marble inscription records that it was built by order of \"the powerful and holy mistress Lady Anna Palaiologina,\" 1355-56.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "anna-palaiologina-gate-1",
+     "thumb": "thumbs/anna-palaiologina-gate-1.jpg",
+     "full": "full/anna-palaiologina-gate-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "anna-palaiologina-gate-2",
+     "thumb": "thumbs/anna-palaiologina-gate-2.jpg",
+     "full": "full/anna-palaiologina-gate-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "anna-palaiologina-gate-3",
+     "thumb": "thumbs/anna-palaiologina-gate-3.jpg",
+     "full": "full/anna-palaiologina-gate-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "agios-minas-saints-menas-victor-and-vincent",
@@ -12031,7 +12163,15 @@
    "addedInVersion": 1,
    "summary": "A modern church with a few remains of the Byzantine original",
    "description": "Very little remains of the original, 5th century church: only the sanctuary niche and a couple of columns and marble members survive, some now in the Museum of Byzantine Culture.",
-   "hours": "7:00–20:00"
+   "hours": "7:00–20:00",
+   "photos": [
+    {
+     "id": "agios-minas-saints-menas-victor-and-vincent-1",
+     "thumb": "thumbs/agios-minas-saints-menas-victor-and-vincent-1.jpg",
+     "full": "full/agios-minas-saints-menas-victor-and-vincent-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "agia-aikaterini",
@@ -12056,7 +12196,22 @@
    },
    "summary": "A beautiful 14th century church with Macedonian-School painting",
    "description": "A late-13th/early-14th-century church with five domes and an ambulatory, with elaborate brickwork and murals contemporary with construction. A clean Palaiologan example with in-situ Macedonian-school painting.",
-   "hours": "7:00–9:00 & 18:00–20:00"
+   "hours": "7:00–9:00 & 18:00–20:00",
+   "photos": [
+    {
+     "id": "agia-aikaterini-1",
+     "thumb": "thumbs/agia-aikaterini-1.jpg",
+     "full": "full/agia-aikaterini-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "agia-aikaterini-2",
+     "thumb": "thumbs/agia-aikaterini-2.jpg",
+     "full": "full/agia-aikaterini-2.jpg",
+     "credit": "Giovanni Dall'Orto, Attribution, via Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "byzantine-bath",
@@ -12086,6 +12241,22 @@
      "title": "Official website",
      "url": "http://odysseus.culture.gr/h/3/gh3530.jsp?obj_id=9141"
     }
+   ],
+   "photos": [
+    {
+     "id": "byzantine-bath-1",
+     "thumb": "thumbs/byzantine-bath-1.jpg",
+     "full": "full/byzantine-bath-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "byzantine-bath-2",
+     "thumb": "thumbs/byzantine-bath-2.jpg",
+     "full": "full/byzantine-bath-2.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -12110,7 +12281,33 @@
    },
    "summary": "A Serbian-tinted Byzantine church from the 14th century",
    "description": "A small early-14th-century church, its wall paintings are among the most important early-14th-century ensembles in Thessaloniki, Macedonia and Serbia.",
-   "hours": "10:00–13:00 Mon, Wed, Thu"
+   "hours": "10:00–13:00 Mon, Wed, Thu",
+   "photos": [
+    {
+     "id": "church-of-saint-nicholas-orphanos-1",
+     "thumb": "thumbs/church-of-saint-nicholas-orphanos-1.jpg",
+     "full": "full/church-of-saint-nicholas-orphanos-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-saint-nicholas-orphanos-2",
+     "thumb": "thumbs/church-of-saint-nicholas-orphanos-2.jpg",
+     "full": "full/church-of-saint-nicholas-orphanos-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-saint-nicholas-orphanos-3",
+     "thumb": "thumbs/church-of-saint-nicholas-orphanos-3.jpg",
+     "full": "full/church-of-saint-nicholas-orphanos-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-saint-nicholas-orphanos-4",
+     "thumb": "thumbs/church-of-saint-nicholas-orphanos-4.jpg",
+     "full": "full/church-of-saint-nicholas-orphanos-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "vlatadon-monastery",
@@ -12134,7 +12331,23 @@
    },
    "summary": "A still-functioning Byzantine era monastery with an architecturally interesting katholikon",
    "description": "The only Byzantine-era monastery in Thessaloniki still functioning, founded in the mid-14th century. The katholikon is an unusual cross-in-square whose dome rests on the sanctuary walls because of the earlier building beneath.",
-   "hours": "8:00–11:00 & 18:00–20:00"
+   "hours": "8:00–11:00 & 18:00–20:00",
+   "photos": [
+    {
+     "id": "vlatadon-monastery-1",
+     "thumb": "thumbs/vlatadon-monastery-1.jpg",
+     "full": "full/vlatadon-monastery-1.jpg",
+     "credit": "Stolbovsky, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "vlatadon-monastery-2",
+     "thumb": "thumbs/vlatadon-monastery-2.jpg",
+     "full": "full/vlatadon-monastery-2.jpg",
+     "credit": "Мико, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "museum-of-byzantine-culture",
@@ -12159,6 +12372,28 @@
     {
      "title": "Official website",
      "url": "https://www.mbp.gr/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "museum-of-byzantine-culture-1",
+     "thumb": "thumbs/museum-of-byzantine-culture-1.jpg",
+     "full": "full/museum-of-byzantine-culture-1.jpg",
+     "credit": "Jaba1977, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "museum-of-byzantine-culture-2",
+     "thumb": "thumbs/museum-of-byzantine-culture-2.jpg",
+     "full": "full/museum-of-byzantine-culture-2.jpg",
+     "credit": "Jaba1977, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "museum-of-byzantine-culture-3",
+     "thumb": "thumbs/museum-of-byzantine-culture-3.jpg",
+     "full": "full/museum-of-byzantine-culture-3.jpg",
+     "credit": "Knop92, Public domain, via Wikimedia Commons"
     }
    ]
   },
@@ -12190,6 +12425,20 @@
      "title": "Official website",
      "url": "http://www.agiasofia.info/"
     }
+   ],
+   "photos": [
+    {
+     "id": "holy-cathedral-church-of-hagia-sophia-1",
+     "thumb": "thumbs/holy-cathedral-church-of-hagia-sophia-1.jpg",
+     "full": "full/holy-cathedral-church-of-hagia-sophia-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-cathedral-church-of-hagia-sophia-2",
+     "thumb": "thumbs/holy-cathedral-church-of-hagia-sophia-2.jpg",
+     "full": "full/holy-cathedral-church-of-hagia-sophia-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -12219,6 +12468,26 @@
     {
      "title": "Official website",
      "url": "http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=1682"
+    }
+   ],
+   "photos": [
+    {
+     "id": "church-of-the-holy-apostles-1",
+     "thumb": "thumbs/church-of-the-holy-apostles-1.jpg",
+     "full": "full/church-of-the-holy-apostles-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-holy-apostles-2",
+     "thumb": "thumbs/church-of-the-holy-apostles-2.jpg",
+     "full": "full/church-of-the-holy-apostles-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-holy-apostles-3",
+     "thumb": "thumbs/church-of-the-holy-apostles-3.jpg",
+     "full": "full/church-of-the-holy-apostles-3.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -12250,6 +12519,26 @@
      "title": "Official website",
      "url": "http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=6973"
     }
+   ],
+   "photos": [
+    {
+     "id": "panagia-chalkeon-1",
+     "thumb": "thumbs/panagia-chalkeon-1.jpg",
+     "full": "full/panagia-chalkeon-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-chalkeon-2",
+     "thumb": "thumbs/panagia-chalkeon-2.jpg",
+     "full": "full/panagia-chalkeon-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-chalkeon-3",
+     "thumb": "thumbs/panagia-chalkeon-3.jpg",
+     "full": "full/panagia-chalkeon-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -12274,7 +12563,27 @@
    },
    "summary": "A 14th century Palaiologan church, restored in the 20th century",
    "description": "A 14th-century Palaiologan church on a hill in Ano Poli, it was built ca. 1360–1370 on the site of a palace destroyed in the 1342 Zealot uprising. Restored 1956–61; its murals influenced later Serbian painting.",
-   "hours": "8:00–12:45 daily"
+   "hours": "8:00–12:45 daily",
+   "photos": [
+    {
+     "id": "profitis-ilias-1",
+     "thumb": "thumbs/profitis-ilias-1.jpg",
+     "full": "full/profitis-ilias-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "profitis-ilias-2",
+     "thumb": "thumbs/profitis-ilias-2.jpg",
+     "full": "full/profitis-ilias-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "profitis-ilias-3",
+     "thumb": "thumbs/profitis-ilias-3.jpg",
+     "full": "full/profitis-ilias-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "early-christian-basilica-f-paleopolis",
@@ -16899,7 +17208,33 @@
    },
    "summary": "A fifth-century Thessaloniki basilica, standing near full height and UNESCO-listed",
    "description": "One of the oldest churches in the city, an early-Christian basilica raised over a Roman baths complex and preserved almost to its original height. The building is datable by its bricks and mosaics to about 450–470. One of the fifteen Thessaloniki monuments on the UNESCO list, it keeps a thirteenth-century wall-painting of the Forty Martyrs in the south aisle.",
-   "hours": "9:30–12:00 & 16:30–19:30; closed to tourists Sun"
+   "hours": "9:30–12:00 & 16:30–19:30; closed to tourists Sun",
+   "photos": [
+    {
+     "id": "church-of-the-acheiropoietos-1",
+     "thumb": "thumbs/church-of-the-acheiropoietos-1.jpg",
+     "full": "full/church-of-the-acheiropoietos-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-acheiropoietos-2",
+     "thumb": "thumbs/church-of-the-acheiropoietos-2.jpg",
+     "full": "full/church-of-the-acheiropoietos-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-acheiropoietos-3",
+     "thumb": "thumbs/church-of-the-acheiropoietos-3.jpg",
+     "full": "full/church-of-the-acheiropoietos-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "church-of-the-acheiropoietos-4",
+     "thumb": "thumbs/church-of-the-acheiropoietos-4.jpg",
+     "full": "full/church-of-the-acheiropoietos-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "aula-palatina",
