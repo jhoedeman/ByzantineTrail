@@ -10764,7 +10764,16 @@
     "era": "constantinian"
    },
    "summary": "A Roman arch built under Constantine and incorporated into a church in the 11th century",
-   "description": "A Roman arch built under Constantine, which became a church in the 11th century, thought to mark Constantine's campsite before the Battle of the Milvian Bridge."
+   "description": "A Roman arch built under Constantine, which became a church in the 11th century, thought to mark Constantine's campsite before the Battle of the Milvian Bridge.",
+   "photos": [
+    {
+     "id": "arch-of-malborghetto-1",
+     "thumb": "thumbs/arch-of-malborghetto-1.jpg",
+     "full": "full/arch-of-malborghetto-1.jpg",
+     "credit": "Costantinus at Italian Wikipedia, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "villaggio-bizantino",
@@ -10784,7 +10793,23 @@
     "era": "justinianic"
    },
    "summary": "A rock-cut settlement with two-story rock-cut churches, perhaps dating to the time of Belisarius",
-   "description": "This rock-cut settlement with two two-story rock-cut churches and over thirty caves once used as dwellings, stables, and stores. Local tradition ties it to the Byzantine reconquest of Sicily under Belisarius beginning in 535, but it may be much older."
+   "description": "This rock-cut settlement with two two-story rock-cut churches and over thirty caves once used as dwellings, stables, and stores. Local tradition ties it to the Byzantine reconquest of Sicily under Belisarius beginning in 535, but it may be much older.",
+   "photos": [
+    {
+     "id": "villaggio-bizantino-1",
+     "thumb": "thumbs/villaggio-bizantino-1.jpg",
+     "full": "full/villaggio-bizantino-1.jpg",
+     "credit": "Nadia cagnino, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "villaggio-bizantino-2",
+     "thumb": "thumbs/villaggio-bizantino-2.jpg",
+     "full": "full/villaggio-bizantino-2.jpg",
+     "credit": "Davide Mauro, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "milazzo-castle",
@@ -10808,7 +10833,30 @@
    },
    "summary": "A later castle that sits atop a Byzantine layer",
    "description": "The visible castle is Norman–Swabian–Aragonese–Spanish, but there's a real, if buried, Byzantine phase, mostly destroyed by Arabs in the 9th century. Byzantine coins have been found on site.",
-   "hours": "9:00–13:30 & 16:00–20:30"
+   "hours": "9:00–13:30 & 16:00–20:30",
+   "photos": [
+    {
+     "id": "milazzo-castle-1",
+     "thumb": "thumbs/milazzo-castle-1.jpg",
+     "full": "full/milazzo-castle-1.jpg",
+     "credit": "Effems, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "milazzo-castle-2",
+     "thumb": "thumbs/milazzo-castle-2.jpg",
+     "full": "full/milazzo-castle-2.jpg",
+     "credit": "Effems, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "milazzo-castle-3",
+     "thumb": "thumbs/milazzo-castle-3.jpg",
+     "full": "full/milazzo-castle-3.jpg",
+     "credit": "Superchilum, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "holy-monastery-of-daphni",
@@ -10868,6 +10916,22 @@
      "title": "Official website",
      "url": "https://edirnekultur.com/detay/makedonya-saat-kulesi"
     }
+   ],
+   "photos": [
+    {
+     "id": "macedonian-tower-1",
+     "thumb": "thumbs/macedonian-tower-1.jpg",
+     "full": "full/macedonian-tower-1.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "macedonian-tower-2",
+     "thumb": "thumbs/macedonian-tower-2.jpg",
+     "full": "full/macedonian-tower-2.jpg",
+     "credit": "Ali Osman Dilekoğlu, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -10899,6 +10963,15 @@
      "title": "Official website",
      "url": "https://muze.gov.tr/muze-detay?sectionId=STJ01&distId=STJ"
     }
+   ],
+   "photos": [
+    {
+     "id": "basilica-of-saint-john-1",
+     "thumb": "thumbs/basilica-of-saint-john-1.jpg",
+     "full": "full/basilica-of-saint-john-1.jpg",
+     "credit": "Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -10928,6 +11001,15 @@
     {
      "title": "Official website",
      "url": "http://osmangazi.bel.tr/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "tomb-of-osman-gazi-1",
+     "thumb": "thumbs/tomb-of-osman-gazi-1.jpg",
+     "full": "full/tomb-of-osman-gazi-1.jpg",
+     "credit": "Canercangul, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ]
   },
@@ -20478,7 +20560,23 @@
     "era": "theodosian"
    },
    "summary": "The church of the Council of Ephesus (431), where Mary was proclaimed Theotokos",
-   "description": "The long, much-rebuilt church along the north edge of Ephesus, fitted into an earlier Roman civic hall, traditionally the first church dedicated to the Virgin Mary and the setting of the Council of Ephesus in 431 that proclaimed her Theotokos. Also called the Double Church for its successive rebuildings."
+   "description": "The long, much-rebuilt church along the north edge of Ephesus, fitted into an earlier Roman civic hall, traditionally the first church dedicated to the Virgin Mary and the setting of the Council of Ephesus in 431 that proclaimed her Theotokos. Also called the Double Church for its successive rebuildings.",
+   "photos": [
+    {
+     "id": "church-of-mary-1",
+     "thumb": "thumbs/church-of-mary-1.jpg",
+     "full": "full/church-of-mary-1.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-mary-2",
+     "thumb": "thumbs/church-of-mary-2.jpg",
+     "full": "full/church-of-mary-2.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "cave-of-the-seven-sleepers",
