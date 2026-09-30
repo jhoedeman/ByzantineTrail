@@ -10195,6 +10195,22 @@
      "title": "Official website",
      "url": "http://www.jerusalem-patriarchate.info/"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-st-john-the-baptist-1",
+     "thumb": "thumbs/church-of-st-john-the-baptist-1.jpg",
+     "full": "full/church-of-st-john-the-baptist-1.jpg",
+     "credit": "Utilisateur:Djampa - User:Djampa, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-st-john-the-baptist-2",
+     "thumb": "thumbs/church-of-st-john-the-baptist-2.jpg",
+     "full": "full/church-of-st-john-the-baptist-2.jpg",
+     "credit": "Alex Ostrovskiy, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -10216,6 +10232,29 @@
      "title": "Official website",
      "url": "http://www.stpeter-gallicantu.org/"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-st-peter-in-gallicantu-1",
+     "thumb": "thumbs/church-of-st-peter-in-gallicantu-1.jpg",
+     "full": "full/church-of-st-peter-in-gallicantu-1.jpg",
+     "credit": "Zairon, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-st-peter-in-gallicantu-2",
+     "thumb": "thumbs/church-of-st-peter-in-gallicantu-2.jpg",
+     "full": "full/church-of-st-peter-in-gallicantu-2.jpg",
+     "credit": "Zairon, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-st-peter-in-gallicantu-3",
+     "thumb": "thumbs/church-of-st-peter-in-gallicantu-3.jpg",
+     "full": "full/church-of-st-peter-in-gallicantu-3.jpg",
+     "credit": "Hoshvilim, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -10231,7 +10270,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "The site of Empress Eudocia's church over the presumed pool of Siloam of John, Chapter 9",
-   "description": "The pool is famous from John 9, where Jesus heals the man born blind by sending him to wash there, and for roughly 1,500 years, the pool that pilgrims venerated as the Pool of Siloam was a Byzantine one: in the 5th century (around 440), the Empress Eudocia remodeled a pool and built a church over it. The actual pool was accidentally discovered in 2004 about 50 meters away."
+   "description": "The pool is famous from John 9, where Jesus heals the man born blind by sending him to wash there, and for roughly 1,500 years, the pool that pilgrims venerated as the Pool of Siloam was a Byzantine one: in the 5th century (around 440), the Empress Eudocia remodeled a pool and built a church over it. The actual pool was accidentally discovered in 2004 about 50 meters away.",
+   "photos": [
+    {
+     "id": "pool-of-siloam-1",
+     "thumb": "thumbs/pool-of-siloam-1.jpg",
+     "full": "full/pool-of-siloam-1.jpg",
+     "credit": "Aleksei m, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "holy-church-of-saint-demetrius",
@@ -10412,6 +10460,22 @@
      "title": "Official website",
      "url": "https://archaeologicalmuseums.gr/el/museum/5df34af3deca5e2d79e8c1c8/tower-of-ouranoupolis"
     }
+   ],
+   "photos": [
+    {
+     "id": "tower-of-prosphorion-1",
+     "thumb": "thumbs/tower-of-prosphorion-1.jpg",
+     "full": "full/tower-of-prosphorion-1.jpg",
+     "credit": "Plamen Agov • studiolemontree.com, CC BY-SA 2.5, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+     "id": "tower-of-prosphorion-2",
+     "thumb": "thumbs/tower-of-prosphorion-2.jpg",
+     "full": "full/tower-of-prosphorion-2.jpg",
+     "credit": "Plamen Agov • studiolemontree.com, CC BY-SA 2.5, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.5"
+    }
    ]
   },
   {
@@ -10466,7 +10530,16 @@
    },
    "summary": "A fortress rebuilt over a Byzantine foundation",
    "description": "The acropolis of Kavala was fortified in the Byzantine period, but what stands today is mostly Ottoman, rebuilt over the Byzantine circuit.",
-   "hours": "8:00–9:00 daily"
+   "hours": "8:00–9:00 daily",
+   "photos": [
+    {
+     "id": "kavala-fortress-1",
+     "thumb": "thumbs/kavala-fortress-1.jpg",
+     "full": "full/kavala-fortress-1.jpg",
+     "credit": "photosiotas, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "gra-anica-monastery",
@@ -10489,7 +10562,30 @@
     "era": "palaiologan"
    },
    "summary": "A masterpiece of Serbo-Byzantine art and architecture",
-   "description": "A masterpiece of late-Byzantine architecture and of the Serbo-Byzantine style with 14th century frescoes and a painted dynastic genealogy, still an active convent."
+   "description": "A masterpiece of late-Byzantine architecture and of the Serbo-Byzantine style with 14th century frescoes and a painted dynastic genealogy, still an active convent.",
+   "photos": [
+    {
+     "id": "gra-anica-monastery-1",
+     "thumb": "thumbs/gra-anica-monastery-1.jpg",
+     "full": "full/gra-anica-monastery-1.jpg",
+     "credit": "Quinn Dombrowski, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+     "id": "gra-anica-monastery-2",
+     "thumb": "thumbs/gra-anica-monastery-2.jpg",
+     "full": "full/gra-anica-monastery-2.jpg",
+     "credit": "Julian Nyča, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "gra-anica-monastery-3",
+     "thumb": "thumbs/gra-anica-monastery-3.jpg",
+     "full": "full/gra-anica-monastery-3.jpg",
+     "credit": "BLAGO Fund, Inc., CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-the-virgin-of-ljevi",
@@ -10512,7 +10608,30 @@
     "era": "palaiologan"
    },
    "summary": "A 14th century Serbian church with Palaiologan revival frescoes, damaged in recent riots",
-   "description": "A Serbian Orthodox church in Prizren, consecrated around 1307 under King Milutin, who converted and rebuilt an earlier Byzantine structure and added its interior program. Its early-14th-century frescoes are among the important monuments of the Palaiologan revival in Serbia. Attacked and burned during anti-Serb riots in 2004, and under restoration since."
+   "description": "A Serbian Orthodox church in Prizren, consecrated around 1307 under King Milutin, who converted and rebuilt an earlier Byzantine structure and added its interior program. Its early-14th-century frescoes are among the important monuments of the Palaiologan revival in Serbia. Attacked and burned during anti-Serb riots in 2004, and under restoration since.",
+   "photos": [
+    {
+     "id": "church-of-the-virgin-of-ljevi-1",
+     "thumb": "thumbs/church-of-the-virgin-of-ljevi-1.jpg",
+     "full": "full/church-of-the-virgin-of-ljevi-1.jpg",
+     "credit": "Photo Balkan, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "church-of-the-virgin-of-ljevi-2",
+     "thumb": "thumbs/church-of-the-virgin-of-ljevi-2.jpg",
+     "full": "full/church-of-the-virgin-of-ljevi-2.jpg",
+     "credit": "BLAGO Fund, Inc., CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "church-of-the-virgin-of-ljevi-3",
+     "thumb": "thumbs/church-of-the-virgin-of-ljevi-3.jpg",
+     "full": "full/church-of-the-virgin-of-ljevi-3.jpg",
+     "credit": "BLAGO Fund, Inc., CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ]
   },
   {
    "id": "patriarchate-of-pe",
@@ -10537,6 +10656,40 @@
     {
      "title": "Official website",
      "url": "https://eparhija-prizren.com/sr/manastiri/manastir-pe-ka-patrijarshija/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "patriarchate-of-pe-1",
+     "thumb": "thumbs/patriarchate-of-pe-1.jpg",
+     "full": "full/patriarchate-of-pe-1.jpg",
+     "credit": "Tom.whitehead337, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "patriarchate-of-pe-2",
+     "thumb": "thumbs/patriarchate-of-pe-2.jpg",
+     "full": "full/patriarchate-of-pe-2.jpg",
+     "credit": "Quinn Dombrowski from Chicago, USA, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+     "id": "patriarchate-of-pe-3",
+     "thumb": "thumbs/patriarchate-of-pe-3.jpg",
+     "full": "full/patriarchate-of-pe-3.jpg",
+     "credit": "Radul, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "patriarchate-of-pe-4",
+     "thumb": "thumbs/patriarchate-of-pe-4.jpg",
+     "full": "full/patriarchate-of-pe-4.jpg",
+     "credit": "Radul, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "patriarchate-of-pe-5",
+     "thumb": "thumbs/patriarchate-of-pe-5.jpg",
+     "full": "full/patriarchate-of-pe-5.jpg",
+     "credit": "Radul, Public domain, via Wikimedia Commons"
     }
    ]
   },
@@ -10567,6 +10720,29 @@
     {
      "title": "Official website",
      "url": "https://www.decani.org/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "monastery-of-visoki-de-ani-1",
+     "thumb": "thumbs/monastery-of-visoki-de-ani-1.jpg",
+     "full": "full/monastery-of-visoki-de-ani-1.jpg",
+     "credit": "Pudelek (Marcin Szala), CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "monastery-of-visoki-de-ani-2",
+     "thumb": "thumbs/monastery-of-visoki-de-ani-2.jpg",
+     "full": "full/monastery-of-visoki-de-ani-2.jpg",
+     "credit": "Gregor Joham, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+     "id": "monastery-of-visoki-de-ani-3",
+     "thumb": "thumbs/monastery-of-visoki-de-ani-3.jpg",
+     "full": "full/monastery-of-visoki-de-ani-3.jpg",
+     "credit": "Misa.stefanovic.07, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ]
   },
