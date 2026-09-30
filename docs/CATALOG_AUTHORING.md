@@ -101,6 +101,71 @@ In `catalog.json`, each photo is:
 photos by author + license (e.g. "Photo: Jane Roe, CC BY-SA 4.0"); credit your
 own as you prefer (e.g. "Photo: John Hoedeman").
 
+### 3a. Batch import via the manifest
+
+In practice photos are wired through the idempotent driver rather than by hand:
+
+```bash
+Tools/import_photos.sh <incoming-root> [--force] [--only "Folder Name"]...
+```
+
+Each row of `Tools/photo_manifest.tsv` maps `<folder-name><TAB><site-id>`. For
+every mapped folder found under `<incoming-root>`, the driver stages and renames
+its images to `<site-id>-N.<ext>` in shot order, runs `build_photos.sh` (strip +
+resize), copies thumbnails into `ByzantineTrail/Resources/thumbs/`, merges a
+`photos[]` array into `catalog.json`, and finally runs the validator. It is
+**idempotent**: a site that already has photos *and* a first thumbnail is
+skipped, so re-running only processes newly-added folders.
+
+**Credits sidecar.** A folder may hold a plain-text `_credits.txt` (not `.rtf`)
+with one line per source image:
+
+```
+1.jpg: Sailko, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons
+```
+
+The angle-bracketed URL becomes `licenseURL`; the rest becomes `credit`. Lines
+match by filename **stem** (`1.jpg` keys off `1`, regardless of real extension).
+Any image with no matching line — or a folder with no `_credits.txt` — falls
+back to the owner default (`Photo: John Hoedeman`, no `licenseURL`). The
+validator requires a non-empty `licenseURL` on any credit that matches
+`CC[ -]?(BY|0)`, so a CC/CC0 line must carry its URL (CC0's canonical URL is
+`https://creativecommons.org/publicdomain/zero/1.0`).
+
+### 3b. Swapping a site's photos (e.g. Wikimedia → your own)
+
+Reprocessing **replaces** a site's `photos[]` array (it is not appended to), so
+swapping is just "re-run with the new folder contents":
+
+1. Replace the images in that site's incoming folder with your own, keeping the
+   `N.ext` numbering (they are re-numbered contiguously in trailing-number
+   order).
+2. Update `_credits.txt`:
+   - **All photos now yours** → delete `_credits.txt` entirely; every photo gets
+     the owner default.
+   - **Partial swap** → keep only the lines for images that are still
+     third-party; your own files (no matching line) fall back to the owner
+     default.
+3. Re-run scoped to that folder (no `--force` needed — `--only` reprocesses a
+   site even if already wired):
+
+   ```bash
+   Tools/import_photos.sh <incoming-root> --only "Saint Hilarion Castle"
+   ```
+
+   Use `--force` (no `--only`) to rebuild every site instead.
+
+**Gotcha — a shrinking photo count leaves orphan thumbnails.** Thumbnails are
+overwritten in place, not pruned. Going from 3 photos to 2 leaves a stale
+`<site-id>-3.jpg` in `ByzantineTrail/Resources/thumbs/` (and `photo-build/full/`)
+that the catalog no longer references. Remove it by hand:
+
+```bash
+git rm ByzantineTrail/Resources/thumbs/<site-id>-3.jpg
+```
+
+Same count or more overwrites cleanly with nothing to prune.
+
 ## 4. Where files live
 
 - **Content repo (`byzantine-trail-catalog`, GitHub Pages):** `catalog.json`,
