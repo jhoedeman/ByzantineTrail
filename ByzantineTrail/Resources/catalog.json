@@ -17851,6 +17851,14 @@
      "title": "Official website",
      "url": "https://www.kaiserliche-schatzkammer.at/"
     }
+   ],
+   "photos": [
+    {
+     "id": "imperial-crown-reichskrone-1",
+     "thumb": "thumbs/imperial-crown-reichskrone-1.jpg",
+     "full": "full/imperial-crown-reichskrone-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -18108,6 +18116,32 @@
     {
      "title": "Official website",
      "url": "http://svgeorgi-rotonda.com/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "rotunda-of-st-george-1",
+     "thumb": "thumbs/rotunda-of-st-george-1.jpg",
+     "full": "full/rotunda-of-st-george-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "rotunda-of-st-george-2",
+     "thumb": "thumbs/rotunda-of-st-george-2.jpg",
+     "full": "full/rotunda-of-st-george-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "rotunda-of-st-george-3",
+     "thumb": "thumbs/rotunda-of-st-george-3.jpg",
+     "full": "full/rotunda-of-st-george-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "rotunda-of-st-george-4",
+     "thumb": "thumbs/rotunda-of-st-george-4.jpg",
+     "full": "full/rotunda-of-st-george-4.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
