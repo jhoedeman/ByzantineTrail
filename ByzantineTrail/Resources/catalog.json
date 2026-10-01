@@ -10388,7 +10388,15 @@
    "addedInVersion": 1,
    "summary": "A rebuilt church in the center of Thessaloniki housing a venerated icon",
    "description": "A church in the center of Thessaloniki dedicated to the Virgin Gorgoepikoos (\"she who is quick to hear/answer\"), rebuilt after a 19th century fire, housing a much-venerated icon of the Panagia Gorgoepikoos.",
-   "hours": "7:00–8:00 daily"
+   "hours": "7:00–8:00 daily",
+   "photos": [
+    {
+     "id": "virgin-mary-gorgoepikoos-1",
+     "thumb": "thumbs/virgin-mary-gorgoepikoos-1.jpg",
+     "full": "full/virgin-mary-gorgoepikoos-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "holy-church-of-saint-panteleimon",
@@ -10589,6 +10597,62 @@
     {
      "title": "Official website",
      "url": "https://www.osiosloukasmonastery.gr/en/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "holy-monastery-of-hosios-loukas-1",
+     "thumb": "thumbs/holy-monastery-of-hosios-loukas-1.jpg",
+     "full": "full/holy-monastery-of-hosios-loukas-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-hosios-loukas-2",
+     "thumb": "thumbs/holy-monastery-of-hosios-loukas-2.jpg",
+     "full": "full/holy-monastery-of-hosios-loukas-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-hosios-loukas-3",
+     "thumb": "thumbs/holy-monastery-of-hosios-loukas-3.jpg",
+     "full": "full/holy-monastery-of-hosios-loukas-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-hosios-loukas-4",
+     "thumb": "thumbs/holy-monastery-of-hosios-loukas-4.jpg",
+     "full": "full/holy-monastery-of-hosios-loukas-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-hosios-loukas-5",
+     "thumb": "thumbs/holy-monastery-of-hosios-loukas-5.jpg",
+     "full": "full/holy-monastery-of-hosios-loukas-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-hosios-loukas-6",
+     "thumb": "thumbs/holy-monastery-of-hosios-loukas-6.jpg",
+     "full": "full/holy-monastery-of-hosios-loukas-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-hosios-loukas-7",
+     "thumb": "thumbs/holy-monastery-of-hosios-loukas-7.jpg",
+     "full": "full/holy-monastery-of-hosios-loukas-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-hosios-loukas-8",
+     "thumb": "thumbs/holy-monastery-of-hosios-loukas-8.jpg",
+     "full": "full/holy-monastery-of-hosios-loukas-8.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-monastery-of-hosios-loukas-9",
+     "thumb": "thumbs/holy-monastery-of-hosios-loukas-9.jpg",
+     "full": "full/holy-monastery-of-hosios-loukas-9.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -12720,6 +12784,26 @@
      "title": "Official website",
      "url": "https://imioanninon.gr/eleousis-nhsou/"
     }
+   ],
+   "photos": [
+    {
+     "id": "panagia-eleousa-1",
+     "thumb": "thumbs/panagia-eleousa-1.jpg",
+     "full": "full/panagia-eleousa-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-eleousa-2",
+     "thumb": "thumbs/panagia-eleousa-2.jpg",
+     "full": "full/panagia-eleousa-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "panagia-eleousa-3",
+     "thumb": "thumbs/panagia-eleousa-3.jpg",
+     "full": "full/panagia-eleousa-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -12744,7 +12828,33 @@
    },
    "summary": "A castle with two parts, dating to the 10th century",
    "description": "The Kastro occupies a rocky promontory jutting into Lake Pamvotis, with two citadels shaped in Byzantine times: the northeastern seat of the despot and the southeastern Its Kale, or inner castle. Surviving walls are dated to the 10th-11th centuries.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "ioannina-castle-1",
+     "thumb": "thumbs/ioannina-castle-1.jpg",
+     "full": "full/ioannina-castle-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ioannina-castle-2",
+     "thumb": "thumbs/ioannina-castle-2.jpg",
+     "full": "full/ioannina-castle-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ioannina-castle-3",
+     "thumb": "thumbs/ioannina-castle-3.jpg",
+     "full": "full/ioannina-castle-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "ioannina-castle-4",
+     "thumb": "thumbs/ioannina-castle-4.jpg",
+     "full": "full/ioannina-castle-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "byzantine-museum-of-ioannina",
@@ -12769,6 +12879,29 @@
     {
      "title": "Official website",
      "url": "https://efaioa.gr/?page_id=1543"
+    }
+   ],
+   "photos": [
+    {
+     "id": "byzantine-museum-of-ioannina-1",
+     "thumb": "thumbs/byzantine-museum-of-ioannina-1.jpg",
+     "full": "full/byzantine-museum-of-ioannina-1.jpg",
+     "credit": "TasosPapan, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "byzantine-museum-of-ioannina-2",
+     "thumb": "thumbs/byzantine-museum-of-ioannina-2.jpg",
+     "full": "full/byzantine-museum-of-ioannina-2.jpg",
+     "credit": "Jean Housen, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "byzantine-museum-of-ioannina-3",
+     "thumb": "thumbs/byzantine-museum-of-ioannina-3.jpg",
+     "full": "full/byzantine-museum-of-ioannina-3.jpg",
+     "credit": "Jean Housen, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
     }
    ]
   },
@@ -12800,6 +12933,38 @@
     {
      "title": "Official website",
      "url": "http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=1504"
+    }
+   ],
+   "photos": [
+    {
+     "id": "agios-nikolaos-filanthropinon-1",
+     "thumb": "thumbs/agios-nikolaos-filanthropinon-1.jpg",
+     "full": "full/agios-nikolaos-filanthropinon-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agios-nikolaos-filanthropinon-2",
+     "thumb": "thumbs/agios-nikolaos-filanthropinon-2.jpg",
+     "full": "full/agios-nikolaos-filanthropinon-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agios-nikolaos-filanthropinon-3",
+     "thumb": "thumbs/agios-nikolaos-filanthropinon-3.jpg",
+     "full": "full/agios-nikolaos-filanthropinon-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agios-nikolaos-filanthropinon-4",
+     "thumb": "thumbs/agios-nikolaos-filanthropinon-4.jpg",
+     "full": "full/agios-nikolaos-filanthropinon-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "agios-nikolaos-filanthropinon-5",
+     "thumb": "thumbs/agios-nikolaos-filanthropinon-5.jpg",
+     "full": "full/agios-nikolaos-filanthropinon-5.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -12843,7 +13008,27 @@
     "era": "postByzantine"
    },
    "summary": "A 13th century monastery with 15th century frescoes, seldom open to the public",
-   "description": "Founded in the 13th century by the Stratigopoulos family, another Constantinopolitan clan that arrived in 1204, the atholikon was frescoed in 1542–43 (dated by a narthex inscription) by a painter within the Philanthropinon tradition."
+   "description": "Founded in the 13th century by the Stratigopoulos family, another Constantinopolitan clan that arrived in 1204, the atholikon was frescoed in 1542–43 (dated by a narthex inscription) by a painter within the Philanthropinon tradition.",
+   "photos": [
+    {
+     "id": "monastery-of-saint-nicholas-stratigopoulos-diliou-1",
+     "thumb": "thumbs/monastery-of-saint-nicholas-stratigopoulos-diliou-1.jpg",
+     "full": "full/monastery-of-saint-nicholas-stratigopoulos-diliou-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-saint-nicholas-stratigopoulos-diliou-2",
+     "thumb": "thumbs/monastery-of-saint-nicholas-stratigopoulos-diliou-2.jpg",
+     "full": "full/monastery-of-saint-nicholas-stratigopoulos-diliou-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "monastery-of-saint-nicholas-stratigopoulos-diliou-3",
+     "thumb": "thumbs/monastery-of-saint-nicholas-stratigopoulos-diliou-3.jpg",
+     "full": "full/monastery-of-saint-nicholas-stratigopoulos-diliou-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "agios-ioannis-prodromos",
@@ -21333,7 +21518,27 @@
    },
    "summary": "The largest Meteora monastery, founded atop its rock pinnacle around 1350",
    "description": "The largest and oldest of the monasteries perched atop the sandstone pinnacles of Meteora, founded around the mid-fourteenth century by St. Athanasios the Meteorite. Its katholikon of the Transfiguration keeps fine post-Byzantine frescoes, and the monastery crowns the most spectacular monastic landscape in the Orthodox world.",
-   "hours": "9:30–15:00; closed Tue"
+   "hours": "9:30–15:00; closed Tue",
+   "photos": [
+    {
+     "id": "great-meteoron-1",
+     "thumb": "thumbs/great-meteoron-1.jpg",
+     "full": "full/great-meteoron-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "great-meteoron-2",
+     "thumb": "thumbs/great-meteoron-2.jpg",
+     "full": "full/great-meteoron-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "great-meteoron-3",
+     "thumb": "thumbs/great-meteoron-3.jpg",
+     "full": "full/great-meteoron-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "varlaam-monastery",
@@ -21357,7 +21562,39 @@
    },
    "summary": "The second great Meteora monastery, on a pinnacle first settled in the 14th century",
    "description": "The second-largest of the Meteora monasteries, on a neighboring pinnacle first settled by the hermit Varlaam in the fourteenth century and rebuilt in the sixteenth. Its church of All Saints holds a celebrated fresco cycle by Frangos Katelanos of 1548.",
-   "hours": "9:00–16:00; closed Fri"
+   "hours": "9:00–16:00; closed Fri",
+   "photos": [
+    {
+     "id": "varlaam-monastery-1",
+     "thumb": "thumbs/varlaam-monastery-1.jpg",
+     "full": "full/varlaam-monastery-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "varlaam-monastery-2",
+     "thumb": "thumbs/varlaam-monastery-2.jpg",
+     "full": "full/varlaam-monastery-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "varlaam-monastery-3",
+     "thumb": "thumbs/varlaam-monastery-3.jpg",
+     "full": "full/varlaam-monastery-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "varlaam-monastery-4",
+     "thumb": "thumbs/varlaam-monastery-4.jpg",
+     "full": "full/varlaam-monastery-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "varlaam-monastery-5",
+     "thumb": "thumbs/varlaam-monastery-5.jpg",
+     "full": "full/varlaam-monastery-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "holy-trinity-monastery",
@@ -21382,7 +21619,27 @@
    },
    "summary": "The most vertiginous Meteora monastery, perched on a sheer rock tower",
    "description": "The most dramatically sited of the Meteora houses, reached by steps cut into a sheer rock tower above the Pineios gorge and founded in the later fifteenth century. Long the hardest to reach, requiring a rope net for supplies and, indeed, people.",
-   "hours": "9:30–16:30; closed Thu"
+   "hours": "9:30–16:30; closed Thu",
+   "photos": [
+    {
+     "id": "holy-trinity-monastery-1",
+     "thumb": "thumbs/holy-trinity-monastery-1.jpg",
+     "full": "full/holy-trinity-monastery-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-trinity-monastery-2",
+     "thumb": "thumbs/holy-trinity-monastery-2.jpg",
+     "full": "full/holy-trinity-monastery-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "holy-trinity-monastery-3",
+     "thumb": "thumbs/holy-trinity-monastery-3.jpg",
+     "full": "full/holy-trinity-monastery-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   }
  ]
 }
