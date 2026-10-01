@@ -8867,7 +8867,16 @@
     "era": "palaiologan"
    },
    "summary": "A stone-built 13th century church with paintings from the end of Byzantine rule of Cyprus",
-   "description": "This is a stone-built Byzantine structure with wall paintings inside, dated to the end of the 12th and the beginning of the 13th century, including a donor portrait and lovely depiction of Ss. Peter and Paul."
+   "description": "This is a stone-built Byzantine structure with wall paintings inside, dated to the end of the 12th and the beginning of the 13th century, including a donor portrait and lovely depiction of Ss. Peter and Paul.",
+   "photos": [
+    {
+     "id": "church-of-st-theodosius-1",
+     "thumb": "thumbs/church-of-st-theodosius-1.jpg",
+     "full": "full/church-of-st-theodosius-1.jpg",
+     "credit": "Chris06, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-panagia-of-sintis",
@@ -8930,7 +8939,16 @@
     "era": "komnenian"
    },
    "summary": "A 12th century church with layered wall painting from the 12th to the 15th centuries",
-   "description": "A 12th-century cross-in-square domed church with later frescoes, especially from the 15th century. As of this writing, it is closed for restoration."
+   "description": "A 12th-century cross-in-square domed church with later frescoes, especially from the 15th century. As of this writing, it is closed for restoration.",
+   "photos": [
+    {
+     "id": "church-of-st-kirikos-and-ioulitti-1",
+     "thumb": "thumbs/church-of-st-kirikos-and-ioulitti-1.jpg",
+     "full": "full/church-of-st-kirikos-and-ioulitti-1.jpg",
+     "credit": "Chris06, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "monastery-of-saint-neophytos",
@@ -10366,6 +10384,15 @@
      "title": "Official website",
      "url": "https://www.thessalonikitourism.gr/index.php/en/component/k2/item/107-heptapyrgion-yedi-kule"
     }
+   ],
+   "photos": [
+    {
+     "id": "heptapyrgion-of-thessaloniki-1",
+     "thumb": "thumbs/heptapyrgion-of-thessaloniki-1.jpg",
+     "full": "full/heptapyrgion-of-thessaloniki-1.jpg",
+     "credit": "Ymblanter, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -11182,7 +11209,23 @@
     "era": "palaiologan"
    },
    "summary": "A modern reconstruction of the major gate of the Roman/Byzantine walls",
-   "description": "The most important gate on the city walls, used by nobles and governors to enter the citadel, an inscription records renovation in 1418 by Sultan Mehmed I. This is largely a modern reconstruction due to 19th century earthquakes."
+   "description": "The most important gate on the city walls, used by nobles and governors to enter the citadel, an inscription records renovation in 1418 by Sultan Mehmed I. This is largely a modern reconstruction due to 19th century earthquakes.",
+   "photos": [
+    {
+     "id": "imperial-gate-1",
+     "thumb": "thumbs/imperial-gate-1.jpg",
+     "full": "full/imperial-gate-1.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "imperial-gate-2",
+     "thumb": "thumbs/imperial-gate-2.jpg",
+     "full": "full/imperial-gate-2.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "the-gate-of-conquest",
@@ -11201,7 +11244,16 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A renovated gate notable for the conquest of Prousa",
-   "description": "The southernmost gate of the Roman/Byzantine citadel, at the walls' weakest point opening onto the plain, where Ottoman forces entered Prousa during the 1326 conquest; it was renovated in 2008."
+   "description": "The southernmost gate of the Roman/Byzantine citadel, at the walls' weakest point opening onto the plain, where Ottoman forces entered Prousa during the 1326 conquest; it was renovated in 2008.",
+   "photos": [
+    {
+     "id": "the-gate-of-conquest-1",
+     "thumb": "thumbs/the-gate-of-conquest-1.jpg",
+     "full": "full/the-gate-of-conquest-1.jpg",
+     "credit": "Mustafa DUMAN, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "eski-kapl-ca-hamam",
@@ -11217,7 +11269,23 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A mostly-Ottoman bathhouse built atop a Byzantine bath that may have hosted Theodora",
-   "description": "This Ottoman bathhouse was built on top of an ancient Byzantine bath, but records suggest a public bath here as far back as 525 AD, with a tradition that Justinian's wife Theodora bathed here. Marble capitals and columns worked by Byzantine stonemasons."
+   "description": "This Ottoman bathhouse was built on top of an ancient Byzantine bath, but records suggest a public bath here as far back as 525 AD, with a tradition that Justinian's wife Theodora bathed here. Marble capitals and columns worked by Byzantine stonemasons.",
+   "photos": [
+    {
+     "id": "eski-kapl-ca-hamam-1",
+     "thumb": "thumbs/eski-kapl-ca-hamam-1.jpg",
+     "full": "full/eski-kapl-ca-hamam-1.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "eski-kapl-ca-hamam-2",
+     "thumb": "thumbs/eski-kapl-ca-hamam-2.jpg",
+     "full": "full/eski-kapl-ca-hamam-2.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "mausoleum-of-saint-helena-at-tor-pignattara",
@@ -11246,6 +11314,15 @@
      "title": "Official website",
      "url": "https://www.santimarcellinoepietro.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "mausoleum-of-saint-helena-at-tor-pignattara-1",
+     "thumb": "thumbs/mausoleum-of-saint-helena-at-tor-pignattara-1.jpg",
+     "full": "full/mausoleum-of-saint-helena-at-tor-pignattara-1.jpg",
+     "credit": "Antonia Falcone, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -11266,7 +11343,16 @@
    "addedInVersion": 1,
    "summary": "A museum with 700 icons from the 12th to the 17th century",
    "description": "Atop the Byzantine acropolis, it holds around 700 icons drawn from the city's roughly 75 Byzantine and post-Byzantine churches, dating from the 12th to the 17th century, with about 35 on permanent display.",
-   "hours": "8:30–15:30; closed Tue"
+   "hours": "8:30–15:30; closed Tue",
+   "photos": [
+    {
+     "id": "byzantine-museum-of-kastoria-1",
+     "thumb": "thumbs/byzantine-museum-of-kastoria-1.jpg",
+     "full": "full/byzantine-museum-of-kastoria-1.jpg",
+     "credit": "Macedonian Heritage, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "gortyna-archaeological-site",
@@ -11290,7 +11376,23 @@
    },
    "summary": "A site with Byzantine remains from the 6th century until the city faded under Arab raiding and looting",
    "description": "Capital of the early Byzantine province. According to Eusebius, Titus was the first bishop of Crete, and the traditional site of his tomb is marked by the Basilica of St. Titus, built in the 6th century under Justinian. The smaller church nearby survived the earthquakes.",
-   "hours": "8:30–20:00"
+   "hours": "8:30–20:00",
+   "photos": [
+    {
+     "id": "gortyna-archaeological-site-1",
+     "thumb": "thumbs/gortyna-archaeological-site-1.jpg",
+     "full": "full/gortyna-archaeological-site-1.jpg",
+     "credit": "Carole Raddato, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+     "id": "gortyna-archaeological-site-2",
+     "thumb": "thumbs/gortyna-archaeological-site-2.jpg",
+     "full": "full/gortyna-archaeological-site-2.jpg",
+     "credit": "Carole Raddato, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+   ]
   },
   {
    "id": "vrontisi-monastery",
@@ -11314,6 +11416,14 @@
     {
      "title": "Official website",
      "url": "https://www.unescositesincrete.gr/en/simeia-endiaferontos/vrontisi-monastery/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "vrontisi-monastery-1",
+     "thumb": "thumbs/vrontisi-monastery-1.jpg",
+     "full": "full/vrontisi-monastery-1.jpg",
+     "credit": "Georgios Pazios (Alaniaris), Attribution, via Wikimedia Commons"
     }
    ]
   },
@@ -11345,6 +11455,29 @@
      "title": "Official website",
      "url": "http://www.imis.gr/el/-7039"
     }
+   ],
+   "photos": [
+    {
+     "id": "toplou-monastery-1",
+     "thumb": "thumbs/toplou-monastery-1.jpg",
+     "full": "full/toplou-monastery-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "toplou-monastery-2",
+     "thumb": "thumbs/toplou-monastery-2.jpg",
+     "full": "full/toplou-monastery-2.jpg",
+     "credit": "Redeemer, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "toplou-monastery-3",
+     "thumb": "thumbs/toplou-monastery-3.jpg",
+     "full": "full/toplou-monastery-3.jpg",
+     "credit": "Marc Ryckaert (MJJR), CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
    ]
   },
   {
@@ -11368,7 +11501,30 @@
     "era": "palaiologan"
    },
    "summary": "A monastery church with notable 14th and 15th century Palaiologan style frescoes",
-   "description": "Of Byzantine origin, though built in the early period of Venetian domination, the surviving katholikon is a treasury of frescoes by named painters of the Palaiologan tradition from the 14th and 15th centuries."
+   "description": "Of Byzantine origin, though built in the early period of Venetian domination, the surviving katholikon is a treasury of frescoes by named painters of the Palaiologan tradition from the 14th and 15th centuries.",
+   "photos": [
+    {
+     "id": "varsamonerou-monastery-1",
+     "thumb": "thumbs/varsamonerou-monastery-1.jpg",
+     "full": "full/varsamonerou-monastery-1.jpg",
+     "credit": "KormiSK, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "varsamonerou-monastery-2",
+     "thumb": "thumbs/varsamonerou-monastery-2.jpg",
+     "full": "full/varsamonerou-monastery-2.jpg",
+     "credit": "KormiSK, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "varsamonerou-monastery-3",
+     "thumb": "thumbs/varsamonerou-monastery-3.jpg",
+     "full": "full/varsamonerou-monastery-3.jpg",
+     "credit": "Jerzy Strzelecki, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "moni-agiou-georgiou-vrachasioti",
@@ -11416,6 +11572,15 @@
     {
      "title": "Official website",
      "url": "http://orthodoxcrete.com/el/places/paliani-convent/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "palianis-monastery-1",
+     "thumb": "thumbs/palianis-monastery-1.jpg",
+     "full": "full/palianis-monastery-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ]
   },
@@ -13077,6 +13242,32 @@
      "title": "Official website",
      "url": "https://duomocefalu.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "duomo-of-cefal-1",
+     "thumb": "thumbs/duomo-of-cefal-1.jpg",
+     "full": "full/duomo-of-cefal-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "duomo-of-cefal-2",
+     "thumb": "thumbs/duomo-of-cefal-2.jpg",
+     "full": "full/duomo-of-cefal-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "duomo-of-cefal-3",
+     "thumb": "thumbs/duomo-of-cefal-3.jpg",
+     "full": "full/duomo-of-cefal-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "duomo-of-cefal-4",
+     "thumb": "thumbs/duomo-of-cefal-4.jpg",
+     "full": "full/duomo-of-cefal-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -13105,6 +13296,20 @@
     {
      "title": "Official website",
      "url": "http://www.basilicasantalucia.com/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "basilica-of-santa-lucia-al-sepolcro-1",
+     "thumb": "thumbs/basilica-of-santa-lucia-al-sepolcro-1.jpg",
+     "full": "full/basilica-of-santa-lucia-al-sepolcro-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-of-santa-lucia-al-sepolcro-2",
+     "thumb": "thumbs/basilica-of-santa-lucia-al-sepolcro-2.jpg",
+     "full": "full/basilica-of-santa-lucia-al-sepolcro-2.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -17656,6 +17861,62 @@
      "title": "Official website",
      "url": "https://www.duomomonreale.com/"
     }
+   ],
+   "photos": [
+    {
+     "id": "cathedral-of-monreale-1",
+     "thumb": "thumbs/cathedral-of-monreale-1.jpg",
+     "full": "full/cathedral-of-monreale-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-monreale-2",
+     "thumb": "thumbs/cathedral-of-monreale-2.jpg",
+     "full": "full/cathedral-of-monreale-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-monreale-3",
+     "thumb": "thumbs/cathedral-of-monreale-3.jpg",
+     "full": "full/cathedral-of-monreale-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-monreale-4",
+     "thumb": "thumbs/cathedral-of-monreale-4.jpg",
+     "full": "full/cathedral-of-monreale-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-monreale-5",
+     "thumb": "thumbs/cathedral-of-monreale-5.jpg",
+     "full": "full/cathedral-of-monreale-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-monreale-6",
+     "thumb": "thumbs/cathedral-of-monreale-6.jpg",
+     "full": "full/cathedral-of-monreale-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-monreale-7",
+     "thumb": "thumbs/cathedral-of-monreale-7.jpg",
+     "full": "full/cathedral-of-monreale-7.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-monreale-8",
+     "thumb": "thumbs/cathedral-of-monreale-8.jpg",
+     "full": "full/cathedral-of-monreale-8.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-monreale-9",
+     "thumb": "thumbs/cathedral-of-monreale-9.jpg",
+     "full": "full/cathedral-of-monreale-9.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -17679,7 +17940,27 @@
    },
    "summary": "Palermo's most Byzantine church, with Constantinopolitan mosaics and a living Greek rite",
    "description": "The most Byzantine building in Palermo, built in 1143 for George of Antioch, Grand Admiral under Roger II, on an east-oriented cross-in-square plan. Its mosaics were made by artists brought from Constantinople working here about 1140–55, including the famous panel of Roger II crowned directly by Christ. It now belongs to the Italo-Albanian Byzantine rite.",
-   "hours": "10:00–13:00; closed Sun"
+   "hours": "10:00–13:00; closed Sun",
+   "photos": [
+    {
+     "id": "santa-maria-dellammiraglio-1",
+     "thumb": "thumbs/santa-maria-dellammiraglio-1.jpg",
+     "full": "full/santa-maria-dellammiraglio-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-dellammiraglio-2",
+     "thumb": "thumbs/santa-maria-dellammiraglio-2.jpg",
+     "full": "full/santa-maria-dellammiraglio-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "santa-maria-dellammiraglio-3",
+     "thumb": "thumbs/santa-maria-dellammiraglio-3.jpg",
+     "full": "full/santa-maria-dellammiraglio-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
+   ]
   },
   {
    "id": "royal-palace-and-palatine-chapel",
@@ -17710,6 +17991,44 @@
      "title": "Official website",
      "url": "https://www.federicosecondo.org"
     }
+   ],
+   "photos": [
+    {
+     "id": "royal-palace-and-palatine-chapel-1",
+     "thumb": "thumbs/royal-palace-and-palatine-chapel-1.jpg",
+     "full": "full/royal-palace-and-palatine-chapel-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "royal-palace-and-palatine-chapel-2",
+     "thumb": "thumbs/royal-palace-and-palatine-chapel-2.jpg",
+     "full": "full/royal-palace-and-palatine-chapel-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "royal-palace-and-palatine-chapel-3",
+     "thumb": "thumbs/royal-palace-and-palatine-chapel-3.jpg",
+     "full": "full/royal-palace-and-palatine-chapel-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "royal-palace-and-palatine-chapel-4",
+     "thumb": "thumbs/royal-palace-and-palatine-chapel-4.jpg",
+     "full": "full/royal-palace-and-palatine-chapel-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "royal-palace-and-palatine-chapel-5",
+     "thumb": "thumbs/royal-palace-and-palatine-chapel-5.jpg",
+     "full": "full/royal-palace-and-palatine-chapel-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "royal-palace-and-palatine-chapel-6",
+     "thumb": "thumbs/royal-palace-and-palatine-chapel-6.jpg",
+     "full": "full/royal-palace-and-palatine-chapel-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -17738,6 +18057,20 @@
     {
      "title": "Official website",
      "url": "http://parrocchiasandemetrio.myadj.it/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "cathedral-of-san-demetrio-megalomartire-1",
+     "thumb": "thumbs/cathedral-of-san-demetrio-megalomartire-1.jpg",
+     "full": "full/cathedral-of-san-demetrio-megalomartire-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-of-san-demetrio-megalomartire-2",
+     "thumb": "thumbs/cathedral-of-san-demetrio-megalomartire-2.jpg",
+     "full": "full/cathedral-of-san-demetrio-megalomartire-2.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
@@ -17789,6 +18122,32 @@
     {
      "title": "Official website",
      "url": "https://arcidiocesi.siracusa.it/chiesa-cattedrale/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "syracuse-cathedral-1",
+     "thumb": "thumbs/syracuse-cathedral-1.jpg",
+     "full": "full/syracuse-cathedral-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "syracuse-cathedral-2",
+     "thumb": "thumbs/syracuse-cathedral-2.jpg",
+     "full": "full/syracuse-cathedral-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "syracuse-cathedral-3",
+     "thumb": "thumbs/syracuse-cathedral-3.jpg",
+     "full": "full/syracuse-cathedral-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "syracuse-cathedral-4",
+     "thumb": "thumbs/syracuse-cathedral-4.jpg",
+     "full": "full/syracuse-cathedral-4.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
