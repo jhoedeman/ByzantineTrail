@@ -3106,33 +3106,26 @@
   },
   {
    "id": "mausoleum-of-helena",
-   "name": "Mausoleum of Helena",
+   "name": "Sarcophagus of Helena",
    "alternateNames": [
-    "Mausoleum of Saint Elena Tor Pignattara"
+    "Porphyry Sarcophagus of Saint Helena"
    ],
-   "type": "mausoleum",
+   "type": "other",
    "country": "IT",
    "cityId": "rome",
    "coordinate": {
     "lat": 41.906274,
     "lon": 12.454721
    },
-   "address": "Via Casilina, 641, 00177 Roma RM, Italy",
+   "address": "Viale Vaticano, 00165 Roma RM, Italy",
    "importance": "minor",
    "addedInVersion": 1,
    "period": {
     "century": 4,
     "era": "constantinian"
    },
-   "summary": "The ruin of the mausoleum of St. Helena, built by Constantine near the Roman catacombs",
-   "description": "A mausoleum built by Emperor Cosntantine, probably originally for himself, but given to his mother Helena on her death in 330. An imposing ruin, but not much to see otherwise, especially since the monumental porphyry sarcophagus of St. Helena now resides in the Vatican Museums.",
-   "hours": "10:00–13:00 & 15:00–18:00; closed Thu",
-   "links": [
-    {
-     "title": "Official website",
-     "url": "https://soprintendenzaspecialeroma.it/luoghi/mausoleo-di-santelena/"
-    }
-   ]
+   "summary": "Constantinian red porphyry sarcophagus of St. Helena, now displayed in the Vatican Museums",
+   "description": "A monumental 4th-century red porphyry sarcophagus, carved with reliefs of Roman cavalry riding over captive barbarians, that once held the remains of St. Helena, mother of Constantine. Removed from her mausoleum at Tor Pignattara, it is now displayed in the Sala a Croce Greca of the Vatican Museums."
   },
   {
    "id": "santa-balbina",
