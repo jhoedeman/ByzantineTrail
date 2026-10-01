@@ -11605,6 +11605,22 @@
      "title": "Official website",
      "url": "http://www.imis.gr/el/-7031"
     }
+   ],
+   "photos": [
+    {
+     "id": "faneromenis-monastery-1",
+     "thumb": "thumbs/faneromenis-monastery-1.jpg",
+     "full": "full/faneromenis-monastery-1.jpg",
+     "credit": "Jerzy Strzelecki, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "faneromenis-monastery-2",
+     "thumb": "thumbs/faneromenis-monastery-2.jpg",
+     "full": "full/faneromenis-monastery-2.jpg",
+     "credit": "Jerzy Strzelecki, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -11663,7 +11679,30 @@
    "importance": "notable",
    "addedInVersion": 1,
    "summary": "A modern cathedral over a previous Byzantine structure, home to the skull of St. Andrew",
-   "description": "While what you will see here today is neo-Byzantine, genuinely old layers are underneath and beside it. Thomas Palaiologos, last despot of the Morea, gifted the skull of St. Andrew to Pope Pius II, and in 1964, Pope Paul VI sent the skull here, back to Patras."
+   "description": "While what you will see here today is neo-Byzantine, genuinely old layers are underneath and beside it. Thomas Palaiologos, last despot of the Morea, gifted the skull of St. Andrew to Pope Pius II, and in 1964, Pope Paul VI sent the skull here, back to Patras.",
+   "photos": [
+    {
+     "id": "agios-andreas-1",
+     "thumb": "thumbs/agios-andreas-1.jpg",
+     "full": "full/agios-andreas-1.jpg",
+     "credit": "Michael Paraskevas, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "agios-andreas-2",
+     "thumb": "thumbs/agios-andreas-2.jpg",
+     "full": "full/agios-andreas-2.jpg",
+     "credit": "Annatsach, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "agios-andreas-3",
+     "thumb": "thumbs/agios-andreas-3.jpg",
+     "full": "full/agios-andreas-3.jpg",
+     "credit": "Annatsach, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "odig-tria-monastery",
@@ -11693,6 +11732,22 @@
      "title": "Official website",
      "url": "http://www.imodigitrias.gr/"
     }
+   ],
+   "photos": [
+    {
+     "id": "odig-tria-monastery-1",
+     "thumb": "thumbs/odig-tria-monastery-1.jpg",
+     "full": "full/odig-tria-monastery-1.jpg",
+     "credit": "Jerzy Strzelecki, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "odig-tria-monastery-2",
+     "thumb": "thumbs/odig-tria-monastery-2.jpg",
+     "full": "full/odig-tria-monastery-2.jpg",
+     "credit": "Jerzy Strzelecki, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -11717,7 +11772,16 @@
    },
    "summary": "A post-Byzantine monastery with a museum of Byzantine artifacts",
    "description": "Coastal monastery whose buildings are certainly post-Byzantine Venetian-Cretan, although tradition holds an earlier foundation. Contains a museum of Byzantine artifacts in its basement.",
-   "hours": "9:00–19:00"
+   "hours": "9:00–19:00",
+   "photos": [
+    {
+     "id": "gonia-monastery-1",
+     "thumb": "thumbs/gonia-monastery-1.jpg",
+     "full": "full/gonia-monastery-1.jpg",
+     "credit": "Plucas58, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "aretiou-monastery",
@@ -11740,7 +11804,23 @@
     "era": "postByzantine"
    },
    "summary": "A post-Byzantine monastery with a school of iconography painting",
-   "description": "A post-Byzantine fortified monastery, and one of the most important on the island. While Venetian-Cretan, it housed a school of iconography that kept the Byzantine style of painting alive on Crete."
+   "description": "A post-Byzantine fortified monastery, and one of the most important on the island. While Venetian-Cretan, it housed a school of iconography that kept the Byzantine style of painting alive on Crete.",
+   "photos": [
+    {
+     "id": "aretiou-monastery-1",
+     "thumb": "thumbs/aretiou-monastery-1.jpg",
+     "full": "full/aretiou-monastery-1.jpg",
+     "credit": "Jerzy Strzelecki, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "aretiou-monastery-2",
+     "thumb": "thumbs/aretiou-monastery-2.jpg",
+     "full": "full/aretiou-monastery-2.jpg",
+     "credit": "Jerzy Strzelecki, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "panagia-kera-kardiotissa",
@@ -11764,7 +11844,23 @@
    },
    "summary": "A post-Byzantine church with 14th century paintings",
    "description": "A post-Byzantine era katholikon preserves wall paintings in the characteristic style of the first decade of the 14th century, allied to the Macedonian school.",
-   "hours": "8:30–19:00"
+   "hours": "8:30–19:00",
+   "photos": [
+    {
+     "id": "panagia-kera-kardiotissa-1",
+     "thumb": "thumbs/panagia-kera-kardiotissa-1.jpg",
+     "full": "full/panagia-kera-kardiotissa-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "panagia-kera-kardiotissa-2",
+     "thumb": "thumbs/panagia-kera-kardiotissa-2.jpg",
+     "full": "full/panagia-kera-kardiotissa-2.jpg",
+     "credit": "Theo Lian, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "monastery-of-st-george",
@@ -11784,7 +11880,23 @@
    "addedInVersion": 1,
    "summary": "Perhaps a 10th century Byzantine site, the remaining buildings are much later",
    "description": "Tradition and certain written sources attest to an original Byzantine monastery here as early as the 10th century. The \"old church\" on the site now dates to the 17th. Contains a bullet-scarred icon of St. George.",
-   "hours": "9:00–12:00"
+   "hours": "9:00–12:00",
+   "photos": [
+    {
+     "id": "monastery-of-st-george-1",
+     "thumb": "thumbs/monastery-of-st-george-1.jpg",
+     "full": "full/monastery-of-st-george-1.jpg",
+     "credit": "Marc Ryckaert (MJJR), CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "monastery-of-st-george-2",
+     "thumb": "thumbs/monastery-of-st-george-2.jpg",
+     "full": "full/monastery-of-st-george-2.jpg",
+     "credit": "Jerzy Strzelecki, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "early-christian-basilica-of-poros",
@@ -11864,6 +11976,15 @@
     {
      "title": "Official website",
      "url": "https://www.impeh.gr"
+    }
+   ],
+   "photos": [
+    {
+     "id": "church-of-saint-nicholas-1",
+     "thumb": "thumbs/church-of-saint-nicholas-1.jpg",
+     "full": "full/church-of-saint-nicholas-1.jpg",
+     "credit": "C messier, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
     }
    ]
   },
@@ -14254,6 +14375,44 @@
      "title": "Official website",
      "url": "http://www.basilicasanmarco.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "basilica-di-san-marco-1",
+     "thumb": "thumbs/basilica-di-san-marco-1.jpg",
+     "full": "full/basilica-di-san-marco-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-di-san-marco-2",
+     "thumb": "thumbs/basilica-di-san-marco-2.jpg",
+     "full": "full/basilica-di-san-marco-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-di-san-marco-3",
+     "thumb": "thumbs/basilica-di-san-marco-3.jpg",
+     "full": "full/basilica-di-san-marco-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-di-san-marco-4",
+     "thumb": "thumbs/basilica-di-san-marco-4.jpg",
+     "full": "full/basilica-di-san-marco-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-di-san-marco-5",
+     "thumb": "thumbs/basilica-di-san-marco-5.jpg",
+     "full": "full/basilica-di-san-marco-5.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "basilica-di-san-marco-6",
+     "thumb": "thumbs/basilica-di-san-marco-6.jpg",
+     "full": "full/basilica-di-san-marco-6.jpg",
+     "credit": "Photo: John Hoedeman"
+    }
    ]
   },
   {
@@ -14328,6 +14487,38 @@
     {
      "title": "Official website",
      "url": "http://www.sandonatomurano.it/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "cathedral-basilica-of-saints-mary-and-donato-1",
+     "thumb": "thumbs/cathedral-basilica-of-saints-mary-and-donato-1.jpg",
+     "full": "full/cathedral-basilica-of-saints-mary-and-donato-1.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-basilica-of-saints-mary-and-donato-2",
+     "thumb": "thumbs/cathedral-basilica-of-saints-mary-and-donato-2.jpg",
+     "full": "full/cathedral-basilica-of-saints-mary-and-donato-2.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-basilica-of-saints-mary-and-donato-3",
+     "thumb": "thumbs/cathedral-basilica-of-saints-mary-and-donato-3.jpg",
+     "full": "full/cathedral-basilica-of-saints-mary-and-donato-3.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-basilica-of-saints-mary-and-donato-4",
+     "thumb": "thumbs/cathedral-basilica-of-saints-mary-and-donato-4.jpg",
+     "full": "full/cathedral-basilica-of-saints-mary-and-donato-4.jpg",
+     "credit": "Photo: John Hoedeman"
+    },
+    {
+     "id": "cathedral-basilica-of-saints-mary-and-donato-5",
+     "thumb": "thumbs/cathedral-basilica-of-saints-mary-and-donato-5.jpg",
+     "full": "full/cathedral-basilica-of-saints-mary-and-donato-5.jpg",
+     "credit": "Photo: John Hoedeman"
     }
    ]
   },
