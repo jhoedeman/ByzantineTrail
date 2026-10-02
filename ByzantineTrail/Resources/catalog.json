@@ -12015,6 +12015,35 @@
      "title": "Official website",
      "url": "http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=1715"
     }
+   ],
+   "photos": [
+    {
+     "id": "holy-church-of-the-virgin-mary-koubelidiki-1",
+     "thumb": "thumbs/holy-church-of-the-virgin-mary-koubelidiki-1.jpg",
+     "full": "full/holy-church-of-the-virgin-mary-koubelidiki-1.jpg",
+     "credit": "zografi.info, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "holy-church-of-the-virgin-mary-koubelidiki-2",
+     "thumb": "thumbs/holy-church-of-the-virgin-mary-koubelidiki-2.jpg",
+     "full": "full/holy-church-of-the-virgin-mary-koubelidiki-2.jpg",
+     "credit": "Jean Housen, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "holy-church-of-the-virgin-mary-koubelidiki-3",
+     "thumb": "thumbs/holy-church-of-the-virgin-mary-koubelidiki-3.jpg",
+     "full": "full/holy-church-of-the-virgin-mary-koubelidiki-3.jpg",
+     "credit": "Мико, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "holy-church-of-the-virgin-mary-koubelidiki-4",
+     "thumb": "thumbs/holy-church-of-the-virgin-mary-koubelidiki-4.jpg",
+     "full": "full/holy-church-of-the-virgin-mary-koubelidiki-4.jpg",
+     "credit": "I, Harald Rossa, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -12039,7 +12068,23 @@
    },
    "summary": "An 11th century monastery with paintings inside and out",
    "description": "Founded in the 11th century, tradition links it to Alexios I Komnenos and to George Palaiologos's 1083 victory over the Normans; it is a timber-roofed basilica whose interior frescoes are well preserved, with 13th-century paintings on the exterior.",
-   "hours": "7:00–20:00"
+   "hours": "7:00–20:00",
+   "photos": [
+    {
+     "id": "panagia-mavriotissa-monastery-1",
+     "thumb": "thumbs/panagia-mavriotissa-monastery-1.jpg",
+     "full": "full/panagia-mavriotissa-monastery-1.jpg",
+     "credit": "Geraki, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "panagia-mavriotissa-monastery-2",
+     "thumb": "thumbs/panagia-mavriotissa-monastery-2.jpg",
+     "full": "full/panagia-mavriotissa-monastery-2.jpg",
+     "credit": "Jolovema, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agios-stefanos",
@@ -12059,7 +12104,23 @@
     "era": "macedonian"
    },
    "summary": "An architecturally notable middle Byzantine church with a gynaikonitis",
-   "description": "One of the two oldest churches in town, this is a three-aisled basilica notable for a rare surviving gynaikonitis (upper women's gallery) and two fresco layers. Architecturally notable."
+   "description": "One of the two oldest churches in town, this is a three-aisled basilica notable for a rare surviving gynaikonitis (upper women's gallery) and two fresco layers. Architecturally notable.",
+   "photos": [
+    {
+     "id": "agios-stefanos-1",
+     "thumb": "thumbs/agios-stefanos-1.jpg",
+     "full": "full/agios-stefanos-1.jpg",
+     "credit": "Vagrand, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "agios-stefanos-2",
+     "thumb": "thumbs/agios-stefanos-2.jpg",
+     "full": "full/agios-stefanos-2.jpg",
+     "credit": "Мико, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "taxiarches-tis-mitropoleos",
@@ -12082,7 +12143,23 @@
     "era": "macedonian"
    },
    "summary": "One of the older churches in town, with a noted funerary portrait",
-   "description": "One of the two oldest churches in town, this is a timber-roofed basilica that later served as the metropolitan cathedral. ts standout is a mid-13th-century funerary portrait on the exterior of Eirene Asenina Komnene, flanked by the Archangel Michael in ar"
+   "description": "One of the two oldest churches in town, this is a timber-roofed basilica that later served as the metropolitan cathedral. ts standout is a mid-13th-century funerary portrait on the exterior of Eirene Asenina Komnene, flanked by the Archangel Michael in ar",
+   "photos": [
+    {
+     "id": "taxiarches-tis-mitropoleos-1",
+     "thumb": "thumbs/taxiarches-tis-mitropoleos-1.jpg",
+     "full": "full/taxiarches-tis-mitropoleos-1.jpg",
+     "credit": "Алиса Селезньова, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "taxiarches-tis-mitropoleos-2",
+     "thumb": "thumbs/taxiarches-tis-mitropoleos-2.jpg",
+     "full": "full/taxiarches-tis-mitropoleos-2.jpg",
+     "credit": "Мико, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "agios-athanasios-tou-mouzaki",
@@ -12102,7 +12179,30 @@
     "era": "palaiologan"
    },
    "summary": "The great late-Palaiologan capstone of Kastoria, with brilliant 14th century painting",
-   "description": "Built and painted in 1383–1384 by the brothers Stoya and Theodoros of the Albanian Mouzaki, this is regarded as the culmination of Kastoria's brilliant second-half-of-the-14th-century painting, including a Deesis in imperial robes."
+   "description": "Built and painted in 1383–1384 by the brothers Stoya and Theodoros of the Albanian Mouzaki, this is regarded as the culmination of Kastoria's brilliant second-half-of-the-14th-century painting, including a Deesis in imperial robes.",
+   "photos": [
+    {
+     "id": "agios-athanasios-tou-mouzaki-1",
+     "thumb": "thumbs/agios-athanasios-tou-mouzaki-1.jpg",
+     "full": "full/agios-athanasios-tou-mouzaki-1.jpg",
+     "credit": "Мико, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "agios-athanasios-tou-mouzaki-2",
+     "thumb": "thumbs/agios-athanasios-tou-mouzaki-2.jpg",
+     "full": "full/agios-athanasios-tou-mouzaki-2.jpg",
+     "credit": "Мико, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "agios-athanasios-tou-mouzaki-3",
+     "thumb": "thumbs/agios-athanasios-tou-mouzaki-3.jpg",
+     "full": "full/agios-athanasios-tou-mouzaki-3.jpg",
+     "credit": "Мико, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agios-georgios-tou-vounou",
@@ -12126,7 +12226,16 @@
     "era": "palaiologan"
    },
    "summary": "A modest church with notable late-Palaiologan frescoes inside",
-   "description": "This late-Palaiologan church dates to the second half of the 14th century. The interior carries a rich fresco program featuring scenes of the major feasts, the Passion of Christ, and the martyrdoms of saints and apostles, along with a notable St. Gregory Palamas."
+   "description": "This late-Palaiologan church dates to the second half of the 14th century. The interior carries a rich fresco program featuring scenes of the major feasts, the Passion of Christ, and the martyrdoms of saints and apostles, along with a notable St. Gregory Palamas.",
+   "photos": [
+    {
+     "id": "agios-georgios-tou-vounou-1",
+     "thumb": "thumbs/agios-georgios-tou-vounou-1.jpg",
+     "full": "full/agios-georgios-tou-vounou-1.jpg",
+     "credit": "Алиса Селезньова, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "agios-nikolaos-tou-kasnitzi",
@@ -12146,7 +12255,30 @@
     "era": "komnenian"
    },
    "summary": "Among the finest frescoes in the city, dating to the 12th century",
-   "description": "A single-nave basilica with a fresco program of about 1170–1180, its interior among the finest in the city; the donor, magistros Nikephoros Kasnitzis, is portrayed holding a model of the church, his wife alongside."
+   "description": "A single-nave basilica with a fresco program of about 1170–1180, its interior among the finest in the city; the donor, magistros Nikephoros Kasnitzis, is portrayed holding a model of the church, his wife alongside.",
+   "photos": [
+    {
+     "id": "agios-nikolaos-tou-kasnitzi-1",
+     "thumb": "thumbs/agios-nikolaos-tou-kasnitzi-1.jpg",
+     "full": "full/agios-nikolaos-tou-kasnitzi-1.jpg",
+     "credit": "Мико, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "agios-nikolaos-tou-kasnitzi-2",
+     "thumb": "thumbs/agios-nikolaos-tou-kasnitzi-2.jpg",
+     "full": "full/agios-nikolaos-tou-kasnitzi-2.jpg",
+     "credit": "Todor Georgiev, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "agios-nikolaos-tou-kasnitzi-3",
+     "thumb": "thumbs/agios-nikolaos-tou-kasnitzi-3.jpg",
+     "full": "full/agios-nikolaos-tou-kasnitzi-3.jpg",
+     "credit": "Todor Georgiev, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "agioi-anargyroi",
@@ -12166,7 +12298,15 @@
     "era": "komnenian"
    },
    "summary": "A middle Byzantine church with 10th to 12th century frescoes",
-   "description": "The fabric of this church goes back to the 10th century (fragmentary early frescoes survive in the narthex), with the main program added in the 12th century per its inscriptions. Contains a notable donor portrait."
+   "description": "The fabric of this church goes back to the 10th century (fragmentary early frescoes survive in the narthex), with the main program added in the 12th century per its inscriptions. Contains a notable donor portrait.",
+   "photos": [
+    {
+     "id": "agioi-anargyroi-1",
+     "thumb": "thumbs/agioi-anargyroi-1.jpg",
+     "full": "full/agioi-anargyroi-1.jpg",
+     "credit": "Public domain, via Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "agia-ekaterini-sinaiton",
@@ -12186,7 +12326,30 @@
    "addedInVersion": 1,
    "summary": "A church housing a museum of icons and liturgical objects",
    "description": "Since 1967 this 16th century church has housed the Archdiocese's museum of icons and liturgical objects, reopened in 2015. Also important for institutional and artistic reasons: the \"Cretan School\" of icon-painting developed in this milieu, with Michael Damaskinos emerging from here.",
-   "hours": "9:00–17:00; closed Sat–Sun"
+   "hours": "9:00–17:00; closed Sat–Sun",
+   "photos": [
+    {
+     "id": "agia-ekaterini-sinaiton-1",
+     "thumb": "thumbs/agia-ekaterini-sinaiton-1.jpg",
+     "full": "full/agia-ekaterini-sinaiton-1.jpg",
+     "credit": "C messier, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "agia-ekaterini-sinaiton-2",
+     "thumb": "thumbs/agia-ekaterini-sinaiton-2.jpg",
+     "full": "full/agia-ekaterini-sinaiton-2.jpg",
+     "credit": "C messier, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "agia-ekaterini-sinaiton-3",
+     "thumb": "thumbs/agia-ekaterini-sinaiton-3.jpg",
+     "full": "full/agia-ekaterini-sinaiton-3.jpg",
+     "credit": "C messier, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "holy-church-of-saint-matthew-sinait-n",
@@ -12214,6 +12377,29 @@
     {
      "title": "Official website",
      "url": "http://www.iak.gr/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "holy-church-of-saint-matthew-sinait-n-1",
+     "thumb": "thumbs/holy-church-of-saint-matthew-sinait-n-1.jpg",
+     "full": "full/holy-church-of-saint-matthew-sinait-n-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "holy-church-of-saint-matthew-sinait-n-2",
+     "thumb": "thumbs/holy-church-of-saint-matthew-sinait-n-2.jpg",
+     "full": "full/holy-church-of-saint-matthew-sinait-n-2.jpg",
+     "credit": "C messier, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    },
+    {
+     "id": "holy-church-of-saint-matthew-sinait-n-3",
+     "thumb": "thumbs/holy-church-of-saint-matthew-sinait-n-3.jpg",
+     "full": "full/holy-church-of-saint-matthew-sinait-n-3.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ]
   },
@@ -12256,7 +12442,30 @@
    },
    "summary": "A Middle Byzantine church with layered frescoes",
    "description": "An 11th-century cruciform church of the early Second Byzantine period, built directly within the nave of a ruined 7th-century Early Christian three-aisled basilica. Two fresco layers survive, revealed when later whitewash was removed. Across the street is a small museum to El Greco.",
-   "hours": "Weekends, when staffed"
+   "hours": "Weekends, when staffed",
+   "photos": [
+    {
+     "id": "panagia-fodele-1",
+     "thumb": "thumbs/panagia-fodele-1.jpg",
+     "full": "full/panagia-fodele-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "panagia-fodele-2",
+     "thumb": "thumbs/panagia-fodele-2.jpg",
+     "full": "full/panagia-fodele-2.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "panagia-fodele-3",
+     "thumb": "thumbs/panagia-fodele-3.jpg",
+     "full": "full/panagia-fodele-3.jpg",
+     "credit": "Aneza Palaiou, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "panagia-kera",
