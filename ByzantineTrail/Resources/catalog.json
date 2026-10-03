@@ -12486,7 +12486,37 @@
    },
    "summary": "A church with the best-preserved Byzantine-era frescoes on the island, dating from the 13th century",
    "description": "This church holds the best-preserved Byzantine-era frescoes on Crete and is among the island's most significant churches. It's a Byzantine-style church whose core is dated to the 13th century, built up in phases.",
-   "hours": "8:30–15:00; closed Tue"
+   "hours": "8:30–15:00; closed Tue",
+   "photos": [
+    {
+     "id": "panagia-kera-1",
+     "thumb": "thumbs/panagia-kera-1.jpg",
+     "full": "full/panagia-kera-1.jpg",
+     "credit": "Camille Gévaudan, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "panagia-kera-2",
+     "thumb": "thumbs/panagia-kera-2.jpg",
+     "full": "full/panagia-kera-2.jpg",
+     "credit": "Rigorius, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "panagia-kera-3",
+     "thumb": "thumbs/panagia-kera-3.jpg",
+     "full": "full/panagia-kera-3.jpg",
+     "credit": "Rigorius, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "panagia-kera-4",
+     "thumb": "thumbs/panagia-kera-4.jpg",
+     "full": "full/panagia-kera-4.jpg",
+     "credit": "Jerzy Strzelecki, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "afentis-christos-church",
@@ -12537,6 +12567,29 @@
      "title": "Official website",
      "url": "https://monasterygouverniotisa.gr/background/monastery"
     }
+   ],
+   "photos": [
+    {
+     "id": "panagia-gouverniotissa-monastery-1",
+     "thumb": "thumbs/panagia-gouverniotissa-monastery-1.jpg",
+     "full": "full/panagia-gouverniotissa-monastery-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "panagia-gouverniotissa-monastery-2",
+     "thumb": "thumbs/panagia-gouverniotissa-monastery-2.jpg",
+     "full": "full/panagia-gouverniotissa-monastery-2.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "panagia-gouverniotissa-monastery-3",
+     "thumb": "thumbs/panagia-gouverniotissa-monastery-3.jpg",
+     "full": "full/panagia-gouverniotissa-monastery-3.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -12582,7 +12635,23 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A layered archaeological site, with a Byzantine fortification layer",
-   "description": "This low hill is the acropolis of ancient Kydonia, once a Minoan palatial center that yielded Linear B tablets. 6th-century Byzantine walls were raised over the Bronze Age stratigraphy using Kydonia's own stone, and after 1252 the Venetians settled inside those Byzantine walls before expanding downhill."
+   "description": "This low hill is the acropolis of ancient Kydonia, once a Minoan palatial center that yielded Linear B tablets. 6th-century Byzantine walls were raised over the Bronze Age stratigraphy using Kydonia's own stone, and after 1252 the Venetians settled inside those Byzantine walls before expanding downhill.",
+   "photos": [
+    {
+     "id": "kastelli-archaeological-site-1",
+     "thumb": "thumbs/kastelli-archaeological-site-1.jpg",
+     "full": "full/kastelli-archaeological-site-1.jpg",
+     "credit": "Zde, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "kastelli-archaeological-site-2",
+     "thumb": "thumbs/kastelli-archaeological-site-2.jpg",
+     "full": "full/kastelli-archaeological-site-2.jpg",
+     "credit": "Zde, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "byzantine-acropolis-of-serres",
@@ -12601,7 +12670,23 @@
    "importance": "notable",
    "addedInVersion": 1,
    "summary": "A site in Macedonia containing multiple Byzantine sites",
-   "description": "The fortified hill north of the city, containing a Byzantine castle first built in the 9th century and linked to Nikephoros Phokas, while most surviving walls and buildings are 14th-century. Also contains the Church of Agios Nikolaos, restored in the 20th century, but attested to as early as the 14th century."
+   "description": "The fortified hill north of the city, containing a Byzantine castle first built in the 9th century and linked to Nikephoros Phokas, while most surviving walls and buildings are 14th-century. Also contains the Church of Agios Nikolaos, restored in the 20th century, but attested to as early as the 14th century.",
+   "photos": [
+    {
+     "id": "byzantine-acropolis-of-serres-1",
+     "thumb": "thumbs/byzantine-acropolis-of-serres-1.jpg",
+     "full": "full/byzantine-acropolis-of-serres-1.jpg",
+     "credit": "Мико, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "byzantine-acropolis-of-serres-2",
+     "thumb": "thumbs/byzantine-acropolis-of-serres-2.jpg",
+     "full": "full/byzantine-acropolis-of-serres-2.jpg",
+     "credit": "Мико, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "western-walls-of-thessaloniki",
@@ -13160,6 +13245,29 @@
      "title": "Official website",
      "url": "http://odysseus.culture.gr/h/2/gh251.jsp?obj_id=1773"
     }
+   ],
+   "photos": [
+    {
+     "id": "early-christian-basilica-f-paleopolis-1",
+     "thumb": "thumbs/early-christian-basilica-f-paleopolis-1.jpg",
+     "full": "full/early-christian-basilica-f-paleopolis-1.jpg",
+     "credit": "Marc Ryckaert (MJJR), CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "early-christian-basilica-f-paleopolis-2",
+     "thumb": "thumbs/early-christian-basilica-f-paleopolis-2.jpg",
+     "full": "full/early-christian-basilica-f-paleopolis-2.jpg",
+     "credit": "Robin, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "early-christian-basilica-f-paleopolis-3",
+     "thumb": "thumbs/early-christian-basilica-f-paleopolis-3.jpg",
+     "full": "full/early-christian-basilica-f-paleopolis-3.jpg",
+     "credit": "Marc Ryckaert (MJJR), CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
    ]
   },
   {
@@ -13190,6 +13298,21 @@
      "title": "Official website",
      "url": "https://visit.corfu.gr/el/a3iotheata/pontikonhsi/"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-the-transfiguration-of-the-savior-pontikonisi-1",
+     "thumb": "thumbs/church-of-the-transfiguration-of-the-savior-pontikonisi-1.jpg",
+     "full": "full/church-of-the-transfiguration-of-the-savior-pontikonisi-1.jpg",
+     "credit": "Georgios Pazios (Alaniaris), Attribution, via Wikimedia Commons"
+    },
+    {
+     "id": "church-of-the-transfiguration-of-the-savior-pontikonisi-2",
+     "thumb": "thumbs/church-of-the-transfiguration-of-the-savior-pontikonisi-2.jpg",
+     "full": "full/church-of-the-transfiguration-of-the-savior-pontikonisi-2.jpg",
+     "credit": "Dimitris Pachakis, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
    ]
   },
   {
@@ -13213,7 +13336,30 @@
     "era": "komnenian"
    },
    "summary": "An 11th century church with fragmentary early paintings and later Cretan master paintings",
-   "description": "Built in the early 11th century, it is the oldest Christian church in Corfu Town and the most significant Byzantine monument on the island. Fragments of 11th–13th-century frescoes survive, and in the 17th century the church gained icons by the Cretan master Emmanuel Tzanes."
+   "description": "Built in the early 11th century, it is the oldest Christian church in Corfu Town and the most significant Byzantine monument on the island. Fragments of 11th–13th-century frescoes survive, and in the 17th century the church gained icons by the Cretan master Emmanuel Tzanes.",
+   "photos": [
+    {
+     "id": "holy-church-of-the-holy-apostles-jason-and-sosipater-1",
+     "thumb": "thumbs/holy-church-of-the-holy-apostles-jason-and-sosipater-1.jpg",
+     "full": "full/holy-church-of-the-holy-apostles-jason-and-sosipater-1.jpg",
+     "credit": "Luc.T from Buggenhout, België, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "holy-church-of-the-holy-apostles-jason-and-sosipater-2",
+     "thumb": "thumbs/holy-church-of-the-holy-apostles-jason-and-sosipater-2.jpg",
+     "full": "full/holy-church-of-the-holy-apostles-jason-and-sosipater-2.jpg",
+     "credit": "Nadezhda Bogatyryova, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "holy-church-of-the-holy-apostles-jason-and-sosipater-3",
+     "thumb": "thumbs/holy-church-of-the-holy-apostles-jason-and-sosipater-3.jpg",
+     "full": "full/holy-church-of-the-holy-apostles-jason-and-sosipater-3.jpg",
+     "credit": "PLAKLE, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "byzantine-museum-of-antivouniotissa",
@@ -13241,6 +13387,43 @@
     {
      "title": "Official website",
      "url": "https://archaeologicalmuseums.gr/"
+    }
+   ],
+   "photos": [
+    {
+     "id": "byzantine-museum-of-antivouniotissa-1",
+     "thumb": "thumbs/byzantine-museum-of-antivouniotissa-1.jpg",
+     "full": "full/byzantine-museum-of-antivouniotissa-1.jpg",
+     "credit": "GualdimG, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "byzantine-museum-of-antivouniotissa-2",
+     "thumb": "thumbs/byzantine-museum-of-antivouniotissa-2.jpg",
+     "full": "full/byzantine-museum-of-antivouniotissa-2.jpg",
+     "credit": "GualdimG, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "byzantine-museum-of-antivouniotissa-3",
+     "thumb": "thumbs/byzantine-museum-of-antivouniotissa-3.jpg",
+     "full": "full/byzantine-museum-of-antivouniotissa-3.jpg",
+     "credit": "GualdimG, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "byzantine-museum-of-antivouniotissa-4",
+     "thumb": "thumbs/byzantine-museum-of-antivouniotissa-4.jpg",
+     "full": "full/byzantine-museum-of-antivouniotissa-4.jpg",
+     "credit": "GualdimG, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "byzantine-museum-of-antivouniotissa-5",
+     "thumb": "thumbs/byzantine-museum-of-antivouniotissa-5.jpg",
+     "full": "full/byzantine-museum-of-antivouniotissa-5.jpg",
+     "credit": "Dr.K. (talk) 18:04, 7 September 2008 (UTC), CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
     }
    ]
   },
@@ -13664,6 +13847,36 @@
      "title": "Official website",
      "url": "http://www.beweb.chiesacattolica.it/cattedrali/cattedrale/457/Chiesa+di+San+Ciriaco"
     }
+   ],
+   "photos": [
+    {
+     "id": "cathedral-of-san-ciriaco-1",
+     "thumb": "thumbs/cathedral-of-san-ciriaco-1.jpg",
+     "full": "full/cathedral-of-san-ciriaco-1.jpg",
+     "credit": "Parsifall, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "cathedral-of-san-ciriaco-2",
+     "thumb": "thumbs/cathedral-of-san-ciriaco-2.jpg",
+     "full": "full/cathedral-of-san-ciriaco-2.jpg",
+     "credit": "Fiat 500e, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "cathedral-of-san-ciriaco-3",
+     "thumb": "thumbs/cathedral-of-san-ciriaco-3.jpg",
+     "full": "full/cathedral-of-san-ciriaco-3.jpg",
+     "credit": "Dick Stracke from Augusta GA, USA, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "cathedral-of-san-ciriaco-4",
+     "thumb": "thumbs/cathedral-of-san-ciriaco-4.jpg",
+     "full": "full/cathedral-of-san-ciriaco-4.jpg",
+     "credit": "Diego_Baglieri, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -13684,7 +13897,29 @@
     "era": "constantinian"
    },
    "summary": "A small cella memoriae incorporated into the basilica with spectacular gold-ground mosaics",
-   "description": "A small 4th-century cella memoriae built for the martyr Victor, later absorbed into the Basilica of Sant'Ambrogio. Its dome blazes with 5th-century gold-ground mosaics, giving it its name."
+   "description": "A small 4th-century cella memoriae built for the martyr Victor, later absorbed into the Basilica of Sant'Ambrogio. Its dome blazes with 5th-century gold-ground mosaics, giving it its name.",
+   "photos": [
+    {
+     "id": "sacello-di-san-vittore-in-ciel-doro-1",
+     "thumb": "thumbs/sacello-di-san-vittore-in-ciel-doro-1.jpg",
+     "full": "full/sacello-di-san-vittore-in-ciel-doro-1.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "sacello-di-san-vittore-in-ciel-doro-2",
+     "thumb": "thumbs/sacello-di-san-vittore-in-ciel-doro-2.jpg",
+     "full": "full/sacello-di-san-vittore-in-ciel-doro-2.jpg",
+     "credit": "G.dallorto, Attribution, via Wikimedia Commons"
+    },
+    {
+     "id": "sacello-di-san-vittore-in-ciel-doro-3",
+     "thumb": "thumbs/sacello-di-san-vittore-in-ciel-doro-3.jpg",
+     "full": "full/sacello-di-san-vittore-in-ciel-doro-3.jpg",
+     "credit": "FabioRomanoni, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "municipal-museum-of-icons-and-byzantine-tradition",
@@ -13703,7 +13938,30 @@
    "importance": "minor",
    "addedInVersion": 1,
    "summary": "A museum of post-Byzantine Orthodox-tradition works",
-   "description": "A museum of Greek-Byzantine icons in Italy, built around Archimandrite Paolo Lombardo's collection: icons of the 15th–20th centuries from Russia, Greece, the Balkans and beyond, plus vestments and liturgical books."
+   "description": "A museum of Greek-Byzantine icons in Italy, built around Archimandrite Paolo Lombardo's collection: icons of the 15th–20th centuries from Russia, Greece, the Balkans and beyond, plus vestments and liturgical books.",
+   "photos": [
+    {
+     "id": "municipal-museum-of-icons-and-byzantine-tradition-1",
+     "thumb": "thumbs/municipal-museum-of-icons-and-byzantine-tradition-1.jpg",
+     "full": "full/municipal-museum-of-icons-and-byzantine-tradition-1.jpg",
+     "credit": "Asia, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "municipal-museum-of-icons-and-byzantine-tradition-2",
+     "thumb": "thumbs/municipal-museum-of-icons-and-byzantine-tradition-2.jpg",
+     "full": "full/municipal-museum-of-icons-and-byzantine-tradition-2.jpg",
+     "credit": "Asia, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "municipal-museum-of-icons-and-byzantine-tradition-3",
+     "thumb": "thumbs/municipal-museum-of-icons-and-byzantine-tradition-3.jpg",
+     "full": "full/municipal-museum-of-icons-and-byzantine-tradition-3.jpg",
+     "credit": "Asia, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-santa-maria-del-mastro",
@@ -13728,6 +13986,15 @@
      "title": "Official website",
      "url": "https://www.comune.gerace.rc.it/chiesa-di-santa-maria-del-mastro"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-santa-maria-del-mastro-1",
+     "thumb": "thumbs/church-of-santa-maria-del-mastro-1.jpg",
+     "full": "full/church-of-santa-maria-del-mastro-1.jpg",
+     "credit": "Effems, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
    ]
   },
   {
@@ -13747,7 +14014,30 @@
     "century": 10
    },
    "summary": "Perhaps a 10th century Byzantine church, definitely attached to an Italo-Greek monastery",
-   "description": "The date here is genuinely unsettled, perhaps 10th century but perhaps 17th. However, it was originally attached to a Basilian (Italo-Greek) monastery."
+   "description": "The date here is genuinely unsettled, perhaps 10th century but perhaps 17th. However, it was originally attached to a Basilian (Italo-Greek) monastery.",
+   "photos": [
+    {
+     "id": "santa-ruba-1",
+     "thumb": "thumbs/santa-ruba-1.jpg",
+     "full": "full/santa-ruba-1.jpg",
+     "credit": "Benjamin Smith, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "santa-ruba-2",
+     "thumb": "thumbs/santa-ruba-2.jpg",
+     "full": "full/santa-ruba-2.jpg",
+     "credit": "Benjamin Smith, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "santa-ruba-3",
+     "thumb": "thumbs/santa-ruba-3.jpg",
+     "full": "full/santa-ruba-3.jpg",
+     "credit": "Benjamin Smith, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "park-of-the-rupestrian-churches",
@@ -13769,6 +14059,22 @@
      "title": "Official website",
      "url": "http://www.parcomurgia.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "park-of-the-rupestrian-churches-1",
+     "thumb": "thumbs/park-of-the-rupestrian-churches-1.jpg",
+     "full": "full/park-of-the-rupestrian-churches-1.jpg",
+     "credit": "Yvon Fruneau, CC BY-SA 3.0 IGO, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
+    },
+    {
+     "id": "park-of-the-rupestrian-churches-2",
+     "thumb": "thumbs/park-of-the-rupestrian-churches-2.jpg",
+     "full": "full/park-of-the-rupestrian-churches-2.jpg",
+     "credit": "Bernard Gagnon, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
    ]
   },
   {
@@ -13789,7 +14095,37 @@
    "addedInVersion": 1,
    "summary": "A church carved into a rock spur with 12th-17th century frescoes",
    "description": "Carved into a dramatic rock spur; the linked Monterrone crypt holds frescoes of the 12th–17th century. The name \"Idris\" most likely derives from the Greek Hodegetria",
-   "hours": "9:30–19:00"
+   "hours": "9:30–19:00",
+   "photos": [
+    {
+     "id": "church-of-saint-mary-of-idris-1",
+     "thumb": "thumbs/church-of-saint-mary-of-idris-1.jpg",
+     "full": "full/church-of-saint-mary-of-idris-1.jpg",
+     "credit": "Bernard Gagnon, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "church-of-saint-mary-of-idris-2",
+     "thumb": "thumbs/church-of-saint-mary-of-idris-2.jpg",
+     "full": "full/church-of-saint-mary-of-idris-2.jpg",
+     "credit": "Superchilum, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-saint-mary-of-idris-3",
+     "thumb": "thumbs/church-of-saint-mary-of-idris-3.jpg",
+     "full": "full/church-of-saint-mary-of-idris-3.jpg",
+     "credit": "Maksimsokolov, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-saint-mary-of-idris-4",
+     "thumb": "thumbs/church-of-saint-mary-of-idris-4.jpg",
+     "full": "full/church-of-saint-mary-of-idris-4.jpg",
+     "credit": "Maksimsokolov, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "santa-lucia-alle-malve",
@@ -13812,7 +14148,30 @@
    },
    "summary": "An 8th century church with some of the earliest Byzantine painting in Italy",
    "description": "An 8th-century foundation, the region's first female Benedictine settlement, with frescoes counted among the earliest Byzantine-style painting in Italy, including a Madonna del Latte (Galaktotrophousa).",
-   "hours": "9:30–19:20"
+   "hours": "9:30–19:20",
+   "photos": [
+    {
+     "id": "santa-lucia-alle-malve-1",
+     "thumb": "thumbs/santa-lucia-alle-malve-1.jpg",
+     "full": "full/santa-lucia-alle-malve-1.jpg",
+     "credit": "FrDr, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "santa-lucia-alle-malve-2",
+     "thumb": "thumbs/santa-lucia-alle-malve-2.jpg",
+     "full": "full/santa-lucia-alle-malve-2.jpg",
+     "credit": "Diego Baglieri, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "santa-lucia-alle-malve-3",
+     "thumb": "thumbs/santa-lucia-alle-malve-3.jpg",
+     "full": "full/santa-lucia-alle-malve-3.jpg",
+     "credit": "FrDr, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "madonna-delle-virt-and-san-nicola-dei-greci",
@@ -13829,7 +14188,30 @@
    "addedInVersion": 1,
    "summary": "A rock complex with Italo-Greek frescoes",
    "description": "A two-level rock complex on the Gravina; \"dei Greci\" flags the Italo-Greek monastic association, with frescoes in the crypt.",
-   "hours": "10:00–19:30"
+   "hours": "10:00–19:30",
+   "photos": [
+    {
+     "id": "madonna-delle-virt-and-san-nicola-dei-greci-1",
+     "thumb": "thumbs/madonna-delle-virt-and-san-nicola-dei-greci-1.jpg",
+     "full": "full/madonna-delle-virt-and-san-nicola-dei-greci-1.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "madonna-delle-virt-and-san-nicola-dei-greci-2",
+     "thumb": "thumbs/madonna-delle-virt-and-san-nicola-dei-greci-2.jpg",
+     "full": "full/madonna-delle-virt-and-san-nicola-dei-greci-2.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "madonna-delle-virt-and-san-nicola-dei-greci-3",
+     "thumb": "thumbs/madonna-delle-virt-and-san-nicola-dei-greci-3.jpg",
+     "full": "full/madonna-delle-virt-and-san-nicola-dei-greci-3.jpg",
+     "credit": "Benjamin Smith, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "mausoleum-of-galla-placidia",
