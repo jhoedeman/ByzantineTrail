@@ -14723,6 +14723,36 @@
      "title": "Official website",
      "url": "http://abbaziasanvincenzo.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "san-vincenzo-al-volturno-1",
+     "thumb": "thumbs/san-vincenzo-al-volturno-1.jpg",
+     "full": "full/san-vincenzo-al-volturno-1.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "san-vincenzo-al-volturno-2",
+     "thumb": "thumbs/san-vincenzo-al-volturno-2.jpg",
+     "full": "full/san-vincenzo-al-volturno-2.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "san-vincenzo-al-volturno-3",
+     "thumb": "thumbs/san-vincenzo-al-volturno-3.jpg",
+     "full": "full/san-vincenzo-al-volturno-3.jpg",
+     "credit": "Accurimbono, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "san-vincenzo-al-volturno-4",
+     "thumb": "thumbs/san-vincenzo-al-volturno-4.jpg",
+     "full": "full/san-vincenzo-al-volturno-4.jpg",
+     "credit": "Bryan, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
    ]
   },
   {
@@ -14752,6 +14782,36 @@
      "title": "Official website",
      "url": "http://www.parrocchiabominacocaporciano.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "oratory-of-san-pellegrino-1",
+     "thumb": "thumbs/oratory-of-san-pellegrino-1.jpg",
+     "full": "full/oratory-of-san-pellegrino-1.jpg",
+     "credit": "Pietro, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "oratory-of-san-pellegrino-2",
+     "thumb": "thumbs/oratory-of-san-pellegrino-2.jpg",
+     "full": "full/oratory-of-san-pellegrino-2.jpg",
+     "credit": "Davide_Turate, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "oratory-of-san-pellegrino-3",
+     "thumb": "thumbs/oratory-of-san-pellegrino-3.jpg",
+     "full": "full/oratory-of-san-pellegrino-3.jpg",
+     "credit": "Pietro, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "oratory-of-san-pellegrino-4",
+     "thumb": "thumbs/oratory-of-san-pellegrino-4.jpg",
+     "full": "full/oratory-of-san-pellegrino-4.jpg",
+     "credit": "Pietro, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -14777,6 +14837,36 @@
      "title": "Official website",
      "url": "https://musei.calabria.beniculturali.it/musei?mid=814&nome=la-cattolica"
     }
+   ],
+   "photos": [
+    {
+     "id": "cattolica-di-stilo-1",
+     "thumb": "thumbs/cattolica-di-stilo-1.jpg",
+     "full": "full/cattolica-di-stilo-1.jpg",
+     "credit": "Bearbil2, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "cattolica-di-stilo-2",
+     "thumb": "thumbs/cattolica-di-stilo-2.jpg",
+     "full": "full/cattolica-di-stilo-2.jpg",
+     "credit": "Andrea Martini di Cigala, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "cattolica-di-stilo-3",
+     "thumb": "thumbs/cattolica-di-stilo-3.jpg",
+     "full": "full/cattolica-di-stilo-3.jpg",
+     "credit": "Andrea Martini di Cigala, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "cattolica-di-stilo-4",
+     "thumb": "thumbs/cattolica-di-stilo-4.jpg",
+     "full": "full/cattolica-di-stilo-4.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
    ]
   },
   {
@@ -14800,7 +14890,30 @@
    },
    "summary": "A Byzantine-Norman monastery church",
    "description": "This church is a synthesis of Byzantine and Norman work: Byzantine banded brick-and-stone exterior, Norman piers and arches inside. Revived and now a living Orthodox monastery.",
-   "hours": "9:00–18:00 & 8:30–18:00 Sun"
+   "hours": "9:00–18:00 & 8:30–18:00 Sun",
+   "photos": [
+    {
+     "id": "san-giovanni-theristis-1",
+     "thumb": "thumbs/san-giovanni-theristis-1.jpg",
+     "full": "full/san-giovanni-theristis-1.jpg",
+     "credit": "Fiore S. Barbato from Napoli (NA), Italy, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+     "id": "san-giovanni-theristis-2",
+     "thumb": "thumbs/san-giovanni-theristis-2.jpg",
+     "full": "full/san-giovanni-theristis-2.jpg",
+     "credit": "Benjamin Smith, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "san-giovanni-theristis-3",
+     "thumb": "thumbs/san-giovanni-theristis-3.jpg",
+     "full": "full/san-giovanni-theristis-3.jpg",
+     "credit": "Marcuscalabresus, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "eremo-di-santa-maria-della-stella",
@@ -14819,7 +14932,23 @@
     "century": 9
    },
    "summary": "A cave-cut sanctuary with Italo-Byzantine frescoes",
-   "description": "A sanctuary carved into a cave on Monte Stella, reached by 62 rock-cut steps, originating as an Italo-Greek Basilian hermitage. Surviving Byzantine frescoes include the Trinity, Christ, Archangel Michael, a Pietà, and a St. Mary of Egypt receiving communion from the monk Zosimas."
+   "description": "A sanctuary carved into a cave on Monte Stella, reached by 62 rock-cut steps, originating as an Italo-Greek Basilian hermitage. Surviving Byzantine frescoes include the Trinity, Christ, Archangel Michael, a Pietà, and a St. Mary of Egypt receiving communion from the monk Zosimas.",
+   "photos": [
+    {
+     "id": "eremo-di-santa-maria-della-stella-1",
+     "thumb": "thumbs/eremo-di-santa-maria-della-stella-1.jpg",
+     "full": "full/eremo-di-santa-maria-della-stella-1.jpg",
+     "credit": "Marcuscalabresus, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "eremo-di-santa-maria-della-stella-2",
+     "thumb": "thumbs/eremo-di-santa-maria-della-stella-2.jpg",
+     "full": "full/eremo-di-santa-maria-della-stella-2.jpg",
+     "credit": "Marcuscalabresus, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "museum-of-the-diocese-and-the-rossano-codex",
@@ -14845,6 +14974,35 @@
      "title": "Official website",
      "url": "http://www.museocodexrossano.it/"
     }
+   ],
+   "photos": [
+    {
+     "id": "museum-of-the-diocese-and-the-rossano-codex-1",
+     "thumb": "thumbs/museum-of-the-diocese-and-the-rossano-codex-1.jpg",
+     "full": "full/museum-of-the-diocese-and-the-rossano-codex-1.jpg",
+     "credit": "Michele Abastante, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "museum-of-the-diocese-and-the-rossano-codex-2",
+     "thumb": "thumbs/museum-of-the-diocese-and-the-rossano-codex-2.jpg",
+     "full": "full/museum-of-the-diocese-and-the-rossano-codex-2.jpg",
+     "credit": "Maria Santissima cathedral, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "museum-of-the-diocese-and-the-rossano-codex-3",
+     "thumb": "thumbs/museum-of-the-diocese-and-the-rossano-codex-3.jpg",
+     "full": "full/museum-of-the-diocese-and-the-rossano-codex-3.jpg",
+     "credit": "Sailko, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "museum-of-the-diocese-and-the-rossano-codex-4",
+     "thumb": "thumbs/museum-of-the-diocese-and-the-rossano-codex-4.jpg",
+     "full": "full/museum-of-the-diocese-and-the-rossano-codex-4.jpg",
+     "credit": "Marcok, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -14868,7 +15026,30 @@
    },
    "summary": "A celebrated 11th century monastery with scriptorium and Greek library",
    "description": "Founded around 1095 by St. Bartholomew of Simeri on an earlier Byzantine site. A Latin-Norman basilica plan with a fine cosmatesque-style mosaic floor.",
-   "hours": "7:00–14:00; closed Sat–Sun"
+   "hours": "7:00–14:00; closed Sat–Sun",
+   "photos": [
+    {
+     "id": "chiesa-di-santa-maria-del-p-tire-1",
+     "thumb": "thumbs/chiesa-di-santa-maria-del-p-tire-1.jpg",
+     "full": "full/chiesa-di-santa-maria-del-p-tire-1.jpg",
+     "credit": "Mboesch, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "chiesa-di-santa-maria-del-p-tire-2",
+     "thumb": "thumbs/chiesa-di-santa-maria-del-p-tire-2.jpg",
+     "full": "full/chiesa-di-santa-maria-del-p-tire-2.jpg",
+     "credit": "Edoardo Scialis, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "chiesa-di-santa-maria-del-p-tire-3",
+     "thumb": "thumbs/chiesa-di-santa-maria-del-p-tire-3.jpg",
+     "full": "full/chiesa-di-santa-maria-del-p-tire-3.jpg",
+     "credit": "Edoardo Scialis, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-san-giovanni-chrysostom",
@@ -14897,6 +15078,15 @@
      "title": "Official website",
      "url": "https://www.comune.gerace.rc.it/chiesa-di-s-giovanni-crisostomo"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-san-giovanni-chrysostom-1",
+     "thumb": "thumbs/church-of-san-giovanni-chrysostom-1.jpg",
+     "full": "full/church-of-san-giovanni-chrysostom-1.jpg",
+     "credit": "Benjamin Smith, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -14919,7 +15109,30 @@
     "century": 12
    },
    "summary": "A 12th century Norman church with a venerated 14th century icon of the Byzantine tradition",
-   "description": "A 12th-century Norman church, much restored, that houses the venerated icon of the Madonna di Romania (\"Romania\" being the Byzantines' own name for their empire), dated to the 14th century and credited with sparing the church from WWII bombs, still displayed undetonated by the door."
+   "description": "A 12th-century Norman church, much restored, that houses the venerated icon of the Madonna di Romania (\"Romania\" being the Byzantines' own name for their empire), dated to the 14th century and credited with sparing the church from WWII bombs, still displayed undetonated by the door.",
+   "photos": [
+    {
+     "id": "la-cattedrale-di-maria-santissima-di-romania-1",
+     "thumb": "thumbs/la-cattedrale-di-maria-santissima-di-romania-1.jpg",
+     "full": "full/la-cattedrale-di-maria-santissima-di-romania-1.jpg",
+     "credit": "Benjamin Smith, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "la-cattedrale-di-maria-santissima-di-romania-2",
+     "thumb": "thumbs/la-cattedrale-di-maria-santissima-di-romania-2.jpg",
+     "full": "full/la-cattedrale-di-maria-santissima-di-romania-2.jpg",
+     "credit": "Benjamin Smith, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "la-cattedrale-di-maria-santissima-di-romania-3",
+     "thumb": "thumbs/la-cattedrale-di-maria-santissima-di-romania-3.jpg",
+     "full": "full/la-cattedrale-di-maria-santissima-di-romania-3.jpg",
+     "credit": "Benjamin Smith, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "santuario-di-santa-maria-dellisola",
@@ -14936,7 +15149,23 @@
    "addedInVersion": 1,
    "summary": "A Norman church that is picture-postcard pretty, but with only a historical connection to the Byzantines",
    "description": "This jutting rock over the sea was a retreat for Greek/Eastern hermit monks from around the 7th–8th century, and a church here (variously dated 6th–9th century) belonged to Basilian (Italo-Greek) monks while Calabria still lay under Byzantine rule. The chapter closed with the Normans, and the modern building is later.",
-   "hours": "9:30–19:30"
+   "hours": "9:30–19:30",
+   "photos": [
+    {
+     "id": "santuario-di-santa-maria-dellisola-1",
+     "thumb": "thumbs/santuario-di-santa-maria-dellisola-1.jpg",
+     "full": "full/santuario-di-santa-maria-dellisola-1.jpg",
+     "credit": "Effems, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "santuario-di-santa-maria-dellisola-2",
+     "thumb": "thumbs/santuario-di-santa-maria-dellisola-2.jpg",
+     "full": "full/santuario-di-santa-maria-dellisola-2.jpg",
+     "credit": "Effems, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "basilica-di-san-marco",
@@ -15027,7 +15256,30 @@
    },
    "summary": "The oldest building in the lagoon with monumental mosaics, including a Greek-inscribed Hodegetria in the apse and a Last Judgment on the western wall",
    "description": "The oldest building in the lagoon, founded by the Exarch Isaac of Ravenna in 639, reconstructed in 1008. Its fame rests on remarkable Veneto-Byzantine mosaics: in the apse a standing Virgin and Child on gold, a Hodegetria labeled in Greek, and especially a monumental Last Judgement filling the whole west wall, originally eleventh-century.",
-   "hours": "10:30–17:30 daily"
+   "hours": "10:30–17:30 daily",
+   "photos": [
+    {
+     "id": "cattedrale-di-santa-maria-assunta-1",
+     "thumb": "thumbs/cattedrale-di-santa-maria-assunta-1.jpg",
+     "full": "full/cattedrale-di-santa-maria-assunta-1.jpg",
+     "credit": "Remi Mathis, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "cattedrale-di-santa-maria-assunta-2",
+     "thumb": "thumbs/cattedrale-di-santa-maria-assunta-2.jpg",
+     "full": "full/cattedrale-di-santa-maria-assunta-2.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "cattedrale-di-santa-maria-assunta-3",
+     "thumb": "thumbs/cattedrale-di-santa-maria-assunta-3.jpg",
+     "full": "full/cattedrale-di-santa-maria-assunta-3.jpg",
+     "credit": "Ismoon (talk) 09:25, 8 February 2019 (UTC), CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "chiesa-di-santa-fosca",
@@ -15050,7 +15302,23 @@
    },
    "summary": "A small martyrion adjoining the cathedral; Byzantine-idiom architecture rather than an eastern foundation",
    "description": "Adjoining the cathedral, Santa Fosca was rebuilt in the 11th–12th century as a martyrion. It is a compact, central plan Venetian-Byzantine church.",
-   "hours": "10:30–17:30 daily"
+   "hours": "10:30–17:30 daily",
+   "photos": [
+    {
+     "id": "chiesa-di-santa-fosca-1",
+     "thumb": "thumbs/chiesa-di-santa-fosca-1.jpg",
+     "full": "full/chiesa-di-santa-fosca-1.jpg",
+     "credit": "Zairon, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "chiesa-di-santa-fosca-2",
+     "thumb": "thumbs/chiesa-di-santa-fosca-2.jpg",
+     "full": "full/chiesa-di-santa-fosca-2.jpg",
+     "credit": "Zairon, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "cathedral-basilica-of-saints-mary-and-donato",
@@ -15135,7 +15403,23 @@
    },
    "summary": "A 6th century Byzantine-era church with well-preserved mosaics",
    "description": "Consecrated in 579, this basilica was the seat of the pro-Roman and pro-Byzantine branch of the church. Its fame comes from exceptionally well-preserved sixth-century floor mosaics plus an octagonal baptistery with its own 6th-century mosaics.",
-   "hours": "7:30–18:30; 7:30–17:00 Sun"
+   "hours": "7:30–18:30; 7:30–17:00 Sun",
+   "photos": [
+    {
+     "id": "basilica-di-santeufemia-1",
+     "thumb": "thumbs/basilica-di-santeufemia-1.jpg",
+     "full": "full/basilica-di-santeufemia-1.jpg",
+     "credit": "BelPatty86, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "basilica-di-santeufemia-2",
+     "thumb": "thumbs/basilica-di-santeufemia-2.jpg",
+     "full": "full/basilica-di-santeufemia-2.jpg",
+     "credit": "Bajo Donatella, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "city-wall-of-durr-s",
@@ -15264,7 +15548,23 @@
     "century": 11
    },
    "summary": "A Romanesque church, now concert hall, with 8th to 11th century roots",
-   "description": "Deconsecrated in 1972, this 11th century church replaced an earlier church of the 8th or 9th century. It's Romanesque, with Early Christian and Byzantine influences, and now operates as a concert hall."
+   "description": "Deconsecrated in 1972, this 11th century church replaced an earlier church of the 8th or 9th century. It's Romanesque, with Early Christian and Byzantine influences, and now operates as a concert hall.",
+   "photos": [
+    {
+     "id": "auditorium-santa-lucia-1",
+     "thumb": "thumbs/auditorium-santa-lucia-1.jpg",
+     "full": "full/auditorium-santa-lucia-1.jpg",
+     "credit": "Pufui PcPifpef, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "auditorium-santa-lucia-2",
+     "thumb": "thumbs/auditorium-santa-lucia-2.jpg",
+     "full": "full/auditorium-santa-lucia-2.jpg",
+     "credit": "Pufui PcPifpef, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "cathedral-of-st-john-the-baptist",
@@ -15287,7 +15587,30 @@
     "century": 8
    },
    "summary": "A genuine Byzantine church with signature candy-striped masonry",
-   "description": "Built in the Byzantine style during the Khazar era in the 8th century, and one of the oldest churches in Eastern Europe, the alternating white stone and red brick masonry is its signature."
+   "description": "Built in the Byzantine style during the Khazar era in the 8th century, and one of the oldest churches in Eastern Europe, the alternating white stone and red brick masonry is its signature.",
+   "photos": [
+    {
+     "id": "cathedral-of-st-john-the-baptist-1",
+     "thumb": "thumbs/cathedral-of-st-john-the-baptist-1.jpg",
+     "full": "full/cathedral-of-st-john-the-baptist-1.jpg",
+     "credit": "Anatoly Shcherbak, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "cathedral-of-st-john-the-baptist-2",
+     "thumb": "thumbs/cathedral-of-st-john-the-baptist-2.jpg",
+     "full": "full/cathedral-of-st-john-the-baptist-2.jpg",
+     "credit": "Leon petrosyan, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "cathedral-of-st-john-the-baptist-3",
+     "thumb": "thumbs/cathedral-of-st-john-the-baptist-3.jpg",
+     "full": "full/cathedral-of-st-john-the-baptist-3.jpg",
+     "credit": "Investigatio, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "church-of-the-holy-apostles-peter-and-paul",
@@ -15311,7 +15634,23 @@
    },
    "summary": "A UNESCO-listed Byzantine church in the former medieval capital of Serbia",
    "description": "The oldest intact church in Serbia, early Byzantine in style, completed around 820. It was raised on the remains of an early-Christian church of the 7th century, the site itself layered with Roman and Iron-Age material. Frescoes date from the early 10th century onward, and it is now UNESCO-listed.",
-   "hours": "8:00–14:00; 8:00–19:00 Fri, Sat, Sun"
+   "hours": "8:00–14:00; 8:00–19:00 Fri, Sat, Sun",
+   "photos": [
+    {
+     "id": "church-of-the-holy-apostles-peter-and-paul-1",
+     "thumb": "thumbs/church-of-the-holy-apostles-peter-and-paul-1.jpg",
+     "full": "full/church-of-the-holy-apostles-peter-and-paul-1.jpg",
+     "credit": "Pavle Marjanovic, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "church-of-the-holy-apostles-peter-and-paul-2",
+     "thumb": "thumbs/church-of-the-holy-apostles-peter-and-paul-2.jpg",
+     "full": "full/church-of-the-holy-apostles-peter-and-paul-2.jpg",
+     "credit": "Pavle Marjanovic, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "church-of-the-theotokos",
@@ -15336,7 +15675,44 @@
     "era": "macedonian"
    },
    "summary": "One of Albania's oldest churches, tied by legend to Justinian and a relic of the True Cross",
-   "description": "A domed cross-in-square church in a village of the Drino valley in southern Albania, and one of the oldest in the country. Local tradition credits its founding to Justinian, who is said to have sent a fragment of the True Cross that gave the village its name ('of the Cross'); the building you see is later Byzantine work."
+   "description": "A domed cross-in-square church in a village of the Drino valley in southern Albania, and one of the oldest in the country. Local tradition credits its founding to Justinian, who is said to have sent a fragment of the True Cross that gave the village its name ('of the Cross'); the building you see is later Byzantine work.",
+   "photos": [
+    {
+     "id": "church-of-the-theotokos-1",
+     "thumb": "thumbs/church-of-the-theotokos-1.jpg",
+     "full": "full/church-of-the-theotokos-1.jpg",
+     "credit": "Pasztilla aka Attila Terbócs, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-the-theotokos-2",
+     "thumb": "thumbs/church-of-the-theotokos-2.jpg",
+     "full": "full/church-of-the-theotokos-2.jpg",
+     "credit": "Pasztilla aka Attila Terbócs, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-the-theotokos-3",
+     "thumb": "thumbs/church-of-the-theotokos-3.jpg",
+     "full": "full/church-of-the-theotokos-3.jpg",
+     "credit": "Pasztilla aka Attila Terbócs, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-the-theotokos-4",
+     "thumb": "thumbs/church-of-the-theotokos-4.jpg",
+     "full": "full/church-of-the-theotokos-4.jpg",
+     "credit": "Pasztilla aka Attila Terbócs, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-the-theotokos-5",
+     "thumb": "thumbs/church-of-the-theotokos-5.jpg",
+     "full": "full/church-of-the-theotokos-5.jpg",
+     "credit": "Pasztilla aka Attila Terbócs, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "theodosian-land-walls",
