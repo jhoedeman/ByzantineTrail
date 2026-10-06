@@ -21919,7 +21919,16 @@
     "era": "komnenian"
    },
    "summary": "A sophisticated 11th-century domed church in rural Messenia",
-   "description": "A fine eleventh-century domed church of the Constantinopolitan type, unusually sophisticated for a rural Messenian setting; earthquake-damaged but partly restored."
+   "description": "A fine eleventh-century domed church of the Constantinopolitan type, unusually sophisticated for a rural Messenian setting; earthquake-damaged but partly restored.",
+   "photos": [
+    {
+     "id": "church-of-the-transfiguration-of-the-savior-near-kyparissia-1",
+     "thumb": "thumbs/church-of-the-transfiguration-of-the-savior-near-kyparissia-1.jpg",
+     "full": "full/church-of-the-transfiguration-of-the-savior-near-kyparissia-1.jpg",
+     "credit": "stathop, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "holy-church-of-the-virgin-zoodochos-pege-samarina",
@@ -21965,7 +21974,16 @@
     "era": "palaiologan"
    },
    "summary": "A 13th-century Frankish castle of Messenia, later Byzantine and Ottoman",
-   "description": "A well-preserved Frankish castle of the thirteenth century in Messenia, later held by the Byzantines of the Morea and the Ottomans."
+   "description": "A well-preserved Frankish castle of the thirteenth century in Messenia, later held by the Byzantines of the Morea and the Ottomans.",
+   "photos": [
+    {
+     "id": "androusa-castle-1",
+     "thumb": "thumbs/androusa-castle-1.jpg",
+     "full": "full/androusa-castle-1.jpg",
+     "credit": "Ppapadeas, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "the-church-of-the-dormition-of-theotokos-at-merbaka",
@@ -21988,7 +22006,23 @@
     "era": "komnenian"
    },
    "summary": "A 12th-century domed church at Merbaka, a key Argolid monument",
-   "description": "The Koimesis church at Merbaka in the Argolid, a domed cross-in-square church of the twelfth century and one of the region's principal Middle Byzantine monuments."
+   "description": "The Koimesis church at Merbaka in the Argolid, a domed cross-in-square church of the twelfth century and one of the region's principal Middle Byzantine monuments.",
+   "photos": [
+    {
+     "id": "the-church-of-the-dormition-of-theotokos-at-merbaka-1",
+     "thumb": "thumbs/the-church-of-the-dormition-of-theotokos-at-merbaka-1.jpg",
+     "full": "full/the-church-of-the-dormition-of-theotokos-at-merbaka-1.jpg",
+     "credit": "Falk2, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "the-church-of-the-dormition-of-theotokos-at-merbaka-2",
+     "thumb": "thumbs/the-church-of-the-dormition-of-theotokos-at-merbaka-2.jpg",
+     "full": "full/the-church-of-the-dormition-of-theotokos-at-merbaka-2.jpg",
+     "credit": "Vanbasten 23, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "agia-moni",
@@ -22011,7 +22045,16 @@
     "era": "komnenian"
    },
    "summary": "A 1149 convent church near Nafplio, beside an ancient sacred spring",
-   "description": "The convent of Agia Moni near Nafplio, whose domed church of 1149 is a refined example of Middle Byzantine architecture; a sacred spring in the grounds is identified with the ancient Kanathos."
+   "description": "The convent of Agia Moni near Nafplio, whose domed church of 1149 is a refined example of Middle Byzantine architecture; a sacred spring in the grounds is identified with the ancient Kanathos.",
+   "photos": [
+    {
+     "id": "agia-moni-1",
+     "thumb": "thumbs/agia-moni-1.jpg",
+     "full": "full/agia-moni-1.jpg",
+     "credit": "User: (WT-nl) Reiziger at  nl wikivoyage, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "acronauplia",
@@ -22035,7 +22078,23 @@
    },
    "summary": "The much-layered acropolis fortress of Nafplio, Byzantine among its phases",
    "description": "The rocky acropolis of Nafplio, fortified from antiquity through the Byzantine, Frankish, Venetian and Ottoman periods; the Byzantine and later walls still crown the peninsula above the town.",
-   "hours": "8:30–15:30 daily"
+   "hours": "8:30–15:30 daily",
+   "photos": [
+    {
+     "id": "acronauplia-1",
+     "thumb": "thumbs/acronauplia-1.jpg",
+     "full": "full/acronauplia-1.jpg",
+     "credit": "Andreas Tille - http://people.debian.org/~tille/nafplion/02_nafplion/castles/p4180061.html., CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+     "id": "acronauplia-2",
+     "thumb": "thumbs/acronauplia-2.jpg",
+     "full": "full/acronauplia-2.jpg",
+     "credit": "S-miroslav, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "larissa-castle",
@@ -22058,7 +22117,30 @@
     "era": "macedonian"
    },
    "summary": "The hilltop castle of Argos, Byzantine among its many builders",
-   "description": "The castle crowning the Larissa hill above Argos, built on ancient foundations and developed by Byzantines and later Franks and Venetians into a major stronghold of the Argolid."
+   "description": "The castle crowning the Larissa hill above Argos, built on ancient foundations and developed by Byzantines and later Franks and Venetians into a major stronghold of the Argolid.",
+   "photos": [
+    {
+     "id": "larissa-castle-1",
+     "thumb": "thumbs/larissa-castle-1.jpg",
+     "full": "full/larissa-castle-1.jpg",
+     "credit": "George E. Koronaios, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    },
+    {
+     "id": "larissa-castle-2",
+     "thumb": "thumbs/larissa-castle-2.jpg",
+     "full": "full/larissa-castle-2.jpg",
+     "credit": "George E. Koronaios, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    },
+    {
+     "id": "larissa-castle-3",
+     "thumb": "thumbs/larissa-castle-3.jpg",
+     "full": "full/larissa-castle-3.jpg",
+     "credit": "George E. Koronaios, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
+   ]
   },
   {
    "id": "church-of-the-assumption",
@@ -22081,7 +22163,16 @@
     "era": "komnenian"
    },
    "summary": "The old cathedral of Tegea, of Byzantine origin, set in an ancient theater",
-   "description": "The old cathedral of Tegea, a church of Byzantine origin (much rebuilt) set within the ruins of an ancient theater, long the episcopal seat of the region."
+   "description": "The old cathedral of Tegea, a church of Byzantine origin (much rebuilt) set within the ruins of an ancient theater, long the episcopal seat of the region.",
+   "photos": [
+    {
+     "id": "church-of-the-assumption-1",
+     "thumb": "thumbs/church-of-the-assumption-1.jpg",
+     "full": "full/church-of-the-assumption-1.jpg",
+     "credit": "Mark Landon (photographed in 1993; digitized in 2021), CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ]
   },
   {
    "id": "acrocorinth",
@@ -22148,7 +22239,23 @@
     "era": "macedonian"
    },
    "summary": "The great Georgian monastery of Athos, founded around 980",
-   "description": "One of the senior monasteries of Athos, founded around 980 by Georgian monks (hence its name, \"of the Iberians\") and long the great Georgian house of the Holy Mountain. It holds the revered icon of the Panagia Portaitissa and a rich library."
+   "description": "One of the senior monasteries of Athos, founded around 980 by Georgian monks (hence its name, \"of the Iberians\") and long the great Georgian house of the Holy Mountain. It holds the revered icon of the Panagia Portaitissa and a rich library.",
+   "photos": [
+    {
+     "id": "iviron-monastery-1",
+     "thumb": "thumbs/iviron-monastery-1.jpg",
+     "full": "full/iviron-monastery-1.jpg",
+     "credit": "Michalis Famelis, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+     "id": "iviron-monastery-2",
+     "thumb": "thumbs/iviron-monastery-2.jpg",
+     "full": "full/iviron-monastery-2.jpg",
+     "credit": "Misa.stefanovic.07, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "gelati-monastery",
@@ -22170,7 +22277,30 @@
     "century": 12
    },
    "summary": "David the Builder's royal Georgian monastery, with a Byzantine-style apse mosaic",
-   "description": "The great monastery founded in 1106 by King David the Builder near Kutaisi, a royal foundation and medieval academy whose main church keeps a superb apse mosaic of the Virgin in Byzantine style: a rare survival tying Georgian art directly to Constantinople. UNESCO-listed."
+   "description": "The great monastery founded in 1106 by King David the Builder near Kutaisi, a royal foundation and medieval academy whose main church keeps a superb apse mosaic of the Virgin in Byzantine style: a rare survival tying Georgian art directly to Constantinople. UNESCO-listed.",
+   "photos": [
+    {
+     "id": "gelati-monastery-1",
+     "thumb": "thumbs/gelati-monastery-1.jpg",
+     "full": "full/gelati-monastery-1.jpg",
+     "credit": "Bernard Gagnon, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "gelati-monastery-2",
+     "thumb": "thumbs/gelati-monastery-2.jpg",
+     "full": "full/gelati-monastery-2.jpg",
+     "credit": "Ihor Burliai, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "gelati-monastery-3",
+     "thumb": "thumbs/gelati-monastery-3.jpg",
+     "full": "full/gelati-monastery-3.jpg",
+     "credit": "Jon Gudorf Photography, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-donatus",
@@ -22257,6 +22387,29 @@
      "title": "Official website",
      "url": "http://www.armus.hr/"
     }
+   ],
+   "photos": [
+    {
+     "id": "salona-1",
+     "thumb": "thumbs/salona-1.jpg",
+     "full": "full/salona-1.jpg",
+     "credit": "Argo Navis, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "salona-2",
+     "thumb": "thumbs/salona-2.jpg",
+     "full": "full/salona-2.jpg",
+     "credit": "TimeTravelRome, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "salona-3",
+     "thumb": "thumbs/salona-3.jpg",
+     "full": "full/salona-3.jpg",
+     "credit": "Argo Navis, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -22332,7 +22485,36 @@
    },
    "summary": "Kotor's 1166 cathedral of St. Tryphon, on a 9th-century predecessor",
    "description": "The Romanesque cathedral of Kotor, consecrated in 1166 on the site of an earlier ninth-century church housing the relics of St. Tryphon, the city's patron.",
-   "hours": "9:00–19:00 daily"
+   "hours": "9:00–19:00 daily",
+   "photos": [
+    {
+     "id": "cathedral-of-st-tryphon-1",
+     "thumb": "thumbs/cathedral-of-st-tryphon-1.jpg",
+     "full": "full/cathedral-of-st-tryphon-1.jpg",
+     "credit": "Mhare, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "cathedral-of-st-tryphon-2",
+     "thumb": "thumbs/cathedral-of-st-tryphon-2.jpg",
+     "full": "full/cathedral-of-st-tryphon-2.jpg",
+     "credit": "Caricabatterie, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "cathedral-of-st-tryphon-3",
+     "thumb": "thumbs/cathedral-of-st-tryphon-3.jpg",
+     "full": "full/cathedral-of-st-tryphon-3.jpg",
+     "credit": "Orjen, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "cathedral-of-st-tryphon-4",
+     "thumb": "thumbs/cathedral-of-st-tryphon-4.jpg",
+     "full": "full/cathedral-of-st-tryphon-4.jpg",
+     "credit": "Palickap, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-luke",
@@ -22357,7 +22539,37 @@
    },
    "summary": "A 1195 Kotor church shared by Catholic and Orthodox rites",
    "description": "A small church of 1195 in Kotor blending Romanesque and Byzantine forms, which long served both Catholic and Orthodox congregations. An emblem of the town's mixed-rite heritage. Fragments of Byzantine-style fresco survive.",
-   "hours": "9:00–19:00; 11:00–19:00 Sun"
+   "hours": "9:00–19:00; 11:00–19:00 Sun",
+   "photos": [
+    {
+     "id": "church-of-st-luke-1",
+     "thumb": "thumbs/church-of-st-luke-1.jpg",
+     "full": "full/church-of-st-luke-1.jpg",
+     "credit": "Sailko, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+     "id": "church-of-st-luke-2",
+     "thumb": "thumbs/church-of-st-luke-2.jpg",
+     "full": "full/church-of-st-luke-2.jpg",
+     "credit": "Wolfgang Sauber, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-st-luke-3",
+     "thumb": "thumbs/church-of-st-luke-3.jpg",
+     "full": "full/church-of-st-luke-3.jpg",
+     "credit": "Wolfgang Sauber, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-st-luke-4",
+     "thumb": "thumbs/church-of-st-luke-4.jpg",
+     "full": "full/church-of-st-luke-4.jpg",
+     "credit": "Aktron / Wikimedia Commons. CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-mary-collegiate",
@@ -22381,7 +22593,16 @@
     "era": "palaiologan"
    },
    "summary": "A 1221 Kotor church on an early-Christian basilica, with Byzantine-tinged fresco",
-   "description": "The collegiate church of St. Mary in Kotor, built in 1221 on the foundations of an early-Christian basilica, keeping remains of Byzantine-influenced frescoes."
+   "description": "The collegiate church of St. Mary in Kotor, built in 1221 on the foundations of an early-Christian basilica, keeping remains of Byzantine-influenced frescoes.",
+   "photos": [
+    {
+     "id": "church-of-st-mary-collegiate-1",
+     "thumb": "thumbs/church-of-st-mary-collegiate-1.jpg",
+     "full": "full/church-of-st-mary-collegiate-1.jpg",
+     "credit": "Falk2, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-michael",
@@ -22405,7 +22626,23 @@
     "era": "palaiologan"
    },
    "summary": "A small medieval Kotor church with Byzantine-style fresco fragments",
-   "description": "A small medieval church in Kotor raised over earlier remains, preserving fragments of Byzantine-style wall-painting."
+   "description": "A small medieval church in Kotor raised over earlier remains, preserving fragments of Byzantine-style wall-painting.",
+   "photos": [
+    {
+     "id": "church-of-st-michael-1",
+     "thumb": "thumbs/church-of-st-michael-1.jpg",
+     "full": "full/church-of-st-michael-1.jpg",
+     "credit": "Bernard Gagnon, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-st-michael-2",
+     "thumb": "thumbs/church-of-st-michael-2.jpg",
+     "full": "full/church-of-st-michael-2.jpg",
+     "credit": "Photo: Marcin Konsek / Wikimedia Commons CC0",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
+   ]
   },
   {
    "id": "vorone-monastery",
@@ -22435,6 +22672,43 @@
      "title": "Official website",
      "url": "https://www.manastireavoronet.ro/"
     }
+   ],
+   "photos": [
+    {
+     "id": "vorone-monastery-1",
+     "thumb": "thumbs/vorone-monastery-1.jpg",
+     "full": "full/vorone-monastery-1.jpg",
+     "credit": "Jocelyn Erskine-Kellie, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "vorone-monastery-2",
+     "thumb": "thumbs/vorone-monastery-2.jpg",
+     "full": "full/vorone-monastery-2.jpg",
+     "credit": "Gary Todd, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    },
+    {
+     "id": "vorone-monastery-3",
+     "thumb": "thumbs/vorone-monastery-3.jpg",
+     "full": "full/vorone-monastery-3.jpg",
+     "credit": "Gary Todd, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    },
+    {
+     "id": "vorone-monastery-4",
+     "thumb": "thumbs/vorone-monastery-4.jpg",
+     "full": "full/vorone-monastery-4.jpg",
+     "credit": "Gary Todd, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    },
+    {
+     "id": "vorone-monastery-5",
+     "thumb": "thumbs/vorone-monastery-5.jpg",
+     "full": "full/vorone-monastery-5.jpg",
+     "credit": "Gary Todd, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
    ]
   },
   {
@@ -22459,7 +22733,35 @@
    },
    "summary": "A 1532 painted monastery whose walls show the Siege of Constantinople.",
    "description": "A fortified Moldavian monastery of 1532 whose outer walls carry brilliant frescoes, including a famous Siege of Constantinople: a defiant memory of the fallen Byzantine capital painted in the Carpathian foothills. UNESCO-listed.",
-   "hours": "7:00–19:00 daily"
+   "hours": "7:00–19:00 daily",
+   "photos": [
+    {
+     "id": "moldovi-a-monastery-1",
+     "thumb": "thumbs/moldovi-a-monastery-1.jpg",
+     "full": "full/moldovi-a-monastery-1.jpg",
+     "credit": "Moldovița Monastery, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "moldovi-a-monastery-2",
+     "thumb": "thumbs/moldovi-a-monastery-2.jpg",
+     "full": "full/moldovi-a-monastery-2.jpg",
+     "credit": "Moldovița Monastery, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "moldovi-a-monastery-3",
+     "thumb": "thumbs/moldovi-a-monastery-3.jpg",
+     "full": "full/moldovi-a-monastery-3.jpg",
+     "credit": "Nicu Farcaș, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "moldovi-a-monastery-4",
+     "thumb": "thumbs/moldovi-a-monastery-4.jpg",
+     "full": "full/moldovi-a-monastery-4.jpg",
+     "credit": "Nikolai ivanov, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "humor-monastery",
@@ -22483,7 +22785,30 @@
    },
    "summary": "A 1530 Moldavian church in warm red-brown exterior fresco",
    "description": "A small Moldavian monastery of 1530, its exterior washed in warm reddish-brown frescoes including an Akathist to the Virgin and a Siege of Constantinople. UNESCO-listed among the painted churches.",
-   "hours": "8:00–22:00"
+   "hours": "8:00–22:00",
+   "photos": [
+    {
+     "id": "humor-monastery-1",
+     "thumb": "thumbs/humor-monastery-1.jpg",
+     "full": "full/humor-monastery-1.jpg",
+     "credit": "DarthChristianWeber, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "humor-monastery-2",
+     "thumb": "thumbs/humor-monastery-2.jpg",
+     "full": "full/humor-monastery-2.jpg",
+     "credit": "Stanislav Dusík, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "humor-monastery-3",
+     "thumb": "thumbs/humor-monastery-3.jpg",
+     "full": "full/humor-monastery-3.jpg",
+     "credit": "Ministerul Culturii, România. Fresco executed in 1535 by Thomas the Painter (Toma Zugravu) of Suceava., CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ]
   },
   {
    "id": "sucevi-a-monastery",
@@ -22513,6 +22838,36 @@
      "title": "Official website",
      "url": "https://manastireasucevita.com/"
     }
+   ],
+   "photos": [
+    {
+     "id": "sucevi-a-monastery-1",
+     "thumb": "thumbs/sucevi-a-monastery-1.jpg",
+     "full": "full/sucevi-a-monastery-1.jpg",
+     "credit": "Stanislav Dusík, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "sucevi-a-monastery-2",
+     "thumb": "thumbs/sucevi-a-monastery-2.jpg",
+     "full": "full/sucevi-a-monastery-2.jpg",
+     "credit": "Dickelbers, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "sucevi-a-monastery-3",
+     "thumb": "thumbs/sucevi-a-monastery-3.jpg",
+     "full": "full/sucevi-a-monastery-3.jpg",
+     "credit": "VeronicaDumitrescu, CC BY-SA 3.0 RO, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en"
+    },
+    {
+     "id": "sucevi-a-monastery-4",
+     "thumb": "thumbs/sucevi-a-monastery-4.jpg",
+     "full": "full/sucevi-a-monastery-4.jpg",
+     "credit": "Mihai Priboianu, CC BY-SA 3.0 RO, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en"
+    }
    ]
   },
   {
@@ -22537,7 +22892,30 @@
    },
    "summary": "A 1503 boyar church with fine green-toned exterior frescoes",
    "description": "A small boyar church of 1503 at Arbore, its exterior frescoes dominated by green and celebrated for their fine drawing, even among the painted churches of northern Moldavia. UNESCO-listed.",
-   "hours": "8:00–21:00"
+   "hours": "8:00–21:00",
+   "photos": [
+    {
+     "id": "arbore-church-1",
+     "thumb": "thumbs/arbore-church-1.jpg",
+     "full": "full/arbore-church-1.jpg",
+     "credit": "KLMircea, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+     "id": "arbore-church-2",
+     "thumb": "thumbs/arbore-church-2.jpg",
+     "full": "full/arbore-church-2.jpg",
+     "credit": "Dinu Arateanu, CC BY-SA 3.0 RO, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en"
+    },
+    {
+     "id": "arbore-church-3",
+     "thumb": "thumbs/arbore-church-3.jpg",
+     "full": "full/arbore-church-3.jpg",
+     "credit": "KLMircea, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+   ]
   },
   {
    "id": "probota-monastery",
@@ -22567,6 +22945,36 @@
      "title": "Official website",
      "url": "http://www.manastireaprobota.ro/"
     }
+   ],
+   "photos": [
+    {
+     "id": "probota-monastery-1",
+     "thumb": "thumbs/probota-monastery-1.jpg",
+     "full": "full/probota-monastery-1.jpg",
+     "credit": "Hans A. Rosbach, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "probota-monastery-2",
+     "thumb": "thumbs/probota-monastery-2.jpg",
+     "full": "full/probota-monastery-2.jpg",
+     "credit": "MirNicRai, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "probota-monastery-3",
+     "thumb": "thumbs/probota-monastery-3.jpg",
+     "full": "full/probota-monastery-3.jpg",
+     "credit": "Curcan ionel, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "probota-monastery-4",
+     "thumb": "thumbs/probota-monastery-4.jpg",
+     "full": "full/probota-monastery-4.jpg",
+     "credit": "Hans A. Rosbach, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -22591,7 +22999,30 @@
     "era": "palaiologan"
    },
    "summary": "The 14th-century Wallachian court church, with Romania's finest Byzantine-style frescoes",
-   "description": "The court church of the early Wallachian princes at Curtea de Argeș, built around the 1350s–60s and covered inside with an outstanding fresco cycle in the pure late-Byzantine manner. This may be the finest Byzantine-style painting in Romania."
+   "description": "The court church of the early Wallachian princes at Curtea de Argeș, built around the 1350s–60s and covered inside with an outstanding fresco cycle in the pure late-Byzantine manner. This may be the finest Byzantine-style painting in Romania.",
+   "photos": [
+    {
+     "id": "princely-church-of-st-nicholas-1",
+     "thumb": "thumbs/princely-church-of-st-nicholas-1.jpg",
+     "full": "full/princely-church-of-st-nicholas-1.jpg",
+     "credit": "fusion-of-horizons, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "princely-church-of-st-nicholas-2",
+     "thumb": "thumbs/princely-church-of-st-nicholas-2.jpg",
+     "full": "full/princely-church-of-st-nicholas-2.jpg",
+     "credit": "fusion-of-horizons, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "princely-church-of-st-nicholas-3",
+     "thumb": "thumbs/princely-church-of-st-nicholas-3.jpg",
+     "full": "full/princely-church-of-st-nicholas-3.jpg",
+     "credit": "Alexpoke, CC BY-SA 3.0 RO, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en"
+    }
+   ]
   },
   {
    "id": "basarabi-murfatlar-cave-complex",
@@ -22621,6 +23052,22 @@
      "title": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Murfatlar_Cave_Complex"
     }
+   ],
+   "photos": [
+    {
+     "id": "basarabi-murfatlar-cave-complex-1",
+     "thumb": "thumbs/basarabi-murfatlar-cave-complex-1.jpg",
+     "full": "full/basarabi-murfatlar-cave-complex-1.jpg",
+     "credit": "CristianChirita, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+     "id": "basarabi-murfatlar-cave-complex-2",
+     "thumb": "thumbs/basarabi-murfatlar-cave-complex-2.jpg",
+     "full": "full/basarabi-murfatlar-cave-complex-2.jpg",
+     "credit": "CristianChirita, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
    ]
   },
   {
@@ -22645,7 +23092,23 @@
    },
    "summary": "A 10th-century Byzantine Danube fortress and naval base on an island",
    "description": "The remains of a large tenth-century Byzantine fortress and naval base on a Danube island, built under the emperor John Tzimiskes as part of the reconquest of the lower Danube frontier. You must take a boat to visit.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "p-cuiul-lui-soare-1",
+     "thumb": "thumbs/p-cuiul-lui-soare-1.jpg",
+     "full": "full/p-cuiul-lui-soare-1.jpg",
+     "credit": "Postoiu Roxana, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "p-cuiul-lui-soare-2",
+     "thumb": "thumbs/p-cuiul-lui-soare-2.jpg",
+     "full": "full/p-cuiul-lui-soare-2.jpg",
+     "credit": "Postoiu Roxana, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "capidava-fortress",
@@ -22675,6 +23138,21 @@
      "title": "Official website",
      "url": "http://www.capidava.ro/"
     }
+   ],
+   "photos": [
+    {
+     "id": "capidava-fortress-1",
+     "thumb": "thumbs/capidava-fortress-1.jpg",
+     "full": "full/capidava-fortress-1.jpg",
+     "credit": "Elerium at Romanian Wikipedia, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "capidava-fortress-2",
+     "thumb": "thumbs/capidava-fortress-2.jpg",
+     "full": "full/capidava-fortress-2.jpg",
+     "credit": "Rotaru Florin, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -22700,7 +23178,16 @@
    },
    "summary": "A lower-Danube Byzantine fort with a small 10th–11th-century church",
    "description": "A late-Roman and Byzantine fort on the lower Danube, refortified under the early Byzantine emperors and again in the tenth to eleventh centuries, when a small church was built within the walls.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "dinogetia-fortress-1",
+     "thumb": "thumbs/dinogetia-fortress-1.jpg",
+     "full": "full/dinogetia-fortress-1.jpg",
+     "credit": "Rotaru Florin, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "carsium-fortress",
@@ -22731,6 +23218,15 @@
      "title": "Official website",
      "url": "http://www.harsova.ro/"
     }
+   ],
+   "photos": [
+    {
+     "id": "carsium-fortress-1",
+     "thumb": "thumbs/carsium-fortress-1.jpg",
+     "full": "full/carsium-fortress-1.jpg",
+     "credit": "Leontin l, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -22757,7 +23253,23 @@
    },
    "summary": "The oldest Greek city in Romania, with early-Byzantine basilicas by the sea",
    "description": "The oldest Greek city on Romanian soil, on the Black Sea coast, which lived on as a fortified early-Byzantine town with several basilicas before decline in the seventh century. Extensively excavated.",
-   "hours": "9:00–19:00; closed Mon"
+   "hours": "9:00–19:00; closed Mon",
+   "photos": [
+    {
+     "id": "ancient-city-of-histria-1",
+     "thumb": "thumbs/ancient-city-of-histria-1.jpg",
+     "full": "full/ancient-city-of-histria-1.jpg",
+     "credit": "Rjdeadly, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "ancient-city-of-histria-2",
+     "thumb": "thumbs/ancient-city-of-histria-2.jpg",
+     "full": "full/ancient-city-of-histria-2.jpg",
+     "credit": "Ben Skála, Benfoto, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "tomis-archaeological-park",
@@ -22781,7 +23293,23 @@
     "era": "theodosian"
    },
    "summary": "Ancient Constanța, a Byzantine metropolitan see with a great mosaic edifice",
-   "description": "The ancient port beneath modern Constanța, a metropolitan see of early-Byzantine Scythia Minor, whose remains include a great early-Christian basilica and a celebrated mosaic-floored commercial edifice by the harbor."
+   "description": "The ancient port beneath modern Constanța, a metropolitan see of early-Byzantine Scythia Minor, whose remains include a great early-Christian basilica and a celebrated mosaic-floored commercial edifice by the harbor.",
+   "photos": [
+    {
+     "id": "tomis-archaeological-park-1",
+     "thumb": "thumbs/tomis-archaeological-park-1.jpg",
+     "full": "full/tomis-archaeological-park-1.jpg",
+     "credit": "Postoiu Roxana, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "tomis-archaeological-park-2",
+     "thumb": "thumbs/tomis-archaeological-park-2.jpg",
+     "full": "full/tomis-archaeological-park-2.jpg",
+     "credit": "Postoiu Roxana, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "densu-church",
@@ -22805,7 +23333,23 @@
    },
    "summary": "An ancient Transylvanian stone church of Roman spolia, with Byzantine-style fresco",
    "description": "One of the oldest churches in Romania still in use, an idiosyncratic stone church at Densuș partly built of Roman spolia from nearby Ulpia Traiana, keeping fourteenth-century frescoes in the Byzantine tradition.",
-   "hours": "8:30–18:00 daily"
+   "hours": "8:30–18:00 daily",
+   "photos": [
+    {
+     "id": "densu-church-1",
+     "thumb": "thumbs/densu-church-1.jpg",
+     "full": "full/densu-church-1.jpg",
+     "credit": "Valyemil81, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "densu-church-2",
+     "thumb": "thumbs/densu-church-2.jpg",
+     "full": "full/densu-church-2.jpg",
+     "credit": "Motacilla, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "streis-ngeorgiu-church",
@@ -22833,6 +23377,22 @@
     {
      "title": "Official website",
      "url": "https://episcopiadevei.ro"
+    }
+   ],
+   "photos": [
+    {
+     "id": "streis-ngeorgiu-church-1",
+     "thumb": "thumbs/streis-ngeorgiu-church-1.jpg",
+     "full": "full/streis-ngeorgiu-church-1.jpg",
+     "credit": "​Romanian Wikipedia user Albabos, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+     "id": "streis-ngeorgiu-church-2",
+     "thumb": "thumbs/streis-ngeorgiu-church-2.jpg",
+     "full": "full/streis-ngeorgiu-church-2.jpg",
+     "credit": "Oguszt, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
     }
    ]
   },
