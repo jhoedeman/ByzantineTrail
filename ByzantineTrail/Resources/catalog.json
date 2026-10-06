@@ -21230,7 +21230,30 @@
    },
    "summary": "A Frankish castle and frescoed Byzantine churches, a quiet echo of Mystras",
    "description": "A Frankish hilltop castle of the 1250s with a scatter of small Byzantine and post-Byzantine churches on the slopes below, several keeping frescoes. This site can be compared to a quieter, less-visited Mystras.",
-   "hours": "8:30–15:30 daily"
+   "hours": "8:30–15:30 daily",
+   "photos": [
+    {
+     "id": "geraki-castle-and-frescoed-churches-1",
+     "thumb": "thumbs/geraki-castle-and-frescoed-churches-1.jpg",
+     "full": "full/geraki-castle-and-frescoed-churches-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "geraki-castle-and-frescoed-churches-2",
+     "thumb": "thumbs/geraki-castle-and-frescoed-churches-2.jpg",
+     "full": "full/geraki-castle-and-frescoed-churches-2.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "geraki-castle-and-frescoed-churches-3",
+     "thumb": "thumbs/geraki-castle-and-frescoed-churches-3.jpg",
+     "full": "full/geraki-castle-and-frescoed-churches-3.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agioi-theodoroi",
@@ -21299,7 +21322,16 @@
     "era": "macedonian"
    },
    "summary": "A Boularioi chapel with some of Mani's oldest, most archaic frescoes",
-   "description": "A small church at Boularioi preserving some of the oldest wall-paintings in Mani, in an archaic style generally dated to the tenth or early eleventh century."
+   "description": "A small church at Boularioi preserving some of the oldest wall-paintings in Mani, in an archaic style generally dated to the tenth or early eleventh century.",
+   "photos": [
+    {
+     "id": "agios-panteleimon-1",
+     "thumb": "thumbs/agios-panteleimon-1.jpg",
+     "full": "full/agios-panteleimon-1.jpg",
+     "credit": "C messier, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "agios-prokopios",
@@ -21322,7 +21354,23 @@
     "era": "komnenian"
    },
    "summary": "A small 12th-century country chapel near Episkopi in Mani",
-   "description": "A small Byzantine chapel in the country near Episkopi in inner Mani, of the twelfth century."
+   "description": "A small Byzantine chapel in the country near Episkopi in inner Mani, of the twelfth century.",
+   "photos": [
+    {
+     "id": "agios-prokopios-1",
+     "thumb": "thumbs/agios-prokopios-1.jpg",
+     "full": "full/agios-prokopios-1.jpg",
+     "credit": "Patrice78500, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "agios-prokopios-2",
+     "thumb": "thumbs/agios-prokopios-2.jpg",
+     "full": "full/agios-prokopios-2.jpg",
+     "credit": "Patrice78500, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "episkopi-agios-georgios",
@@ -21368,7 +21416,16 @@
     "era": "komnenian"
    },
    "summary": "A Middle Byzantine church of Ss. Sergios and Bacchos near Koita",
-   "description": "A small Byzantine church near Koita dedicated to Saints Sergios and Bacchos, with wall-paintings of the Middle Byzantine period."
+   "description": "A small Byzantine church near Koita dedicated to Saints Sergios and Bacchos, with wall-paintings of the Middle Byzantine period.",
+   "photos": [
+    {
+     "id": "agioi-sergioi-and-bakchos-1",
+     "thumb": "thumbs/agioi-sergioi-and-bakchos-1.jpg",
+     "full": "full/agioi-sergioi-and-bakchos-1.jpg",
+     "credit": "MarmeladaRodakino, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agitria",
@@ -21391,7 +21448,16 @@
     "era": "komnenian"
    },
    "summary": "A remote domed church of the deep Mani, with 12th–13th-century fresco",
-   "description": "The Agitria, a domed Byzantine church near the tip of the deep Mani, keeping good frescoes of the twelfth to thirteenth centuries in a remote setting."
+   "description": "The Agitria, a domed Byzantine church near the tip of the deep Mani, keeping good frescoes of the twelfth to thirteenth centuries in a remote setting.",
+   "photos": [
+    {
+     "id": "agitria-1",
+     "thumb": "thumbs/agitria-1.jpg",
+     "full": "full/agitria-1.jpg",
+     "credit": "Πεζοπορικός Όμιλος, CC BY-SA 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+    }
+   ]
   },
   {
    "id": "vlacherna",
@@ -21414,7 +21480,16 @@
     "era": "komnenian"
    },
    "summary": "A 12th-century Virgin church near the Mani port of Mezapos",
-   "description": "A Byzantine church near the little port of Mezapos, dedicated to the Virgin of Blachernae, of the twelfth century and noted for its carved decoration and frescoes."
+   "description": "A Byzantine church near the little port of Mezapos, dedicated to the Virgin of Blachernae, of the twelfth century and noted for its carved decoration and frescoes.",
+   "photos": [
+    {
+     "id": "vlacherna-1",
+     "thumb": "thumbs/vlacherna-1.jpg",
+     "full": "full/vlacherna-1.jpg",
+     "credit": "Ziegler175, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "taxiarches",
@@ -21437,7 +21512,16 @@
     "era": "komnenian"
    },
    "summary": "A 12th-century Archangels church at Charouda in Mani",
-   "description": "A small domed church of the Archangels at Charouda, of the twelfth century, with frescoes."
+   "description": "A small domed church of the Archangels at Charouda, of the twelfth century, with frescoes.",
+   "photos": [
+    {
+     "id": "taxiarches-1",
+     "thumb": "thumbs/taxiarches-1.jpg",
+     "full": "full/taxiarches-1.jpg",
+     "credit": "Dr Petros Tzeferis, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agia-varvara",
@@ -21460,7 +21544,16 @@
     "era": "komnenian"
    },
    "summary": "A domed Mani church of St. Barbara, with well-preserved 12th-century fresco",
-   "description": "A domed church at Erimos dedicated to St. Barbara, keeping a well-preserved fresco cycle of the twelfth century."
+   "description": "A domed church at Erimos dedicated to St. Barbara, keeping a well-preserved fresco cycle of the twelfth century.",
+   "photos": [
+    {
+     "id": "agia-varvara-1",
+     "thumb": "thumbs/agia-varvara-1.jpg",
+     "full": "full/agia-varvara-1.jpg",
+     "credit": "Doulisath, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agios-nikolaos",
@@ -21529,7 +21622,23 @@
     "era": "komnenian"
    },
    "summary": "A small 12th-century St. John church at Keria",
-   "description": "A small Byzantine church of St. John at Keria, of the twelfth century."
+   "description": "A small Byzantine church of St. John at Keria, of the twelfth century.",
+   "photos": [
+    {
+     "id": "agios-ioannis-1",
+     "thumb": "thumbs/agios-ioannis-1.jpg",
+     "full": "full/agios-ioannis-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "agios-ioannis-2",
+     "thumb": "thumbs/agios-ioannis-2.jpg",
+     "full": "full/agios-ioannis-2.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "metamorphosis",
@@ -21552,7 +21661,23 @@
     "era": "komnenian"
    },
    "summary": "An 11th–12th-century Transfiguration church at Kato Gardenitsa",
-   "description": "A church of the Transfiguration at Kato Gardenitsa, of the eleventh or twelfth century, with carved decoration."
+   "description": "A church of the Transfiguration at Kato Gardenitsa, of the eleventh or twelfth century, with carved decoration.",
+   "photos": [
+    {
+     "id": "metamorphosis-1",
+     "thumb": "thumbs/metamorphosis-1.jpg",
+     "full": "full/metamorphosis-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "metamorphosis-2",
+     "thumb": "thumbs/metamorphosis-2.jpg",
+     "full": "full/metamorphosis-2.jpg",
+     "credit": "Gardenitsa, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agios-nikolaos-gerolimenas",
@@ -21575,7 +21700,16 @@
     "era": "komnenian"
    },
    "summary": "A 12th century church with gargoyles near the south-facing cliffs",
-   "description": "A 12th century church and bell tower standing on its own in mostly open country near the south-facing cliffs of Mani. Don't miss the gargoyles."
+   "description": "A 12th century church and bell tower standing on its own in mostly open country near the south-facing cliffs of Mani. Don't miss the gargoyles.",
+   "photos": [
+    {
+     "id": "agios-nikolaos-gerolimenas-1",
+     "thumb": "thumbs/agios-nikolaos-gerolimenas-1.jpg",
+     "full": "full/agios-nikolaos-gerolimenas-1.jpg",
+     "credit": "C messier, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agies-maries",
@@ -21621,7 +21755,16 @@
     "era": "komnenian"
    },
    "summary": "A St. John church in Areopoli, its Byzantine core later folk-painted",
-   "description": "A Byzantine church of St. John the Baptist in Areopoli, the little capital of the Mani, its Byzantine core later overlaid with the folk-style painting typical of the region."
+   "description": "A Byzantine church of St. John the Baptist in Areopoli, the little capital of the Mani, its Byzantine core later overlaid with the folk-style painting typical of the region.",
+   "photos": [
+    {
+     "id": "agios-ioannis-prodromos-areopoli-1",
+     "thumb": "thumbs/agios-ioannis-prodromos-areopoli-1.jpg",
+     "full": "full/agios-ioannis-prodromos-areopoli-1.jpg",
+     "credit": "Koppi2, GFDL 1.2, via Wikimedia Commons",
+     "licenseURL": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+    }
+   ]
   },
   {
    "id": "church-of-the-taxiarches",
@@ -21644,7 +21787,16 @@
     "era": "komnenian"
    },
    "summary": "Areopoli's Archangels church, where the 1821 Greek revolt was proclaimed",
-   "description": "The church of the Taxiarches in Areopoli, of Byzantine origin, famous for the relief carvings of its façade; on its steps the Mani raised the banner of the Greek revolt in 1821."
+   "description": "The church of the Taxiarches in Areopoli, of Byzantine origin, famous for the relief carvings of its façade; on its steps the Mani raised the banner of the Greek revolt in 1821.",
+   "photos": [
+    {
+     "id": "church-of-the-taxiarches-1",
+     "thumb": "thumbs/church-of-the-taxiarches-1.jpg",
+     "full": "full/church-of-the-taxiarches-1.jpg",
+     "credit": "Patrice78500, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "agios-athanasios",
@@ -21713,7 +21865,15 @@
     "era": "komnenian"
    },
    "summary": "A Byzantine church of the Theodores at Kambos",
-   "description": "A Byzantine church of the Holy Theodores at Kambos in the Messenian Mani, with frescoes."
+   "description": "A Byzantine church of the Holy Theodores at Kambos in the Messenian Mani, with frescoes.",
+   "photos": [
+    {
+     "id": "agioi-theodoroi-kambos-1",
+     "thumb": "thumbs/agioi-theodoroi-kambos-1.jpg",
+     "full": "full/agioi-theodoroi-kambos-1.jpg",
+     "credit": "Flyax., Public domain, via Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "agios-ioannis-prodromos-milia",
