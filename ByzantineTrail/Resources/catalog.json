@@ -1,8 +1,8 @@
 {
  "schemaVersion": 2,
- "catalogVersion": 1,
+ "catalogVersion": 2,
  "generatedAt": "2026-08-18T02:31:21Z",
- "photoBaseURL": "https://example.invalid/byzantinetrail/",
+ "photoBaseURL": "https://pub-a9d0a66fa6f3477eab4ae334ca3b2996.r2.dev/",
  "cities": [
   {
    "id": "rome",
