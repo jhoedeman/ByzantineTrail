@@ -23423,6 +23423,29 @@
      "title": "Official website",
      "url": "http://www.episcopiadevei.ro/"
     }
+   ],
+   "photos": [
+    {
+     "id": "strei-church-1",
+     "thumb": "thumbs/strei-church-1.jpg",
+     "full": "full/strei-church-1.jpg",
+     "credit": "Țetcu Mircea Rareș, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "strei-church-2",
+     "thumb": "thumbs/strei-church-2.jpg",
+     "full": "full/strei-church-2.jpg",
+     "credit": "ro, CC BY 2.5, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.5"
+    },
+    {
+     "id": "strei-church-3",
+     "thumb": "thumbs/strei-church-3.jpg",
+     "full": "full/strei-church-3.jpg",
+     "credit": "Grigore Roibu, CC BY-SA 3.0 RO, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en"
+    }
    ]
   },
   {
@@ -23447,7 +23470,16 @@
     "era": "palaiologan"
    },
    "summary": "A Hațeg church with frescoes of the Byzantine-Orthodox Vlach nobility",
-   "description": "A medieval church in the Hațeg region tied to the Cândea (Kendeffy) family, keeping frescoes in the Byzantine-Orthodox tradition of the local Romanian nobility."
+   "description": "A medieval church in the Hațeg region tied to the Cândea (Kendeffy) family, keeping frescoes in the Byzantine-Orthodox tradition of the local Romanian nobility.",
+   "photos": [
+    {
+     "id": "church-of-all-saints-sunday-1",
+     "thumb": "thumbs/church-of-all-saints-sunday-1.jpg",
+     "full": "full/church-of-all-saints-sunday-1.jpg",
+     "credit": "Țetcu Mircea Rareș, CC BY-SA 3.0 RO, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en"
+    }
+   ]
   },
   {
    "id": "st-nicholas-church",
@@ -23471,7 +23503,37 @@
     "era": "palaiologan"
    },
    "summary": "A 1417 Transylvanian noble church with Byzantine-style founder portraits",
-   "description": "A church founded in 1417 at Ribița by local Romanian nobles and covered with frescoes in the Byzantine manner, including a rare portrayal of the founders."
+   "description": "A church founded in 1417 at Ribița by local Romanian nobles and covered with frescoes in the Byzantine manner, including a rare portrayal of the founders.",
+   "photos": [
+    {
+     "id": "st-nicholas-church-1",
+     "thumb": "thumbs/st-nicholas-church-1.jpg",
+     "full": "full/st-nicholas-church-1.jpg",
+     "credit": "Țetcu Mircea Rareș, CC BY-SA 3.0 RO, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/ro/deed.en"
+    },
+    {
+     "id": "st-nicholas-church-2",
+     "thumb": "thumbs/st-nicholas-church-2.jpg",
+     "full": "full/st-nicholas-church-2.jpg",
+     "credit": "Țetcu Mircea Rareș, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "st-nicholas-church-3",
+     "thumb": "thumbs/st-nicholas-church-3.jpg",
+     "full": "full/st-nicholas-church-3.jpg",
+     "credit": "Țetcu Mircea Rareș, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "st-nicholas-church-4",
+     "thumb": "thumbs/st-nicholas-church-4.jpg",
+     "full": "full/st-nicholas-church-4.jpg",
+     "credit": "Țetcu Mircea Rareș, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "st-catherines-monastery",
@@ -23502,6 +23564,35 @@
      "title": "Official website",
      "url": "https://www.sinaimonastery.com/index.php/ar/"
     }
+   ],
+   "photos": [
+    {
+     "id": "st-catherines-monastery-1",
+     "thumb": "thumbs/st-catherines-monastery-1.jpg",
+     "full": "full/st-catherines-monastery-1.jpg",
+     "credit": "Berthold Werner, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "st-catherines-monastery-2",
+     "thumb": "thumbs/st-catherines-monastery-2.jpg",
+     "full": "full/st-catherines-monastery-2.jpg",
+     "credit": "Anonymous. Painted in Sinai in ca. 6th century, photo from internet, published as public domain, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    },
+    {
+     "id": "st-catherines-monastery-3",
+     "thumb": "thumbs/st-catherines-monastery-3.jpg",
+     "full": "full/st-catherines-monastery-3.jpg",
+     "credit": "Saint Catherine Monastery, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "st-catherines-monastery-4",
+     "thumb": "thumbs/st-catherines-monastery-4.jpg",
+     "full": "full/st-catherines-monastery-4.jpg",
+     "credit": "Ravit Linn, Yotam Tepper, Guy Bar-Oz (2017) Visible induced luminescence reveals invisible rays shining from Christ in the early Christian wall painting of the Transfiguration in Shivta. PLoS ONE 12(9): e0185149. https://doi.org/10.1371/journal.pone.0185149, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
    ]
   },
   {
@@ -23527,7 +23618,30 @@
    },
    "summary": "The vast ruined pilgrimage city of St. Menas, its holy-oil flasks found across Europe",
    "description": "The ruined pilgrimage city of Saint Menas, southwest of Alexandria and one of the great destinations of the late-antique Mediterranean. A basilica rose under Arcadius around 400 and Zeno added a vast transept basilica, creating a complex of churches, baths, and hostels; the little terracotta ampullae pilgrims carried home have turned up across Europe.",
-   "hours": "9:00–17:00 daily"
+   "hours": "9:00–17:00 daily",
+   "photos": [
+    {
+     "id": "abu-mena-1",
+     "thumb": "thumbs/abu-mena-1.jpg",
+     "full": "full/abu-mena-1.jpg",
+     "credit": "Institute for the Study of the Ancient World, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "abu-mena-2",
+     "thumb": "thumbs/abu-mena-2.jpg",
+     "full": "full/abu-mena-2.jpg",
+     "credit": "isawnyu, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "abu-mena-3",
+     "thumb": "thumbs/abu-mena-3.jpg",
+     "full": "full/abu-mena-3.jpg",
+     "credit": "Einsamer Schütze, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "babylon-fortress",
@@ -23552,7 +23666,30 @@
    },
    "summary": "The banded Roman-Byzantine fortress under Old Cairo, held seven months against the Arab conquest",
    "description": "The banded Roman fortress that anchors Old Cairo, the most substantial piece of imperial secular fabric in Egypt outside Alexandria. Built around 300 under Diocletian, its enclosure now holds the Coptic Museum and several churches, though those are largely post-conquest Coptic foundations.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "babylon-fortress-1",
+     "thumb": "thumbs/babylon-fortress-1.jpg",
+     "full": "full/babylon-fortress-1.jpg",
+     "credit": "Ahmed Yousry Mahfouz, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "babylon-fortress-2",
+     "thumb": "thumbs/babylon-fortress-2.jpg",
+     "full": "full/babylon-fortress-2.jpg",
+     "credit": "لا روسا, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "babylon-fortress-3",
+     "thumb": "thumbs/babylon-fortress-3.jpg",
+     "full": "full/babylon-fortress-3.jpg",
+     "credit": "Richard Mortel from Riyadh, Saudi Arabia, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "kom-el-dikka",
@@ -23576,7 +23713,30 @@
    },
    "summary": "The excavated auditoria of Byzantine Alexandria, and the Mediterranean's only known ancient \"university\"",
    "description": "A rare window onto late-antique Byzantine Alexandria, excavated in the heart of the modern city. Between the fourth and seventh centuries the district became a civic and academic quarter, and its standout is a complex of some twenty lecture halls and the mosaic-floored Villa of the Birds. The great Byzantine churches of Alexandria are gone; what survives here is the secular and intellectual fabric.",
-   "hours": "8:00–17:00 daily"
+   "hours": "8:00–17:00 daily",
+   "photos": [
+    {
+     "id": "kom-el-dikka-1",
+     "thumb": "thumbs/kom-el-dikka-1.jpg",
+     "full": "full/kom-el-dikka-1.jpg",
+     "credit": "Cmroueche, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "kom-el-dikka-2",
+     "thumb": "thumbs/kom-el-dikka-2.jpg",
+     "full": "full/kom-el-dikka-2.jpg",
+     "credit": "Institute for the Study of the Ancient World from New York, United States of America, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "kom-el-dikka-3",
+     "thumb": "thumbs/kom-el-dikka-3.jpg",
+     "full": "full/kom-el-dikka-3.jpg",
+     "credit": "Institute for the Study of the Ancient World from New York, United States of America, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "red-monastery",
@@ -23607,6 +23767,29 @@
      "title": "Official website",
      "url": "https://egymonuments.gov.eg/en/monuments/the-red-monastery"
     }
+   ],
+   "photos": [
+    {
+     "id": "red-monastery-1",
+     "thumb": "thumbs/red-monastery-1.jpg",
+     "full": "full/red-monastery-1.jpg",
+     "credit": "Ctschroeder, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "red-monastery-2",
+     "thumb": "thumbs/red-monastery-2.jpg",
+     "full": "full/red-monastery-2.jpg",
+     "credit": "Ctschroeder, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "red-monastery-3",
+     "thumb": "thumbs/red-monastery-3.jpg",
+     "full": "full/red-monastery-3.jpg",
+     "credit": "Roland Unger, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -23631,7 +23814,30 @@
     "era": "theodosian"
    },
    "summary": "Shenoute's vast limestone monastery-basilica near Sohag, best paired with the Red Monastery",
-   "description": "This monastery's fortress-like limestone basilica was one of the largest churches in the country, serving a community that numbered in the thousands. Much of the interior is lost. A Coptic, non-Chalcedonian foundation, Byzantine-era in date but not imperial in allegiance."
+   "description": "This monastery's fortress-like limestone basilica was one of the largest churches in the country, serving a community that numbered in the thousands. Much of the interior is lost. A Coptic, non-Chalcedonian foundation, Byzantine-era in date but not imperial in allegiance.",
+   "photos": [
+    {
+     "id": "white-monastery-1",
+     "thumb": "thumbs/white-monastery-1.jpg",
+     "full": "full/white-monastery-1.jpg",
+     "credit": "Roland Unger, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "white-monastery-2",
+     "thumb": "thumbs/white-monastery-2.jpg",
+     "full": "full/white-monastery-2.jpg",
+     "credit": "Roland Unger, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "white-monastery-3",
+     "thumb": "thumbs/white-monastery-3.jpg",
+     "full": "full/white-monastery-3.jpg",
+     "credit": "Marianna emad, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "philae",
@@ -23655,7 +23861,44 @@
     "era": "justinianic"
    },
    "summary": "The Temple of Isis, closed by Justinian and converted to a church of St Stephen",
-   "description": "The island temple of Isis was the last functioning pagan sanctuary in the Roman world until, around 535–537, Justinian sent his general Narses to close it by force; the hypostyle hall was then turned into a church of St. Stephen, and the crosses, Greek inscriptions, and effaced reliefs cut by the new occupants are still legible over the pharaonic carving. The whole complex was moved to nearby Agilkia Island in the 1970s–80s to escape the Aswan dams, so its setting is modern."
+   "description": "The island temple of Isis was the last functioning pagan sanctuary in the Roman world until, around 535–537, Justinian sent his general Narses to close it by force; the hypostyle hall was then turned into a church of St. Stephen, and the crosses, Greek inscriptions, and effaced reliefs cut by the new occupants are still legible over the pharaonic carving. The whole complex was moved to nearby Agilkia Island in the 1970s–80s to escape the Aswan dams, so its setting is modern.",
+   "photos": [
+    {
+     "id": "philae-1",
+     "thumb": "thumbs/philae-1.jpg",
+     "full": "full/philae-1.jpg",
+     "credit": "Fanny Schertzer, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "philae-2",
+     "thumb": "thumbs/philae-2.jpg",
+     "full": "full/philae-2.jpg",
+     "credit": "© Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "philae-3",
+     "thumb": "thumbs/philae-3.jpg",
+     "full": "full/philae-3.jpg",
+     "credit": "Hesham Farouk Ragab, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "philae-4",
+     "thumb": "thumbs/philae-4.jpg",
+     "full": "full/philae-4.jpg",
+     "credit": "Hippolyte Béchard, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    },
+    {
+     "id": "philae-5",
+     "thumb": "thumbs/philae-5.jpg",
+     "full": "full/philae-5.jpg",
+     "credit": "Olaf Tausch, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "qasr-libya",
@@ -23679,7 +23922,28 @@
     "era": "justinianic"
    },
    "summary": "Justinian's Theodorias, whose church floor holds North Africa's finest Byzantine mosaics",
-   "description": "In 539 Justinian refounded the decayed town of Olbia and renamed it Theodorias for his wife Theodora. Its eastern church preserved a floor of some fifty mid-sixth-century mosaic panels with a celebrated image of the Pharos lighthouse of Alexandria. The pairing of the four rivers of Paradise with the Castalian Spring of Delphi shows a designer bracketing biblical and Greek wisdom. Among the finest Byzantine mosaics in North Africa."
+   "description": "In 539 Justinian refounded the decayed town of Olbia and renamed it Theodorias for his wife Theodora. Its eastern church preserved a floor of some fifty mid-sixth-century mosaic panels with a celebrated image of the Pharos lighthouse of Alexandria. The pairing of the four rivers of Paradise with the Castalian Spring of Delphi shows a designer bracketing biblical and Greek wisdom. Among the finest Byzantine mosaics in North Africa.",
+   "photos": [
+    {
+     "id": "qasr-libya-1",
+     "thumb": "thumbs/qasr-libya-1.jpg",
+     "full": "full/qasr-libya-1.jpg",
+     "credit": "Qasr Libya Museum, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "qasr-libya-2",
+     "thumb": "thumbs/qasr-libya-2.jpg",
+     "full": "full/qasr-libya-2.jpg",
+     "credit": "Cosmas indicopleustes at English Wikipedia, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "qasr-libya-3",
+     "thumb": "thumbs/qasr-libya-3.jpg",
+     "full": "full/qasr-libya-3.jpg",
+     "credit": "Vyacheslav Argenberg, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "ancient-city-of-apollonia",
@@ -23703,7 +23967,30 @@
     "era": "justinianic"
    },
    "summary": "The Byzantine provincial capital of the Pentapolis, its churches and drowned harbor on the sea",
-   "description": "The port of Cyrene that outstripped its parent city: by the sixth century Apollonia, renamed Sozusa, was capital of the province of Libya Pentapolitana. It is among the richest Byzantine townscapes on the Cyrenaican coast, with three excavated churches, a sixth-century fortress, and a courtyard building long known as the “Palace of the Dux.” Part of the ancient harbor has sunk beneath the sea, so ruins lie visible in the shallows."
+   "description": "The port of Cyrene that outstripped its parent city: by the sixth century Apollonia, renamed Sozusa, was capital of the province of Libya Pentapolitana. It is among the richest Byzantine townscapes on the Cyrenaican coast, with three excavated churches, a sixth-century fortress, and a courtyard building long known as the “Palace of the Dux.” Part of the ancient harbor has sunk beneath the sea, so ruins lie visible in the shallows.",
+   "photos": [
+    {
+     "id": "ancient-city-of-apollonia-1",
+     "thumb": "thumbs/ancient-city-of-apollonia-1.jpg",
+     "full": "full/ancient-city-of-apollonia-1.jpg",
+     "credit": "Mdgl88, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "ancient-city-of-apollonia-2",
+     "thumb": "thumbs/ancient-city-of-apollonia-2.jpg",
+     "full": "full/ancient-city-of-apollonia-2.jpg",
+     "credit": "Mdgl88, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "ancient-city-of-apollonia-3",
+     "thumb": "thumbs/ancient-city-of-apollonia-3.jpg",
+     "full": "full/ancient-city-of-apollonia-3.jpg",
+     "credit": "Mdgl88, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "byzantine-church-ras-al-hilal",
@@ -23723,7 +24010,16 @@
     "era": "justinianic"
    },
    "summary": "A ruined sixth-century basilica on a Cyrenaican clifftop, east of Apollonia",
-   "description": "Atop the \"Crescent Cape\" stands the ruins of a sixth-century basilica traditionally linked to Justinian's building program in Cyrenaica. A conventional three-aisled late-antique church."
+   "description": "Atop the \"Crescent Cape\" stands the ruins of a sixth-century basilica traditionally linked to Justinian's building program in Cyrenaica. A conventional three-aisled late-antique church.",
+   "photos": [
+    {
+     "id": "byzantine-church-ras-al-hilal-1",
+     "thumb": "thumbs/byzantine-church-ras-al-hilal-1.jpg",
+     "full": "full/byzantine-church-ras-al-hilal-1.jpg",
+     "credit": "Elmondo21st, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "cyrene",
@@ -23747,7 +24043,30 @@
     "era": "theodosian"
    },
    "summary": "The \"Athens of Africa,\" a monumental Greek city with a modest Byzantine church layer",
-   "description": "The great Greek city of the Pentapolis is overwhelmingly classical but carries a real Byzantine layer. The standing Byzantine remains, a cathedral and lesser churches inserted into the older cityscape, are modest beside the Greek temples and necropolis."
+   "description": "The great Greek city of the Pentapolis is overwhelmingly classical but carries a real Byzantine layer. The standing Byzantine remains, a cathedral and lesser churches inserted into the older cityscape, are modest beside the Greek temples and necropolis.",
+   "photos": [
+    {
+     "id": "cyrene-1",
+     "thumb": "thumbs/cyrene-1.jpg",
+     "full": "full/cyrene-1.jpg",
+     "credit": "عدسة قوريني, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "cyrene-2",
+     "thumb": "thumbs/cyrene-2.jpg",
+     "full": "full/cyrene-2.jpg",
+     "credit": "Travcoa Travel, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "cyrene-3",
+     "thumb": "thumbs/cyrene-3.jpg",
+     "full": "full/cyrene-3.jpg",
+     "credit": "Saleh Tarab, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "ptolemais",
@@ -23771,7 +24090,23 @@
     "era": "theodosian"
    },
    "summary": "A Pentapolis city where the philosopher-bishop Synesius served, over a Roman-Byzantine layer",
-   "description": "One of the five Pentapolis cities and, under Diocletian, capital of Libya Superior before the role passed to Apollonia. Principally a Greek and Roman site, but it stayed an inhabited, bishopric-bearing town through the Byzantine period, leaving a late-antique layer of churches, cisterns, and fortifications."
+   "description": "One of the five Pentapolis cities and, under Diocletian, capital of Libya Superior before the role passed to Apollonia. Principally a Greek and Roman site, but it stayed an inhabited, bishopric-bearing town through the Byzantine period, leaving a late-antique layer of churches, cisterns, and fortifications.",
+   "photos": [
+    {
+     "id": "ptolemais-1",
+     "thumb": "thumbs/ptolemais-1.jpg",
+     "full": "full/ptolemais-1.jpg",
+     "credit": "Edratzer at English Wikipedia, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "ptolemais-2",
+     "thumb": "thumbs/ptolemais-2.jpg",
+     "full": "full/ptolemais-2.jpg",
+     "credit": "Ursus, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "basilica-of-justinian-sabratha",
@@ -23794,7 +24129,23 @@
     "era": "justinianic"
    },
    "summary": "A Justinianic-era mosaic-floored basilica set into Roman Sabratha",
-   "description": "Sabratha is famous for its Roman theater, but its Byzantine chapter is genuine and datable. After Belisarius recovered Tripolitania from the Vandals in 533–534, the reconquered cities got new Nicene churches, and this basilica went up in the 530s using columns salvaged from earlier buildings. Its glory was its floor, with fine polychrome mosaic pavements, among the best from Byzantine North Africa, now largely lifted into the site museum."
+   "description": "Sabratha is famous for its Roman theater, but its Byzantine chapter is genuine and datable. After Belisarius recovered Tripolitania from the Vandals in 533–534, the reconquered cities got new Nicene churches, and this basilica went up in the 530s using columns salvaged from earlier buildings. Its glory was its floor, with fine polychrome mosaic pavements, among the best from Byzantine North Africa, now largely lifted into the site museum.",
+   "photos": [
+    {
+     "id": "basilica-of-justinian-sabratha-1",
+     "thumb": "thumbs/basilica-of-justinian-sabratha-1.jpg",
+     "full": "full/basilica-of-justinian-sabratha-1.jpg",
+     "credit": "David Stanley from Nanaimo, Canada, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "basilica-of-justinian-sabratha-2",
+     "thumb": "thumbs/basilica-of-justinian-sabratha-2.jpg",
+     "full": "full/basilica-of-justinian-sabratha-2.jpg",
+     "credit": "SashaCoachman, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "byzantine-church-at-leptis-magna",
@@ -23817,7 +24168,16 @@
     "era": "justinianic"
    },
    "summary": "Justinian's churches inserted into Leptis Magna, attested by Procopius himself",
-   "description": "The grandest Roman city in Africa, with a modest but unusually well-documented Byzantine layer: Procopius records that after Belisarius took Leptis, Justinian dedicated multiple churches here. The principal church was installed inside the Severan Basilica while a smaller basilica was fitted into an old house on the Colonnaded Street, its columns reused from collapsed buildings."
+   "description": "The grandest Roman city in Africa, with a modest but unusually well-documented Byzantine layer: Procopius records that after Belisarius took Leptis, Justinian dedicated multiple churches here. The principal church was installed inside the Severan Basilica while a smaller basilica was fitted into an old house on the Colonnaded Street, its columns reused from collapsed buildings.",
+   "photos": [
+    {
+     "id": "byzantine-church-at-leptis-magna-1",
+     "thumb": "thumbs/byzantine-church-at-leptis-magna-1.jpg",
+     "full": "full/byzantine-church-at-leptis-magna-1.jpg",
+     "credit": "Franzfoto, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "g-reme-open-air-museum",
@@ -23886,7 +24246,44 @@
    },
    "summary": "Cappadocia's largest rock church, with a superb blue-ground fresco cycle",
    "description": "The largest rock-cut church in Cappadocia, just below the Göreme museum, its walls covered with an exceptional tenth-century cycle of the life of Christ set against a deep lapis-blue ground. It stands among the finest Byzantine painting in the region.",
-   "hours": "8:00–17:00 daily"
+   "hours": "8:00–17:00 daily",
+   "photos": [
+    {
+     "id": "tokal-kilise-1",
+     "thumb": "thumbs/tokal-kilise-1.jpg",
+     "full": "full/tokal-kilise-1.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "tokal-kilise-2",
+     "thumb": "thumbs/tokal-kilise-2.jpg",
+     "full": "full/tokal-kilise-2.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "tokal-kilise-3",
+     "thumb": "thumbs/tokal-kilise-3.jpg",
+     "full": "full/tokal-kilise-3.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "tokal-kilise-4",
+     "thumb": "thumbs/tokal-kilise-4.jpg",
+     "full": "full/tokal-kilise-4.jpg",
+     "credit": "prilfish, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+     "id": "tokal-kilise-5",
+     "thumb": "thumbs/tokal-kilise-5.jpg",
+     "full": "full/tokal-kilise-5.jpg",
+     "credit": "Falk2, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "karanl-k-kilise",
@@ -23911,7 +24308,37 @@
    },
    "summary": "Göreme's best-preserved church, its dim interior saving a brilliant fresco cycle",
    "description": "The best-preserved of the Göreme churches, so called because little light reaches its interior, which is exactly why its late-eleventh-century frescoes keep such brilliant color. A near-complete New Testament cycle covers its domes and vaults.",
-   "hours": "8:00–16:45"
+   "hours": "8:00–16:45",
+   "photos": [
+    {
+     "id": "karanl-k-kilise-1",
+     "thumb": "thumbs/karanl-k-kilise-1.jpg",
+     "full": "full/karanl-k-kilise-1.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "karanl-k-kilise-2",
+     "thumb": "thumbs/karanl-k-kilise-2.jpg",
+     "full": "full/karanl-k-kilise-2.jpg",
+     "credit": "Antoine Taveneaux, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "karanl-k-kilise-3",
+     "thumb": "thumbs/karanl-k-kilise-3.jpg",
+     "full": "full/karanl-k-kilise-3.jpg",
+     "credit": "Antoine Taveneaux, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "karanl-k-kilise-4",
+     "thumb": "thumbs/karanl-k-kilise-4.jpg",
+     "full": "full/karanl-k-kilise-4.jpg",
+     "credit": "Dudva, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "ihlara-valley-churches",
@@ -24058,6 +24485,36 @@
      "title": "Official website",
      "url": "https://www.kulturportali.gov.tr/turkiye/nevsehir/gezilecekyer/cavusin-kilisesi"
     }
+   ],
+   "photos": [
+    {
+     "id": "avu-in-church-1",
+     "thumb": "thumbs/avu-in-church-1.jpg",
+     "full": "full/avu-in-church-1.jpg",
+     "credit": "Dosseman, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "avu-in-church-2",
+     "thumb": "thumbs/avu-in-church-2.jpg",
+     "full": "full/avu-in-church-2.jpg",
+     "credit": "Jaba1977, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "avu-in-church-3",
+     "thumb": "thumbs/avu-in-church-3.jpg",
+     "full": "full/avu-in-church-3.jpg",
+     "credit": "Jaba1977, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "avu-in-church-4",
+     "thumb": "thumbs/avu-in-church-4.jpg",
+     "full": "full/avu-in-church-4.jpg",
+     "credit": "Jaba1977, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
    ]
   },
   {
@@ -24173,7 +24630,16 @@
     "era": "theodosian"
    },
    "summary": "The Ephesian grotto and tomb-church of the legendary Seven Sleepers",
-   "description": "A hillside grotto and church-and-tomb complex on the slope of Mount Pion at Ephesus, venerated as the resting place of the Seven Sleepers, Christian youths who in the legend slept in a cave for two centuries. A pilgrimage cult grew here in the fifth century, leaving a warren of rock-cut tombs and a small church."
+   "description": "A hillside grotto and church-and-tomb complex on the slope of Mount Pion at Ephesus, venerated as the resting place of the Seven Sleepers, Christian youths who in the legend slept in a cave for two centuries. A pilgrimage cult grew here in the fifth century, leaving a warren of rock-cut tombs and a small church.",
+   "photos": [
+    {
+     "id": "cave-of-the-seven-sleepers-1",
+     "thumb": "thumbs/cave-of-the-seven-sleepers-1.jpg",
+     "full": "full/cave-of-the-seven-sleepers-1.jpg",
+     "credit": "Sinan Şahin, CC BY 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/3.0"
+    }
+   ]
   },
   {
    "id": "great-lavra",
@@ -24197,7 +24663,22 @@
     "era": "macedonian"
    },
    "summary": "The first and senior monastery of Athos, founded in 963 by Athanasios the Athonite",
-   "description": "The oldest and senior of the twenty ruling monasteries of Mount Athos, founded in 963 by St. Athanasios the Athonite with the backing of the emperor Nikephoros Phokas. Its katholikon set the architectural model for the Holy Mountain, and it holds important relics, manuscripts and post-Byzantine frescoes by Theophanes the Cretan."
+   "description": "The oldest and senior of the twenty ruling monasteries of Mount Athos, founded in 963 by St. Athanasios the Athonite with the backing of the emperor Nikephoros Phokas. Its katholikon set the architectural model for the Holy Mountain, and it holds important relics, manuscripts and post-Byzantine frescoes by Theophanes the Cretan.",
+   "photos": [
+    {
+     "id": "great-lavra-1",
+     "thumb": "thumbs/great-lavra-1.jpg",
+     "full": "full/great-lavra-1.jpg",
+     "credit": "Dimboukas at en.wikipedia, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "great-lavra-2",
+     "thumb": "thumbs/great-lavra-2.jpg",
+     "full": "full/great-lavra-2.jpg",
+     "credit": "Mätes II., CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+   ]
   },
   {
    "id": "vatopedi-monastery",
@@ -24220,7 +24701,35 @@
     "era": "macedonian"
    },
    "summary": "A great tenth-century Athonite monastery, rich in Byzantine mosaics and relics",
-   "description": "One of the greatest and wealthiest houses of Athos, founded in the late tenth century and ranking second in the hierarchy. It preserves outstanding Byzantine mosaics, a celebrated library of manuscripts, and revered relics including the girdle of the Virgin."
+   "description": "One of the greatest and wealthiest houses of Athos, founded in the late tenth century and ranking second in the hierarchy. It preserves outstanding Byzantine mosaics, a celebrated library of manuscripts, and revered relics including the girdle of the Virgin.",
+   "photos": [
+    {
+     "id": "vatopedi-monastery-1",
+     "thumb": "thumbs/vatopedi-monastery-1.jpg",
+     "full": "full/vatopedi-monastery-1.jpg",
+     "credit": "Asgozzi at en.wikipedia, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+     "id": "vatopedi-monastery-2",
+     "thumb": "thumbs/vatopedi-monastery-2.jpg",
+     "full": "full/vatopedi-monastery-2.jpg",
+     "credit": "Θεοδωρος, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "vatopedi-monastery-3",
+     "thumb": "thumbs/vatopedi-monastery-3.jpg",
+     "full": "full/vatopedi-monastery-3.jpg",
+     "credit": "unknown painter, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "vatopedi-monastery-4",
+     "thumb": "thumbs/vatopedi-monastery-4.jpg",
+     "full": "full/vatopedi-monastery-4.jpg",
+     "credit": "Aroche, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "hilandar-monastery",
@@ -24244,7 +24753,30 @@
     "era": "komnenian"
    },
    "summary": "The Serbian monastery of Athos, refounded by St. Sava in 1198",
-   "description": "The great Serbian monastery of the Holy Mountain, refounded in 1198 by St. Sava and his father Stefan Nemanja and long the spiritual and cultural heart of medieval Serbia. It keeps important frescoes, icons and one of the richest collections of medieval Slavic manuscripts and charters."
+   "description": "The great Serbian monastery of the Holy Mountain, refounded in 1198 by St. Sava and his father Stefan Nemanja and long the spiritual and cultural heart of medieval Serbia. It keeps important frescoes, icons and one of the richest collections of medieval Slavic manuscripts and charters.",
+   "photos": [
+    {
+     "id": "hilandar-monastery-1",
+     "thumb": "thumbs/hilandar-monastery-1.jpg",
+     "full": "full/hilandar-monastery-1.jpg",
+     "credit": "Tomislav Ž. Popović, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "hilandar-monastery-2",
+     "thumb": "thumbs/hilandar-monastery-2.jpg",
+     "full": "full/hilandar-monastery-2.jpg",
+     "credit": "Misa.stefanovic.07, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "hilandar-monastery-3",
+     "thumb": "thumbs/hilandar-monastery-3.jpg",
+     "full": "full/hilandar-monastery-3.jpg",
+     "credit": "Christian Manhart, CC BY-SA 3.0 IGO, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en"
+    }
+   ]
   },
   {
    "id": "protaton",
@@ -24267,7 +24799,34 @@
     "era": "macedonian"
    },
    "summary": "The mother church of Athos at Karyes, with Panselinos's great 14th-century frescoes",
-   "description": "The oldest church on Athos, in the capital Karyes, and the seat of the Holy Community that governs the mountain. Its walls carry the celebrated early-fourteenth-century frescoes attributed to Manuel Panselinos, the masterwork of late-Byzantine Macedonian school painting."
+   "description": "The oldest church on Athos, in the capital Karyes, and the seat of the Holy Community that governs the mountain. Its walls carry the celebrated early-fourteenth-century frescoes attributed to Manuel Panselinos, the masterwork of late-Byzantine Macedonian school painting.",
+   "photos": [
+    {
+     "id": "protaton-1",
+     "thumb": "thumbs/protaton-1.jpg",
+     "full": "full/protaton-1.jpg",
+     "credit": "Misa.stefanovic.07, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "protaton-2",
+     "thumb": "thumbs/protaton-2.jpg",
+     "full": "full/protaton-2.jpg",
+     "credit": "Manuel Panselinos, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "protaton-3",
+     "thumb": "thumbs/protaton-3.jpg",
+     "full": "full/protaton-3.jpg",
+     "credit": "Manuel Panselinos, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "protaton-4",
+     "thumb": "thumbs/protaton-4.jpg",
+     "full": "full/protaton-4.jpg",
+     "credit": "Manuel Panselinos, Public domain, via Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "dionysiou-monastery",
@@ -24290,7 +24849,34 @@
     "era": "palaiologan"
    },
    "summary": "A cliff-top Athonite monastery of c.1375, endowed by the emperor of Trebizond",
-   "description": "A dramatic monastery perched on a cliff above the southwest shore, founded around 1375 by St. Dionysios with the patronage of Alexios III, emperor of Trebizond, whose chrysobull survives here. It preserves fine late-Byzantine frescoes and a rich treasury."
+   "description": "A dramatic monastery perched on a cliff above the southwest shore, founded around 1375 by St. Dionysios with the patronage of Alexios III, emperor of Trebizond, whose chrysobull survives here. It preserves fine late-Byzantine frescoes and a rich treasury.",
+   "photos": [
+    {
+     "id": "dionysiou-monastery-1",
+     "thumb": "thumbs/dionysiou-monastery-1.jpg",
+     "full": "full/dionysiou-monastery-1.jpg",
+     "credit": "Explorer1940, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "dionysiou-monastery-2",
+     "thumb": "thumbs/dionysiou-monastery-2.jpg",
+     "full": "full/dionysiou-monastery-2.jpg",
+     "credit": "Dionysiou Monastery, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "dionysiou-monastery-3",
+     "thumb": "thumbs/dionysiou-monastery-3.jpg",
+     "full": "full/dionysiou-monastery-3.jpg",
+     "credit": "Tzortzis Phouka, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "dionysiou-monastery-4",
+     "thumb": "thumbs/dionysiou-monastery-4.jpg",
+     "full": "full/dionysiou-monastery-4.jpg",
+     "credit": "Tzortzis Phouka, Public domain, via Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "boyana-church",
@@ -24320,6 +24906,22 @@
      "title": "Official website",
      "url": "http://www.boyanachurch.info/"
     }
+   ],
+   "photos": [
+    {
+     "id": "boyana-church-1",
+     "thumb": "thumbs/boyana-church-1.jpg",
+     "full": "full/boyana-church-1.jpg",
+     "credit": "Interact-Bulgaria, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "boyana-church-2",
+     "thumb": "thumbs/boyana-church-2.jpg",
+     "full": "full/boyana-church-2.jpg",
+     "credit": "Ivano Giambattista, CC0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0"
+    }
    ]
   },
   {
@@ -24346,7 +24948,23 @@
    },
    "summary": "The early-Christian cathedral of Mesembria, a roofless basilica over the Black Sea town",
    "description": "The roofless basilica at the heart of old Mesembria, the town's original cathedral, first built in the fifth or sixth century and rebuilt in the ninth. Its tall arcaded walls dominate the peninsula town that preserves more medieval churches than almost anywhere on the Black Sea.",
-   "hours": "Open 24 hours"
+   "hours": "Open 24 hours",
+   "photos": [
+    {
+     "id": "old-metropolitan-church-1",
+     "thumb": "thumbs/old-metropolitan-church-1.jpg",
+     "full": "full/old-metropolitan-church-1.jpg",
+     "credit": "Nenko Lazarov, CC BY 2.5, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.5"
+    },
+    {
+     "id": "old-metropolitan-church-2",
+     "thumb": "thumbs/old-metropolitan-church-2.jpg",
+     "full": "full/old-metropolitan-church-2.jpg",
+     "credit": "fusion-of-horizons, CC BY 2.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/2.0"
+    }
+   ]
   },
   {
    "id": "church-of-christ-pantocrator",
@@ -24369,7 +24987,23 @@
     "era": "palaiologan"
    },
    "summary": "A gaudily decorated 13th–14th-century church, showpiece of Nessebar's late-Byzantine style",
-   "description": "One of the best-preserved of Nessebar's medieval churches, built in the thirteenth or fourteenth century and famous for the exuberant exterior typical of the late-Byzantine Black Sea style, with its banded brick and stone, blind arcading, ceramic rosettes and a meander frieze."
+   "description": "One of the best-preserved of Nessebar's medieval churches, built in the thirteenth or fourteenth century and famous for the exuberant exterior typical of the late-Byzantine Black Sea style, with its banded brick and stone, blind arcading, ceramic rosettes and a meander frieze.",
+   "photos": [
+    {
+     "id": "church-of-christ-pantocrator-1",
+     "thumb": "thumbs/church-of-christ-pantocrator-1.jpg",
+     "full": "full/church-of-christ-pantocrator-1.jpg",
+     "credit": "Chrumps, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-christ-pantocrator-2",
+     "thumb": "thumbs/church-of-christ-pantocrator-2.jpg",
+     "full": "full/church-of-christ-pantocrator-2.jpg",
+     "credit": "Pierre André Leclercq, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+   ]
   },
   {
    "id": "church-of-st-stephen",
@@ -24398,6 +25032,29 @@
     {
      "title": "Official website",
      "url": "https://www.ancient-nessebar.com/html/main_en.php?menu=sights_svstefan"
+    }
+   ],
+   "photos": [
+    {
+     "id": "church-of-st-stephen-1",
+     "thumb": "thumbs/church-of-st-stephen-1.jpg",
+     "full": "full/church-of-st-stephen-1.jpg",
+     "credit": "Kritzolina, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+     "id": "church-of-st-stephen-2",
+     "thumb": "thumbs/church-of-st-stephen-2.jpg",
+     "full": "full/church-of-st-stephen-2.jpg",
+     "credit": "Cherubino, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "church-of-st-stephen-3",
+     "thumb": "thumbs/church-of-st-stephen-3.jpg",
+     "full": "full/church-of-st-stephen-3.jpg",
+     "credit": "Kritzolina, CC BY-SA 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
     }
    ]
   },
@@ -24429,6 +25086,28 @@
      "title": "Official website",
      "url": "http://museumvt.com/en/church-of-st-40-martyrs/"
     }
+   ],
+   "photos": [
+    {
+     "id": "church-of-the-holy-forty-martyrs-1",
+     "thumb": "thumbs/church-of-the-holy-forty-martyrs-1.jpg",
+     "full": "full/church-of-the-holy-forty-martyrs-1.jpg",
+     "credit": "Pudelek (Marcin Szala), CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "church-of-the-holy-forty-martyrs-2",
+     "thumb": "thumbs/church-of-the-holy-forty-martyrs-2.jpg",
+     "full": "full/church-of-the-holy-forty-martyrs-2.jpg",
+     "credit": "Kandi, Public domain, via Wikimedia Commons"
+    },
+    {
+     "id": "church-of-the-holy-forty-martyrs-3",
+     "thumb": "thumbs/church-of-the-holy-forty-martyrs-3.jpg",
+     "full": "full/church-of-the-holy-forty-martyrs-3.jpg",
+     "credit": "Plamen Agov • studiolemontree.com, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
    ]
   },
   {
@@ -24453,7 +25132,37 @@
     "era": "theodosian"
    },
    "summary": "Zeno's colossal cruciform pilgrimage church around St Simeon's pillar, near Aleppo",
-   "description": "One of the greatest surviving buildings of the early Byzantine world: a vast cruciform pilgrimage complex of four basilicas radiating from the octagonal court that enclosed the pillar of St. Simeon Stylites, who spent decades atop a column here. Built around 476–491 under the emperor Zeno, it was the largest church on earth in its day. A ruin, and at risk in the Syrian war."
+   "description": "One of the greatest surviving buildings of the early Byzantine world: a vast cruciform pilgrimage complex of four basilicas radiating from the octagonal court that enclosed the pillar of St. Simeon Stylites, who spent decades atop a column here. Built around 476–491 under the emperor Zeno, it was the largest church on earth in its day. A ruin, and at risk in the Syrian war.",
+   "photos": [
+    {
+     "id": "church-of-st-simeon-stylites-1",
+     "thumb": "thumbs/church-of-st-simeon-stylites-1.jpg",
+     "full": "full/church-of-st-simeon-stylites-1.jpg",
+     "credit": "User Aotearoa on pl.wikipedia, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+     "id": "church-of-st-simeon-stylites-2",
+     "thumb": "thumbs/church-of-st-simeon-stylites-2.jpg",
+     "full": "full/church-of-st-simeon-stylites-2.jpg",
+     "credit": "Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "church-of-st-simeon-stylites-3",
+     "thumb": "thumbs/church-of-st-simeon-stylites-3.jpg",
+     "full": "full/church-of-st-simeon-stylites-3.jpg",
+     "credit": "Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "church-of-st-simeon-stylites-4",
+     "thumb": "thumbs/church-of-st-simeon-stylites-4.jpg",
+     "full": "full/church-of-st-simeon-stylites-4.jpg",
+     "credit": "Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "resafa",
@@ -24477,7 +25186,30 @@
     "era": "justinianic"
    },
    "summary": "The desert pilgrimage city of St. Sergius, its Byzantine walls and basilicas in the steppe",
-   "description": "A great walled pilgrimage city in the Syrian steppe, renamed Sergiopolis for the martyr St. Sergius, whose relics drew crowds from across the Byzantine and Persian worlds. Its massive gypsum walls, cisterns and the ruins of its sixth-century basilicas rise dramatically from the desert. Remote and, in the war years, exposed to looting."
+   "description": "A great walled pilgrimage city in the Syrian steppe, renamed Sergiopolis for the martyr St. Sergius, whose relics drew crowds from across the Byzantine and Persian worlds. Its massive gypsum walls, cisterns and the ruins of its sixth-century basilicas rise dramatically from the desert. Remote and, in the war years, exposed to looting.",
+   "photos": [
+    {
+     "id": "resafa-1",
+     "thumb": "thumbs/resafa-1.jpg",
+     "full": "full/resafa-1.jpg",
+     "credit": "© Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "resafa-2",
+     "thumb": "thumbs/resafa-2.jpg",
+     "full": "full/resafa-2.jpg",
+     "credit": "© Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "resafa-3",
+     "thumb": "thumbs/resafa-3.jpg",
+     "full": "full/resafa-3.jpg",
+     "credit": "© Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ]
   },
   {
    "id": "the-dead-cities-serjilla",
@@ -24501,7 +25233,37 @@
     "era": "theodosian"
    },
    "summary": "The best-preserved of Syria's \"Dead Cities,\" a fossil of rural Byzantine life",
-   "description": "Serjilla is the best-preserved of the \"Dead Cities,\" which are hundreds of remarkably intact late-antique villages scattered across the limestone massif of northern Syria, abandoned by the tenth century and never built over. Their churches, houses, baths and olive-presses give an unmatched picture of rural Byzantine life."
+   "description": "Serjilla is the best-preserved of the \"Dead Cities,\" which are hundreds of remarkably intact late-antique villages scattered across the limestone massif of northern Syria, abandoned by the tenth century and never built over. Their churches, houses, baths and olive-presses give an unmatched picture of rural Byzantine life.",
+   "photos": [
+    {
+     "id": "the-dead-cities-serjilla-1",
+     "thumb": "thumbs/the-dead-cities-serjilla-1.jpg",
+     "full": "full/the-dead-cities-serjilla-1.jpg",
+     "credit": "© Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "the-dead-cities-serjilla-2",
+     "thumb": "thumbs/the-dead-cities-serjilla-2.jpg",
+     "full": "full/the-dead-cities-serjilla-2.jpg",
+     "credit": "Bertramz, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "the-dead-cities-serjilla-3",
+     "thumb": "thumbs/the-dead-cities-serjilla-3.jpg",
+     "full": "full/the-dead-cities-serjilla-3.jpg",
+     "credit": "© Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "the-dead-cities-serjilla-4",
+     "thumb": "thumbs/the-dead-cities-serjilla-4.jpg",
+     "full": "full/the-dead-cities-serjilla-4.jpg",
+     "credit": "© Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ]
   },
   {
    "id": "apamea",
@@ -24525,7 +25287,30 @@
     "era": "justinianic"
    },
    "summary": "A great colonnaded city on the Orontes, a Byzantine metropolitan see, heavily looted in the war",
-   "description": "A vast Greco-Roman city on the Orontes, its two-kilometer colonnaded avenue among the longest in the ancient world, that remained an important Byzantine center and metropolitan see with cathedral and churches until the Persian and Arab conquests. Notoriously ravaged by industrial-scale looting during the Syrian war."
+   "description": "A vast Greco-Roman city on the Orontes, its two-kilometer colonnaded avenue among the longest in the ancient world, that remained an important Byzantine center and metropolitan see with cathedral and churches until the Persian and Arab conquests. Notoriously ravaged by industrial-scale looting during the Syrian war.",
+   "photos": [
+    {
+     "id": "apamea-1",
+     "thumb": "thumbs/apamea-1.jpg",
+     "full": "full/apamea-1.jpg",
+     "credit": "Bernard Gagnon, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+     "id": "apamea-2",
+     "thumb": "thumbs/apamea-2.jpg",
+     "full": "full/apamea-2.jpg",
+     "credit": "© Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+     "id": "apamea-3",
+     "thumb": "thumbs/apamea-3.jpg",
+     "full": "full/apamea-3.jpg",
+     "credit": "© Vyacheslav Argenberg, CC BY 4.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by/4.0"
+    }
+   ]
   },
   {
    "id": "cathedral-of-saints-sergius-bacchus-and-leontius",
@@ -24548,7 +25333,16 @@
     "era": "justinianic"
    },
    "summary": "An early-6th-century domed church at Bosra, a forerunner of Justinian's architecture",
-   "description": "One of the earliest and most influential domed churches in the East, built in 512–513 in the black-basalt city of Bosra. With a broad circular plan set within a square, this church anticipated the great domed churches of Justinian's age. Now largely ruined, but a key monument in the development of Byzantine architecture."
+   "description": "One of the earliest and most influential domed churches in the East, built in 512–513 in the black-basalt city of Bosra. With a broad circular plan set within a square, this church anticipated the great domed churches of Justinian's age. Now largely ruined, but a key monument in the development of Byzantine architecture.",
+   "photos": [
+    {
+     "id": "cathedral-of-saints-sergius-bacchus-and-leontius-1",
+     "thumb": "thumbs/cathedral-of-saints-sergius-bacchus-and-leontius-1.jpg",
+     "full": "full/cathedral-of-saints-sergius-bacchus-and-leontius-1.jpg",
+     "credit": "Jerzy Strzelecki, CC BY-SA 3.0, via Wikimedia Commons",
+     "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   ]
   },
   {
    "id": "great-meteoron",
