@@ -5,9 +5,15 @@ struct SiteLocationSection: View {
     let site: Site
     let theme: Theme
     @Environment(\.openURL) private var openURL
+    @State private var cameraPosition: MapCameraPosition = .automatic
 
     private var coordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: site.coordinate.lat, longitude: site.coordinate.lon)
+    }
+
+    private var region: MKCoordinateRegion {
+        MKCoordinateRegion(center: coordinate,
+                           span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02))
     }
 
     var body: some View {
@@ -26,16 +32,20 @@ struct SiteLocationSection: View {
                 .font(.caption)
                 .foregroundStyle(theme.textDisabled)
 
-            Map(initialPosition: .region(MKCoordinateRegion(
-                center: coordinate,
-                span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
-            ))) {
+            Map(position: $cameraPosition) {
                 Marker(site.name, coordinate: coordinate)
                     .tint(theme.tierMajor)
             }
             .frame(height: 160)
             .clipShape(RoundedRectangle(cornerRadius: 12))
             .allowsHitTesting(false)
+            // In the iPad/wide split view the detail pane is reused as the
+            // selection changes, so the camera must follow the current site.
+            // initialPosition only applied once, leaving the map stuck on the
+            // first site viewed. initial: true also sets it on first appearance.
+            .onChange(of: site.id, initial: true) {
+                cameraPosition = .region(region)
+            }
 
             Button {
                 // Open the site as a pin at its coordinates — no directions.
