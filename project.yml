@@ -24,6 +24,10 @@ targets:
       properties:
         CFBundleShortVersionString: "$(MARKETING_VERSION)"
         CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        # The app uses only standard encryption (HTTPS/TLS for catalog, photos,
+        # and CloudKit), which is exempt. Declaring this means App Store Connect
+        # stops asking for export-compliance info on every build.
+        ITSAppUsesNonExemptEncryption: false
         UILaunchScreen: {}
         UISupportedInterfaceOrientations~ipad:
           - UIInterfaceOrientationPortrait
