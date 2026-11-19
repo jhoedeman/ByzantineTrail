@@ -34,7 +34,7 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.byzantinetrail.app
         MARKETING_VERSION: "1.1"
-        CURRENT_PROJECT_VERSION: "2"
+        CURRENT_PROJECT_VERSION: "3"
         DEVELOPMENT_ASSETS: ByzantineTrail/Preview Content
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         TARGETED_DEVICE_FAMILY: "1,2"
