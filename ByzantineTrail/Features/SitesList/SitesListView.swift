@@ -10,6 +10,10 @@ struct SitesListView: View {
 
     @State private var query = SiteQuery()
     @State private var showingFilter = false
+    @State private var selectedSiteID: Site.ID?
+    // Keep the list column visible by default on regular width (iPad / unfolded
+    // iPhone Duo) so opening Sites lands on the list, not an empty detail pane.
+    @State private var columnVisibility: NavigationSplitViewVisibility = .all
     @AppStorage("sites.sortField") private var storedSortField = SortField.name.rawValue
     @AppStorage("sites.sortAscending") private var storedAscending = true
 
@@ -27,20 +31,21 @@ struct SitesListView: View {
         let results = activeQuery.apply(to: catalogStore.sites, cityNames: cityNames,
                                         userState: userState.snapshot(),
                                         ratings: ratingsSnapshot)
+        // Resolve the detail selection from the filtered results, falling back to the
+        // full catalog so the detail survives a filter change that hides the selection.
+        let selectedSite = results.first { $0.id == selectedSiteID }
+            ?? catalogStore.sites.first { $0.id == selectedSiteID }
 
-        NavigationStack {
-            List(results) { site in
-                NavigationLink {
-                    SiteDetailView(site: site)
-                } label: {
-                    SiteRowView(site: site,
-                                cityName: site.cityId.flatMap { cityNames[$0] },
-                                theme: theme,
-                                flags: userState.flags(for: site.id),
-                                average: ratingsSnapshot.average(for: site.id),
-                                myRating: ratingsSnapshot.mine(for: site.id),
-                                resolver: catalogStore.photoResolver)
-                }
+        NavigationSplitView(columnVisibility: $columnVisibility) {
+            List(results, selection: $selectedSiteID) { site in
+                SiteRowView(site: site,
+                            cityName: site.cityId.flatMap { cityNames[$0] },
+                            theme: theme,
+                            flags: userState.flags(for: site.id),
+                            average: ratingsSnapshot.average(for: site.id),
+                            myRating: ratingsSnapshot.mine(for: site.id),
+                            resolver: catalogStore.photoResolver)
+                    .tag(site.id)
             }
             .listStyle(.plain)
             .overlay {
@@ -66,7 +71,16 @@ struct SitesListView: View {
                                 cityNamesByID: cityNames,
                                 theme: theme)
             }
+        } detail: {
+            if let selectedSite {
+                SiteDetailView(site: selectedSite)
+            } else {
+                ContentUnavailableView("Select a site",
+                                       systemImage: "building.columns",
+                                       description: Text("Choose a site from the list to see its details."))
+            }
         }
+        .navigationSplitViewStyle(.balanced)
         .onAppear {
             query.sortField = SortField(rawValue: storedSortField) ?? .name
             query.ascending = storedAscending
